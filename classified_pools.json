@@ -1,0 +1,5135 @@
+{
+  "updated_at": 1758470548,
+  "total_scanned": 431,
+  "items": [
+    {
+      "chain": "ethereum",
+      "asset": "ETH",
+      "pair": "ETH/USDC",
+      "address": "0x00b9edc1583bf6ef09ff3a09f6c23ecb57fd7d0bb75625717ec81eed181e22d7",
+      "url": "https://dexscreener.com/ethereum/0x00b9edc1583bf6ef09ff3a09f6c23ecb57fd7d0bb75625717ec81eed181e22d7",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "base",
+      "asset": "ETH",
+      "pair": "ETH/USDC",
+      "address": "0x96d4b53a38337a5733179751781178a2613306063c511b78cd02684739288c0a",
+      "url": "https://dexscreener.com/base/0x96d4b53a38337a5733179751781178a2613306063c511b78cd02684739288c0a",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "bsc",
+      "asset": "XRP",
+      "pair": "XRP/WBNB",
+      "address": "0xfa7d79f971a70771e5e92bd80ab955edc8602f4d",
+      "url": "https://dexscreener.com/bsc/0xfa7d79f971a70771e5e92bd80ab955edc8602f4d",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "TRX",
+      "pair": "TRX/WETH",
+      "address": "0x99950bAE3d0b79b8BeE86A8A208Ae1b087b9Dcb0",
+      "url": "https://dexscreener.com/ethereum/0x99950bae3d0b79b8bee86a8a208ae1b087b9dcb0",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "TRX",
+      "pair": "TRX/WETH",
+      "address": "0x99950bae3d0b79b8bee86a8a208ae1b087b9dcb0",
+      "url": "https://dexscreener.com/ethereum/0x99950bae3d0b79b8bee86a8a208ae1b087b9dcb0",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "TRX",
+      "pair": "TRX/WETH",
+      "address": "0x5C48Cb68A4d5A344B85595AE44b0Bd6A98a3B74b",
+      "url": "https://dexscreener.com/base/0x5c48cb68a4d5a344b85595ae44b0bd6a98a3b74b",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "TRX",
+      "pair": "TRX/WETH",
+      "address": "0x5c48cb68a4d5a344b85595ae44b0bd6a98a3b74b",
+      "url": "https://dexscreener.com/base/0x5c48cb68a4d5a344b85595ae44b0bd6a98a3b74b",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "polygon",
+      "asset": "LINK",
+      "pair": "LINK/WETH",
+      "address": "0x3dC10D7Bfb94eeB009203E84a653E5764F71771d",
+      "url": "https://dexscreener.com/polygon/0x3dc10d7bfb94eeb009203e84a653e5764f71771d",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "polygon",
+      "asset": "LINK",
+      "pair": "LINK/WETH",
+      "address": "0x3dc10d7bfb94eeb009203e84a653e5764f71771d",
+      "url": "https://dexscreener.com/polygon/0x3dc10d7bfb94eeb009203e84a653e5764f71771d",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "polygon",
+      "asset": "LINK",
+      "pair": "LINK/WETH",
+      "address": "0x3e31ab7f37c048fc6574189135d108df80f0ea26",
+      "url": "https://dexscreener.com/polygon/0x3e31ab7f37c048fc6574189135d108df80f0ea26",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "LINK",
+      "pair": "LINK/WETH",
+      "address": "0x91308bC9Ce8Ca2db82aA30C65619856cC939d907",
+      "url": "https://dexscreener.com/arbitrum/0x91308bc9ce8ca2db82aa30c65619856cc939d907",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "LINK",
+      "pair": "LINK/WETH",
+      "address": "0x468b88941e7cc0b88c1869d68ab6b570bcef62ff",
+      "url": "https://dexscreener.com/arbitrum/0x468b88941e7cc0b88c1869d68ab6b570bcef62ff",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "LINK",
+      "pair": "LINK/WETH",
+      "address": "0x91308bc9ce8ca2db82aa30c65619856cc939d907",
+      "url": "https://dexscreener.com/arbitrum/0x91308bc9ce8ca2db82aa30c65619856cc939d907",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "LINK",
+      "pair": "LINK/WBTC",
+      "address": "0xa79fd76ca2b24631ec3151f10c0660a30bc946e7",
+      "url": "https://dexscreener.com/arbitrum/0xa79fd76ca2b24631ec3151f10c0660a30bc946e7",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "optimism",
+      "asset": "LINK",
+      "pair": "LINK/WETH",
+      "address": "0x19ea026886cbb7a900ecb2458636d72b5cae223b",
+      "url": "https://dexscreener.com/optimism/0x19ea026886cbb7a900ecb2458636d72b5cae223b",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "LINK",
+      "pair": "LINK/WETH",
+      "address": "0x5d4F3C6fA16908609BAC31Ff148Bd002AA6b8c83",
+      "url": "https://dexscreener.com/ethereum/0x5d4f3c6fa16908609bac31ff148bd002aa6b8c83",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "LINK",
+      "pair": "LINK/WETH",
+      "address": "0xa6cc3c2531fdaa6ae1a3ca84c2855806728693e8",
+      "url": "https://dexscreener.com/ethereum/0xa6cc3c2531fdaa6ae1a3ca84c2855806728693e8",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "LINK",
+      "pair": "LINK/WETH",
+      "address": "0x5d4f3c6fa16908609bac31ff148bd002aa6b8c83",
+      "url": "https://dexscreener.com/ethereum/0x5d4f3c6fa16908609bac31ff148bd002aa6b8c83",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BAT",
+      "pair": "BAT/WETH",
+      "address": "0xB6909B960DbbE7392D405429eB2b3649752b4838",
+      "url": "https://dexscreener.com/ethereum/0xb6909b960dbbe7392d405429eb2b3649752b4838",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BAT",
+      "pair": "BAT/WETH",
+      "address": "0xb6909b960dbbe7392d405429eb2b3649752b4838",
+      "url": "https://dexscreener.com/ethereum/0xb6909b960dbbe7392d405429eb2b3649752b4838",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BAT",
+      "pair": "BAT/WETH",
+      "address": "0xae614a7a56cb79c04df2aeba6f5dab80a39ca78e",
+      "url": "https://dexscreener.com/ethereum/0xae614a7a56cb79c04df2aeba6f5dab80a39ca78e",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ZRX",
+      "pair": "ZRX/WETH",
+      "address": "0x14424eEeCbfF345B38187d0B8b749E56FAA68539",
+      "url": "https://dexscreener.com/ethereum/0x14424eeecbff345b38187d0b8b749e56faa68539",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ZRX",
+      "pair": "ZRX/WETH",
+      "address": "0x14424eeecbff345b38187d0b8b749e56faa68539",
+      "url": "https://dexscreener.com/ethereum/0x14424eeecbff345b38187d0b8b749e56faa68539",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "COMP",
+      "pair": "COMP/WETH",
+      "address": "0xea4ba4ce14fdd287f380b55419b1c5b6c3f22ab6",
+      "url": "https://dexscreener.com/ethereum/0xea4ba4ce14fdd287f380b55419b1c5b6c3f22ab6",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "COMP",
+      "pair": "COMP/WETH",
+      "address": "0xcffdded873554f362ac02f8fb1f02e5ada10516f",
+      "url": "https://dexscreener.com/ethereum/0xcffdded873554f362ac02f8fb1f02e5ada10516f",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "COMP",
+      "pair": "COMP/WETH",
+      "address": "0x5598931bfbb43eec686fa4b5b92b5152ebadc2f6",
+      "url": "https://dexscreener.com/ethereum/0x5598931bfbb43eec686fa4b5b92b5152ebadc2f6",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "bsc",
+      "asset": "DOGE",
+      "pair": "DOGE/WBNB",
+      "address": "0x3319a81a316abd4c086f7048904e31ff86648b38",
+      "url": "https://dexscreener.com/bsc/0x3319a81a316abd4c086f7048904e31ff86648b38",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BAND",
+      "pair": "SOLANA/WETH",
+      "address": "0x41f50f520f5095fc8403df083285232b822611c3",
+      "url": "https://dexscreener.com/ethereum/0x41f50f520f5095fc8403df083285232b822611c3",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "RLC",
+      "pair": "RLC/WETH",
+      "address": "0x56ea002b411fd5887e55329852d5777ecb170713",
+      "url": "https://dexscreener.com/ethereum/0x56ea002b411fd5887e55329852d5777ecb170713",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MKR",
+      "pair": "MKR/WETH",
+      "address": "0xC2aDdA861F89bBB333c90c492cB837741916A225",
+      "url": "https://dexscreener.com/ethereum/0xc2adda861f89bbb333c90c492cb837741916a225",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MKR",
+      "pair": "MKR/WETH",
+      "address": "0xe8c6c9227491c0a8156a0106a0204d881bb7e531",
+      "url": "https://dexscreener.com/ethereum/0xe8c6c9227491c0a8156a0106a0204d881bb7e531",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MKR",
+      "pair": "MKR/WETH",
+      "address": "0xc2adda861f89bbb333c90c492cb837741916a225",
+      "url": "https://dexscreener.com/ethereum/0xc2adda861f89bbb333c90c492cb837741916a225",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "optimism",
+      "asset": "SNX",
+      "pair": "SNX/WETH",
+      "address": "0x0392b358CE4547601BEFa962680BedE836606ae2",
+      "url": "https://dexscreener.com/optimism/0x0392b358ce4547601befa962680bede836606ae2",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "optimism",
+      "asset": "SNX",
+      "pair": "SNX/WETH",
+      "address": "0x0392b358ce4547601befa962680bede836606ae2",
+      "url": "https://dexscreener.com/optimism/0x0392b358ce4547601befa962680bede836606ae2",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SNX",
+      "pair": "SNX/WETH",
+      "address": "0x43AE24960e5534731Fc831386c07755A2dc33D47",
+      "url": "https://dexscreener.com/ethereum/0x43ae24960e5534731fc831386c07755a2dc33d47",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SNX",
+      "pair": "SNX/WETH",
+      "address": "0x43ae24960e5534731fc831386c07755a2dc33d47",
+      "url": "https://dexscreener.com/ethereum/0x43ae24960e5534731fc831386c07755a2dc33d47",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "DOT",
+      "pair": "DOT/ETH",
+      "address": "0x68d466f1e56adc139913a1c362639f045c83e6706adfc6d770ca4ac3fd436da6",
+      "url": "https://dexscreener.com/base/0x68d466f1e56adc139913a1c362639f045c83e6706adfc6d770ca4ac3fd436da6",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "YFI",
+      "pair": "YFI/WETH",
+      "address": "0x2fdbadf3c4d5a8666bc06645b8358ab803996e28",
+      "url": "https://dexscreener.com/ethereum/0x2fdbadf3c4d5a8666bc06645b8358ab803996e28",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "CRV",
+      "pair": "CRV/WETH",
+      "address": "0xa95b0F5a65a769d82AB4F3e82842E45B8bbAf101",
+      "url": "https://dexscreener.com/arbitrum/0xa95b0f5a65a769d82ab4f3e82842e45b8bbaf101",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "CRV",
+      "pair": "CRV/WETH",
+      "address": "0xa95b0f5a65a769d82ab4f3e82842e45b8bbaf101",
+      "url": "https://dexscreener.com/arbitrum/0xa95b0f5a65a769d82ab4f3e82842e45b8bbaf101",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "CRV",
+      "pair": "CRV/WETH",
+      "address": "0xba80cede54bf09f8160f7d6ad4a9d6ae3a9852d9",
+      "url": "https://dexscreener.com/arbitrum/0xba80cede54bf09f8160f7d6ad4a9d6ae3a9852d9",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "CRV",
+      "pair": "CRV/USDC",
+      "address": "0x7188cfc95722e160dc39cf32fbc3b44f0e0bc95319a152f659b7d6bfca8f4620",
+      "url": "https://dexscreener.com/base/0x7188cfc95722e160dc39cf32fbc3b44f0e0bc95319a152f659b7d6bfca8f4620",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "TRB",
+      "pair": "TRB/ETH",
+      "address": "0xc6dfd67df0c7ca8b8a22f01ccbec208ad9c90d16ff035bd77d17effe53a0656b",
+      "url": "https://dexscreener.com/ethereum/0xc6dfd67df0c7ca8b8a22f01ccbec208ad9c90d16ff035bd77d17effe53a0656b",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "bsc",
+      "asset": "SOL",
+      "pair": "SOL/WBNB",
+      "address": "0xab46d39cb398fb3649ecba781180016fef75f50b",
+      "url": "https://dexscreener.com/bsc/0xab46d39cb398fb3649ecba781180016fef75f50b",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "bsc",
+      "asset": "SOL",
+      "pair": "SOL/WBNB",
+      "address": "0x25048028ad87484b7fce99bc4e22dcb6c3307470",
+      "url": "https://dexscreener.com/bsc/0x25048028ad87484b7fce99bc4e22dcb6c3307470",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "polygon",
+      "asset": "SOL",
+      "pair": "SOL/WETH",
+      "address": "0x019c29d5c97f8cbaa67013e2cf4b6506a5cf183a",
+      "url": "https://dexscreener.com/polygon/0x019c29d5c97f8cbaa67013e2cf4b6506a5cf183a",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "STORJ",
+      "pair": "STORJ/WETH",
+      "address": "0xAEF16913b6C50EBCf627a394921F306985FC8604",
+      "url": "https://dexscreener.com/ethereum/0xaef16913b6c50ebcf627a394921f306985fc8604",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "STORJ",
+      "pair": "STORJ/WETH",
+      "address": "0xaef16913b6c50ebcf627a394921f306985fc8604",
+      "url": "https://dexscreener.com/ethereum/0xaef16913b6c50ebcf627a394921f306985fc8604",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "bsc",
+      "asset": "UNI",
+      "pair": "UNI/WBNB",
+      "address": "0x913a4ed1636c474e6451b5e9249d94046a24bb33",
+      "url": "https://dexscreener.com/bsc/0x913a4ed1636c474e6451b5e9249d94046a24bb33",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "UNI",
+      "pair": "UNI/WETH",
+      "address": "0xab365f161dd501473a1ff0d2ef0dce94e7398839",
+      "url": "https://dexscreener.com/base/0xab365f161dd501473a1ff0d2ef0dce94e7398839",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "polygon",
+      "asset": "UNI",
+      "pair": "UNI/WETH",
+      "address": "0x357faf5843c7fd7fb4e34fbeabdac16eabe8a5bc",
+      "url": "https://dexscreener.com/polygon/0x357faf5843c7fd7fb4e34fbeabdac16eabe8a5bc",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "UNI",
+      "pair": "UNI/WETH",
+      "address": "0xc24f7d8e51a64dc1238880bd00bb961d54cbeb29",
+      "url": "https://dexscreener.com/arbitrum/0xc24f7d8e51a64dc1238880bd00bb961d54cbeb29",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "optimism",
+      "asset": "UNI",
+      "pair": "UNI/WETH",
+      "address": "0xad4c666fc170b468b19988959eb931a3676f0e9f",
+      "url": "https://dexscreener.com/optimism/0xad4c666fc170b468b19988959eb931a3676f0e9f",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "NEAR",
+      "pair": "NEAR/USDC",
+      "address": "0xee8AAa362a75fBF8e0A38A50ddC27f38551e16eA",
+      "url": "https://dexscreener.com/ethereum/0xee8aaa362a75fbf8e0a38a50ddc27f38551e16ea",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "polygon",
+      "asset": "AAVE",
+      "pair": "AAVE/WETH",
+      "address": "0x25FB97799F80433e422f47E75173314e54dAE174",
+      "url": "https://dexscreener.com/polygon/0x25fb97799f80433e422f47e75173314e54dae174",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "polygon",
+      "asset": "AAVE",
+      "pair": "AAVE/WETH",
+      "address": "0x25fb97799f80433e422f47e75173314e54dae174",
+      "url": "https://dexscreener.com/polygon/0x25fb97799f80433e422f47e75173314e54dae174",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "polygon",
+      "asset": "AAVE",
+      "pair": "AAVE/WETH",
+      "address": "0x2aceda63b5e958c45bd27d916ba701bc1dc08f7a",
+      "url": "https://dexscreener.com/polygon/0x2aceda63b5e958c45bd27d916ba701bc1dc08f7a",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "AAVE",
+      "pair": "AAVE/WETH",
+      "address": "0x2e86514cfd61fb19c5cf2b879d536d273d6e693d",
+      "url": "https://dexscreener.com/base/0x2e86514cfd61fb19c5cf2b879d536d273d6e693d",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "optimism",
+      "asset": "AAVE",
+      "pair": "AAVE/WETH",
+      "address": "0x782Dcc2cD3A65405bAeb794269703E9C29A175Cc",
+      "url": "https://dexscreener.com/optimism/0x782dcc2cd3a65405baeb794269703e9c29a175cc",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "optimism",
+      "asset": "AAVE",
+      "pair": "AAVE/WETH",
+      "address": "0x782dcc2cd3a65405baeb794269703e9c29a175cc",
+      "url": "https://dexscreener.com/optimism/0x782dcc2cd3a65405baeb794269703e9c29a175cc",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "RSR",
+      "pair": "RSR/WETH",
+      "address": "0x32d9259e6792b2150fd50395d971864647fa27b2",
+      "url": "https://dexscreener.com/ethereum/0x32d9259e6792b2150fd50395d971864647fa27b2",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "RSR",
+      "pair": "RSR/WETH",
+      "address": "0x11e26bbd1a5547895a50fc39a2d4c0025dec0bda",
+      "url": "https://dexscreener.com/base/0x11e26bbd1a5547895a50fc39a2d4c0025dec0bda",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "AXS",
+      "pair": "AXS/WETH",
+      "address": "0x3019D4e366576A88D28B623afAF3eCb9ec9d9580",
+      "url": "https://dexscreener.com/ethereum/0x3019d4e366576a88d28b623afaf3ecb9ec9d9580",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "AXS",
+      "pair": "AXS/WETH",
+      "address": "0x3019d4e366576a88d28b623afaf3ecb9ec9d9580",
+      "url": "https://dexscreener.com/ethereum/0x3019d4e366576a88d28b623afaf3ecb9ec9d9580",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SKL",
+      "pair": "SKL/WETH",
+      "address": "0x12CC685eEb95D3fCDfAe0a996e214e51FA6f7548",
+      "url": "https://dexscreener.com/ethereum/0x12cc685eeb95d3fcdfae0a996e214e51fa6f7548",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SKL",
+      "pair": "SKL/WETH",
+      "address": "0x12cc685eeb95d3fcdfae0a996e214e51fa6f7548",
+      "url": "https://dexscreener.com/ethereum/0x12cc685eeb95d3fcdfae0a996e214e51fa6f7548",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "GRT",
+      "pair": "GRT/WETH",
+      "address": "0x74d0Ae8B8e1fCA6039707564704a25aD2ee036B0",
+      "url": "https://dexscreener.com/arbitrum/0x74d0ae8b8e1fca6039707564704a25ad2ee036b0",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "GRT",
+      "pair": "GRT/WETH",
+      "address": "0x74d0ae8b8e1fca6039707564704a25ad2ee036b0",
+      "url": "https://dexscreener.com/arbitrum/0x74d0ae8b8e1fca6039707564704a25ad2ee036b0",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "GRT",
+      "pair": "GRT/WETH",
+      "address": "0x2e81eC0B8B4022fAC83A21B2F2B4B8f5ED744D70",
+      "url": "https://dexscreener.com/ethereum/0x2e81ec0b8b4022fac83a21b2f2b4b8f5ed744d70",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "GRT",
+      "pair": "GRT/WETH",
+      "address": "0x2e81ec0b8b4022fac83a21b2f2b4b8f5ed744d70",
+      "url": "https://dexscreener.com/ethereum/0x2e81ec0b8b4022fac83a21b2f2b4b8f5ed744d70",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "GRT",
+      "pair": "GRT/WETH",
+      "address": "0x0e2c4be9f3408e5b1ff631576d946eb8c224b5ed",
+      "url": "https://dexscreener.com/ethereum/0x0e2c4be9f3408e5b1ff631576d946eb8c224b5ed",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "1INCH",
+      "pair": "1INCH/WETH",
+      "address": "0xe931b03260b2854e77e8da8378a1bc017b13cb97",
+      "url": "https://dexscreener.com/ethereum/0xe931b03260b2854e77e8da8378a1bc017b13cb97",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SAND",
+      "pair": "SAND/WETH",
+      "address": "0x3dd49f67E9d5Bc4C5E6634b3F70BfD9dc1b6BD74",
+      "url": "https://dexscreener.com/ethereum/0x3dd49f67e9d5bc4c5e6634b3f70bfd9dc1b6bd74",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SAND",
+      "pair": "SAND/WETH",
+      "address": "0x3dd49f67e9d5bc4c5e6634b3f70bfd9dc1b6bd74",
+      "url": "https://dexscreener.com/ethereum/0x3dd49f67e9d5bc4c5e6634b3f70bfd9dc1b6bd74",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SAND",
+      "pair": "SAND/WETH",
+      "address": "0x5b97b125cf8af96834f2d08c8f1291bd47724939",
+      "url": "https://dexscreener.com/ethereum/0x5b97b125cf8af96834f2d08c8f1291bd47724939",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "COTI",
+      "pair": "COTI/WETH",
+      "address": "0xA2b04F8133fC25887A436812eaE384e32A8A84F2",
+      "url": "https://dexscreener.com/ethereum/0xa2b04f8133fc25887a436812eae384e32a8a84f2",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "COTI",
+      "pair": "COTI/WETH",
+      "address": "0xa2b04f8133fc25887a436812eae384e32a8a84f2",
+      "url": "https://dexscreener.com/ethereum/0xa2b04f8133fc25887a436812eae384e32a8a84f2",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MANA",
+      "pair": "MANA/WETH",
+      "address": "0x11b1f53204d03E5529F09EB3091939e4Fd8c9CF3",
+      "url": "https://dexscreener.com/ethereum/0x11b1f53204d03e5529f09eb3091939e4fd8c9cf3",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MANA",
+      "pair": "MANA/WETH",
+      "address": "0x8661ae7918c0115af9e3691662f605e9c550ddc9",
+      "url": "https://dexscreener.com/ethereum/0x8661ae7918c0115af9e3691662f605e9c550ddc9",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MANA",
+      "pair": "MANA/WETH",
+      "address": "0x11b1f53204d03e5529f09eb3091939e4fd8c9cf3",
+      "url": "https://dexscreener.com/ethereum/0x11b1f53204d03e5529f09eb3091939e4fd8c9cf3",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "OGN",
+      "pair": "OGN/OETH",
+      "address": "0x6890cea9BD587C60d23cF08C714c8CBad2269fF3",
+      "url": "https://dexscreener.com/ethereum/0x6890cea9bd587c60d23cf08c714c8cbad2269ff3",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "GTC",
+      "pair": "GTC/WETH",
+      "address": "0xD017617f6F0fD22796E137a8240cc38F52a147B2",
+      "url": "https://dexscreener.com/ethereum/0xd017617f6f0fd22796e137a8240cc38f52a147b2",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "GTC",
+      "pair": "GTC/WETH",
+      "address": "0xd017617f6f0fd22796e137a8240cc38f52a147b2",
+      "url": "https://dexscreener.com/ethereum/0xd017617f6f0fd22796e137a8240cc38f52a147b2",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "IOTX",
+      "pair": "IOTX/WETH",
+      "address": "0x489cEbE6Cd5DC5dcB7047A1F0D4F358a5d2fB295",
+      "url": "https://dexscreener.com/ethereum/0x489cebe6cd5dc5dcb7047a1f0d4f358a5d2fb295",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "IOTX",
+      "pair": "IOTX/WETH",
+      "address": "0x489cebe6cd5dc5dcb7047a1f0d4f358a5d2fb295",
+      "url": "https://dexscreener.com/ethereum/0x489cebe6cd5dc5dcb7047a1f0d4f358a5d2fb295",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "polygon",
+      "asset": "IOTX",
+      "pair": "CIOTX/WPOL",
+      "address": "0xaF948CA24669F5Ca9F5b6F90d9F2Cef12F4A0d20",
+      "url": "https://dexscreener.com/polygon/0xaf948ca24669f5ca9f5b6f90d9f2cef12f4a0d20",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "IOTX",
+      "pair": "IOTX/WETH",
+      "address": "0x71A0971EcB34C616A0cd2Cc4fF87dC3D8d31ca0A",
+      "url": "https://dexscreener.com/base/0x71a0971ecb34c616a0cd2cc4ff87dc3d8d31ca0a",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "IOTX",
+      "pair": "IOTX/WETH",
+      "address": "0x71a0971ecb34c616a0cd2cc4ff87dc3d8d31ca0a",
+      "url": "https://dexscreener.com/base/0x71a0971ecb34c616a0cd2cc4ff87dc3d8d31ca0a",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MASK",
+      "pair": "MASK/USDC",
+      "address": "0xA40bb1c47F6DD27142a2Bd7C93BFa98db9D1f5c5",
+      "url": "https://dexscreener.com/ethereum/0xa40bb1c47f6dd27142a2bd7c93bfa98db9d1f5c5",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "GALA",
+      "pair": "GALA/WETH",
+      "address": "0x465E56cD21ad47d4d4790F17de5E0458F20C3719",
+      "url": "https://dexscreener.com/ethereum/0x465e56cd21ad47d4d4790f17de5e0458f20c3719",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "GALA",
+      "pair": "GALA/WETH",
+      "address": "0x465e56cd21ad47d4d4790f17de5e0458f20c3719",
+      "url": "https://dexscreener.com/ethereum/0x465e56cd21ad47d4d4790f17de5e0458f20c3719",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "LPT",
+      "pair": "LPT/WETH",
+      "address": "0x4fD47e5102DFBF95541F64ED6FE13d4eD26D2546",
+      "url": "https://dexscreener.com/arbitrum/0x4fd47e5102dfbf95541f64ed6fe13d4ed26d2546",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "LPT",
+      "pair": "LPT/WETH",
+      "address": "0x4fd47e5102dfbf95541f64ed6fe13d4ed26d2546",
+      "url": "https://dexscreener.com/arbitrum/0x4fd47e5102dfbf95541f64ed6fe13d4ed26d2546",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ENS",
+      "pair": "ENS/WETH",
+      "address": "0x92560C178cE069CC014138eD3C2F5221Ba71f58a",
+      "url": "https://dexscreener.com/ethereum/0x92560c178ce069cc014138ed3c2f5221ba71f58a",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ENS",
+      "pair": "ENS/WETH",
+      "address": "0x92560c178ce069cc014138ed3c2f5221ba71f58a",
+      "url": "https://dexscreener.com/ethereum/0x92560c178ce069cc014138ed3c2f5221ba71f58a",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ENS",
+      "pair": "ENS/WETH",
+      "address": "0xb9c4a5522a2f8ba9e2ff7063df8c02ed443337a3",
+      "url": "https://dexscreener.com/ethereum/0xb9c4a5522a2f8ba9e2ff7063df8c02ed443337a3",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PEOPLE",
+      "pair": "PEOPLE/WETH",
+      "address": "0x83abECf7204d5Afc1Bea5dF734f085f2535a9976",
+      "url": "https://dexscreener.com/ethereum/0x83abecf7204d5afc1bea5df734f085f2535a9976",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PEOPLE",
+      "pair": "PEOPLE/WETH",
+      "address": "0x83abecf7204d5afc1bea5df734f085f2535a9976",
+      "url": "https://dexscreener.com/ethereum/0x83abecf7204d5afc1bea5df734f085f2535a9976",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "DUSK",
+      "pair": "DUSK/USDT",
+      "address": "0xFf29D3E552155180809ea3A877408A4620058086",
+      "url": "https://dexscreener.com/ethereum/0xff29d3e552155180809ea3a877408a4620058086",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "IMX",
+      "pair": "IMX/WETH",
+      "address": "0xFd76bE67FFF3BAC84E3D5444167bbC018f5968b6",
+      "url": "https://dexscreener.com/ethereum/0xfd76be67fff3bac84e3d5444167bbc018f5968b6",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "IMX",
+      "pair": "IMX/WETH",
+      "address": "0xfd76be67fff3bac84e3d5444167bbc018f5968b6",
+      "url": "https://dexscreener.com/ethereum/0xfd76be67fff3bac84e3d5444167bbc018f5968b6",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "API3",
+      "pair": "API3/WETH",
+      "address": "0x4Dd26482738bE6C06C31467a19dcdA9AD781e8C4",
+      "url": "https://dexscreener.com/ethereum/0x4dd26482738be6c06c31467a19dcda9ad781e8c4",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "API3",
+      "pair": "API3/WETH",
+      "address": "0x4dd26482738be6c06c31467a19dcda9ad781e8c4",
+      "url": "https://dexscreener.com/ethereum/0x4dd26482738be6c06c31467a19dcda9ad781e8c4",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "API3",
+      "pair": "API3/WETH",
+      "address": "0x495864cad6cf60e97efcd3f14ff8b1f167956ba2",
+      "url": "https://dexscreener.com/ethereum/0x495864cad6cf60e97efcd3f14ff8b1f167956ba2",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "APE",
+      "pair": "APE/WETH",
+      "address": "0xAc4b3DacB91461209Ae9d41EC517c2B9Cb1B7DAF",
+      "url": "https://dexscreener.com/ethereum/0xac4b3dacb91461209ae9d41ec517c2b9cb1b7daf",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "APE",
+      "pair": "APE/WETH",
+      "address": "0xac4b3dacb91461209ae9d41ec517c2b9cb1b7daf",
+      "url": "https://dexscreener.com/ethereum/0xac4b3dacb91461209ae9d41ec517c2b9cb1b7daf",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "APE",
+      "pair": "APE/WETH",
+      "address": "0xeb30726db589d49ecaf975c6915e9b8ff7551b10",
+      "url": "https://dexscreener.com/ethereum/0xeb30726db589d49ecaf975c6915e9b8ff7551b10",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "WOO",
+      "pair": "WOO/WETH",
+      "address": "0x6AdA49AECCF6E556Bb7a35ef0119Cc8ca795294A",
+      "url": "https://dexscreener.com/ethereum/0x6ada49aeccf6e556bb7a35ef0119cc8ca795294a",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "WOO",
+      "pair": "WOO/WETH",
+      "address": "0x6ada49aeccf6e556bb7a35ef0119cc8ca795294a",
+      "url": "https://dexscreener.com/ethereum/0x6ada49aeccf6e556bb7a35ef0119cc8ca795294a",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "JASMY",
+      "pair": "JASMY/WETH",
+      "address": "0x4d1Eff861316396dD1915F69B49f4C2d7B11590d",
+      "url": "https://dexscreener.com/ethereum/0x4d1eff861316396dd1915f69b49f4c2d7b11590d",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "JASMY",
+      "pair": "JASMY/WETH",
+      "address": "0x4d1eff861316396dd1915f69b49f4c2d7b11590d",
+      "url": "https://dexscreener.com/ethereum/0x4d1eff861316396dd1915f69b49f4c2d7b11590d",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "optimism",
+      "asset": "OP",
+      "pair": "OP/WETH",
+      "address": "0xfc1f3296458f9b2a27a0b91dd7681c4020e09d05",
+      "url": "https://dexscreener.com/optimism/0xfc1f3296458f9b2a27a0b91dd7681c4020e09d05",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "optimism",
+      "asset": "OP",
+      "pair": "OP/WETH",
+      "address": "0x68f5c0a2de713a54991e01858fd27a3832401849",
+      "url": "https://dexscreener.com/optimism/0x68f5c0a2de713a54991e01858fd27a3832401849",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "INJ",
+      "pair": "INJ/WETH",
+      "address": "0x6c063a6E8Cd45869b5Eb75291E65a3de298f3AA8",
+      "url": "https://dexscreener.com/ethereum/0x6c063a6e8cd45869b5eb75291e65a3de298f3aa8",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "INJ",
+      "pair": "INJ/WETH",
+      "address": "0x6c063a6e8cd45869b5eb75291e65a3de298f3aa8",
+      "url": "https://dexscreener.com/ethereum/0x6c063a6e8cd45869b5eb75291e65a3de298f3aa8",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "LDO",
+      "pair": "LDO/WETH",
+      "address": "0xa3f558aebAecAf0e11cA4b2199cC5Ed341edfd74",
+      "url": "https://dexscreener.com/ethereum/0xa3f558aebaecaf0e11ca4b2199cc5ed341edfd74",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "LDO",
+      "pair": "LDO/WETH",
+      "address": "0xa3f558aebaecaf0e11ca4b2199cc5ed341edfd74",
+      "url": "https://dexscreener.com/ethereum/0xa3f558aebaecaf0e11ca4b2199cc5ed341edfd74",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "LDO",
+      "pair": "LDO/WETH",
+      "address": "0x52F9d14Bed8Ce6536dA063aaf274Ae2747ef4853",
+      "url": "https://dexscreener.com/arbitrum/0x52f9d14bed8ce6536da063aaf274ae2747ef4853",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "LDO",
+      "pair": "LDO/WETH",
+      "address": "0x52f9d14bed8ce6536da063aaf274ae2747ef4853",
+      "url": "https://dexscreener.com/arbitrum/0x52f9d14bed8ce6536da063aaf274ae2747ef4853",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "polygon",
+      "asset": "LDO",
+      "pair": "LDO/WETH",
+      "address": "0xda908c0bf14ad0b61ea5ebe671ac59b2ce091cbf",
+      "url": "https://dexscreener.com/polygon/0xda908c0bf14ad0b61ea5ebe671ac59b2ce091cbf",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ICP",
+      "pair": "ICP/WETH",
+      "address": "0x4068038AB5490063a3eAd93B3712Ed082e62bD59",
+      "url": "https://dexscreener.com/ethereum/0x4068038ab5490063a3ead93b3712ed082e62bd59",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ICP",
+      "pair": "ICP/WETH",
+      "address": "0x4068038ab5490063a3ead93b3712ed082e62bd59",
+      "url": "https://dexscreener.com/ethereum/0x4068038ab5490063a3ead93b3712ed082e62bd59",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "QNT",
+      "pair": "QNT/WETH",
+      "address": "0x24EE2c6B9597F035088CDa8575E9D5e15a84B9DF",
+      "url": "https://dexscreener.com/ethereum/0x24ee2c6b9597f035088cda8575e9d5e15a84b9df",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "QNT",
+      "pair": "QNT/WETH",
+      "address": "0x24ee2c6b9597f035088cda8575e9d5e15a84b9df",
+      "url": "https://dexscreener.com/ethereum/0x24ee2c6b9597f035088cda8575e9d5e15a84b9df",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "FET",
+      "pair": "FET/ETH",
+      "address": "0x80235dd0d2b0fbac1fc5b9e04d4af3e030efd2b1026823affec8f5a6c9306c38",
+      "url": "https://dexscreener.com/ethereum/0x80235dd0d2b0fbac1fc5b9e04d4af3e030efd2b1026823affec8f5a6c9306c38",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "FET",
+      "pair": "FET/WETH",
+      "address": "0x744159757cac173a7a3ecf5e97adb10d1a725377",
+      "url": "https://dexscreener.com/ethereum/0x744159757cac173a7a3ecf5e97adb10d1a725377",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "FET",
+      "pair": "FET/WETH",
+      "address": "0x948b54a93f5ad1df6b8bff6dc249d99ca2eca052",
+      "url": "https://dexscreener.com/ethereum/0x948b54a93f5ad1df6b8bff6dc249d99ca2eca052",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "bsc",
+      "asset": "FET",
+      "pair": "FET/WBNB",
+      "address": "0x8149b92eA743Cc382aaDA523B68B8834733b9015",
+      "url": "https://dexscreener.com/bsc/0x8149b92ea743cc382aada523b68b8834733b9015",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "bsc",
+      "asset": "FET",
+      "pair": "FET/WBNB",
+      "address": "0x8149b92ea743cc382aada523b68b8834733b9015",
+      "url": "https://dexscreener.com/bsc/0x8149b92ea743cc382aada523b68b8834733b9015",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "FXS",
+      "pair": "FXS/WETH",
+      "address": "0xcd8286b48936cdac20518247dbd310ab681a9fbf",
+      "url": "https://dexscreener.com/ethereum/0xcd8286b48936cdac20518247dbd310ab681a9fbf",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "MAGIC",
+      "pair": "MAGIC/WETH",
+      "address": "0x59d72ddb29da32847a4665d08ffc8464a7185fae",
+      "url": "https://dexscreener.com/arbitrum/0x59d72ddb29da32847a4665d08ffc8464a7185fae",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "HIGH",
+      "pair": "HIGH/WETH",
+      "address": "0x3854612b93B140726167cCA5418B01E832515d42",
+      "url": "https://dexscreener.com/ethereum/0x3854612b93b140726167cca5418b01e832515d42",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "HIGH",
+      "pair": "HIGH/WETH",
+      "address": "0x3854612b93b140726167cca5418b01e832515d42",
+      "url": "https://dexscreener.com/ethereum/0x3854612b93b140726167cca5418b01e832515d42",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ASTR",
+      "pair": "ASTR/ETH",
+      "address": "0xf58ab4d13ea15658aa7446576c6d6b4b8034cfce6d38b6c764d9fd6478219921",
+      "url": "https://dexscreener.com/ethereum/0xf58ab4d13ea15658aa7446576c6d6b4b8034cfce6d38b6c764d9fd6478219921",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "GMX",
+      "pair": "GMX/USDC",
+      "address": "0x135E49cC315fED87F989e072ee11132686CF84F3",
+      "url": "https://dexscreener.com/arbitrum/0x135e49cc315fed87f989e072ee11132686cf84f3",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "GMX",
+      "pair": "GMX/WETH",
+      "address": "0x1aeedd3727a6431b8f070c0afaa81cc74f273882",
+      "url": "https://dexscreener.com/arbitrum/0x1aeedd3727a6431b8f070c0afaa81cc74f273882",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "GMX",
+      "pair": "GMX/WETH",
+      "address": "0x80a9ae39310abf666a87c743d6ebbd0e8c42158e",
+      "url": "https://dexscreener.com/arbitrum/0x80a9ae39310abf666a87c743d6ebbd0e8c42158e",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ACH",
+      "pair": "ACH/WETH",
+      "address": "0xeB4626c5149894022C2066120ea7F20f217995Fb",
+      "url": "https://dexscreener.com/ethereum/0xeb4626c5149894022c2066120ea7f20f217995fb",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ACH",
+      "pair": "ACH/WETH",
+      "address": "0xeb4626c5149894022c2066120ea7f20f217995fb",
+      "url": "https://dexscreener.com/ethereum/0xeb4626c5149894022c2066120ea7f20f217995fb",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ACH",
+      "pair": "AVM/WETH",
+      "address": "0xbad81f60d0aa69ae15f9ef5232f438068a39f260",
+      "url": "https://dexscreener.com/ethereum/0xbad81f60d0aa69ae15f9ef5232f438068a39f260",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SSV",
+      "pair": "SSV/WETH",
+      "address": "0x0A55882F4E1117ADc54aFbbac4A39079AD52fB89",
+      "url": "https://dexscreener.com/ethereum/0x0a55882f4e1117adc54afbbac4a39079ad52fb89",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SSV",
+      "pair": "SSV/WETH",
+      "address": "0x0a55882f4e1117adc54afbbac4a39079ad52fb89",
+      "url": "https://dexscreener.com/ethereum/0x0a55882f4e1117adc54afbbac4a39079ad52fb89",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PERP",
+      "pair": "PERP/WETH",
+      "address": "0xcD83055557536EFf25FD0eAfbC56e74a1b4260B3",
+      "url": "https://dexscreener.com/ethereum/0xcd83055557536eff25fd0eafbc56e74a1b4260b3",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PERP",
+      "pair": "PERP/WETH",
+      "address": "0xcd83055557536eff25fd0eafbc56e74a1b4260b3",
+      "url": "https://dexscreener.com/ethereum/0xcd83055557536eff25fd0eafbc56e74a1b4260b3",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "TRU",
+      "pair": "TRU/WETH",
+      "address": "0xeC6a6b7dB761A5c9910bA8fcaB98116d384b1B85",
+      "url": "https://dexscreener.com/ethereum/0xec6a6b7db761a5c9910ba8fcab98116d384b1b85",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "TRU",
+      "pair": "TRU/WETH",
+      "address": "0x2efec2097beede290b2eed63e2faf5ecbbc528fc",
+      "url": "https://dexscreener.com/ethereum/0x2efec2097beede290b2eed63e2faf5ecbbc528fc",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "TRU",
+      "pair": "TRU/WETH",
+      "address": "0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5",
+      "url": "https://dexscreener.com/ethereum/0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "TRU",
+      "pair": "TRU/WETH",
+      "address": "0xec6a6b7db761a5c9910ba8fcab98116d384b1b85",
+      "url": "https://dexscreener.com/ethereum/0xec6a6b7db761a5c9910ba8fcab98116d384b1b85",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "LQTY",
+      "pair": "LQTY/WETH",
+      "address": "0xD1D5A4c0eA98971894772Dcd6D2f1dc71083C44E",
+      "url": "https://dexscreener.com/ethereum/0xd1d5a4c0ea98971894772dcd6d2f1dc71083c44e",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "LQTY",
+      "pair": "LQTY/WETH",
+      "address": "0xd1d5a4c0ea98971894772dcd6d2f1dc71083c44e",
+      "url": "https://dexscreener.com/ethereum/0xd1d5a4c0ea98971894772dcd6d2f1dc71083c44e",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ARB",
+      "pair": "ARB/WETH",
+      "address": "0x59354356Ec5d56306791873f567d61EBf11dfbD5",
+      "url": "https://dexscreener.com/ethereum/0x59354356ec5d56306791873f567d61ebf11dfbd5",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ARB",
+      "pair": "ARB/WETH",
+      "address": "0x59354356ec5d56306791873f567d61ebf11dfbd5",
+      "url": "https://dexscreener.com/ethereum/0x59354356ec5d56306791873f567d61ebf11dfbd5",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "EDU",
+      "pair": "EDU/WETH",
+      "address": "0xF1Db9d9aE0BDF6B7B87C5B5e4F3d2b2B9c2bdC3f",
+      "url": "https://dexscreener.com/ethereum/0xf1db9d9ae0bdf6b7b87c5b5e4f3d2b2b9c2bdc3f",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "EDU",
+      "pair": "EDU/WETH",
+      "address": "0xf1db9d9ae0bdf6b7b87c5b5e4f3d2b2b9c2bdc3f",
+      "url": "https://dexscreener.com/ethereum/0xf1db9d9ae0bdf6b7b87c5b5e4f3d2b2b9c2bdc3f",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "IDEX",
+      "pair": "IDEX/WETH",
+      "address": "0xFCFe058EFA0bE5BCcFdD45e2C079997935FE0A64",
+      "url": "https://dexscreener.com/ethereum/0xfcfe058efa0be5bccfdd45e2c079997935fe0a64",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "IDEX",
+      "pair": "IDEX/WETH",
+      "address": "0xfcfe058efa0be5bccfdd45e2c079997935fe0a64",
+      "url": "https://dexscreener.com/ethereum/0xfcfe058efa0be5bccfdd45e2c079997935fe0a64",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "RAD",
+      "pair": "RAD/USDC",
+      "address": "0x8C1c499b1796D7F3C2521AC37186B52De024e58c",
+      "url": "https://dexscreener.com/ethereum/0x8c1c499b1796d7f3c2521ac37186b52de024e58c",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "RAD",
+      "pair": "GRAY/WETH",
+      "address": "0x0846f55387ab118b4e59eee479f1a3e8ea4905ec",
+      "url": "https://dexscreener.com/ethereum/0x0846f55387ab118b4e59eee479f1a3e8ea4905ec",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "NMR",
+      "pair": "NMR/WETH",
+      "address": "0x4b1F895066058662B9fA885E87a4E4159bE0798a",
+      "url": "https://dexscreener.com/ethereum/0x4b1f895066058662b9fa885e87a4e4159be0798a",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "NMR",
+      "pair": "NMR/WETH",
+      "address": "0x4b1f895066058662b9fa885e87a4e4159be0798a",
+      "url": "https://dexscreener.com/ethereum/0x4b1f895066058662b9fa885e87a4e4159be0798a",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "optimism",
+      "asset": "WLD",
+      "pair": "WLD/WETH",
+      "address": "0x2ae3d6096d8215ac2acddf30c60caa984ea5debe",
+      "url": "https://dexscreener.com/optimism/0x2ae3d6096d8215ac2acddf30c60caa984ea5debe",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "WLD",
+      "pair": "WLD/WETH",
+      "address": "0x841820459769cd629B10a36FD12E603938cc2679",
+      "url": "https://dexscreener.com/ethereum/0x841820459769cd629b10a36fd12e603938cc2679",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "WLD",
+      "pair": "WLD/WETH",
+      "address": "0x841820459769cd629b10a36fd12e603938cc2679",
+      "url": "https://dexscreener.com/ethereum/0x841820459769cd629b10a36fd12e603938cc2679",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "PENDLE",
+      "pair": "PENDLE/WETH",
+      "address": "0xB08a8794A5D3cCCA3725D92964696858d3201909",
+      "url": "https://dexscreener.com/arbitrum/0xb08a8794a5d3ccca3725d92964696858d3201909",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "PENDLE",
+      "pair": "PENDLE/WETH",
+      "address": "0xb08a8794a5d3ccca3725d92964696858d3201909",
+      "url": "https://dexscreener.com/arbitrum/0xb08a8794a5d3ccca3725d92964696858d3201909",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "PENDLE",
+      "pair": "PENDLE/WETH",
+      "address": "0xdbaeb7f0dfe3a0aafd798ccecb5b22e708f7852c",
+      "url": "https://dexscreener.com/arbitrum/0xdbaeb7f0dfe3a0aafd798ccecb5b22e708f7852c",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PENDLE",
+      "pair": "PENDLE/WETH",
+      "address": "0x57aF956d3E2cCa3B86f3D8C6772C03ddca3eAacB",
+      "url": "https://dexscreener.com/ethereum/0x57af956d3e2cca3b86f3d8c6772c03ddca3eaacb",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PENDLE",
+      "pair": "PENDLE/WETH",
+      "address": "0x57af956d3e2cca3b86f3d8c6772c03ddca3eaacb",
+      "url": "https://dexscreener.com/ethereum/0x57af956d3e2cca3b86f3d8c6772c03ddca3eaacb",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "bsc",
+      "asset": "PENDLE",
+      "pair": "PENDLE/WBNB",
+      "address": "0x916d7f23ccbb1d10118dcfc6ad5a10b6446ff73e",
+      "url": "https://dexscreener.com/bsc/0x916d7f23ccbb1d10118dcfc6ad5a10b6446ff73e",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SEI",
+      "pair": "SEI/USDC",
+      "address": "0xf8e349d1d827a6EdF17eE673664CFAd4ca78C533",
+      "url": "https://dexscreener.com/ethereum/0xf8e349d1d827a6edf17ee673664cfad4ca78c533",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "optimism",
+      "asset": "CYBER",
+      "pair": "CYBER/USDC",
+      "address": "0x893B92a5B2FeDB7F60652F8BEa379f4ebE3bc7Bc",
+      "url": "https://dexscreener.com/optimism/0x893b92a5b2fedb7f60652f8bea379f4ebe3bc7bc",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "CYBER",
+      "pair": "CYBER/USDC",
+      "address": "0xd10a303db5F0Fb535f4c52E6acF13b19E1AFbC7d",
+      "url": "https://dexscreener.com/ethereum/0xd10a303db5f0fb535f4c52e6acf13b19e1afbc7d",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "CYBER",
+      "pair": "CYBER/USDC",
+      "address": "0xb6c538dC020670F007753d3568C9e779656FBad0",
+      "url": "https://dexscreener.com/base/0xb6c538dc020670f007753d3568c9e779656fbad0",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "HIFI",
+      "pair": "HIFI/USDC",
+      "address": "0xf2f4ae6a300b38373c35e7610189e0638b8ba29cc09299838027c7a319962796",
+      "url": "https://dexscreener.com/ethereum/0xf2f4ae6a300b38373c35e7610189e0638b8ba29cc09299838027c7a319962796",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BICO",
+      "pair": "BICO/WETH",
+      "address": "0xAd6b651dF72b443f57b76fF79165Ee771272e18e",
+      "url": "https://dexscreener.com/ethereum/0xad6b651df72b443f57b76ff79165ee771272e18e",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BICO",
+      "pair": "BICO/WETH",
+      "address": "0xad6b651df72b443f57b76ff79165ee771272e18e",
+      "url": "https://dexscreener.com/ethereum/0xad6b651df72b443f57b76ff79165ee771272e18e",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BIGTIME",
+      "pair": "BIGTIME/USDT",
+      "address": "0x484dcf85Bc5F005E5628a85c7DDe5c846B9B64A7",
+      "url": "https://dexscreener.com/ethereum/0x484dcf85bc5f005e5628a85c7dde5c846b9b64a7",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ORBS",
+      "pair": "ORBS/WETH",
+      "address": "0xC98B3B8C7CC0D7D925d1a407347b845D9F001391",
+      "url": "https://dexscreener.com/ethereum/0xc98b3b8c7cc0d7d925d1a407347b845d9f001391",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ORBS",
+      "pair": "ORBS/WETH",
+      "address": "0xc98b3b8c7cc0d7d925d1a407347b845d9f001391",
+      "url": "https://dexscreener.com/ethereum/0xc98b3b8c7cc0d7d925d1a407347b845d9f001391",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "WAXP",
+      "pair": "WAXP/USDT",
+      "address": "0xe61CEDEb1593E2D9f06af1e212842C8B5E289863",
+      "url": "https://dexscreener.com/ethereum/0xe61cedeb1593e2d9f06af1e212842c8b5e289863",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "POWR",
+      "pair": "POWR/WETH",
+      "address": "0xE3FE800B0de664bf0bCa8aD58eCbc73B259047b0",
+      "url": "https://dexscreener.com/ethereum/0xe3fe800b0de664bf0bca8ad58ecbc73b259047b0",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "POWR",
+      "pair": "POWR/WETH",
+      "address": "0xe3fe800b0de664bf0bca8ad58ecbc73b259047b0",
+      "url": "https://dexscreener.com/ethereum/0xe3fe800b0de664bf0bca8ad58ecbc73b259047b0",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SNT",
+      "pair": "SNT/WETH",
+      "address": "0x084B5191Bd08412952337b1108b6e5942418928f",
+      "url": "https://dexscreener.com/ethereum/0x084b5191bd08412952337b1108b6e5942418928f",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SNT",
+      "pair": "SNT/WETH",
+      "address": "0x084b5191bd08412952337b1108b6e5942418928f",
+      "url": "https://dexscreener.com/ethereum/0x084b5191bd08412952337b1108b6e5942418928f",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "bsc",
+      "asset": "CAKE",
+      "pair": "Cake/WBNB",
+      "address": "0x4c1d39e6b736a6a99105ee2a9e7c44bfc56af860",
+      "url": "https://dexscreener.com/bsc/0x4c1d39e6b736a6a99105ee2a9e7c44bfc56af860",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MEME",
+      "pair": "MEME/WETH",
+      "address": "0x70cF99553471FE6C0d513ebFac8aCC55BA02ab7B",
+      "url": "https://dexscreener.com/ethereum/0x70cf99553471fe6c0d513ebfac8acc55ba02ab7b",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MEME",
+      "pair": "MEME/WETH",
+      "address": "0x70cf99553471fe6c0d513ebfac8acc55ba02ab7b",
+      "url": "https://dexscreener.com/ethereum/0x70cf99553471fe6c0d513ebfac8acc55ba02ab7b",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "TOKEN",
+      "pair": "TOKEN/WETH",
+      "address": "0xC7e6B676bfC73Ae40bcC4577F22aab1682C691C6",
+      "url": "https://dexscreener.com/ethereum/0xc7e6b676bfc73ae40bcc4577f22aab1682c691c6",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "TOKEN",
+      "pair": "TOKEN/WETH",
+      "address": "0xc7e6b676bfc73ae40bcc4577f22aab1682c691c6",
+      "url": "https://dexscreener.com/ethereum/0xc7e6b676bfc73ae40bcc4577f22aab1682c691c6",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BADGER",
+      "pair": "BADGER/WBTC",
+      "address": "0xe15e6583425700993bd08f51bf6e7b73cd5da91b",
+      "url": "https://dexscreener.com/ethereum/0xe15e6583425700993bd08f51bf6e7b73cd5da91b",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BADGER",
+      "pair": "BADGER/WBTC",
+      "address": "0xcd7989894bc033581532d2cd88da5db0a4b12859",
+      "url": "https://dexscreener.com/ethereum/0xcd7989894bc033581532d2cd88da5db0a4b12859",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BADGER",
+      "pair": "HOBA/WETH",
+      "address": "0xa5b0f8ca80840c474e1554cf2cd6726ce1284d9d",
+      "url": "https://dexscreener.com/ethereum/0xa5b0f8ca80840c474e1554cf2cd6726ce1284d9d",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SUPER",
+      "pair": "SUPER/WETH",
+      "address": "0x25647E01Bd0967C1B9599FA3521939871D1d0888",
+      "url": "https://dexscreener.com/ethereum/0x25647e01bd0967c1b9599fa3521939871d1d0888",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SUPER",
+      "pair": "SUPER/WETH",
+      "address": "0x25647e01bd0967c1b9599fa3521939871d1d0888",
+      "url": "https://dexscreener.com/ethereum/0x25647e01bd0967c1b9599fa3521939871d1d0888",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MANTA",
+      "pair": "MANTA/WETH",
+      "address": "0xeC64a72F36445621e040a99bC15a7500fB36ef8a",
+      "url": "https://dexscreener.com/ethereum/0xec64a72f36445621e040a99bc15a7500fb36ef8a",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MANTA",
+      "pair": "MANTA/WETH",
+      "address": "0xec64a72f36445621e040a99bc15a7500fb36ef8a",
+      "url": "https://dexscreener.com/ethereum/0xec64a72f36445621e040a99bc15a7500fb36ef8a",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ONDO",
+      "pair": "ONDO/WETH",
+      "address": "0x7b1E5D984A43eE732de195628d20d05CFaBc3cC7",
+      "url": "https://dexscreener.com/ethereum/0x7b1e5d984a43ee732de195628d20d05cfabc3cc7",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ONDO",
+      "pair": "ONDO/WETH",
+      "address": "0x7b1e5d984a43ee732de195628d20d05cfabc3cc7",
+      "url": "https://dexscreener.com/ethereum/0x7b1e5d984a43ee732de195628d20d05cfabc3cc7",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "LSK",
+      "pair": "LSK/ETH",
+      "address": "0x6af632b8235f1a9d95a816f7a4090736346b763a8ab4e8327017aaae72d0d1d2",
+      "url": "https://dexscreener.com/ethereum/0x6af632b8235f1a9d95a816f7a4090736346b763a8ab4e8327017aaae72d0d1d2",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ALT",
+      "pair": "ALT/USDT",
+      "address": "0x65680A987f4871a7bB865C86FaE11667e6aA8068",
+      "url": "https://dexscreener.com/ethereum/0x65680a987f4871a7bb865c86fae11667e6aa8068",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ZETA",
+      "pair": "ZETA/WETH",
+      "address": "0x738ea57616FA9dab407E9e7920d446eAF4E7eAAa",
+      "url": "https://dexscreener.com/ethereum/0x738ea57616fa9dab407e9e7920d446eaf4e7eaaa",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ZETA",
+      "pair": "ZETA/WETH",
+      "address": "0x738ea57616fa9dab407e9e7920d446eaf4e7eaaa",
+      "url": "https://dexscreener.com/ethereum/0x738ea57616fa9dab407e9e7920d446eaf4e7eaaa",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "OM",
+      "pair": "OM/WETH",
+      "address": "0xe46935aE80E05cdEbD4a4008B6ccaA36d2845370",
+      "url": "https://dexscreener.com/ethereum/0xe46935ae80e05cdebd4a4008b6ccaa36d2845370",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "OM",
+      "pair": "OM/WETH",
+      "address": "0xe46935ae80e05cdebd4a4008b6ccaa36d2845370",
+      "url": "https://dexscreener.com/ethereum/0xe46935ae80e05cdebd4a4008b6ccaa36d2845370",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "STRK",
+      "pair": "STRK/WETH",
+      "address": "0xac4fd96fcf729390a3c8044422a529028ec36751",
+      "url": "https://dexscreener.com/ethereum/0xac4fd96fcf729390a3c8044422a529028ec36751",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "GLM",
+      "pair": "GLM/WETH",
+      "address": "0xfe4ec8f377be9e1e95a49d4e0d20f52d07b1ff0d",
+      "url": "https://dexscreener.com/ethereum/0xfe4ec8f377be9e1e95a49d4e0d20f52d07b1ff0d",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "AXL",
+      "pair": "AXL/USDC",
+      "address": "0x975C822e26A514e7a1B75be587AeFC738a73EEE7",
+      "url": "https://dexscreener.com/ethereum/0x975c822e26a514e7a1b75be587aefc738a73eee7",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "METIS",
+      "pair": "Metis/WETH",
+      "address": "0x1c98562A2FaB5aF19D8Fb3291a36AC3C618835D9",
+      "url": "https://dexscreener.com/ethereum/0x1c98562a2fab5af19d8fb3291a36ac3c618835d9",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "METIS",
+      "pair": "Metis/WETH",
+      "address": "0x1c98562a2fab5af19d8fb3291a36ac3c618835d9",
+      "url": "https://dexscreener.com/ethereum/0x1c98562a2fab5af19d8fb3291a36ac3c618835d9",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "AEVO",
+      "pair": "AEVO/USDC",
+      "address": "0x62e0d3fD804dfBf02d08eE632E9634dBa5c00D03",
+      "url": "https://dexscreener.com/ethereum/0x62e0d3fd804dfbf02d08ee632e9634dba5c00d03",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "VANRY",
+      "pair": "VANRY/WETH",
+      "address": "0xF4ACDAC048C14c5E49BbEDe0C72444d806A75Cde",
+      "url": "https://dexscreener.com/ethereum/0xf4acdac048c14c5e49bbede0c72444d806a75cde",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "VANRY",
+      "pair": "VANRY/WETH",
+      "address": "0xf4acdac048c14c5e49bbede0c72444d806a75cde",
+      "url": "https://dexscreener.com/ethereum/0xf4acdac048c14c5e49bbede0c72444d806a75cde",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ETHFI",
+      "pair": "ETHFI/WETH",
+      "address": "0x06f00544C0bc62E6db10F46D370dFCcDC23d8189",
+      "url": "https://dexscreener.com/ethereum/0x06f00544c0bc62e6db10f46d370dfccdc23d8189",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ETHFI",
+      "pair": "ETHFI/WETH",
+      "address": "0x06f00544c0bc62e6db10f46d370dfccdc23d8189",
+      "url": "https://dexscreener.com/ethereum/0x06f00544c0bc62e6db10f46d370dfccdc23d8189",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "ETHFI",
+      "pair": "ETHFI/WETH",
+      "address": "0x7e9cb8ad4a7683070e233f3eb1d07d87272b9b26",
+      "url": "https://dexscreener.com/arbitrum/0x7e9cb8ad4a7683070e233f3eb1d07d87272b9b26",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ENA",
+      "pair": "ENA/WETH",
+      "address": "0xc3Db44ADC1fCdFd5671f555236eae49f4A8EEa18",
+      "url": "https://dexscreener.com/ethereum/0xc3db44adc1fcdfd5671f555236eae49f4a8eea18",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ENA",
+      "pair": "ENA/WETH",
+      "address": "0xc3db44adc1fcdfd5671f555236eae49f4a8eea18",
+      "url": "https://dexscreener.com/ethereum/0xc3db44adc1fcdfd5671f555236eae49f4a8eea18",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "REZ",
+      "pair": "REZ/USDC",
+      "address": "0xe7e64a776c0c57da08b21758e556a6704857c0a6f566f60f583ffe261b13baef",
+      "url": "https://dexscreener.com/ethereum/0xe7e64a776c0c57da08b21758e556a6704857c0a6f566f60f583ffe261b13baef",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BB",
+      "pair": "BB/WETH",
+      "address": "0x9172a1AbB81021Ef1FE0Ea6D60D25e8a9F77e190",
+      "url": "https://dexscreener.com/ethereum/0x9172a1abb81021ef1fe0ea6d60d25e8a9f77e190",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BB",
+      "pair": "BB/WETH",
+      "address": "0x33b8213dE159884531957097F1722a12436014CC",
+      "url": "https://dexscreener.com/ethereum/0x33b8213de159884531957097f1722a12436014cc",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BB",
+      "pair": "BB/WETH",
+      "address": "0x33b8213de159884531957097f1722a12436014cc",
+      "url": "https://dexscreener.com/ethereum/0x33b8213de159884531957097f1722a12436014cc",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BB",
+      "pair": "BB/WETH",
+      "address": "0x9172a1abb81021ef1fe0ea6d60d25e8a9f77e190",
+      "url": "https://dexscreener.com/ethereum/0x9172a1abb81021ef1fe0ea6d60d25e8a9f77e190",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "TURBO",
+      "pair": "TURBO/WETH",
+      "address": "0x7baecE5d47f1BC5E1953FBE0E9931D54DAB6D810",
+      "url": "https://dexscreener.com/ethereum/0x7baece5d47f1bc5e1953fbe0e9931d54dab6d810",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "TURBO",
+      "pair": "TURBO/WETH",
+      "address": "0x7baece5d47f1bc5e1953fbe0e9931d54dab6d810",
+      "url": "https://dexscreener.com/ethereum/0x7baece5d47f1bc5e1953fbe0e9931d54dab6d810",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ZK",
+      "pair": "ZK/WETH",
+      "address": "0x8F7901A64c62602B6546Bd5ECE22a10911aDD6e2",
+      "url": "https://dexscreener.com/ethereum/0x8f7901a64c62602b6546bd5ece22a10911add6e2",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ZK",
+      "pair": "ZK/WETH",
+      "address": "0x8f7901a64c62602b6546bd5ece22a10911add6e2",
+      "url": "https://dexscreener.com/ethereum/0x8f7901a64c62602b6546bd5ece22a10911add6e2",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "ZRO",
+      "pair": "ZRO/WETH",
+      "address": "0x4cef551255ec96d89fec975446301b5c4e164c59",
+      "url": "https://dexscreener.com/arbitrum/0x4cef551255ec96d89fec975446301b5c4e164c59",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BANANA",
+      "pair": "BANANA/WETH",
+      "address": "0x43DE4318b6EB91a7cF37975dBB574396A7b5B5c6",
+      "url": "https://dexscreener.com/ethereum/0x43de4318b6eb91a7cf37975dbb574396a7b5b5c6",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BANANA",
+      "pair": "BANANA/WETH",
+      "address": "0x43de4318b6eb91a7cf37975dbb574396a7b5b5c6",
+      "url": "https://dexscreener.com/ethereum/0x43de4318b6eb91a7cf37975dbb574396a7b5b5c6",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "RARE",
+      "pair": "RARE/ETH",
+      "address": "0x012ab3271b4db77cc85445161a6f6fe8ef5e958b384bad6e3aeeaa2236113d66",
+      "url": "https://dexscreener.com/base/0x012ab3271b4db77cc85445161a6f6fe8ef5e958b384bad6e3aeeaa2236113d66",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "base",
+      "asset": "BRETT",
+      "pair": "BRETT/WETH",
+      "address": "0xba3f945812a83471d709bce9c3ca699a19fb46f7",
+      "url": "https://dexscreener.com/base/0xba3f945812a83471d709bce9c3ca699a19fb46f7",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "BRETT",
+      "pair": "BRETT/WETH",
+      "address": "0x76bf0abd20f1e0155ce40a62615a90a709a6c3d8",
+      "url": "https://dexscreener.com/base/0x76bf0abd20f1e0155ce40a62615a90a709a6c3d8",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "RPL",
+      "pair": "RPL/WETH",
+      "address": "0xe42318eA3b998e8355a3Da364EB9D48eC725Eb45",
+      "url": "https://dexscreener.com/ethereum/0xe42318ea3b998e8355a3da364eb9d48ec725eb45",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "RPL",
+      "pair": "RPL/WETH",
+      "address": "0xe42318ea3b998e8355a3da364eb9d48ec725eb45",
+      "url": "https://dexscreener.com/ethereum/0xe42318ea3b998e8355a3da364eb9d48ec725eb45",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "RPL",
+      "pair": "SBET/WETH",
+      "address": "0x35465d7b8ec8f28b06c90ab562c85a012337f687",
+      "url": "https://dexscreener.com/ethereum/0x35465d7b8ec8f28b06c90ab562c85a012337f687",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "POL",
+      "pair": "POL/WETH",
+      "address": "0x88ada7b1dd1C728ea87404CEa7a0780139EB35d1",
+      "url": "https://dexscreener.com/ethereum/0x88ada7b1dd1c728ea87404cea7a0780139eb35d1",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "POL",
+      "pair": "POL/WETH",
+      "address": "0x88ada7b1dd1c728ea87404cea7a0780139eb35d1",
+      "url": "https://dexscreener.com/ethereum/0x88ada7b1dd1c728ea87404cea7a0780139eb35d1",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "NEIRO",
+      "pair": "Neiro/WETH",
+      "address": "0xC555D55279023E732CcD32D812114cAF5838fD46",
+      "url": "https://dexscreener.com/ethereum/0xc555d55279023e732ccd32d812114caf5838fd46",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "NEIRO",
+      "pair": "NEIRO/WETH",
+      "address": "0x3885fbe4CD8aeD7b7e9625923927Fa1CE30662A3",
+      "url": "https://dexscreener.com/ethereum/0x3885fbe4cd8aed7b7e9625923927fa1ce30662a3",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "NEIRO",
+      "pair": "Neiro/WETH",
+      "address": "0xc555d55279023e732ccd32d812114caf5838fd46",
+      "url": "https://dexscreener.com/ethereum/0xc555d55279023e732ccd32d812114caf5838fd46",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "NEIRO",
+      "pair": "NEIRO/WETH",
+      "address": "0x3885fbe4cd8aed7b7e9625923927fa1ce30662a3",
+      "url": "https://dexscreener.com/ethereum/0x3885fbe4cd8aed7b7e9625923927fa1ce30662a3",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "NEIRO",
+      "pair": "Neiro/WETH",
+      "address": "0x15153da0e9e13cfc167b3d417d3721bf545479bb",
+      "url": "https://dexscreener.com/ethereum/0x15153da0e9e13cfc167b3d417d3721bf545479bb",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "EIGEN",
+      "pair": "eEIGEN/ETH",
+      "address": "0x6fd96542125ef6c55f0c7f0230d94d24ead95729dd0476498e88ab7d9ac89fd2",
+      "url": "https://dexscreener.com/ethereum/0x6fd96542125ef6c55f0c7f0230d94d24ead95729dd0476498e88ab7d9ac89fd2",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "EIGEN",
+      "pair": "EIGEN/WETH",
+      "address": "0xC2C390c6CD3C4e6c2b70727d35a45e8a072F18cA",
+      "url": "https://dexscreener.com/ethereum/0xc2c390c6cd3c4e6c2b70727d35a45e8a072f18ca",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "EIGEN",
+      "pair": "EIGEN/WETH",
+      "address": "0xc2c390c6cd3c4e6c2b70727d35a45e8a072f18ca",
+      "url": "https://dexscreener.com/ethereum/0xc2c390c6cd3c4e6c2b70727d35a45e8a072f18ca",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "DIA",
+      "pair": "DIA/USDC",
+      "address": "0xA14aFC841a2742Cbd52587b705F00f322309580e",
+      "url": "https://dexscreener.com/ethereum/0xa14afc841a2742cbd52587b705f00f322309580e",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "DIA",
+      "pair": "DIA/WETH",
+      "address": "0xb60b34d830f26c5a11c47ddb1e0a1f31d90a78b1",
+      "url": "https://dexscreener.com/ethereum/0xb60b34d830f26c5a11c47ddb1e0a1f31d90a78b1",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SAFE",
+      "pair": "SAFE/WETH",
+      "address": "0x000ba527862e5b82cff0F7c66b646AF023274aA1",
+      "url": "https://dexscreener.com/ethereum/0x000ba527862e5b82cff0f7c66b646af023274aa1",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SAFE",
+      "pair": "SAFE/WETH",
+      "address": "0x000ba527862e5b82cff0f7c66b646af023274aa1",
+      "url": "https://dexscreener.com/ethereum/0x000ba527862e5b82cff0f7c66b646af023274aa1",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "COW",
+      "pair": "COW/WETH",
+      "address": "0x10Cab08D1490a56bDa21A191C20771fcB5453F54",
+      "url": "https://dexscreener.com/arbitrum/0x10cab08d1490a56bda21a191c20771fcb5453f54",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "COW",
+      "pair": "COW/WETH",
+      "address": "0x10cab08d1490a56bda21a191c20771fcb5453f54",
+      "url": "https://dexscreener.com/arbitrum/0x10cab08d1490a56bda21a191c20771fcb5453f54",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "COW",
+      "pair": "COW/ETH",
+      "address": "0xc54493a23ae7d31ebee8a668f1ebf9fd7046ac98670612cc7d9bafd47c7ed963",
+      "url": "https://dexscreener.com/ethereum/0xc54493a23ae7d31ebee8a668f1ebf9fd7046ac98670612cc7d9bafd47c7ed963",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "COW",
+      "pair": "COW/WETH",
+      "address": "0xfcfdfc98062d13a11cec48c44e4613eb26a34293",
+      "url": "https://dexscreener.com/ethereum/0xfcfdfc98062d13a11cec48c44e4613eb26a34293",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "DEGEN",
+      "pair": "DEGEN/WETH",
+      "address": "0xc9034c3E7F58003E6ae0C8438e7c8f4598d5ACAA",
+      "url": "https://dexscreener.com/base/0xc9034c3e7f58003e6ae0c8438e7c8f4598d5acaa",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "DEGEN",
+      "pair": "DEGEN/WETH",
+      "address": "0xc9034c3e7f58003e6ae0c8438e7c8f4598d5acaa",
+      "url": "https://dexscreener.com/base/0xc9034c3e7f58003e6ae0c8438e7c8f4598d5acaa",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "MORPHO",
+      "pair": "MORPHO/WETH",
+      "address": "0x2f42df4af5312b492e9d7f7b2110d9c7bf2d9e4f",
+      "url": "https://dexscreener.com/base/0x2f42df4af5312b492e9d7f7b2110d9c7bf2d9e4f",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MORPHO",
+      "pair": "MORPHO/ETH",
+      "address": "0xd9f5cbaeb88b7f0d9b0549257ddd4c46f984e2fc4bccf056cc254b9fe3417fff",
+      "url": "https://dexscreener.com/ethereum/0xd9f5cbaeb88b7f0d9b0549257ddd4c46f984e2fc4bccf056cc254b9fe3417fff",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MORPHO",
+      "pair": "MORPHO/WETH",
+      "address": "0xc8219b876753a85025156b22176c2edea17aac53",
+      "url": "https://dexscreener.com/ethereum/0xc8219b876753a85025156b22176c2edea17aac53",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "AERO",
+      "pair": "AERO/WETH",
+      "address": "0x3d5d143381916280ff91407febeb52f2b60f33cf",
+      "url": "https://dexscreener.com/base/0x3d5d143381916280ff91407febeb52f2b60f33cf",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "AERO",
+      "pair": "AERO/WETH",
+      "address": "0x0d5959a52e7004b601f0be70618d01ac3cdce976",
+      "url": "https://dexscreener.com/base/0x0d5959a52e7004b601f0be70618d01ac3cdce976",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ACX",
+      "pair": "ACX/WETH",
+      "address": "0x508acdC358be2ed126B1441F0Cff853dEc49d40F",
+      "url": "https://dexscreener.com/ethereum/0x508acdc358be2ed126b1441f0cff853dec49d40f",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ACX",
+      "pair": "ACX/WETH",
+      "address": "0x508acdc358be2ed126b1441f0cff853dec49d40f",
+      "url": "https://dexscreener.com/ethereum/0x508acdc358be2ed126b1441f0cff853dec49d40f",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "VIRTUAL",
+      "pair": "VIRTUAL/WETH",
+      "address": "0x9c087eb773291e50cf6c6a90ef0f4500e349b903",
+      "url": "https://dexscreener.com/base/0x9c087eb773291e50cf6c6a90ef0f4500e349b903",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "VIRTUAL",
+      "pair": "VIRTUAL/WETH",
+      "address": "0xe31c372a7af875b3b5e0f3713b17ef51556da667",
+      "url": "https://dexscreener.com/base/0xe31c372a7af875b3b5e0f3713b17ef51556da667",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "VIRTUAL",
+      "pair": "VIRTUAL/WETH",
+      "address": "0x1d4dab3f27c7f656b6323c1d6ef713b48a8f72f1",
+      "url": "https://dexscreener.com/base/0x1d4dab3f27c7f656b6323c1d6ef713b48a8f72f1",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SPX",
+      "pair": "SPX/WETH",
+      "address": "0x52c77b0CB827aFbAD022E6d6CAF2C44452eDbc39",
+      "url": "https://dexscreener.com/ethereum/0x52c77b0cb827afbad022e6d6caf2c44452edbc39",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SPX",
+      "pair": "SPX/WETH",
+      "address": "0x52c77b0cb827afbad022e6d6caf2c44452edbc39",
+      "url": "https://dexscreener.com/ethereum/0x52c77b0cb827afbad022e6d6caf2c44452edbc39",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "SPX",
+      "pair": "SPX/WETH",
+      "address": "0xab57cacea9cd5cc1fb21d026ecde71e0d4f33861",
+      "url": "https://dexscreener.com/base/0xab57cacea9cd5cc1fb21d026ecde71e0d4f33861",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "AVA",
+      "pair": "AVA/WETH",
+      "address": "0x41E570fC65d0F9EfE89a6145306E2ba7B8A0fa6B",
+      "url": "https://dexscreener.com/ethereum/0x41e570fc65d0f9efe89a6145306e2ba7b8a0fa6b",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "AVA",
+      "pair": "AVA/WETH",
+      "address": "0x41e570fc65d0f9efe89a6145306e2ba7b8a0fa6b",
+      "url": "https://dexscreener.com/ethereum/0x41e570fc65d0f9efe89a6145306e2ba7b8a0fa6b",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MOCA",
+      "pair": "MOCA/USDT",
+      "address": "0x0b07188b12e3BbA6A680E553E23c4079e98A034b",
+      "url": "https://dexscreener.com/ethereum/0x0b07188b12e3bba6a680e553e23c4079e98a034b",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "VANA",
+      "pair": "VANA/WETH",
+      "address": "0x7F3C5aB7EFF0aC57B9538F88D1558709acb45821",
+      "url": "https://dexscreener.com/ethereum/0x7f3c5ab7eff0ac57b9538f88d1558709acb45821",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "VANA",
+      "pair": "VANA/WETH",
+      "address": "0x7f3c5ab7eff0ac57b9538f88d1558709acb45821",
+      "url": "https://dexscreener.com/ethereum/0x7f3c5ab7eff0ac57b9538f88d1558709acb45821",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "USUAL",
+      "pair": "USUAL/WETH",
+      "address": "0x14154C15fc0fD3f91DE557a1B6FdD2059972Cd0B",
+      "url": "https://dexscreener.com/ethereum/0x14154c15fc0fd3f91de557a1b6fdd2059972cd0b",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "USUAL",
+      "pair": "USUAL/WETH",
+      "address": "0x14154c15fc0fd3f91de557a1b6fdd2059972cd0b",
+      "url": "https://dexscreener.com/ethereum/0x14154c15fc0fd3f91de557a1b6fdd2059972cd0b",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "CGPT",
+      "pair": "CGPT/USDT",
+      "address": "0x7D4e22a6Abbfe86f730b179d2B934c0981712F45",
+      "url": "https://dexscreener.com/ethereum/0x7d4e22a6abbfe86f730b179d2b934c0981712f45",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PHA",
+      "pair": "PHA/WETH",
+      "address": "0x8867f20c1c63bAcCEc7617626254a060eEb0E61e",
+      "url": "https://dexscreener.com/ethereum/0x8867f20c1c63baccec7617626254a060eeb0e61e",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PHA",
+      "pair": "PHA/WETH",
+      "address": "0x8867f20c1c63baccec7617626254a060eeb0e61e",
+      "url": "https://dexscreener.com/ethereum/0x8867f20c1c63baccec7617626254a060eeb0e61e",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "BIO",
+      "pair": "BIO/WETH",
+      "address": "0x052e77018bfb98dc6373c37d757bb1d3fad09ec5",
+      "url": "https://dexscreener.com/base/0x052e77018bfb98dc6373c37d757bb1d3fad09ec5",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BIO",
+      "pair": "BIO/WETH",
+      "address": "0x08A5a1E2671839dADc25e2E20f9206FD33C88092",
+      "url": "https://dexscreener.com/ethereum/0x08a5a1e2671839dadc25e2e20f9206fd33c88092",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BIO",
+      "pair": "BIO/WETH",
+      "address": "0x08a5a1e2671839dadc25e2e20f9206fd33c88092",
+      "url": "https://dexscreener.com/ethereum/0x08a5a1e2671839dadc25e2e20f9206fd33c88092",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PROM",
+      "pair": "PROM/USDT",
+      "address": "0x3902428a74A08a91e2Cb2Fd834De75E69974FE67",
+      "url": "https://dexscreener.com/ethereum/0x3902428a74a08a91e2cb2fd834de75e69974fe67",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "ANIME",
+      "pair": "ANIME/WETH",
+      "address": "0xBBf3209130dF7d19356d72Eb8a193e2D9Ec5c234",
+      "url": "https://dexscreener.com/arbitrum/0xbbf3209130df7d19356d72eb8a193e2d9ec5c234",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "ANIME",
+      "pair": "ANIME/WETH",
+      "address": "0xbbf3209130df7d19356d72eb8a193e2d9ec5c234",
+      "url": "https://dexscreener.com/arbitrum/0xbbf3209130df7d19356d72eb8a193e2d9ec5c234",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ANIME",
+      "pair": "ANIME/WETH",
+      "address": "0x38fA0E36a9Eb335Ca00dbd6d0f203b0Bd72Ce3b6",
+      "url": "https://dexscreener.com/ethereum/0x38fa0e36a9eb335ca00dbd6d0f203b0bd72ce3b6",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ANIME",
+      "pair": "ANIME/WETH",
+      "address": "0x38fa0e36a9eb335ca00dbd6d0f203b0bd72ce3b6",
+      "url": "https://dexscreener.com/ethereum/0x38fa0e36a9eb335ca00dbd6d0f203b0bd72ce3b6",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "RED",
+      "pair": "RED/ETH",
+      "address": "0x8faf0d741d6c7b9d3295621339aada1d6a5b925dcb10f780084d604ec2092c93",
+      "url": "https://dexscreener.com/ethereum/0x8faf0d741d6c7b9d3295621339aada1d6a5b925dcb10f780084d604ec2092c93",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "EPIC",
+      "pair": "EPIC/ETH",
+      "address": "0xec0a57d0ad701e7c54a084f4a69ab633955b6eec9dbef9a7092d78096ff1521b",
+      "url": "https://dexscreener.com/ethereum/0xec0a57d0ad701e7c54a084f4a69ab633955b6eec9dbef9a7092d78096ff1521b",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "base",
+      "asset": "BID",
+      "pair": "BID/WETH",
+      "address": "0x52869a653106cd58805982a47a883874fb351778",
+      "url": "https://dexscreener.com/base/0x52869a653106cd58805982a47a883874fb351778",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PLUME",
+      "pair": "PLUME/USDC",
+      "address": "0xf0cd01da66753629340436cee3b26dc4a7d63cbee01e2f2d7c8230a8210526cc",
+      "url": "https://dexscreener.com/ethereum/0xf0cd01da66753629340436cee3b26dc4a7d63cbee01e2f2d7c8230a8210526cc",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "base",
+      "asset": "PARTI",
+      "pair": "PARTI/WETH",
+      "address": "0x9c42751954513c0461481a9600c9d11A059Ddd12",
+      "url": "https://dexscreener.com/base/0x9c42751954513c0461481a9600c9d11a059ddd12",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "PARTI",
+      "pair": "PARTI/WETH",
+      "address": "0x9c42751954513c0461481a9600c9d11a059ddd12",
+      "url": "https://dexscreener.com/base/0x9c42751954513c0461481a9600c9d11a059ddd12",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MAVIA",
+      "pair": "MAVIA/WETH",
+      "address": "0x6A888fB73f13104473a4BdFb1bEb220aC1eAFda3",
+      "url": "https://dexscreener.com/ethereum/0x6a888fb73f13104473a4bdfb1beb220ac1eafda3",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MAVIA",
+      "pair": "MAVIA/WETH",
+      "address": "0x6a888fb73f13104473a4bdfb1beb220ac1eafda3",
+      "url": "https://dexscreener.com/ethereum/0x6a888fb73f13104473a4bdfb1beb220ac1eafda3",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PAXG",
+      "pair": "PAXG/USDC",
+      "address": "0x5aE13BAAEF0620FdaE1D355495Dc51a17adb4082",
+      "url": "https://dexscreener.com/ethereum/0x5ae13baaef0620fdae1d355495dc51a17adb4082",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PAXG",
+      "pair": "PAXG/WETH",
+      "address": "0x9c4fe5ffd9a9fc5678cfbd93aa2d4fd684b67c4c",
+      "url": "https://dexscreener.com/ethereum/0x9c4fe5ffd9a9fc5678cfbd93aa2d4fd684b67c4c",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "FUN",
+      "pair": "FUN/USDT",
+      "address": "0x747ba49077e00554e47f76dd716006ec3aa6786db984141eac9c8f6c843b624a",
+      "url": "https://dexscreener.com/ethereum/0x747ba49077e00554e47f76dd716006ec3aa6786db984141eac9c8f6c843b624a",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MLN",
+      "pair": "MLN/WETH",
+      "address": "0x15ab0333985FD1E289adF4fBBe19261454776642",
+      "url": "https://dexscreener.com/ethereum/0x15ab0333985fd1e289adf4fbbe19261454776642",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MLN",
+      "pair": "MLN/WETH",
+      "address": "0x15ab0333985fd1e289adf4fbbe19261454776642",
+      "url": "https://dexscreener.com/ethereum/0x15ab0333985fd1e289adf4fbbe19261454776642",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "ATH",
+      "pair": "ATH/WETH",
+      "address": "0x5cbddc44F31067dF328aA7a8Da03aCa6F2EdD2aD",
+      "url": "https://dexscreener.com/arbitrum/0x5cbddc44f31067df328aa7a8da03aca6f2edd2ad",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "ATH",
+      "pair": "ATH/WETH",
+      "address": "0x5cbddc44f31067df328aa7a8da03aca6f2edd2ad",
+      "url": "https://dexscreener.com/arbitrum/0x5cbddc44f31067df328aa7a8da03aca6f2edd2ad",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ATH",
+      "pair": "ATH/WETH",
+      "address": "0xd31d41DfFa3589bB0c0183e46a1eed983a5E5978",
+      "url": "https://dexscreener.com/ethereum/0xd31d41dffa3589bb0c0183e46a1eed983a5e5978",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ATH",
+      "pair": "ATH/WETH",
+      "address": "0xd31d41dffa3589bb0c0183e46a1eed983a5e5978",
+      "url": "https://dexscreener.com/ethereum/0xd31d41dffa3589bb0c0183e46a1eed983a5e5978",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ATH",
+      "pair": "ATH/WETH",
+      "address": "0x8071df1889d60a1c6329ef79976fb1f2e50599af",
+      "url": "https://dexscreener.com/ethereum/0x8071df1889d60a1c6329ef79976fb1f2e50599af",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "FORTH",
+      "pair": "WAMPL/WETH",
+      "address": "0x0c2b6BF7322a3ccEb47c7BA74f2c75a19F530F11",
+      "url": "https://dexscreener.com/ethereum/0x0c2b6bf7322a3cceb47c7ba74f2c75a19f530f11",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "FORTH",
+      "pair": "FORTH/WETH",
+      "address": "0xc1df8037881df17dc88998824b9aea81c71bbb1b",
+      "url": "https://dexscreener.com/ethereum/0xc1df8037881df17dc88998824b9aea81c71bbb1b",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "FORTH",
+      "pair": "AMPL/WETH",
+      "address": "0xc5be99a02c6857f9eac67bbce58df5572498f40c",
+      "url": "https://dexscreener.com/ethereum/0xc5be99a02c6857f9eac67bbce58df5572498f40c",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "FORTH",
+      "pair": "WAMPL/WETH",
+      "address": "0x0c2b6bf7322a3cceb47c7ba74f2c75a19f530f11",
+      "url": "https://dexscreener.com/ethereum/0x0c2b6bf7322a3cceb47c7ba74f2c75a19f530f11",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PROMPT",
+      "pair": "PROMPT/USDC",
+      "address": "0xf7Fd0860922bD3352E2DBAf725A182b74bf7A2e1",
+      "url": "https://dexscreener.com/ethereum/0xf7fd0860922bd3352e2dbaf725a182b74bf7a2e1",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "XCN",
+      "pair": "XCN/USDC",
+      "address": "0xcF307083dBf8B68Be7F4bc24B0bc0d3BF79bfb54",
+      "url": "https://dexscreener.com/base/0xcf307083dbf8b68be7f4bc24b0bc0d3bf79bfb54",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "XCN",
+      "pair": "XCN/WETH",
+      "address": "0x859f7092f56c43BB48bb46dE7119d9c799716CDF",
+      "url": "https://dexscreener.com/ethereum/0x859f7092f56c43bb48bb46de7119d9c799716cdf",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "XCN",
+      "pair": "XCN/WETH",
+      "address": "0x859f7092f56c43bb48bb46de7119d9c799716cdf",
+      "url": "https://dexscreener.com/ethereum/0x859f7092f56c43bb48bb46de7119d9c799716cdf",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "optimism",
+      "asset": "WCT",
+      "pair": "WCT/WETH",
+      "address": "0x7de4c593fe83417ca6ef98d7cf59c99d304f41c9",
+      "url": "https://dexscreener.com/optimism/0x7de4c593fe83417ca6ef98d7cf59c99d304f41c9",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "WCT",
+      "pair": "WCT/WETH",
+      "address": "0x8bDEf1a57652F4cc24Be447732b7F1484c7C41eA",
+      "url": "https://dexscreener.com/ethereum/0x8bdef1a57652f4cc24be447732b7f1484c7c41ea",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "WCT",
+      "pair": "WCT/WETH",
+      "address": "0x8bdef1a57652f4cc24be447732b7f1484c7c41ea",
+      "url": "https://dexscreener.com/ethereum/0x8bdef1a57652f4cc24be447732b7f1484c7c41ea",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "FIS",
+      "pair": "FIS/WETH",
+      "address": "0x6DA6C5c7EB4D840049f51BA1A79Ac8CAF3009466",
+      "url": "https://dexscreener.com/ethereum/0x6da6c5c7eb4d840049f51ba1a79ac8caf3009466",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "FIS",
+      "pair": "FIS/WETH",
+      "address": "0x6da6c5c7eb4d840049f51ba1a79ac8caf3009466",
+      "url": "https://dexscreener.com/ethereum/0x6da6c5c7eb4d840049f51ba1a79ac8caf3009466",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "DOLO",
+      "pair": "DOLO/USDC",
+      "address": "0x003896387666C5c11458EEb3F927B72a11b19783",
+      "url": "https://dexscreener.com/ethereum/0x003896387666c5c11458eeb3f927b72a11b19783",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SXT",
+      "pair": "SXT/USDT",
+      "address": "0x20c42D3513e9E7fafFf82173AA5327f02D5163e3",
+      "url": "https://dexscreener.com/ethereum/0x20c42d3513e9e7fafff82173aa5327f02d5163e3",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SYRUP",
+      "pair": "SYRUP/WETH",
+      "address": "0x3150B450F8325ac4AFbfA52f33EcF00232F1294E",
+      "url": "https://dexscreener.com/ethereum/0x3150b450f8325ac4afbfa52f33ecf00232f1294e",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SYRUP",
+      "pair": "SYRUP/WETH",
+      "address": "0x27941a235804f33d81adabb2d56589c5f6ea6556",
+      "url": "https://dexscreener.com/ethereum/0x27941a235804f33d81adabb2d56589c5f6ea6556",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SYRUP",
+      "pair": "SYRUP/WETH",
+      "address": "0x3150b450f8325ac4afbfa52f33ecf00232f1294e",
+      "url": "https://dexscreener.com/ethereum/0x3150b450f8325ac4afbfa52f33ecf00232f1294e",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "OBOL",
+      "pair": "OBOL/WETH",
+      "address": "0x57F52C9faa6D40c5163D76b8D7dD81ddB7c95434",
+      "url": "https://dexscreener.com/ethereum/0x57f52c9faa6d40c5163d76b8d7dd81ddb7c95434",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "OBOL",
+      "pair": "OBOL/WETH",
+      "address": "0x57f52c9faa6d40c5163d76b8d7dd81ddb7c95434",
+      "url": "https://dexscreener.com/ethereum/0x57f52c9faa6d40c5163d76b8d7dd81ddb7c95434",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SOPH",
+      "pair": "SOPH/WETH",
+      "address": "0xC511FF68aE3A1379e8eF3F599F88559c9eC77D9c",
+      "url": "https://dexscreener.com/ethereum/0xc511ff68ae3a1379e8ef3f599f88559c9ec77d9c",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SOPH",
+      "pair": "SOPH/WETH",
+      "address": "0xc511ff68ae3a1379e8ef3f599f88559c9ec77d9c",
+      "url": "https://dexscreener.com/ethereum/0xc511ff68ae3a1379e8ef3f599f88559c9ec77d9c",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SOPH",
+      "pair": "SOPH/WETH",
+      "address": "0x9dd361cf608bcacdc21effd2273c60afe2df3637",
+      "url": "https://dexscreener.com/ethereum/0x9dd361cf608bcacdc21effd2273c60afe2df3637",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PUFFER",
+      "pair": "PUFFER/WETH",
+      "address": "0xc5c9a9AB6403CDBa9722463000146C18b504F0bA",
+      "url": "https://dexscreener.com/ethereum/0xc5c9a9ab6403cdba9722463000146c18b504f0ba",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PUFFER",
+      "pair": "PUFFER/WETH",
+      "address": "0xc5c9a9ab6403cdba9722463000146c18b504f0ba",
+      "url": "https://dexscreener.com/ethereum/0xc5c9a9ab6403cdba9722463000146c18b504f0ba",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "RESOLV",
+      "pair": "RESOLV/USR",
+      "address": "0x3e386dB445EBB088E2afdbb8951f8413D18d963f",
+      "url": "https://dexscreener.com/ethereum/0x3e386db445ebb088e2afdbb8951f8413d18d963f",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SPK",
+      "pair": "SPK/USDC",
+      "address": "0x76665642F513aAf2A00bE05711A598F44e3970A7",
+      "url": "https://dexscreener.com/ethereum/0x76665642f513aaf2a00be05711a598f44e3970a7",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "NEWT",
+      "pair": "NEWT/USDC",
+      "address": "0xb75c64e5f402d2073d9bab8fb1d4b958146ffa8958a1775ab7f6f402ec321129",
+      "url": "https://dexscreener.com/ethereum/0xb75c64e5f402d2073d9bab8fb1d4b958146ffa8958a1775ab7f6f402ec321129",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "base",
+      "asset": "ICNT",
+      "pair": "ICNT/USDC",
+      "address": "0x9331F571F79d1E186a095C93756b5680a43932AC",
+      "url": "https://dexscreener.com/base/0x9331f571f79d1e186a095c93756b5680a43932ac",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "TANSSI",
+      "pair": "TANSSI/USDC",
+      "address": "0x8a35bB1120531628dAC4a2c80ceDFBf38a3e0b38",
+      "url": "https://dexscreener.com/ethereum/0x8a35bb1120531628dac4a2c80cedfbf38a3e0b38",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ERA",
+      "pair": "ERA/USDT",
+      "address": "0x4D63DA0421AB1D71FBF2A3d3c8625a66d9b9799d",
+      "url": "https://dexscreener.com/ethereum/0x4d63da0421ab1d71fbf2a3d3c8625a66d9b9799d",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "CVX",
+      "pair": "CVX/WETH",
+      "address": "0x2e4784446a0a06df3d1a040b03e1680ee266c35a",
+      "url": "https://dexscreener.com/ethereum/0x2e4784446a0a06df3d1a040b03e1680ee266c35a",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "ZORA",
+      "pair": "ZORA/USDC",
+      "address": "0xEdc625B74537eE3a10874f53D170E9c17A906B9c",
+      "url": "https://dexscreener.com/base/0xedc625b74537ee3a10874f53d170e9c17a906b9c",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "ZORA",
+      "pair": "ZORA/WETH",
+      "address": "0xa0ca5bebc42cdbf3623b1c09206ae4e3975b0fc7",
+      "url": "https://dexscreener.com/base/0xa0ca5bebc42cdbf3623b1c09206ae4e3975b0fc7",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ZRC",
+      "pair": "ZRC/WETH",
+      "address": "0x269A70a223F215f31acd4D91F52a3ef99113475E",
+      "url": "https://dexscreener.com/ethereum/0x269a70a223f215f31acd4d91f52a3ef99113475e",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ZRC",
+      "pair": "ZRC/WETH",
+      "address": "0x269a70a223f215f31acd4d91f52a3ef99113475e",
+      "url": "https://dexscreener.com/ethereum/0x269a70a223f215f31acd4d91f52a3ef99113475e",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "TREE",
+      "pair": "TREE/USDC",
+      "address": "0x63f5342442628ded4f084f6ba32bcec4f6ae3bf45c43c5834704b4beb903eea2",
+      "url": "https://dexscreener.com/ethereum/0x63f5342442628ded4f084f6ba32bcec4f6ae3bf45c43c5834704b4beb903eea2",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "TREE",
+      "pair": "TREE/WETH",
+      "address": "0xdc75e957e13487224c273fba04b2a4cf9a325a57",
+      "url": "https://dexscreener.com/ethereum/0xdc75e957e13487224c273fba04b2a4cf9a325a57",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "bsc",
+      "asset": "PLAY",
+      "pair": "PLAY/WBNB",
+      "address": "0x2c708c6ba7dcc79bf781224018ce355eb4b4c3fd",
+      "url": "https://dexscreener.com/bsc/0x2c708c6ba7dcc79bf781224018ce355eb4b4c3fd",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "TOWNS",
+      "pair": "TOWNS/ETH",
+      "address": "0xfad2469b92c68806df21ae007513fd10af984c386c097f1ae4e2f0aa3d953e0b",
+      "url": "https://dexscreener.com/base/0xfad2469b92c68806df21ae007513fd10af984c386c097f1ae4e2f0aa3d953e0b",
+      "version": "v4_pool_id",
+      "checks": {},
+      "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "WLFI",
+      "pair": "WLFI/WETH",
+      "address": "0xcdF9F50519Eb0a9995730DDB6e7d3A8B1D8fFA07",
+      "url": "https://dexscreener.com/ethereum/0xcdf9f50519eb0a9995730ddb6e7d3a8b1d8ffa07",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "WLFI",
+      "pair": "WLFI/WETH",
+      "address": "0xcdf9f50519eb0a9995730ddb6e7d3a8b1d8ffa07",
+      "url": "https://dexscreener.com/ethereum/0xcdf9f50519eb0a9995730ddb6e7d3a8b1d8ffa07",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "LINEA",
+      "pair": "LINEA/USDC",
+      "address": "0xc6360A062aD0cEB937198a6E23FE33494F9c80a8",
+      "url": "https://dexscreener.com/ethereum/0xc6360a062ad0ceb937198a6e23fe33494f9c80a8",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "FLOCK",
+      "pair": "FLOCK/WETH",
+      "address": "0x15aeda0387ebef5fd8300560010de83780477147",
+      "url": "https://dexscreener.com/base/0x15aeda0387ebef5fd8300560010de83780477147",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SKY",
+      "pair": "SKY/WETH",
+      "address": "0x764510aB1d39CF300e7abe8F5B8977D18F290628",
+      "url": "https://dexscreener.com/ethereum/0x764510ab1d39cf300e7abe8f5b8977d18f290628",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SKY",
+      "pair": "SKY/WETH",
+      "address": "0x764510ab1d39cf300e7abe8f5b8977d18f290628",
+      "url": "https://dexscreener.com/ethereum/0x764510ab1d39cf300e7abe8f5b8977d18f290628",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SKY",
+      "pair": "SKY/WETH",
+      "address": "0xda99f4f2fe926b90f07f5f4eb0ce773f7173c6a0",
+      "url": "https://dexscreener.com/ethereum/0xda99f4f2fe926b90f07f5f4eb0ce773f7173c6a0",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "AVNT",
+      "pair": "AVNT/WETH",
+      "address": "0x04f0c5d0e2fc9329f08e0112a37d7d9b7cff1043",
+      "url": "https://dexscreener.com/base/0x04f0c5d0e2fc9329f08e0112a37d7d9b7cff1043",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SHIB",
+      "pair": "SHIB/WETH",
+      "address": "0x2F62f2B4c5fcd7570a709DeC05D68EA19c82A9ec",
+      "url": "https://dexscreener.com/ethereum/0x2f62f2b4c5fcd7570a709dec05d68ea19c82a9ec",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SHIB",
+      "pair": "SHIB/WETH",
+      "address": "0x811beed0119b4afce20d2583eb608c6f7af1954f",
+      "url": "https://dexscreener.com/ethereum/0x811beed0119b4afce20d2583eb608c6f7af1954f",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "AUDIO",
+      "pair": "AUDIO/WETH",
+      "address": "0xC730EF0f4973DA9cC0aB8Ab291890D3e77f58F79",
+      "url": "https://dexscreener.com/ethereum/0xc730ef0f4973da9cc0ab8ab291890d3e77f58f79",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "AUDIO",
+      "pair": "AUDIO/WETH",
+      "address": "0xc730ef0f4973da9cc0ab8ab291890d3e77f58f79",
+      "url": "https://dexscreener.com/ethereum/0xc730ef0f4973da9cc0ab8ab291890d3e77f58f79",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "FLOKI",
+      "pair": "FLOKI/WETH",
+      "address": "0xca7c2771D248dCBe09EABE0CE57A62e18dA178c0",
+      "url": "https://dexscreener.com/ethereum/0xca7c2771d248dcbe09eabe0ce57a62e18da178c0",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "FLOKI",
+      "pair": "FLOKI/WETH",
+      "address": "0xca7c2771d248dcbe09eabe0ce57a62e18da178c0",
+      "url": "https://dexscreener.com/ethereum/0xca7c2771d248dcbe09eabe0ce57a62e18da178c0",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PEPE",
+      "pair": "PEPE/WETH",
+      "address": "0xA43fe16908251ee70EF74718545e4FE6C5cCEc9f",
+      "url": "https://dexscreener.com/ethereum/0xa43fe16908251ee70ef74718545e4fe6c5ccec9f",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PEPE",
+      "pair": "PEPE/WETH",
+      "address": "0xa43fe16908251ee70ef74718545e4fe6c5ccec9f",
+      "url": "https://dexscreener.com/ethereum/0xa43fe16908251ee70ef74718545e4fe6c5ccec9f",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "PEPE",
+      "pair": "PEPE/WETH",
+      "address": "0x1944ac04bd9fed9a2bcdb38b70c35949c864ec35",
+      "url": "https://dexscreener.com/arbitrum/0x1944ac04bd9fed9a2bcdb38b70c35949c864ec35",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "TONCOIN",
+      "pair": "TONCOIN/WETH",
+      "address": "0x4b62Fa30Fea125e43780DC425C2BE5acb4BA743b",
+      "url": "https://dexscreener.com/ethereum/0x4b62fa30fea125e43780dc425c2be5acb4ba743b",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "TONCOIN",
+      "pair": "TONCOIN/WETH",
+      "address": "0x4b62fa30fea125e43780dc425c2be5acb4ba743b",
+      "url": "https://dexscreener.com/ethereum/0x4b62fa30fea125e43780dc425c2be5acb4ba743b",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MEMECOIN",
+      "pair": "MEME/WETH",
+      "address": "0x70cF99553471FE6C0d513ebFac8aCC55BA02ab7B",
+      "url": "https://dexscreener.com/ethereum/0x70cf99553471fe6c0d513ebfac8acc55ba02ab7b",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MEMECOIN",
+      "pair": "MEME/WETH",
+      "address": "0x70cf99553471fe6c0d513ebfac8acc55ba02ab7b",
+      "url": "https://dexscreener.com/ethereum/0x70cf99553471fe6c0d513ebfac8acc55ba02ab7b",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BEAM",
+      "pair": "BEAM/WETH",
+      "address": "0x180EFC1349A69390aDE25667487a826164C9c6E4",
+      "url": "https://dexscreener.com/ethereum/0x180efc1349a69390ade25667487a826164c9c6e4",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BEAM",
+      "pair": "BEAM/WETH",
+      "address": "0x180efc1349a69390ade25667487a826164c9c6e4",
+      "url": "https://dexscreener.com/ethereum/0x180efc1349a69390ade25667487a826164c9c6e4",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BEAM",
+      "pair": "BEAM/WETH",
+      "address": "0x318fbee0a0d60e5de7009864632ceda8d77489b8",
+      "url": "https://dexscreener.com/ethereum/0x318fbee0a0d60e5de7009864632ceda8d77489b8",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ZKSYNC",
+      "pair": "ZK/WETH",
+      "address": "0x8F7901A64c62602B6546Bd5ECE22a10911aDD6e2",
+      "url": "https://dexscreener.com/ethereum/0x8f7901a64c62602b6546bd5ece22a10911add6e2",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ZKSYNC",
+      "pair": "ZK/WETH",
+      "address": "0x8f7901a64c62602b6546bd5ece22a10911add6e2",
+      "url": "https://dexscreener.com/ethereum/0x8f7901a64c62602b6546bd5ece22a10911add6e2",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BGB",
+      "pair": "BGB/WETH",
+      "address": "0x7fd91C569F66bA7EDA9b72454e879c206c44c0E1",
+      "url": "https://dexscreener.com/ethereum/0x7fd91c569f66ba7eda9b72454e879c206c44c0e1",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BGB",
+      "pair": "BGB/WETH",
+      "address": "0x7fd91c569f66ba7eda9b72454e879c206c44c0e1",
+      "url": "https://dexscreener.com/ethereum/0x7fd91c569f66ba7eda9b72454e879c206c44c0e1",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "AVAIL",
+      "pair": "AVAIL/USDC",
+      "address": "0xE71F731C2b76B145354A2BD9e8216F7B0e40D555",
+      "url": "https://dexscreener.com/ethereum/0xe71f731c2b76b145354a2bd9e8216f7b0e40d555",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SWEAT",
+      "pair": "SWEAT/USDC",
+      "address": "0xAaE63Df9A86f9A682507C922db38faE5e777A606",
+      "url": "https://dexscreener.com/ethereum/0xaae63df9a86f9a682507c922db38fae5e777a606",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "CRO",
+      "pair": "CRO/WETH",
+      "address": "0x87b1d1b59725209879cc5c5adeb99d8bc9eccf12",
+      "url": "https://dexscreener.com/ethereum/0x87b1d1b59725209879cc5c5adeb99d8bc9eccf12",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "bsc",
+      "asset": "VELO",
+      "pair": "VELO/WBNB",
+      "address": "0xb1a1b707b143b911c36e1a0f4f901c5017791aca",
+      "url": "https://dexscreener.com/bsc/0xb1a1b707b143b911c36e1a0f4f901c5017791aca",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "FUEL",
+      "pair": "FUEL/WETH",
+      "address": "0xC7eC87AEB9D1129C42123859220C525aBa1ca617",
+      "url": "https://dexscreener.com/ethereum/0xc7ec87aeb9d1129c42123859220c525aba1ca617",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "FUEL",
+      "pair": "FUEL/WETH",
+      "address": "0xc7ec87aeb9d1129c42123859220c525aba1ca617",
+      "url": "https://dexscreener.com/ethereum/0xc7ec87aeb9d1129c42123859220c525aba1ca617",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "TOSHI",
+      "pair": "TOSHI/WETH",
+      "address": "0x4b0aaf3ebb163dd45f663b38b6d93f6093ebc2d3",
+      "url": "https://dexscreener.com/base/0x4b0aaf3ebb163dd45f663b38b6d93f6093ebc2d3",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "TOSHI",
+      "pair": "TOSHI/WETH",
+      "address": "0x5aa4ad647580bfe86258d300bc9852f4434e2c61",
+      "url": "https://dexscreener.com/base/0x5aa4ad647580bfe86258d300bc9852f4434e2c61",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "AIOZ",
+      "pair": "AIOZ/WETH",
+      "address": "0x2a0330c7e979a4d18e5b0c987b877da24dd37d04",
+      "url": "https://dexscreener.com/ethereum/0x2a0330c7e979a4d18e5b0c987b877da24dd37d04",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ELX",
+      "pair": "ELX/WETH",
+      "address": "0xC979f885F3De74EA98B40C108bb93c2eb84b14ED",
+      "url": "https://dexscreener.com/ethereum/0xc979f885f3de74ea98b40c108bb93c2eb84b14ed",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ELX",
+      "pair": "ELX/WETH",
+      "address": "0xc979f885f3de74ea98b40c108bb93c2eb84b14ed",
+      "url": "https://dexscreener.com/ethereum/0xc979f885f3de74ea98b40c108bb93c2eb84b14ed",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "RSS3",
+      "pair": "RSS3/WETH",
+      "address": "0xd04d14D2F9122372e41D2dE9a82f721E9Ea2F069",
+      "url": "https://dexscreener.com/ethereum/0xd04d14d2f9122372e41d2de9a82f721e9ea2f069",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "RSS3",
+      "pair": "RSS3/WETH",
+      "address": "0xd04d14d2f9122372e41d2de9a82f721e9ea2f069",
+      "url": "https://dexscreener.com/ethereum/0xd04d14d2f9122372e41d2de9a82f721e9ea2f069",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "XAUT",
+      "pair": "XAUt/USDT",
+      "address": "0x6546055f46e866a4B9a4A13e81273e3152BAE5dA",
+      "url": "https://dexscreener.com/ethereum/0x6546055f46e866a4b9a4a13e81273e3152bae5da",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "XAUT",
+      "pair": "XAUt/WBTC",
+      "address": "0xe8a1f39c16eea2844e98f951d711bb4bb31557ad",
+      "url": "https://dexscreener.com/ethereum/0xe8a1f39c16eea2844e98f951d711bb4bb31557ad",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "AMP",
+      "pair": "AMP/WETH",
+      "address": "0x08650bb9dc722C9c8C62E79C2BAfA2d3fc5B3293",
+      "url": "https://dexscreener.com/ethereum/0x08650bb9dc722c9c8c62e79c2bafa2d3fc5b3293",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "AMP",
+      "pair": "AMP/WETH",
+      "address": "0x08650bb9dc722c9c8c62e79c2bafa2d3fc5b3293",
+      "url": "https://dexscreener.com/ethereum/0x08650bb9dc722c9c8c62e79c2bafa2d3fc5b3293",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ES",
+      "pair": "ES/WETH",
+      "address": "0x10c4E72abd373295e613e3D2C2C5067d33a0e4a8",
+      "url": "https://dexscreener.com/ethereum/0x10c4e72abd373295e613e3d2c2c5067d33a0e4a8",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ES",
+      "pair": "ES/WETH",
+      "address": "0x10c4e72abd373295e613e3d2c2c5067d33a0e4a8",
+      "url": "https://dexscreener.com/ethereum/0x10c4e72abd373295e613e3d2c2c5067d33a0e4a8",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SD",
+      "pair": "SD/USDC",
+      "address": "0xc72AbB13B6BDfA64770cb5B1F57Bebd36a91A29E",
+      "url": "https://dexscreener.com/ethereum/0xc72abb13b6bdfa64770cb5b1f57bebd36a91a29e",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MOG",
+      "pair": "Mog/WETH",
+      "address": "0xc2eaB7d33d3cB97692eCB231A5D0e4A649Cb539d",
+      "url": "https://dexscreener.com/ethereum/0xc2eab7d33d3cb97692ecb231a5d0e4a649cb539d",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MOG",
+      "pair": "Mog/WETH",
+      "address": "0xc2eab7d33d3cb97692ecb231a5d0e4a649cb539d",
+      "url": "https://dexscreener.com/ethereum/0xc2eab7d33d3cb97692ecb231a5d0e4a649cb539d",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MOG",
+      "pair": "Mog/WETH",
+      "address": "0x7832310cd0de39c4ce0a635f34d9a4b5b47fd434",
+      "url": "https://dexscreener.com/ethereum/0x7832310cd0de39c4ce0a635f34d9a4b5b47fd434",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BTT",
+      "pair": "BTT/WETH",
+      "address": "0x2D0BA902baDAA82592f0E1C04c71d66ceA21D921",
+      "url": "https://dexscreener.com/ethereum/0x2d0ba902badaa82592f0e1c04c71d66cea21d921",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BTT",
+      "pair": "BTT/WETH",
+      "address": "0x2d0ba902badaa82592f0e1c04c71d66cea21d921",
+      "url": "https://dexscreener.com/ethereum/0x2d0ba902badaa82592f0e1c04c71d66cea21d921",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "A8",
+      "pair": "A8/USDT",
+      "address": "0x0E59f2CfDA2bB2e7feE10278dD2016a2e4311d72",
+      "url": "https://dexscreener.com/ethereum/0x0e59f2cfda2bb2e7fee10278dd2016a2e4311d72",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "A8",
+      "pair": "eMDR/WETH",
+      "address": "0xc3dc20a8ed888c21205c225aef9a15f772985011",
+      "url": "https://dexscreener.com/ethereum/0xc3dc20a8ed888c21205c225aef9a15f772985011",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "A8",
+      "pair": "VALYR/WETH",
+      "address": "0x32e6325aae8576351bd871b9d1283cfc66ce1655",
+      "url": "https://dexscreener.com/ethereum/0x32e6325aae8576351bd871b9d1283cfc66ce1655",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "A8",
+      "pair": "TRWA/WETH",
+      "address": "0xd9848413a0569359e4a1a7adce7d270badc6c3e9",
+      "url": "https://dexscreener.com/ethereum/0xd9848413a0569359e4a1a7adce7d270badc6c3e9",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BOBA",
+      "pair": "BOBA/WETH",
+      "address": "0x256bD88baf707EAaD1B73Dc8B2b8a5D599B45584",
+      "url": "https://dexscreener.com/ethereum/0x256bd88baf707eaad1b73dc8b2b8a5d599b45584",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BOBA",
+      "pair": "BOBA/WETH",
+      "address": "0x256bd88baf707eaad1b73dc8b2b8a5d599b45584",
+      "url": "https://dexscreener.com/ethereum/0x256bd88baf707eaad1b73dc8b2b8a5d599b45584",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "CLANKER",
+      "pair": "CLANKER/WETH",
+      "address": "0xc1a6fbedae68e1472dbb91fe29b51f7a0bd44f97",
+      "url": "https://dexscreener.com/base/0xc1a6fbedae68e1472dbb91fe29b51f7a0bd44f97",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "CLANKER",
+      "pair": "CLANKER/WETH",
+      "address": "0x75fb62aa7d072a6a96692b207278a760e5df42cc",
+      "url": "https://dexscreener.com/base/0x75fb62aa7d072a6a96692b207278a760e5df42cc",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "CPOOL",
+      "pair": "CPOOL/USDC",
+      "address": "0x81AEE07F99be78d88881Fa6D98FEFF7555113635",
+      "url": "https://dexscreener.com/ethereum/0x81aee07f99be78d88881fa6d98feff7555113635",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "CPOOL",
+      "pair": "CPOOL/WETH",
+      "address": "0xcb488b8452996454237d824d72f86090470292f4",
+      "url": "https://dexscreener.com/ethereum/0xcb488b8452996454237d824d72f86090470292f4",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "DODO",
+      "pair": "DODO/WETH",
+      "address": "0x68Fa181c720C07B7FF7412220E2431ce90A65A14",
+      "url": "https://dexscreener.com/ethereum/0x68fa181c720c07b7ff7412220e2431ce90a65a14",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "DODO",
+      "pair": "DODO/WETH",
+      "address": "0xb41e4e74c8bef3bae8b30fce3ebb822f824cd0df",
+      "url": "https://dexscreener.com/ethereum/0xb41e4e74c8bef3bae8b30fce3ebb822f824cd0df",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "DODO",
+      "pair": "DODO/WETH",
+      "address": "0x68fa181c720c07b7ff7412220e2431ce90a65a14",
+      "url": "https://dexscreener.com/ethereum/0x68fa181c720c07b7ff7412220e2431ce90a65a14",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MNT",
+      "pair": "MNT/USDe",
+      "address": "0x9Aac67dEeF711D438AD711Ae495B8CB43a6eE1A8",
+      "url": "https://dexscreener.com/ethereum/0x9aac67deef711d438ad711ae495b8cb43a6ee1a8",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MYRIA",
+      "pair": "MYRIA/WETH",
+      "address": "0xbf85f94D3233Ee588F0907A9147FBB59d7246b54",
+      "url": "https://dexscreener.com/ethereum/0xbf85f94d3233ee588f0907a9147fbb59d7246b54",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MYRIA",
+      "pair": "MYRIA/WETH",
+      "address": "0xbf85f94d3233ee588f0907a9147fbb59d7246b54",
+      "url": "https://dexscreener.com/ethereum/0xbf85f94d3233ee588f0907a9147fbb59d7246b54",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PRIME",
+      "pair": "PRIME/WETH",
+      "address": "0x16588709ca8f7B84829B43cC1c5cb7e84a321b16",
+      "url": "https://dexscreener.com/ethereum/0x16588709ca8f7b84829b43cc1c5cb7e84a321b16",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PRIME",
+      "pair": "PRIME/WETH",
+      "address": "0x16588709ca8f7b84829b43cc1c5cb7e84a321b16",
+      "url": "https://dexscreener.com/ethereum/0x16588709ca8f7b84829b43cc1c5cb7e84a321b16",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PRIME",
+      "pair": "PRIME/WETH",
+      "address": "0xcd423f3ab39a11ff1d9208b7d37df56e902c932b",
+      "url": "https://dexscreener.com/ethereum/0xcd423f3ab39a11ff1d9208b7d37df56e902c932b",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "PRIME",
+      "pair": "PRIME/WETH",
+      "address": "0x0c8fed5dd65542ca5f0add1acab14c2e470c9110",
+      "url": "https://dexscreener.com/base/0x0c8fed5dd65542ca5f0add1acab14c2e470c9110",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SPEC",
+      "pair": "SPEC/WETH",
+      "address": "0xacDA7e4d5025Ee4DD87D2Ff75eCf6d69e921CEE3",
+      "url": "https://dexscreener.com/ethereum/0xacda7e4d5025ee4dd87d2ff75ecf6d69e921cee3",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SPEC",
+      "pair": "SPEC/WETH",
+      "address": "0xacda7e4d5025ee4dd87d2ff75ecf6d69e921cee3",
+      "url": "https://dexscreener.com/ethereum/0xacda7e4d5025ee4dd87d2ff75ecf6d69e921cee3",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "SPEC",
+      "pair": "SPEC/WETH",
+      "address": "0x8055e6de251e414e8393b20AdAb096AfB3cF8399",
+      "url": "https://dexscreener.com/base/0x8055e6de251e414e8393b20adab096afb3cf8399",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "SPEC",
+      "pair": "SPEC/WETH",
+      "address": "0x8055e6de251e414e8393b20adab096afb3cf8399",
+      "url": "https://dexscreener.com/base/0x8055e6de251e414e8393b20adab096afb3cf8399",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "USD1",
+      "pair": "USD1/WLFI",
+      "address": "0x4637Ea6eCf7E16C99E67E941ab4d7d52eAc7c73d",
+      "url": "https://dexscreener.com/ethereum/0x4637ea6ecf7e16c99e67e941ab4d7d52eac7c73d",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "USD1",
+      "pair": "USD1/WETH",
+      "address": "0xef530078320f3a9223661e2fe37001023048a7df",
+      "url": "https://dexscreener.com/ethereum/0xef530078320f3a9223661e2fe37001023048a7df",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "avalanche",
+      "asset": "USDE",
+      "pair": "USDe/USDt",
+      "address": "0xE04b2344211942751334E848f717a27a10eb8c45",
+      "url": "https://dexscreener.com/avalanche/0xe04b2344211942751334e848f717a27a10eb8c45",
+      "version": "v3",
+      "checks": {
+        "slot0": "0x0000000000000000000000000000000000000000000010c6c889681dd8273f18fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbc89b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "USDE",
+      "pair": "USDe/USDC",
+      "address": "0xE6D7EbB9f1a9519dc06D557e03C522d53520e76A",
+      "url": "https://dexscreener.com/ethereum/0xe6d7ebb9f1a9519dc06d557e03c522d53520e76a",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "VIRT",
+      "pair": "VIRTUAL/WETH",
+      "address": "0x9c087eb773291e50cf6c6a90ef0f4500e349b903",
+      "url": "https://dexscreener.com/base/0x9c087eb773291e50cf6c6a90ef0f4500e349b903",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "base",
+      "asset": "VIRT",
+      "pair": "VIRTUAL/WETH",
+      "address": "0xe31c372a7af875b3b5e0f3713b17ef51556da667",
+      "url": "https://dexscreener.com/base/0xe31c372a7af875b3b5e0f3713b17ef51556da667",
+      "version": "unknown",
+      "checks": {
+        "slot0": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration",
+        "getReserves": "You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ZENT",
+      "pair": "ZENT/WETH",
+      "address": "0x4eEFe02FcE5B53Ca33C7717BBD8Ad3C9Cb0609f1",
+      "url": "https://dexscreener.com/ethereum/0x4eefe02fce5b53ca33c7717bbd8ad3c9cb0609f1",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ZENT",
+      "pair": "ZENT/WETH",
+      "address": "0x4eefe02fce5b53ca33c7717bbd8ad3c9cb0609f1",
+      "url": "https://dexscreener.com/ethereum/0x4eefe02fce5b53ca33c7717bbd8ad3c9cb0609f1",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "VRA",
+      "pair": "VRA/WETH",
+      "address": "0x60031819a16266d896268cfEa5d5be0b6c2B5D75",
+      "url": "https://dexscreener.com/ethereum/0x60031819a16266d896268cfea5d5be0b6c2b5d75",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    },
+    {
+      "chain": "ethereum",
+      "asset": "VRA",
+      "pair": "VRA/WETH",
+      "address": "0x60031819a16266d896268cfea5d5be0b6c2b5d75",
+      "url": "https://dexscreener.com/ethereum/0x60031819a16266d896268cfea5d5be0b6c2b5d75",
+      "version": "unknown",
+      "checks": {
+        "slot0": "Missing/Invalid API Key",
+        "getReserves": "Missing/Invalid API Key"
+      }
+    }
+  ]
+}

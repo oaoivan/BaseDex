@@ -1,0 +1,326 @@
+[
+  {
+    "exchange": "uniswap",
+    "count": 300
+  },
+  {
+    "exchange": "pancakeswap",
+    "count": 246
+  },
+  {
+    "exchange": "raydium",
+    "count": 69
+  },
+  {
+    "exchange": "aerodrome",
+    "count": 58
+  },
+  {
+    "exchange": "sushiswap",
+    "count": 28
+  },
+  {
+    "exchange": "meteora",
+    "count": 19
+  },
+  {
+    "exchange": "velodrome",
+    "count": 14
+  },
+  {
+    "exchange": "vvsfinance",
+    "count": 13
+  },
+  {
+    "exchange": "orca",
+    "count": 13
+  },
+  {
+    "exchange": "balancer",
+    "count": 12
+  },
+  {
+    "exchange": "quickswap",
+    "count": 11
+  },
+  {
+    "exchange": "traderjoe",
+    "count": 10
+  },
+  {
+    "exchange": "thena",
+    "count": 10
+  },
+  {
+    "exchange": "biswap",
+    "count": 9
+  },
+  {
+    "exchange": "camelot",
+    "count": 9
+  },
+  {
+    "exchange": "pumpswap",
+    "count": 8
+  },
+  {
+    "exchange": "cetus",
+    "count": 7
+  },
+  {
+    "exchange": "sunswap",
+    "count": 5
+  },
+  {
+    "exchange": "rhea-finance",
+    "count": 5
+  },
+  {
+    "exchange": "kodiak",
+    "count": 5
+  },
+  {
+    "exchange": "syncswap",
+    "count": 5
+  },
+  {
+    "exchange": "xrpl",
+    "count": 4
+  },
+  {
+    "exchange": "blackhole",
+    "count": 4
+  },
+  {
+    "exchange": "stonfi",
+    "count": 4
+  },
+  {
+    "exchange": "swappi",
+    "count": 3
+  },
+  {
+    "exchange": "unchain-x",
+    "count": 3
+  },
+  {
+    "exchange": "apeswap",
+    "count": 3
+  },
+  {
+    "exchange": "squadswap",
+    "count": 3
+  },
+  {
+    "exchange": "curve",
+    "count": 3
+  },
+  {
+    "exchange": "abstractswap",
+    "count": 3
+  },
+  {
+    "exchange": "0x1d25AF2b0992bf227b350860Ea80Bad47382CAf6",
+    "count": 3
+  },
+  {
+    "exchange": "merlinswap",
+    "count": 3
+  },
+  {
+    "exchange": "etherex",
+    "count": 3
+  },
+  {
+    "exchange": "osmosis",
+    "count": 3
+  },
+  {
+    "exchange": "ekubo",
+    "count": 2
+  },
+  {
+    "exchange": "beam-swap",
+    "count": 2
+  },
+  {
+    "exchange": "saucerswap",
+    "count": 2
+  },
+  {
+    "exchange": "kyo-finance",
+    "count": 2
+  },
+  {
+    "exchange": "dinosaureggs",
+    "count": 2
+  },
+  {
+    "exchange": "oku",
+    "count": 2
+  },
+  {
+    "exchange": "zkswap",
+    "count": 2
+  },
+  {
+    "exchange": "0x03C01Acae3D0173a93d819efDc832C7C4F153B06",
+    "count": 2
+  },
+  {
+    "exchange": "bluefin",
+    "count": 2
+  },
+  {
+    "exchange": "momentum",
+    "count": 2
+  },
+  {
+    "exchange": "thruster",
+    "count": 2
+  },
+  {
+    "exchange": "agni",
+    "count": 2
+  },
+  {
+    "exchange": "tinyman",
+    "count": 1
+  },
+  {
+    "exchange": "xexchange",
+    "count": 1
+  },
+  {
+    "exchange": "babyswap",
+    "count": 1
+  },
+  {
+    "exchange": "swapx",
+    "count": 1
+  },
+  {
+    "exchange": "bakeryswap",
+    "count": 1
+  },
+  {
+    "exchange": "0x1e895bFe59E3A5103e8B7dA3897d1F2391476f3c",
+    "count": 1
+  },
+  {
+    "exchange": "stepn",
+    "count": 1
+  },
+  {
+    "exchange": "minswap",
+    "count": 1
+  },
+  {
+    "exchange": "fraxswap",
+    "count": 1
+  },
+  {
+    "exchange": "sonex",
+    "count": 1
+  },
+  {
+    "exchange": "lynex",
+    "count": 1
+  },
+  {
+    "exchange": "thala",
+    "count": 1
+  },
+  {
+    "exchange": "liquidswap",
+    "count": 1
+  },
+  {
+    "exchange": "merchantmoe",
+    "count": 1
+  },
+  {
+    "exchange": "dragonswap",
+    "count": 1
+  },
+  {
+    "exchange": "metropolis",
+    "count": 1
+  },
+  {
+    "exchange": "kim",
+    "count": 1
+  },
+  {
+    "exchange": "deltaswap",
+    "count": 1
+  },
+  {
+    "exchange": "bitswap",
+    "count": 1
+  },
+  {
+    "exchange": "netswap",
+    "count": 1
+  },
+  {
+    "exchange": "datadex",
+    "count": 1
+  },
+  {
+    "exchange": "punchswap",
+    "count": 1
+  },
+  {
+    "exchange": "unknown",
+    "count": 1
+  },
+  {
+    "exchange": "ocelex",
+    "count": 1
+  },
+  {
+    "exchange": "zuit",
+    "count": 1
+  },
+  {
+    "exchange": "fluxbeam",
+    "count": 1
+  },
+  {
+    "exchange": "0x00f761A1d0C969d67f2a4578982f264ea0623E1D",
+    "count": 1
+  },
+  {
+    "exchange": "defiswap",
+    "count": 1
+  },
+  {
+    "exchange": "jetswap",
+    "count": 1
+  },
+  {
+    "exchange": "0xe32F7dD7e3f098D518ff19A22d5f028e076489B1",
+    "count": 1
+  },
+  {
+    "exchange": "oolongswap",
+    "count": 1
+  },
+  {
+    "exchange": "prjx",
+    "count": 1
+  },
+  {
+    "exchange": "sparkdex",
+    "count": 1
+  },
+  {
+    "exchange": "pangolin",
+    "count": 1
+  },
+  {
+    "exchange": "steamm",
+    "count": 1
+  }
+]
