@@ -46,7 +46,11 @@ _log_fh = None  # type: ignore
 def _log(msg: str) -> None:
     ts = time.strftime("%Y-%m-%d %H:%M:%S")
     line = f"{ts} | {msg}"
-    print(line, flush=True)
+    try:
+        print(line, flush=True)
+    except BrokenPipeError:
+        # Игнорируем разрыв пайпа (например, при | head)
+        pass
     try:
         global _log_fh
         if _log_fh is not None:
@@ -66,20 +70,19 @@ class ChainCfg:
     api_key_env: str  # конкретная переменная окружения, fallback на ETHERSCAN_API_KEY
 
 
-# Поддерживаемые EVM-сканы (формат Etherscan)
+# Поддерживаемые сети (для метаданных; RPC берём отдельно)
 CHAINS: Dict[str, ChainCfg] = {
-    # L1
+    # L1 / L2 EVM совместимые сети, где встречается Uniswap
     "ethereum": ChainCfg("ethereum", "https://api.etherscan.io", "ETHERSCAN_API_KEY"),
-    # L2
     "arbitrum": ChainCfg("arbitrum", "https://api.arbiscan.io", "ARBISCAN_API_KEY"),
     "optimism": ChainCfg("optimism", "https://api-optimistic.etherscan.io", "OPTIMISTIC_API_KEY"),
     "base": ChainCfg("base", "https://api.basescan.org", "BASESCAN_API_KEY"),
-    # Sidechains
     "polygon": ChainCfg("polygon", "https://api.polygonscan.com", "POLYGONSCAN_API_KEY"),
-    "bsc": ChainCfg("bsc", "https://api.bscscan.com", "BSCSCAN_API_KEY"),
+    "zksync": ChainCfg("zksync", "", "ZKSYNC_API_KEY"),  # RPC только через URL
+    # ниже сети, где Uniswap, как правило, не развёрнут; оставим на случай редких записей
     "avalanche": ChainCfg("avalanche", "https://api.snowtrace.io", "SNOWTRACE_API_KEY"),
+    "bsc": ChainCfg("bsc", "https://api.bscscan.com", "BSCSCAN_API_KEY"),
     "cronos": ChainCfg("cronos", "https://api.cronoscan.com", "CRONOSCAN_API_KEY"),
-    # Добавляйте по мере необходимости
 }
 
 
@@ -99,7 +102,7 @@ def save_json(path: str, data: dict) -> None:
 
 
 def get_api_key(chain: ChainCfg) -> str:
-    # Публичный режим по умолчанию (низкий лимит): 'YourApiKeyToken'
+    # Для Ethereum будем использовать RPC; ключ скана не требуется
     return os.getenv(chain.api_key_env) or os.getenv("ETHERSCAN_API_KEY") or "YourApiKeyToken"
 
 
@@ -128,97 +131,128 @@ class Cache:
         save_json(self.path, self._data)
 
 
-def etherscan_call(chain: ChainCfg, to: str, data: str, api_key: str, cache: Cache, rate_delay: float = RATE_DELAY) -> Tuple[Optional[str], Optional[str]]:
+def _extract_alchemy_key(url: Optional[str]) -> Optional[str]:
+    if not url:
+        return None
+    # ожидаем .../v2/<KEY>[...]
+    try:
+        parts = url.split("/v2/")
+        if len(parts) < 2:
+            return None
+        tail = parts[1]
+        key = tail.split("/")[0].split("?")[0]
+        return key or None
+    except Exception:
+        return None
+
+
+ALCHEMY_HOSTS = {
+    "ethereum": "eth-mainnet.g.alchemy.com",
+    "arbitrum": "arb-mainnet.g.alchemy.com",
+    "optimism": "opt-mainnet.g.alchemy.com",
+    "polygon": "polygon-mainnet.g.alchemy.com",
+    "base": "base-mainnet.g.alchemy.com",
+}
+
+
+def get_rpc_url(chain: str) -> Optional[str]:
+    # 1) Явные ENV переменные для каждой сети
+    env_var = f"{chain.upper()}_RPC_URL"
+    val = os.getenv(env_var)
+    if val:
+        return val
+    # 2) Универсальные ETHEREUM_RPC_URL/ALCHEMY_URL -> извлечь ключ и построить URL для поддерживаемых сетей Alchemy
+    eth_rpc = os.getenv("ETHEREUM_RPC_URL") or os.getenv("ALCHEMY_URL")
+    key = os.getenv("ALCHEMY_API_KEY") or _extract_alchemy_key(eth_rpc)
+    if key and chain in ALCHEMY_HOSTS:
+        return f"https://{ALCHEMY_HOSTS[chain]}/v2/{key}"
+    # 3) иначе нет RPC
+    return None
+
+
+def rpc_call(chain: str, to: str, data: str, cache: Cache, rate_delay: float = RATE_DELAY) -> Tuple[Optional[str], Optional[str]]:
     """Возвращает (result_hex, error_str). Результат может быть '0x' при реентрации/реверте."""
     ensure_requests()
-    url = f"{chain.api_base}/api"
-    params = {
-        "module": "proxy",
-        "action": "eth_call",
-        "to": to,
-        "data": data,
-        "tag": "latest",
-        "apikey": api_key,
+    rpc_url = get_rpc_url(chain)
+    if not rpc_url:
+        return None, f"RPC URL missing for {chain}"
+    payload = {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [{"to": to, "data": data}, "latest"],
     }
-    cache_key = json.dumps({"u": url, "p": params}, sort_keys=True)
+    cache_key = json.dumps({"c": chain, "u": rpc_url, "b": payload}, sort_keys=True)
     cached = cache.get(cache_key)
     if cached is not None:
         return cached.get("result"), cached.get("error")
 
     for attempt in range(4):
         try:
-            safe_params = {k: ("***" if k == "apikey" else v) for k, v in params.items()}
-            _log(f"eth_call -> {url} params={safe_params}")
-            resp = requests.get(url, params=params, timeout=20)
+            _log(f"rpc eth_call[{chain}] -> {rpc_url} to={to} data={data[:10]}...")
+            resp = requests.post(rpc_url, json=payload, timeout=20)
             if resp.status_code != 200:
                 err = f"HTTP {resp.status_code}"
             else:
                 j = resp.json()
-                # Etherscan proxy: { status?, message?, result }
                 if "result" in j:
                     res = j.get("result")
-                    if isinstance(res, str):
-                        _log(f"eth_call <- 200 len={len(res)}")
-                    else:
-                        _log("eth_call <- 200 (non-str result)")
+                    _log(f"rpc eth_call[{chain}] <- len={len(res) if isinstance(res,str) else 'n/a'}")
                     cache.set(cache_key, {"result": res, "error": None})
                     time.sleep(rate_delay)
                     return res, None
-                err = j.get("message") or j.get("error", {}).get("message") or str(j)
-                _log(f"eth_call error: {err}")
+                err = j.get("error", {}).get("message") or str(j)
+                _log(f"rpc eth_call[{chain}] error: {err}")
         except Exception as e:
             err = str(e)
-            _log(f"eth_call exception: {err}")
+            _log(f"rpc eth_call[{chain}] exception: {err}")
 
         # Бэкофф
         backoff = rate_delay * (attempt + 1)
-        _log(f"eth_call retry in {backoff:.2f}s (attempt {attempt+1}/4)")
+        _log(f"rpc eth_call[{chain}] retry in {backoff:.2f}s (attempt {attempt+1}/4)")
         time.sleep(backoff)
 
     cache.set(cache_key, {"result": None, "error": err})
     return None, err
 
 
-def etherscan_get_code(chain: ChainCfg, address: str, api_key: str, cache: Cache, rate_delay: float = RATE_DELAY) -> Tuple[Optional[str], Optional[str]]:
+def rpc_get_code(chain: str, address: str, cache: Cache, rate_delay: float = RATE_DELAY) -> Tuple[Optional[str], Optional[str]]:
     ensure_requests()
-    url = f"{chain.api_base}/api"
-    params = {
-        "module": "proxy",
-        "action": "eth_getCode",
-        "address": address,
-        "tag": "latest",
-        "apikey": api_key,
+    rpc_url = get_rpc_url(chain)
+    if not rpc_url:
+        return None, f"RPC URL missing for {chain}"
+    payload = {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getCode",
+        "params": [address, "latest"],
     }
-    cache_key = json.dumps({"u": url, "p": params}, sort_keys=True)
+    cache_key = json.dumps({"c": chain, "u": rpc_url, "b": payload}, sort_keys=True)
     cached = cache.get(cache_key)
     if cached is not None:
         return cached.get("result"), cached.get("error")
 
     for attempt in range(4):
         try:
-            safe_params = {k: ("***" if k == "apikey" else v) for k, v in params.items()}
-            _log(f"eth_getCode -> {url} params={safe_params}")
-            resp = requests.get(url, params=params, timeout=20)
+            _log(f"rpc eth_getCode[{chain}] -> {rpc_url} address={address}")
+            resp = requests.post(rpc_url, json=payload, timeout=20)
             if resp.status_code != 200:
                 err = f"HTTP {resp.status_code}"
             else:
                 j = resp.json()
                 if "result" in j:
                     res = j.get("result")
-                    if isinstance(res, str):
-                        _log(f"eth_getCode <- 200 len={len(res)}")
-                    else:
-                        _log("eth_getCode <- 200 (non-str result)")
+                    _log(f"rpc eth_getCode[{chain}] <- len={len(res) if isinstance(res,str) else 'n/a'}")
                     cache.set(cache_key, {"result": res, "error": None})
                     time.sleep(rate_delay)
                     return res, None
-                err = j.get("message") or j.get("error", {}).get("message") or str(j)
-                _log(f"eth_getCode error: {err}")
+                err = j.get("error", {}).get("message") or str(j)
+                _log(f"rpc eth_getCode[{chain}] error: {err}")
         except Exception as e:
             err = str(e)
-            _log(f"eth_getCode exception: {err}")
+            _log(f"rpc eth_getCode[{chain}] exception: {err}")
         backoff = rate_delay * (attempt + 1)
-        _log(f"eth_getCode retry in {backoff:.2f}s (attempt {attempt+1}/4)")
+        _log(f"rpc eth_getCode[{chain}] retry in {backoff:.2f}s (attempt {attempt+1}/4)")
         time.sleep(backoff)
 
     cache.set(cache_key, {"result": None, "error": err})
@@ -243,8 +277,9 @@ def classify_pool(chain: str, address: str, api_key: str, cache: Cache) -> Dict[
     cfg = CHAINS[chain]
     checks = {}
     is_public = api_key == "YourApiKeyToken"
-    _log(f"classify start {chain} {address} via {cfg.api_base} (key={'public' if is_public else 'custom'})")
-    code_hex, code_err = etherscan_get_code(cfg, address, api_key, cache)
+    _log(f"classify start {chain} {address} via RPC")
+    # Получаем код
+    code_hex, code_err = rpc_get_code(chain, address, cache)
     if code_err:
         _log(f"getCode error: {chain} {address} -> {code_err}")
     else:
@@ -256,7 +291,7 @@ def classify_pool(chain: str, address: str, api_key: str, cache: Cache) -> Dict[
 
     # V3?
     _log(f"call slot0 {chain} {address}")
-    slot0_res, slot0_err = etherscan_call(cfg, address, SLOT0_SELECTOR, api_key, cache)
+    slot0_res, slot0_err = rpc_call(chain, address, SLOT0_SELECTOR, cache)
     if slot0_err:
         _log(f"slot0 error: {chain} {address} -> {slot0_err}")
     else:
@@ -268,7 +303,7 @@ def classify_pool(chain: str, address: str, api_key: str, cache: Cache) -> Dict[
 
     # V2?
     _log(f"call getReserves {chain} {address}")
-    reserves_res, reserves_err = etherscan_call(cfg, address, GET_RESERVES_SELECTOR, api_key, cache)
+    reserves_res, reserves_err = rpc_call(chain, address, GET_RESERVES_SELECTOR, cache)
     if reserves_err:
         _log(f"getReserves error: {chain} {address} -> {reserves_err}")
     else:
@@ -281,12 +316,19 @@ def classify_pool(chain: str, address: str, api_key: str, cache: Cache) -> Dict[
     return {"version": "unknown", "checks": checks}
 
 
-def iter_uniswap_evm_addresses(pools_json: dict):
+def iter_uniswap_evm_addresses(pools_json: dict, skip_chains: Optional[set] = None, include_chains: Optional[set] = None):
+    skip_chains = skip_chains or set()
+    include_chains = include_chains or set()
     for asset, chains in pools_json.items():
         if not isinstance(chains, dict):
             continue
         for chain, entries in chains.items():
+            # Берём только известные EVM сети
             if chain not in CHAINS:
+                continue
+            if include_chains and chain not in include_chains:
+                continue
+            if chain in skip_chains:
                 continue
             for e in entries:
                 try:
@@ -316,7 +358,12 @@ def main() -> int:
     cache = Cache(CACHE_FILE)
     results: List[dict] = []
 
-    items = list(iter_uniswap_evm_addresses(pools))
+    # Фильтр по сети через env ONLY_CHAIN (comma-separated). Если не задан — все, кроме Ethereum
+    only = os.getenv("ONLY_CHAIN", "").strip()
+    include_set: Optional[set] = None
+    if only:
+        include_set = {c.strip().lower() for c in only.split(",") if c.strip()}
+    items = list(iter_uniswap_evm_addresses(pools, skip_chains={"ethereum"} if not include_set else set(), include_chains=include_set))
     total = len(items)
     _log(f"total candidates: {total}; rate_delay={RATE_DELAY}s")
     start_ts = time.time()
@@ -324,6 +371,20 @@ def main() -> int:
     for chain, asset, pair, addr, url in items:
         processed += 1
         cfg = CHAINS[chain]
+        # Проверка наличия RPC для сети заранее
+        rpc_url = get_rpc_url(chain)
+        if not rpc_url:
+            info = {"version": "skipped_no_rpc", "checks": {}, "note": f"no RPC URL for {chain}"}
+            results.append({
+                "chain": chain,
+                "asset": asset,
+                "pair": pair,
+                "address": addr,
+                "url": url,
+                **info,
+            })
+            _log(f"{processed}/{total} skipped_no_rpc {chain} {pair} {addr}")
+            continue
         # Если адрес выглядит как 32-байтный идентификатор (poolId), отметим как потенциальный v4
         if HEX32_RE.match(addr):
             info = {"version": "v4_pool_id", "checks": {}, "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"}
@@ -366,7 +427,27 @@ def main() -> int:
             _log(f"error {chain} {addr}: {e}")
 
     # Сохранение
-    out = {"updated_at": int(time.time()), "total_scanned": total, "items": results}
+    # Слияние с существующим файлом (сохранить результаты Ethereum) c дедупликацией по (chain,address)
+    combined_map: Dict[str, dict] = {}
+    prev_total = 0
+    if os.path.exists(OUT_FILE):
+        try:
+            prev = load_json(OUT_FILE)
+            prev_items = prev.get("items") or []
+            if isinstance(prev_items, list):
+                for it in prev_items:
+                    addr_key = (it.get('address') or '').lower()
+                    key = f"{it.get('chain')}::{addr_key}"
+                    combined_map[key] = it
+                prev_total = int(prev.get("total_scanned") or 0)
+        except Exception as e:
+            _log(f"merge warning: failed to read previous OUT_FILE: {e}")
+    for it in results:
+        addr_key = (it.get('address') or '').lower()
+        key = f"{it.get('chain')}::{addr_key}"
+        combined_map[key] = it
+
+    out = {"updated_at": int(time.time()), "total_scanned": prev_total + total, "items": list(combined_map.values())}
     save_json(OUT_FILE, out)
     cache.flush()
     _log(f"Saved -> {OUT_FILE} ({len(results)} items)")
