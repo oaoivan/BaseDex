@@ -1,0 +1,834 @@
+{
+  "updated_at": 1758549930,
+  "total_scanned": 74,
+  "items": [
+    {
+      "chain": "solana",
+      "asset": "BCH",
+      "pair": "BCH/USDC",
+      "address": "HTgfoRGT2QvFu4oGqrRMuydN6tLatT9V4UpmSAfyPEJa",
+      "url": "https://dexscreener.com/solana/htgforgt2qvfu4ogqrrmuydn6tlatt9v4upmsafypeja",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "TRX",
+      "pair": "TRX/USDC",
+      "address": "HpgV2jnzgrGfrZjeZGkHgTnEgRFAhtzCVuk3BRFTFJwk",
+      "url": "https://dexscreener.com/solana/hpgv2jnzgrgfrzjezgkhgtnegrfahtzcvuk3brftfjwk",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "IOTA",
+      "pair": "IOTA/USDC",
+      "address": "Hry8zWJ6NBzAF35CsgZRxFh69GVjDV4YjZnpU77WYy9B",
+      "url": "https://dexscreener.com/solana/hry8zwj6nbzaf35csgzrxfh69gvjdv4yjznpu77wyy9b",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "BLZ",
+      "pair": "Bert/SOL",
+      "address": "BmsZE6TkZYskyS1PatPKRyyazGdxWFxdia4BuvLg9AgY",
+      "url": "https://dexscreener.com/solana/bmsze6tkzyskys1patpkryyazgdxwfxdia4buvlg9agy",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "NEAR",
+      "pair": "NEAR/USDC",
+      "address": "gyYigqG8vdEMkDNTTVL6at2msbHdTDWyb6bccyR238U",
+      "url": "https://dexscreener.com/solana/gyyigqg8vdemkdnttvl6at2msbhdtdwyb6bccyr238u",
+      "version": "cpmm",
+      "checks": {
+        "owner": "CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C"
+      },
+      "note": "Raydium CPMM pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "RSR",
+      "pair": "RSR/SOL",
+      "address": "EFqV9Aq91KcMkoif2CvF6CGLJCXg8Pr8XrhQtXaJDZ5H",
+      "url": "https://dexscreener.com/solana/efqv9aq91kcmkoif2cvf6cgljcxg8pr8xrhqtxajdz5h",
+      "version": "cpmm",
+      "checks": {
+        "owner": "CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C"
+      },
+      "note": "Raydium CPMM pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "IOTX",
+      "pair": "IOTX/SOL",
+      "address": "Cu8HvAvgcXig6XACdQjePvR9XLVyhrfn3aVqJZQrH6AQ",
+      "url": "https://dexscreener.com/solana/cu8hvavgcxig6xacdqjepvr9xlvyhrfn3avqjzqrh6aq",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "RAY",
+      "pair": "RAY/SOL",
+      "address": "2AXXcN6oN9bBT5owwmTH53C7QHUXvhLeu718Kqt8rvY2",
+      "url": "https://dexscreener.com/solana/2axxcn6on9bbt5owwmth53c7qhuxvhleu718kqt8rvy2",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "APT",
+      "pair": "APT/USDC",
+      "address": "9BZPmMer4FfzmZbmN9EKk5K5n4MubiuvZb1YbJqsRkd6",
+      "url": "https://dexscreener.com/solana/9bzpmmer4ffzmzbmn9ekk5k5n4mubiuvzb1ybjqsrkd6",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "CFX",
+      "pair": "CFX/USDC",
+      "address": "13rXCnqE3mtQDhkPS289XQuQKgYXXv8EEGwYdodPYDdM",
+      "url": "https://dexscreener.com/solana/13rxcnqe3mtqdhkps289xquqkgyxxv8eegwydodpyddm",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "ARB",
+      "pair": "ARB /USDC",
+      "address": "4zRadf9JEuPTaKdTqT79m63MLJhtsARTNQLPFAe3yuCG",
+      "url": "https://dexscreener.com/solana/4zradf9jeuptakdtqt79m63mljhtsartnqlpfae3yucg",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "SUI",
+      "pair": "SUI/USDC",
+      "address": "8RCK2wN3LDzyoY8gsNNspNndS6VPjfHH5YdpjgW6qFUe",
+      "url": "https://dexscreener.com/solana/8rck2wn3ldzyoy8gsnnspnnds6vpjfhh5ydpjgw6qfue",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "STRK",
+      "pair": "STRK/USDC",
+      "address": "7up9yKpdjnG1JJ35wwBsKFBHPMm9NV587sJsLvxHLSfn",
+      "url": "https://dexscreener.com/solana/7up9ykpdjng1jj35wwbskfbhpmm9nv587sjslvxhlsfn",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "MYRO",
+      "pair": "$MYRO/USDC",
+      "address": "5WGYajM1xtLy3QrLHGSX4YPwsso3jrjEsbU1VivUErzk",
+      "url": "https://dexscreener.com/solana/5wgyajm1xtly3qrlhgsx4ypwsso3jrjesbu1vivuerzk",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "BOME",
+      "pair": "BOME/SOL",
+      "address": "DSUvc5qf5LJHHV5e2tD184ixotSnCnwj7i4jJa4Xsrmt",
+      "url": "https://dexscreener.com/solana/dsuvc5qf5ljhhv5e2td184ixotsncnwj7i4jja4xsrmt",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "MEW",
+      "pair": "MEW/SOL",
+      "address": "879F697iuDJGMevRkRcnW21fcXiAeLJK1ffsw2ATebce",
+      "url": "https://dexscreener.com/solana/879f697iudjgmevrkrcnw21fcxiaeljk1ffsw2atebce",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "RENDER",
+      "pair": "RENDER/SOL",
+      "address": "82RPEfyp6Xa7bBwUDC4HEQsDDt5777m6uPGLExiQxHyX",
+      "url": "https://dexscreener.com/solana/82rpefyp6xa7bbwudc4heqsddt5777m6upglexiqxhyx",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "GOAT",
+      "pair": "GOAT/SOL",
+      "address": "9Tb2ohu5P16BpBarqd3N27WnkF51Ukfs8Z1GzzLDxVZW",
+      "url": "https://dexscreener.com/solana/9tb2ohu5p16bpbarqd3n27wnkf51ukfs8z1gzzldxvzw",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "MOOD",
+      "pair": "MOODENG/SOL",
+      "address": "22WrmyTj8x2TRVQen3fxxi2r4Rn6JDHWoMTpsSmn8RUd",
+      "url": "https://dexscreener.com/solana/22wrmytj8x2trvqen3fxxi2r4rn6jdhwomtpssmn8rud",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "PONKE",
+      "pair": "PONKE/SOL",
+      "address": "5uTwG3y3F5cx4YkodgTjWEHDrX5HDKZ5bZZ72x8eQ6zE",
+      "url": "https://dexscreener.com/solana/5utwg3y3f5cx4ykodgtjwehdrx5hdkz5bzz72x8eq6ze",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "GRASS",
+      "pair": "GRASS/SOL",
+      "address": "GTJ2S27UL7yZ3TdTwpKjfNcxeEZRkRPHjpj5Fubwb8Mk",
+      "url": "https://dexscreener.com/solana/gtj2s27ul7yz3tdtwpkjfncxeezrkrphjpj5fubwb8mk",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "ACT",
+      "pair": "ACT/SOL",
+      "address": "B4PHSkL6CeZbxVqm1aUPQuVpc5ERFcaZj7u9dhtphmVX",
+      "url": "https://dexscreener.com/solana/b4phskl6cezbxvqm1aupquvpc5erfcazj7u9dhtphmvx",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "PNUT",
+      "pair": "Pnut /SOL",
+      "address": "4AZRPNEfCJ7iw28rJu5aUyeQhYcvdcNm8cswyL51AY9i",
+      "url": "https://dexscreener.com/solana/4azrpnefcj7iw28rju5auyeqhycvdcnm8cswyl51ay9i",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "BAN",
+      "pair": "Ban/SOL",
+      "address": "DmAsjXoceoL5vTKZbYpTpXPo7MKm16FMfNMm3PJFiUha",
+      "url": "https://dexscreener.com/solana/dmasjxoceol5vtkzbyptpxpo7mkm16fmfnmm3pjfiuha",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "SCA",
+      "pair": "SLERF/SOL",
+      "address": "AgFnRLUScRD2E4nWQxW73hdbSN7eKEUb2jHX7tx9YTYc",
+      "url": "https://dexscreener.com/solana/agfnrluscrd2e4nwqxw73hdbsn7ekeub2jhx7tx9ytyc",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "CHILLGUY",
+      "pair": "CHILLGUY/SOL",
+      "address": "93tjgwff5Ac5ThyMi8C4WejVVQq4tuMeMuYW1LEYZ7bu",
+      "url": "https://dexscreener.com/solana/93tjgwff5ac5thymi8c4wejvvqq4tumemuyw1leyz7bu",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "ME",
+      "pair": "ME/SOL",
+      "address": "3nNg189ewAxiNeRt3hHuMzTrL6hpwUZ7zXUWTcQhTojq",
+      "url": "https://dexscreener.com/solana/3nng189ewaxinert3hhumztrl6hpwuz7zxuwtcqhtojq",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "AVA",
+      "pair": "AVA/SOL",
+      "address": "ATEQDF6jZwBfqy5jYzLEfjMNxzdk9k32XDmVFjGZEBsc",
+      "url": "https://dexscreener.com/solana/ateqdf6jzwbfqy5jyzlefjmnxzdk9k32xdmvfjgzebsc",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "PENGU",
+      "pair": "PENGU/SOL",
+      "address": "B4Vwozy1FGtp8SELXSXydWSzavPUGnJ77DURV2k4MhUV",
+      "url": "https://dexscreener.com/solana/b4vwozy1fgtp8selxsxydwszavpugnj77durv2k4mhuv",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "AIXBT",
+      "pair": "AIXBT/SOL",
+      "address": "EekjuLbDZmmKvPqHL6u6p439ynJZim3yJKfL1CosREwk",
+      "url": "https://dexscreener.com/solana/eekjulbdzmmkvpqhl6u6p439ynjzim3yjkfl1cosrewk",
+      "version": "cpmm",
+      "checks": {
+        "owner": "CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C"
+      },
+      "note": "Raydium CPMM pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "FARTC",
+      "pair": "Fartcoin /SOL",
+      "address": "Bzc9NZfMqkXR6fz1DBph7BDf9BroyEf6pnzESP7v5iiw",
+      "url": "https://dexscreener.com/solana/bzc9nzfmqkxr6fz1dbph7bdf9broyef6pnzesp7v5iiw",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "GRIFFAIN",
+      "pair": "GRIFFAIN/SOL",
+      "address": "CpsMssqi3P9VMvNqxrdWVbSBCwyUHbGgNcrw7MorBq3g",
+      "url": "https://dexscreener.com/solana/cpsmssqi3p9vmvnqxrdwvbsbcwyuhbggncrw7morbq3g",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "ZEREBRO",
+      "pair": "ZEREBRO/SOL",
+      "address": "3sjNoCnkkhWPVXYGDtem8rCciHSGc9jSFZuUAzKbvRVp",
+      "url": "https://dexscreener.com/solana/3sjnocnkkhwpvxygdtem8rccihsgc9jsfzuuazkbvrvp",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "BIO",
+      "pair": "BIO/SOL",
+      "address": "4LuGwek6Jv4xpGvsQwZXonmLuRhrpHtmKVs95bN9EkTm",
+      "url": "https://dexscreener.com/solana/4lugwek6jv4xpgvsqwzxonmlurhrphtmkvs95bn9ektm",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "ALCH",
+      "pair": "ALCH/SOL",
+      "address": "FyDF3vKQFbcvNTsBi7L7LremrFPmXKbQqgAgnPg1hXXd",
+      "url": "https://dexscreener.com/solana/fydf3vkqfbcvntsbi7l7lremrfpmxkbqqgagnpg1hxxd",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "SWARMS",
+      "pair": "swarms/SOL",
+      "address": "HL4KFTfhZZMm7NGefszQxzJ3M6CaDWE7TesyuRuQYmMJ",
+      "url": "https://dexscreener.com/solana/hl4kftfhzzmm7ngefszqxzj3m6cadwe7tesyuruqymmj",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "SONIC",
+      "pair": "SONIC/SOL",
+      "address": "BpzGNsHoSdPkoANBNkrw6syqqLLPX6j38FZg6rJ1QLJ",
+      "url": "https://dexscreener.com/solana/bpzgnshosdpkoanbnkrw6syqqllpx6j38fzg6rj1qlj",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "ARC",
+      "pair": "arc/SOL",
+      "address": "J3b6dvheS2Y1cbMtVz5TCWXNegSjJDbUKxdUVDPoqmS7",
+      "url": "https://dexscreener.com/solana/j3b6dvhes2y1cbmtvz5tcwxnegsjjdbukxduvdpoqms7",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "VINE",
+      "pair": "VINE/SOL",
+      "address": "58fzJMbX5PatnfJPqWWsqkVFPRKptkbb5r2vCw4Qq3z9",
+      "url": "https://dexscreener.com/solana/58fzjmbx5patnfjpqwwsqkvfprkptkbb5r2vcw4qq3z9",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "PIPPIN",
+      "pair": "pippin/SOL",
+      "address": "8WwcNqdZjCY5Pt7AkhupAFknV2txca9sq6YBkGzLbvdt",
+      "url": "https://dexscreener.com/solana/8wwcnqdzjcy5pt7akhupafknv2txca9sq6ybkgzlbvdt",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "TST",
+      "pair": "TST/USDC",
+      "address": "2u8Fw7QorMSLZpdBp6kdU6be3u7QWP7iXwmUtvEmuwoD",
+      "url": "https://dexscreener.com/solana/2u8fw7qormslzpdbp6kdu6be3u7qwp7ixwmutvemuwod",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "SOLAYER",
+      "pair": "LAYER/USDC",
+      "address": "G6drsaPCR3pxsEmSTAc81kW1EL3kFAFwtSAkzUZXmgH3",
+      "url": "https://dexscreener.com/solana/g6drsapcr3pxsemstac81kw1el3kfafwtsakzuzxmgh3",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "BMT",
+      "pair": "BMT/SOL",
+      "address": "CTpkCQufppiECZJesCkvy1nETmVQQMFK41EoFjw1x4WG",
+      "url": "https://dexscreener.com/solana/ctpkcqufppieczjesckvy1netmvqqmfk41eofjw1x4wg",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "JELLYJELLY",
+      "pair": "jellyjelly/SOL",
+      "address": "3bC2e2RxcfvF9oP22LvbaNsVwoS2T98q6ErCRoayQYdq",
+      "url": "https://dexscreener.com/solana/3bc2e2rxcfvf9op22lvbansvwos2t98q6ercroayqydq",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "WCT",
+      "pair": "WCT/SOL",
+      "address": "GqbxPMFReerDugS8mbB5dq6PV3yaD1Yq7DGog1CTaGUg",
+      "url": "https://dexscreener.com/solana/gqbxpmfreerdugs8mbb5dq6pv3yad1yq7dgog1ctagug",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "HAEDAL",
+      "pair": "HAEDAL/USDC",
+      "address": "5fNrk1Ao4evoUbf9WNyhaT3s3iwDurN5tRs2ryjnhv8g",
+      "url": "https://dexscreener.com/solana/5fnrk1ao4evoubf9wnyhat3s3iwdurn5trs2ryjnhv8g",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "DOOD",
+      "pair": "DOOD/USDC",
+      "address": "5KXE8RMF7iW9Ptn665AHfzsMFjYb4LV2Ta8eZEtsTwWC",
+      "url": "https://dexscreener.com/solana/5kxe8rmf7iw9ptn665ahfzsmfjyb4lv2ta8ezetstwwc",
+      "version": "cpmm",
+      "checks": {
+        "owner": "CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C"
+      },
+      "note": "Raydium CPMM pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "PUMP",
+      "pair": "PUMP/USDC",
+      "address": "Dwgaka8QiSkFQ3bGXhZpmncM63DwhjK5zzQRiqt9WA8K",
+      "url": "https://dexscreener.com/solana/dwgaka8qiskfq3bgxhzpmncm63dwhjk5zzqriqt9wa8k",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "SLP",
+      "pair": "SLP/USDC",
+      "address": "GhS6MQwPaqLdjr6tbpSEnDLiBExo9foWBCRaz2WmmeVc",
+      "url": "https://dexscreener.com/solana/ghs6mqwpaqldjr6tbpsendlibexo9fowbcraz2wmmevc",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "USELESS",
+      "pair": "USELESS/SOL",
+      "address": "Q2sPHPdUWFMg7M7wwrQKLrn619cAucfRsmhVJffodSp",
+      "url": "https://dexscreener.com/solana/q2sphpduwfmg7m7wwrqklrn619caucfrsmhvjffodsp",
+      "version": "cpmm",
+      "checks": {
+        "owner": "CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C"
+      },
+      "note": "Raydium CPMM pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "SKY",
+      "pair": "SKY/USDC",
+      "address": "8k1YY4BPVWciBHpVtbHHjmrBur31dQAmPyJ6TChPiZgZ",
+      "url": "https://dexscreener.com/solana/8k1yy4bpvwcibhpvtbhhjmrbur31dqampyj6tchpizgz",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "ORDER",
+      "pair": "ORDER/SOL",
+      "address": "BxUigngqxhU8Wapwvck5cavcBbfgE47ETNwLeXnCVwz4",
+      "url": "https://dexscreener.com/solana/bxuigngqxhu8wapwvck5cavcbbfge47etnwlexncvwz4",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "AGI",
+      "pair": "AGI/SOL",
+      "address": "BTL6Qcr2TVaqs8ZYEx7jEq6LTvx3opg3f9DM2nxHmpxD",
+      "url": "https://dexscreener.com/solana/btl6qcr2tvaqs8zyex7jeq6ltvx3opg3f9dm2nxhmpxd",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "FWOG",
+      "pair": "FWOG/SOL",
+      "address": "AB1eu2L1Jr3nfEft85AuD2zGksUbam1Kr8MR3uM2sjwt",
+      "url": "https://dexscreener.com/solana/ab1eu2l1jr3nfeft85aud2zgksubam1kr8mr3um2sjwt",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "GIGA",
+      "pair": "GIGA/SOL",
+      "address": "4xxM4cdb6MEsCxM52xvYqkNbzvdeWWsPDZrBcTqVGUar",
+      "url": "https://dexscreener.com/solana/4xxm4cdb6mescxm52xvyqknbzvdewwspdzrbctqvguar",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "TAI",
+      "pair": "TAI/SOL",
+      "address": "99a2qtfLAxv9LVhKesjEawjKy8Pwb4cypC5ccuCB4VUS",
+      "url": "https://dexscreener.com/solana/99a2qtflaxv9lvhkesjeawjky8pwb4cypc5ccucb4vus",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "LAUNCHCOIN",
+      "pair": "LAUNCHCOIN/SOL",
+      "address": "YrrUStgPugDp8BbfosqDeFssen6sA75ZS1QJvgnHtmY",
+      "url": "https://dexscreener.com/solana/yrrustgpugdp8bbfosqdefssen6sa75zs1qjvgnhtmy",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "CRCLX",
+      "pair": "CRCLx/USDC",
+      "address": "G39wywquKbHK8F2wZZZFX3fcsyG91VCCbbr6WEVp5axy",
+      "url": "https://dexscreener.com/solana/g39wywqukbhk8f2wzzzfx3fcsyg91vccbbr6wevp5axy",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "MOG",
+      "pair": "Mog/SOL",
+      "address": "Hk3P7DvFnKCBoD6Q2vy9keHVePKQVJEsFQVybje7N7tq",
+      "url": "https://dexscreener.com/solana/hk3p7dvfnkcbod6q2vy9kehvepkqvjesfqvybje7n7tq",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "ELON",
+      "pair": "ELON/SOL",
+      "address": "5c4znipkjwGe9PFJay3EswDr3kxAmg2FX1CJsggybEjh",
+      "url": "https://dexscreener.com/solana/5c4znipkjwge9pfjay3eswdr3kxamg2fx1cjsggybejh",
+      "version": "amm_v4",
+      "checks": {
+        "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+      },
+      "note": "Raydium AMM V4 / Hybrid pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "CAT",
+      "pair": "CAT/SOL",
+      "address": "AxPuePyTfJx3eMDtmtCMi3X3pAto2V74VeSJ9SCKgmY3",
+      "url": "https://dexscreener.com/solana/axpuepytfjx3emdtmtcmi3x3pato2v74vesj9sckgmy3",
+      "version": "cpmm",
+      "checks": {
+        "owner": "CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C"
+      },
+      "note": "Raydium CPMM pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "XEC",
+      "pair": "LION/SOL",
+      "address": "9SxEcmwzHtSZu2jJSpSxuyxweYECvvtykoP3qtEprkvj",
+      "url": "https://dexscreener.com/solana/9sxecmwzhtszu2jjspsxuyxweyecvvtykop3qteprkvj",
+      "version": "cpmm",
+      "checks": {
+        "owner": "CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C"
+      },
+      "note": "Raydium CPMM pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "BSU",
+      "pair": "BSU/USDC",
+      "address": "8oDLpznqujJhuzbYxCdSp8UUJqGvQzxjd78q9KmGNyzA",
+      "url": "https://dexscreener.com/solana/8odlpznqujjhuzbyxcdsp8uujqgvqzxjd78q9kmgnyza",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "CPOOL",
+      "pair": "CPOOL/USDC",
+      "address": "G2CVt4B6yJ9rkQptRXQXdjgbLcm7QGXYJRf8adkYx2cp",
+      "url": "https://dexscreener.com/solana/g2cvt4b6yj9rkqptrxqxdjgblcm7qgxyjrf8adkyx2cp",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "FLR",
+      "pair": "FLR/USDC",
+      "address": "FZLWEDkSZgQpFURAeHT4sFBMQDhjTC7yPN9abnfjxyyW",
+      "url": "https://dexscreener.com/solana/fzlwedkszgqpfuraeht4sfbmqdhjtc7ypn9abnfjxyyw",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "SAROS",
+      "pair": "SAROS/USDC",
+      "address": "3G2itp6ERsvSs2UhfYMTEdX21uxVdKc71ipGQG8oGtom",
+      "url": "https://dexscreener.com/solana/3g2itp6ersvss2uhfymtedx21uxvdkc71ipgqg8ogtom",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "USD1",
+      "pair": "USD1/USDC",
+      "address": "HWX39Y2hjY4NEi9NXhphPEtuuCu3NE2WiHjjpUqQ6Ttp",
+      "url": "https://dexscreener.com/solana/hwx39y2hjy4nei9nxhphpetuucu3ne2wihjjpuqq6ttp",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "ZEUS",
+      "pair": "ZEUS/SOL",
+      "address": "E5X7mWprg8pdAqBT5HJ1ehu4crAsgUkUX5MwCjuTusZU",
+      "url": "https://dexscreener.com/solana/e5x7mwprg8pdaqbt5hj1ehu4crasgukux5mwcjutuszu",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    },
+    {
+      "chain": "solana",
+      "asset": "MSTRX",
+      "pair": "MSTRx/USDC",
+      "address": "RyhF4cksVZY7vcqJpoytHcxcGNKRp27PEGhSnEPpbGv",
+      "url": "https://dexscreener.com/solana/ryhf4cksvzy7vcqjpoythcxcgnkrp27peghsneppbgv",
+      "version": "clmm",
+      "checks": {
+        "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+      },
+      "note": "Raydium CLMM (concentrated liquidity)"
+    }
+  ]
+}

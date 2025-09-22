@@ -26625,3 +26625,210 @@ source .venv/bin/activate && python scripts/classify_pools.py | sed -n
 2025-09-22 13:53:07 | slot0 ok: ethereum 0x135cd19cb3c15f7eb10fc21ff79e1259a65fc958 len=450
 2025-09-22 13:53:07 | 19/19 [v3] ethereum AIOZ/WETH 0x135cd19cb3c15f7eb10fc21ff79e1259a65fc958 | avg=1.67s ETA~0.0s
 2025-09-22 13:53:07 | Saved -> /home/ivan/Work/MakingBase/Dex_find_exch/classified_pools_pancake.json (19 items)
+2025-09-22 17:04:43 | total raydium candidates: 74; rpc=https://api.mainnet-beta.solana.com
+2025-09-22 17:04:43 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=HTgfoRGT2QvFu4oGqrRMuydN6tLatT9V4UpmSAfyPEJa
+2025-09-22 17:04:43 | 1/74 [clmm] HTgfoRGT2QvFu4oGqrRMuydN6tLatT9V4UpmSAfyPEJa
+2025-09-22 17:04:43 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=HpgV2jnzgrGfrZjeZGkHgTnEgRFAhtzCVuk3BRFTFJwk
+2025-09-22 17:04:44 | 2/74 [clmm] HpgV2jnzgrGfrZjeZGkHgTnEgRFAhtzCVuk3BRFTFJwk
+2025-09-22 17:04:44 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=Hry8zWJ6NBzAF35CsgZRxFh69GVjDV4YjZnpU77WYy9B
+2025-09-22 17:04:44 | 3/74 [clmm] Hry8zWJ6NBzAF35CsgZRxFh69GVjDV4YjZnpU77WYy9B
+2025-09-22 17:04:44 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=BmsZE6TkZYskyS1PatPKRyyazGdxWFxdia4BuvLg9AgY
+2025-09-22 17:04:44 | 4/74 [amm_v4] BmsZE6TkZYskyS1PatPKRyyazGdxWFxdia4BuvLg9AgY
+2025-09-22 17:04:44 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=gyYigqG8vdEMkDNTTVL6at2msbHdTDWyb6bccyR238U
+2025-09-22 17:04:44 | 5/74 [cpmm] gyYigqG8vdEMkDNTTVL6at2msbHdTDWyb6bccyR238U
+2025-09-22 17:04:44 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=EFqV9Aq91KcMkoif2CvF6CGLJCXg8Pr8XrhQtXaJDZ5H
+2025-09-22 17:04:45 | 6/74 [cpmm] EFqV9Aq91KcMkoif2CvF6CGLJCXg8Pr8XrhQtXaJDZ5H
+2025-09-22 17:04:45 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=Cu8HvAvgcXig6XACdQjePvR9XLVyhrfn3aVqJZQrH6AQ
+2025-09-22 17:04:45 | 7/74 [clmm] Cu8HvAvgcXig6XACdQjePvR9XLVyhrfn3aVqJZQrH6AQ
+2025-09-22 17:04:45 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=2AXXcN6oN9bBT5owwmTH53C7QHUXvhLeu718Kqt8rvY2
+2025-09-22 17:04:45 | 8/74 [clmm] 2AXXcN6oN9bBT5owwmTH53C7QHUXvhLeu718Kqt8rvY2
+2025-09-22 17:04:45 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=9BZPmMer4FfzmZbmN9EKk5K5n4MubiuvZb1YbJqsRkd6
+2025-09-22 17:04:46 | 9/74 [clmm] 9BZPmMer4FfzmZbmN9EKk5K5n4MubiuvZb1YbJqsRkd6
+2025-09-22 17:04:46 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=13rXCnqE3mtQDhkPS289XQuQKgYXXv8EEGwYdodPYDdM
+2025-09-22 17:04:46 | 10/74 [clmm] 13rXCnqE3mtQDhkPS289XQuQKgYXXv8EEGwYdodPYDdM
+2025-09-22 17:04:46 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=4zRadf9JEuPTaKdTqT79m63MLJhtsARTNQLPFAe3yuCG
+2025-09-22 17:04:46 | 11/74 [clmm] 4zRadf9JEuPTaKdTqT79m63MLJhtsARTNQLPFAe3yuCG
+2025-09-22 17:04:46 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=8RCK2wN3LDzyoY8gsNNspNndS6VPjfHH5YdpjgW6qFUe
+2025-09-22 17:04:47 | 12/74 [clmm] 8RCK2wN3LDzyoY8gsNNspNndS6VPjfHH5YdpjgW6qFUe
+2025-09-22 17:04:47 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=7up9yKpdjnG1JJ35wwBsKFBHPMm9NV587sJsLvxHLSfn
+2025-09-22 17:04:47 | 13/74 [clmm] 7up9yKpdjnG1JJ35wwBsKFBHPMm9NV587sJsLvxHLSfn
+2025-09-22 17:04:47 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=5WGYajM1xtLy3QrLHGSX4YPwsso3jrjEsbU1VivUErzk
+2025-09-22 17:04:47 | 14/74 [amm_v4] 5WGYajM1xtLy3QrLHGSX4YPwsso3jrjEsbU1VivUErzk
+2025-09-22 17:04:47 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=DSUvc5qf5LJHHV5e2tD184ixotSnCnwj7i4jJa4Xsrmt
+2025-09-22 17:04:48 | 15/74 [amm_v4] DSUvc5qf5LJHHV5e2tD184ixotSnCnwj7i4jJa4Xsrmt
+2025-09-22 17:04:48 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=879F697iuDJGMevRkRcnW21fcXiAeLJK1ffsw2ATebce
+2025-09-22 17:04:48 | 16/74 [amm_v4] 879F697iuDJGMevRkRcnW21fcXiAeLJK1ffsw2ATebce
+2025-09-22 17:04:48 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=82RPEfyp6Xa7bBwUDC4HEQsDDt5777m6uPGLExiQxHyX
+2025-09-22 17:04:48 | 17/74 [clmm] 82RPEfyp6Xa7bBwUDC4HEQsDDt5777m6uPGLExiQxHyX
+2025-09-22 17:04:48 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=9Tb2ohu5P16BpBarqd3N27WnkF51Ukfs8Z1GzzLDxVZW
+2025-09-22 17:04:49 | 18/74 [amm_v4] 9Tb2ohu5P16BpBarqd3N27WnkF51Ukfs8Z1GzzLDxVZW
+2025-09-22 17:04:49 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=22WrmyTj8x2TRVQen3fxxi2r4Rn6JDHWoMTpsSmn8RUd
+2025-09-22 17:04:49 | 19/74 [amm_v4] 22WrmyTj8x2TRVQen3fxxi2r4Rn6JDHWoMTpsSmn8RUd
+2025-09-22 17:04:49 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=5uTwG3y3F5cx4YkodgTjWEHDrX5HDKZ5bZZ72x8eQ6zE
+2025-09-22 17:04:49 | 20/74 [amm_v4] 5uTwG3y3F5cx4YkodgTjWEHDrX5HDKZ5bZZ72x8eQ6zE
+2025-09-22 17:04:49 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=GTJ2S27UL7yZ3TdTwpKjfNcxeEZRkRPHjpj5Fubwb8Mk
+2025-09-22 17:04:50 | 21/74 [clmm] GTJ2S27UL7yZ3TdTwpKjfNcxeEZRkRPHjpj5Fubwb8Mk
+2025-09-22 17:04:50 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=B4PHSkL6CeZbxVqm1aUPQuVpc5ERFcaZj7u9dhtphmVX
+2025-09-22 17:04:50 | 22/74 [amm_v4] B4PHSkL6CeZbxVqm1aUPQuVpc5ERFcaZj7u9dhtphmVX
+2025-09-22 17:04:50 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=4AZRPNEfCJ7iw28rJu5aUyeQhYcvdcNm8cswyL51AY9i
+2025-09-22 17:04:50 | 23/74 [amm_v4] 4AZRPNEfCJ7iw28rJu5aUyeQhYcvdcNm8cswyL51AY9i
+2025-09-22 17:04:50 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=DmAsjXoceoL5vTKZbYpTpXPo7MKm16FMfNMm3PJFiUha
+2025-09-22 17:04:51 | 24/74 [amm_v4] DmAsjXoceoL5vTKZbYpTpXPo7MKm16FMfNMm3PJFiUha
+2025-09-22 17:04:51 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=AgFnRLUScRD2E4nWQxW73hdbSN7eKEUb2jHX7tx9YTYc
+2025-09-22 17:04:51 | 25/74 [amm_v4] AgFnRLUScRD2E4nWQxW73hdbSN7eKEUb2jHX7tx9YTYc
+2025-09-22 17:04:51 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=93tjgwff5Ac5ThyMi8C4WejVVQq4tuMeMuYW1LEYZ7bu
+2025-09-22 17:04:51 | 26/74 [amm_v4] 93tjgwff5Ac5ThyMi8C4WejVVQq4tuMeMuYW1LEYZ7bu
+2025-09-22 17:04:51 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=3nNg189ewAxiNeRt3hHuMzTrL6hpwUZ7zXUWTcQhTojq
+2025-09-22 17:04:52 | 27/74 [clmm] 3nNg189ewAxiNeRt3hHuMzTrL6hpwUZ7zXUWTcQhTojq
+2025-09-22 17:04:52 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=ATEQDF6jZwBfqy5jYzLEfjMNxzdk9k32XDmVFjGZEBsc
+2025-09-22 17:04:52 | 28/74 [amm_v4] ATEQDF6jZwBfqy5jYzLEfjMNxzdk9k32XDmVFjGZEBsc
+2025-09-22 17:04:52 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=B4Vwozy1FGtp8SELXSXydWSzavPUGnJ77DURV2k4MhUV
+2025-09-22 17:04:52 | 29/74 [clmm] B4Vwozy1FGtp8SELXSXydWSzavPUGnJ77DURV2k4MhUV
+2025-09-22 17:04:52 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=EekjuLbDZmmKvPqHL6u6p439ynJZim3yJKfL1CosREwk
+2025-09-22 17:04:53 | 30/74 [cpmm] EekjuLbDZmmKvPqHL6u6p439ynJZim3yJKfL1CosREwk
+2025-09-22 17:04:53 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=Bzc9NZfMqkXR6fz1DBph7BDf9BroyEf6pnzESP7v5iiw
+2025-09-22 17:05:01 | total raydium candidates: 74; rpc=https://api.mainnet-beta.solana.com
+2025-09-22 17:05:01 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=HTgfoRGT2QvFu4oGqrRMuydN6tLatT9V4UpmSAfyPEJa
+2025-09-22 17:05:02 | 1/74 [clmm] HTgfoRGT2QvFu4oGqrRMuydN6tLatT9V4UpmSAfyPEJa
+2025-09-22 17:05:02 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=HpgV2jnzgrGfrZjeZGkHgTnEgRFAhtzCVuk3BRFTFJwk
+2025-09-22 17:05:02 | 2/74 [clmm] HpgV2jnzgrGfrZjeZGkHgTnEgRFAhtzCVuk3BRFTFJwk
+2025-09-22 17:05:02 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=Hry8zWJ6NBzAF35CsgZRxFh69GVjDV4YjZnpU77WYy9B
+2025-09-22 17:05:03 | 3/74 [clmm] Hry8zWJ6NBzAF35CsgZRxFh69GVjDV4YjZnpU77WYy9B
+2025-09-22 17:05:03 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=BmsZE6TkZYskyS1PatPKRyyazGdxWFxdia4BuvLg9AgY
+2025-09-22 17:05:03 | 4/74 [amm_v4] BmsZE6TkZYskyS1PatPKRyyazGdxWFxdia4BuvLg9AgY
+2025-09-22 17:05:03 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=gyYigqG8vdEMkDNTTVL6at2msbHdTDWyb6bccyR238U
+2025-09-22 17:05:03 | 5/74 [cpmm] gyYigqG8vdEMkDNTTVL6at2msbHdTDWyb6bccyR238U
+2025-09-22 17:05:03 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=EFqV9Aq91KcMkoif2CvF6CGLJCXg8Pr8XrhQtXaJDZ5H
+2025-09-22 17:05:04 | 6/74 [cpmm] EFqV9Aq91KcMkoif2CvF6CGLJCXg8Pr8XrhQtXaJDZ5H
+2025-09-22 17:05:04 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=Cu8HvAvgcXig6XACdQjePvR9XLVyhrfn3aVqJZQrH6AQ
+2025-09-22 17:05:04 | 7/74 [clmm] Cu8HvAvgcXig6XACdQjePvR9XLVyhrfn3aVqJZQrH6AQ
+2025-09-22 17:05:04 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=2AXXcN6oN9bBT5owwmTH53C7QHUXvhLeu718Kqt8rvY2
+2025-09-22 17:05:05 | 8/74 [clmm] 2AXXcN6oN9bBT5owwmTH53C7QHUXvhLeu718Kqt8rvY2
+2025-09-22 17:05:05 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=9BZPmMer4FfzmZbmN9EKk5K5n4MubiuvZb1YbJqsRkd6
+2025-09-22 17:05:05 | 9/74 [clmm] 9BZPmMer4FfzmZbmN9EKk5K5n4MubiuvZb1YbJqsRkd6
+2025-09-22 17:05:05 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=13rXCnqE3mtQDhkPS289XQuQKgYXXv8EEGwYdodPYDdM
+2025-09-22 17:05:06 | 10/74 [clmm] 13rXCnqE3mtQDhkPS289XQuQKgYXXv8EEGwYdodPYDdM
+2025-09-22 17:05:06 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=4zRadf9JEuPTaKdTqT79m63MLJhtsARTNQLPFAe3yuCG
+2025-09-22 17:05:06 | 11/74 [clmm] 4zRadf9JEuPTaKdTqT79m63MLJhtsARTNQLPFAe3yuCG
+2025-09-22 17:05:06 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=8RCK2wN3LDzyoY8gsNNspNndS6VPjfHH5YdpjgW6qFUe
+2025-09-22 17:05:07 | 12/74 [clmm] 8RCK2wN3LDzyoY8gsNNspNndS6VPjfHH5YdpjgW6qFUe
+2025-09-22 17:05:07 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=7up9yKpdjnG1JJ35wwBsKFBHPMm9NV587sJsLvxHLSfn
+2025-09-22 17:05:07 | 13/74 [clmm] 7up9yKpdjnG1JJ35wwBsKFBHPMm9NV587sJsLvxHLSfn
+2025-09-22 17:05:07 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=5WGYajM1xtLy3QrLHGSX4YPwsso3jrjEsbU1VivUErzk
+2025-09-22 17:05:07 | 14/74 [amm_v4] 5WGYajM1xtLy3QrLHGSX4YPwsso3jrjEsbU1VivUErzk
+2025-09-22 17:05:07 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=DSUvc5qf5LJHHV5e2tD184ixotSnCnwj7i4jJa4Xsrmt
+2025-09-22 17:05:07 | 15/74 [amm_v4] DSUvc5qf5LJHHV5e2tD184ixotSnCnwj7i4jJa4Xsrmt
+2025-09-22 17:05:07 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=879F697iuDJGMevRkRcnW21fcXiAeLJK1ffsw2ATebce
+2025-09-22 17:05:08 | 16/74 [amm_v4] 879F697iuDJGMevRkRcnW21fcXiAeLJK1ffsw2ATebce
+2025-09-22 17:05:08 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=82RPEfyp6Xa7bBwUDC4HEQsDDt5777m6uPGLExiQxHyX
+2025-09-22 17:05:08 | 17/74 [clmm] 82RPEfyp6Xa7bBwUDC4HEQsDDt5777m6uPGLExiQxHyX
+2025-09-22 17:05:08 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=9Tb2ohu5P16BpBarqd3N27WnkF51Ukfs8Z1GzzLDxVZW
+2025-09-22 17:05:08 | 18/74 [amm_v4] 9Tb2ohu5P16BpBarqd3N27WnkF51Ukfs8Z1GzzLDxVZW
+2025-09-22 17:05:08 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=22WrmyTj8x2TRVQen3fxxi2r4Rn6JDHWoMTpsSmn8RUd
+2025-09-22 17:05:09 | 19/74 [amm_v4] 22WrmyTj8x2TRVQen3fxxi2r4Rn6JDHWoMTpsSmn8RUd
+2025-09-22 17:05:09 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=5uTwG3y3F5cx4YkodgTjWEHDrX5HDKZ5bZZ72x8eQ6zE
+2025-09-22 17:05:09 | 20/74 [amm_v4] 5uTwG3y3F5cx4YkodgTjWEHDrX5HDKZ5bZZ72x8eQ6zE
+2025-09-22 17:05:09 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=GTJ2S27UL7yZ3TdTwpKjfNcxeEZRkRPHjpj5Fubwb8Mk
+2025-09-22 17:05:09 | 21/74 [clmm] GTJ2S27UL7yZ3TdTwpKjfNcxeEZRkRPHjpj5Fubwb8Mk
+2025-09-22 17:05:09 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=B4PHSkL6CeZbxVqm1aUPQuVpc5ERFcaZj7u9dhtphmVX
+2025-09-22 17:05:09 | 22/74 [amm_v4] B4PHSkL6CeZbxVqm1aUPQuVpc5ERFcaZj7u9dhtphmVX
+2025-09-22 17:05:09 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=4AZRPNEfCJ7iw28rJu5aUyeQhYcvdcNm8cswyL51AY9i
+2025-09-22 17:05:10 | 23/74 [amm_v4] 4AZRPNEfCJ7iw28rJu5aUyeQhYcvdcNm8cswyL51AY9i
+2025-09-22 17:05:10 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=DmAsjXoceoL5vTKZbYpTpXPo7MKm16FMfNMm3PJFiUha
+2025-09-22 17:05:10 | 24/74 [amm_v4] DmAsjXoceoL5vTKZbYpTpXPo7MKm16FMfNMm3PJFiUha
+2025-09-22 17:05:10 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=AgFnRLUScRD2E4nWQxW73hdbSN7eKEUb2jHX7tx9YTYc
+2025-09-22 17:05:10 | 25/74 [amm_v4] AgFnRLUScRD2E4nWQxW73hdbSN7eKEUb2jHX7tx9YTYc
+2025-09-22 17:05:10 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=93tjgwff5Ac5ThyMi8C4WejVVQq4tuMeMuYW1LEYZ7bu
+2025-09-22 17:05:11 | 26/74 [amm_v4] 93tjgwff5Ac5ThyMi8C4WejVVQq4tuMeMuYW1LEYZ7bu
+2025-09-22 17:05:11 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=3nNg189ewAxiNeRt3hHuMzTrL6hpwUZ7zXUWTcQhTojq
+2025-09-22 17:05:11 | 27/74 [clmm] 3nNg189ewAxiNeRt3hHuMzTrL6hpwUZ7zXUWTcQhTojq
+2025-09-22 17:05:11 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=ATEQDF6jZwBfqy5jYzLEfjMNxzdk9k32XDmVFjGZEBsc
+2025-09-22 17:05:12 | 28/74 [amm_v4] ATEQDF6jZwBfqy5jYzLEfjMNxzdk9k32XDmVFjGZEBsc
+2025-09-22 17:05:12 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=B4Vwozy1FGtp8SELXSXydWSzavPUGnJ77DURV2k4MhUV
+2025-09-22 17:05:12 | 29/74 [clmm] B4Vwozy1FGtp8SELXSXydWSzavPUGnJ77DURV2k4MhUV
+2025-09-22 17:05:12 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=EekjuLbDZmmKvPqHL6u6p439ynJZim3yJKfL1CosREwk
+2025-09-22 17:05:13 | 30/74 [cpmm] EekjuLbDZmmKvPqHL6u6p439ynJZim3yJKfL1CosREwk
+2025-09-22 17:05:13 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=Bzc9NZfMqkXR6fz1DBph7BDf9BroyEf6pnzESP7v5iiw
+2025-09-22 17:05:13 | 31/74 [amm_v4] Bzc9NZfMqkXR6fz1DBph7BDf9BroyEf6pnzESP7v5iiw
+2025-09-22 17:05:13 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=CpsMssqi3P9VMvNqxrdWVbSBCwyUHbGgNcrw7MorBq3g
+2025-09-22 17:05:13 | 32/74 [amm_v4] CpsMssqi3P9VMvNqxrdWVbSBCwyUHbGgNcrw7MorBq3g
+2025-09-22 17:05:13 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=3sjNoCnkkhWPVXYGDtem8rCciHSGc9jSFZuUAzKbvRVp
+2025-09-22 17:05:14 | 33/74 [amm_v4] 3sjNoCnkkhWPVXYGDtem8rCciHSGc9jSFZuUAzKbvRVp
+2025-09-22 17:05:14 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=4LuGwek6Jv4xpGvsQwZXonmLuRhrpHtmKVs95bN9EkTm
+2025-09-22 17:05:14 | 34/74 [clmm] 4LuGwek6Jv4xpGvsQwZXonmLuRhrpHtmKVs95bN9EkTm
+2025-09-22 17:05:14 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=FyDF3vKQFbcvNTsBi7L7LremrFPmXKbQqgAgnPg1hXXd
+2025-09-22 17:05:14 | 35/74 [amm_v4] FyDF3vKQFbcvNTsBi7L7LremrFPmXKbQqgAgnPg1hXXd
+2025-09-22 17:05:14 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=HL4KFTfhZZMm7NGefszQxzJ3M6CaDWE7TesyuRuQYmMJ
+2025-09-22 17:05:15 | 36/74 [amm_v4] HL4KFTfhZZMm7NGefszQxzJ3M6CaDWE7TesyuRuQYmMJ
+2025-09-22 17:05:15 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=BpzGNsHoSdPkoANBNkrw6syqqLLPX6j38FZg6rJ1QLJ
+2025-09-22 17:05:15 | 37/74 [clmm] BpzGNsHoSdPkoANBNkrw6syqqLLPX6j38FZg6rJ1QLJ
+2025-09-22 17:05:15 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=J3b6dvheS2Y1cbMtVz5TCWXNegSjJDbUKxdUVDPoqmS7
+2025-09-22 17:05:15 | 38/74 [amm_v4] J3b6dvheS2Y1cbMtVz5TCWXNegSjJDbUKxdUVDPoqmS7
+2025-09-22 17:05:15 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=58fzJMbX5PatnfJPqWWsqkVFPRKptkbb5r2vCw4Qq3z9
+2025-09-22 17:05:16 | 39/74 [amm_v4] 58fzJMbX5PatnfJPqWWsqkVFPRKptkbb5r2vCw4Qq3z9
+2025-09-22 17:05:16 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=8WwcNqdZjCY5Pt7AkhupAFknV2txca9sq6YBkGzLbvdt
+2025-09-22 17:05:16 | 40/74 [amm_v4] 8WwcNqdZjCY5Pt7AkhupAFknV2txca9sq6YBkGzLbvdt
+2025-09-22 17:05:16 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=2u8Fw7QorMSLZpdBp6kdU6be3u7QWP7iXwmUtvEmuwoD
+2025-09-22 17:05:16 | 41/74 [clmm] 2u8Fw7QorMSLZpdBp6kdU6be3u7QWP7iXwmUtvEmuwoD
+2025-09-22 17:05:16 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=G6drsaPCR3pxsEmSTAc81kW1EL3kFAFwtSAkzUZXmgH3
+2025-09-22 17:05:17 | 42/74 [clmm] G6drsaPCR3pxsEmSTAc81kW1EL3kFAFwtSAkzUZXmgH3
+2025-09-22 17:05:17 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=CTpkCQufppiECZJesCkvy1nETmVQQMFK41EoFjw1x4WG
+2025-09-22 17:05:17 | 43/74 [clmm] CTpkCQufppiECZJesCkvy1nETmVQQMFK41EoFjw1x4WG
+2025-09-22 17:05:17 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=3bC2e2RxcfvF9oP22LvbaNsVwoS2T98q6ErCRoayQYdq
+2025-09-22 17:05:19 | 44/74 [amm_v4] 3bC2e2RxcfvF9oP22LvbaNsVwoS2T98q6ErCRoayQYdq
+2025-09-22 17:05:19 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=GqbxPMFReerDugS8mbB5dq6PV3yaD1Yq7DGog1CTaGUg
+2025-09-22 17:05:19 | 45/74 [clmm] GqbxPMFReerDugS8mbB5dq6PV3yaD1Yq7DGog1CTaGUg
+2025-09-22 17:05:19 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=5fNrk1Ao4evoUbf9WNyhaT3s3iwDurN5tRs2ryjnhv8g
+2025-09-22 17:05:19 | 46/74 [clmm] 5fNrk1Ao4evoUbf9WNyhaT3s3iwDurN5tRs2ryjnhv8g
+2025-09-22 17:05:19 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=5KXE8RMF7iW9Ptn665AHfzsMFjYb4LV2Ta8eZEtsTwWC
+2025-09-22 17:05:20 | 47/74 [cpmm] 5KXE8RMF7iW9Ptn665AHfzsMFjYb4LV2Ta8eZEtsTwWC
+2025-09-22 17:05:20 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=Dwgaka8QiSkFQ3bGXhZpmncM63DwhjK5zzQRiqt9WA8K
+2025-09-22 17:05:22 | 48/74 [clmm] Dwgaka8QiSkFQ3bGXhZpmncM63DwhjK5zzQRiqt9WA8K
+2025-09-22 17:05:22 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=GhS6MQwPaqLdjr6tbpSEnDLiBExo9foWBCRaz2WmmeVc
+2025-09-22 17:05:22 | 49/74 [clmm] GhS6MQwPaqLdjr6tbpSEnDLiBExo9foWBCRaz2WmmeVc
+2025-09-22 17:05:22 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=Q2sPHPdUWFMg7M7wwrQKLrn619cAucfRsmhVJffodSp
+2025-09-22 17:05:22 | 50/74 [cpmm] Q2sPHPdUWFMg7M7wwrQKLrn619cAucfRsmhVJffodSp
+2025-09-22 17:05:22 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=8k1YY4BPVWciBHpVtbHHjmrBur31dQAmPyJ6TChPiZgZ
+2025-09-22 17:05:24 | 51/74 [clmm] 8k1YY4BPVWciBHpVtbHHjmrBur31dQAmPyJ6TChPiZgZ
+2025-09-22 17:05:24 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=BxUigngqxhU8Wapwvck5cavcBbfgE47ETNwLeXnCVwz4
+2025-09-22 17:05:24 | 52/74 [clmm] BxUigngqxhU8Wapwvck5cavcBbfgE47ETNwLeXnCVwz4
+2025-09-22 17:05:24 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=BTL6Qcr2TVaqs8ZYEx7jEq6LTvx3opg3f9DM2nxHmpxD
+2025-09-22 17:05:25 | 53/74 [clmm] BTL6Qcr2TVaqs8ZYEx7jEq6LTvx3opg3f9DM2nxHmpxD
+2025-09-22 17:05:25 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=AB1eu2L1Jr3nfEft85AuD2zGksUbam1Kr8MR3uM2sjwt
+2025-09-22 17:05:25 | 54/74 [amm_v4] AB1eu2L1Jr3nfEft85AuD2zGksUbam1Kr8MR3uM2sjwt
+2025-09-22 17:05:25 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=4xxM4cdb6MEsCxM52xvYqkNbzvdeWWsPDZrBcTqVGUar
+2025-09-22 17:05:25 | 55/74 [amm_v4] 4xxM4cdb6MEsCxM52xvYqkNbzvdeWWsPDZrBcTqVGUar
+2025-09-22 17:05:25 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=99a2qtfLAxv9LVhKesjEawjKy8Pwb4cypC5ccuCB4VUS
+2025-09-22 17:05:26 | 56/74 [amm_v4] 99a2qtfLAxv9LVhKesjEawjKy8Pwb4cypC5ccuCB4VUS
+2025-09-22 17:05:26 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=YrrUStgPugDp8BbfosqDeFssen6sA75ZS1QJvgnHtmY
+2025-09-22 17:05:26 | 57/74 [clmm] YrrUStgPugDp8BbfosqDeFssen6sA75ZS1QJvgnHtmY
+2025-09-22 17:05:26 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=G39wywquKbHK8F2wZZZFX3fcsyG91VCCbbr6WEVp5axy
+2025-09-22 17:05:26 | 58/74 [clmm] G39wywquKbHK8F2wZZZFX3fcsyG91VCCbbr6WEVp5axy
+2025-09-22 17:05:26 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=Hk3P7DvFnKCBoD6Q2vy9keHVePKQVJEsFQVybje7N7tq
+2025-09-22 17:05:27 | 59/74 [clmm] Hk3P7DvFnKCBoD6Q2vy9keHVePKQVJEsFQVybje7N7tq
+2025-09-22 17:05:27 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=5c4znipkjwGe9PFJay3EswDr3kxAmg2FX1CJsggybEjh
+2025-09-22 17:05:27 | 60/74 [amm_v4] 5c4znipkjwGe9PFJay3EswDr3kxAmg2FX1CJsggybEjh
+2025-09-22 17:05:27 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=AxPuePyTfJx3eMDtmtCMi3X3pAto2V74VeSJ9SCKgmY3
+2025-09-22 17:05:28 | 61/74 [cpmm] AxPuePyTfJx3eMDtmtCMi3X3pAto2V74VeSJ9SCKgmY3
+2025-09-22 17:05:28 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=9SxEcmwzHtSZu2jJSpSxuyxweYECvvtykoP3qtEprkvj
+2025-09-22 17:05:28 | 62/74 [cpmm] 9SxEcmwzHtSZu2jJSpSxuyxweYECvvtykoP3qtEprkvj
+2025-09-22 17:05:28 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=8oDLpznqujJhuzbYxCdSp8UUJqGvQzxjd78q9KmGNyzA
+2025-09-22 17:05:28 | 63/74 [clmm] 8oDLpznqujJhuzbYxCdSp8UUJqGvQzxjd78q9KmGNyzA
+2025-09-22 17:05:28 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=G2CVt4B6yJ9rkQptRXQXdjgbLcm7QGXYJRf8adkYx2cp
+2025-09-22 17:05:28 | 64/74 [clmm] G2CVt4B6yJ9rkQptRXQXdjgbLcm7QGXYJRf8adkYx2cp
+2025-09-22 17:05:28 | 65/74 [amm_v4] Bzc9NZfMqkXR6fz1DBph7BDf9BroyEf6pnzESP7v5iiw
+2025-09-22 17:05:28 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=FZLWEDkSZgQpFURAeHT4sFBMQDhjTC7yPN9abnfjxyyW
+2025-09-22 17:05:29 | 66/74 [clmm] FZLWEDkSZgQpFURAeHT4sFBMQDhjTC7yPN9abnfjxyyW
+2025-09-22 17:05:29 | 67/74 [amm_v4] 22WrmyTj8x2TRVQen3fxxi2r4Rn6JDHWoMTpsSmn8RUd
+2025-09-22 17:05:29 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=3G2itp6ERsvSs2UhfYMTEdX21uxVdKc71ipGQG8oGtom
+2025-09-22 17:05:29 | 68/74 [clmm] 3G2itp6ERsvSs2UhfYMTEdX21uxVdKc71ipGQG8oGtom
+2025-09-22 17:05:29 | 69/74 [amm_v4] AgFnRLUScRD2E4nWQxW73hdbSN7eKEUb2jHX7tx9YTYc
+2025-09-22 17:05:29 | 70/74 [clmm] G6drsaPCR3pxsEmSTAc81kW1EL3kFAFwtSAkzUZXmgH3
+2025-09-22 17:05:29 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=HWX39Y2hjY4NEi9NXhphPEtuuCu3NE2WiHjjpUqQ6Ttp
+2025-09-22 17:05:29 | 71/74 [clmm] HWX39Y2hjY4NEi9NXhphPEtuuCu3NE2WiHjjpUqQ6Ttp
+2025-09-22 17:05:29 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=E5X7mWprg8pdAqBT5HJ1ehu4crAsgUkUX5MwCjuTusZU
+2025-09-22 17:05:30 | 72/74 [clmm] E5X7mWprg8pdAqBT5HJ1ehu4crAsgUkUX5MwCjuTusZU
+2025-09-22 17:05:30 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=RyhF4cksVZY7vcqJpoytHcxcGNKRp27PEGhSnEPpbGv
+2025-09-22 17:05:30 | 73/74 [clmm] RyhF4cksVZY7vcqJpoytHcxcGNKRp27PEGhSnEPpbGv
+2025-09-22 17:05:30 | 74/74 [clmm] G39wywquKbHK8F2wZZZFX3fcsyG91VCCbbr6WEVp5axy
+2025-09-22 17:05:30 | Saved -> classified_pools_raydium.json (74 items) elapsed=29.2s
