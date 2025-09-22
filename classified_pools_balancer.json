@@ -1,0 +1,166 @@
+{
+  "updated_at": 1758555867,
+  "total_scanned": 28,
+  "items": [
+    {
+      "chain": "ethereum",
+      "asset": "MKR",
+      "pair": "MKR/WETH",
+      "address": "0xaac98ee71d4f8a156b6abaa6844cdb7789d086ce",
+      "url": "https://dexscreener.com/ethereum/0xaac98ee71d4f8a156b6abaa6844cdb7789d086ce",
+      "version": "weighted",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "error: execution reverted",
+        "getNormalizedWeights": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000853a0d2313c0000000000000000000000000000000000000000000000000000058d15e176280000"
+      },
+      "note": "Balancer Weighted pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BAL",
+      "pair": "BAL/WETH",
+      "address": "0x5c6ee304399dbdb9c8ef030ab642b10820db8f56",
+      "url": "https://dexscreener.com/ethereum/0x5c6ee304399dbdb9c8ef030ab642b10820db8f56",
+      "version": "weighted",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "error: execution reverted",
+        "getNormalizedWeights": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000b1a2bc2ec50000000000000000000000000000000000000000000000000000002c68af0bb140000"
+      },
+      "note": "Balancer Weighted pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "RSR",
+      "pair": "RSR/WETH",
+      "address": "0x771fbbfcbd8ba252f7f1ee47c1a486bdb0b5bc62",
+      "url": "https://dexscreener.com/ethereum/0x771fbbfcbd8ba252f7f1ee47c1a486bdb0b5bc62",
+      "version": "weighted",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "error: execution reverted",
+        "getNormalizedWeights": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000006f05b59d3b2000000000000000000000000000000000000000000000000000006f05b59d3b20000"
+      },
+      "note": "Balancer Weighted pool"
+    },
+    {
+      "chain": "polygon",
+      "asset": "APE",
+      "pair": "APE/TEL",
+      "address": "0x385Fd3414AfB52D5cD60E22f17826cF992060244",
+      "url": "https://dexscreener.com/polygon/0x385fd3414afb52d5cd60e22f17826cf992060244",
+      "version": "weighted",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "error: execution reverted",
+        "getNormalizedWeights": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000002c68af0bb1400000000000000000000000000000000000000000000000000000b1a2bc2ec500000"
+      },
+      "note": "Balancer Weighted pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "STG",
+      "pair": "STG/USDC",
+      "address": "0x3ff3a210e57cFe679D9AD1e9bA6453A716C56a2e",
+      "url": "https://dexscreener.com/ethereum/0x3ff3a210e57cfe679d9ad1e9ba6453a716c56a2e",
+      "version": "weighted",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "error: execution reverted",
+        "getNormalizedWeights": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000006f05b59d3b2000000000000000000000000000000000000000000000000000006f05b59d3b20000"
+      },
+      "note": "Balancer Weighted pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "RDNT",
+      "pair": "RDNT/WETH",
+      "address": "0xcf7b51ce5755513d4be016b0e28d6edeffa1d52a",
+      "url": "https://dexscreener.com/ethereum/0xcf7b51ce5755513d4be016b0e28d6edeffa1d52a",
+      "version": "weighted",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "error: execution reverted",
+        "getNormalizedWeights": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000b1a2bc2ec50000000000000000000000000000000000000000000000000000002c68af0bb140000"
+      },
+      "note": "Balancer Weighted pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PENDLE",
+      "pair": "PENDLE/WETH",
+      "address": "0xfd1cf6fd41f229ca86ada0584c63c49c3d66bbc9",
+      "url": "https://dexscreener.com/ethereum/0xfd1cf6fd41f229ca86ada0584c63c49c3d66bbc9",
+      "version": "weighted",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "error: execution reverted",
+        "getNormalizedWeights": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000006f05b59d3b2000000000000000000000000000000000000000000000000000006f05b59d3b20000"
+      },
+      "note": "Balancer Weighted pool"
+    },
+    {
+      "chain": "polygon",
+      "asset": "GHST",
+      "pair": "GHST/USDC",
+      "address": "0xAE8F935830f6B418804836EACB0243447b6d977c",
+      "url": "https://dexscreener.com/polygon/0xae8f935830f6b418804836eacb0243447b6d977c",
+      "version": "weighted",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "error: execution reverted",
+        "getNormalizedWeights": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000002c68af0bb1400000000000000000000000000000000000000000000000000000b1a2bc2ec500000"
+      },
+      "note": "Balancer Weighted pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "COW",
+      "pair": "COW/WETH",
+      "address": "0xde8c195aa41c11a0c4787372defbbddaa31306d2",
+      "url": "https://dexscreener.com/ethereum/0xde8c195aa41c11a0c4787372defbbddaa31306d2",
+      "version": "weighted",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "error: execution reverted",
+        "getNormalizedWeights": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000006f05b59d3b2000000000000000000000000000000000000000000000000000006f05b59d3b20000"
+      },
+      "note": "Balancer Weighted pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "GNO",
+      "pair": "GNO/WETH",
+      "address": "0xf4c0dd9b82da36c07605df83c8a416f11724d88b",
+      "url": "https://dexscreener.com/ethereum/0xf4c0dd9b82da36c07605df83c8a416f11724d88b",
+      "version": "weighted",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "error: execution reverted",
+        "getNormalizedWeights": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000b1a2bc2ec50000000000000000000000000000000000000000000000000000002c68af0bb140000"
+      },
+      "note": "Balancer Weighted pool"
+    },
+    {
+      "chain": "polygon",
+      "asset": "BAL",
+      "pair": "BAL/WETH",
+      "address": "0x0297e37f1873d2dab4487aa67cd56b58e2f27875-0x7ceb23fd6bc0add59e62ac25578270cff1b9f619-0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3",
+      "url": "https://dexscreener.com/ethereum/0x5c6ee304399dbdb9c8ef030ab642b10820db8f56",
+      "version": "balancer_pool_id",
+      "checks": {},
+      "note": "Balancer multi-address pool identifier; requires manual mapping"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "TREE",
+      "pair": "COW/WETH",
+      "address": "0xdaba3d8ccf79ef289a7e2dbce51871b39ea445a2-0x77146784315ba81904d654466968e3a7c196d1f3-0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "url": "https://dexscreener.com/ethereum/0xde8c195aa41c11a0c4787372defbbddaa31306d2",
+      "version": "balancer_pool_id",
+      "checks": {},
+      "note": "Balancer multi-address pool identifier; requires manual mapping"
+    }
+  ]
+}

@@ -94,6 +94,9 @@ CHAINS: Dict[str, ChainCfg] = {
 SLOT0_SELECTOR = "0x3850c7bd"  # slot0()
 GET_RESERVES_SELECTOR = "0x0902f1ac"  # getReserves()
 MASTER_DEPLOYER_SELECTOR = "0xee327147"  # masterDeployer()
+BALANCER_WEIGHTS_SELECTOR = "0xf89f27ed"  # getNormalizedWeights()
+BALANCER_AMP_SELECTOR = "0x6daccffa"  # getAmplificationParameter()
+BALANCER_SCALING_SELECTOR = "0x1dd746ea"  # getScalingFactors()
 
 
 def load_json(path: str) -> dict:
@@ -285,6 +288,10 @@ def looks_like_address_slot(result_hex: Optional[str]) -> bool:
     return len(result_hex) >= 66
 
 
+def has_payload(result_hex: Optional[str]) -> bool:
+    return bool(result_hex and isinstance(result_hex, str) and result_hex.startswith("0x") and len(result_hex) > 2)
+
+
 def classify_pool(
     chain: str,
     address: str,
@@ -356,6 +363,55 @@ def classify_pool(
                     "note": "SushiSwap Trident pool",
                 }
 
+    if exchange == "balancer":
+        _log(f"call getNormalizedWeights {chain} {address}")
+        weights_res, weights_err = rpc_call(chain, address, BALANCER_WEIGHTS_SELECTOR, cache)
+        if weights_err:
+            _log(f"getNormalizedWeights error: {chain} {address} -> {weights_err}")
+            checks["getNormalizedWeights"] = f"error: {weights_err}"
+        else:
+            wlen = len(weights_res) if isinstance(weights_res, str) else 0
+            _log(f"getNormalizedWeights ok: {chain} {address} len={wlen}")
+            checks["getNormalizedWeights"] = weights_res
+            if has_payload(weights_res):
+                return {
+                    "version": "weighted",
+                    "checks": checks,
+                    "note": "Balancer Weighted pool",
+                }
+
+        _log(f"call getAmplificationParameter {chain} {address}")
+        amp_res, amp_err = rpc_call(chain, address, BALANCER_AMP_SELECTOR, cache)
+        if amp_err:
+            _log(f"getAmplificationParameter error: {chain} {address} -> {amp_err}")
+            checks["getAmplificationParameter"] = f"error: {amp_err}"
+        else:
+            alen = len(amp_res) if isinstance(amp_res, str) else 0
+            _log(f"getAmplificationParameter ok: {chain} {address} len={alen}")
+            checks["getAmplificationParameter"] = amp_res
+            if has_payload(amp_res):
+                return {
+                    "version": "stable",
+                    "checks": checks,
+                    "note": "Balancer Stable/Composable pool",
+                }
+
+        _log(f"call getScalingFactors {chain} {address}")
+        scaling_res, scaling_err = rpc_call(chain, address, BALANCER_SCALING_SELECTOR, cache)
+        if scaling_err:
+            _log(f"getScalingFactors error: {chain} {address} -> {scaling_err}")
+            checks["getScalingFactors"] = f"error: {scaling_err}"
+        else:
+            slen = len(scaling_res) if isinstance(scaling_res, str) else 0
+            _log(f"getScalingFactors ok: {chain} {address} len={slen}")
+            checks["getScalingFactors"] = scaling_res
+            if has_payload(scaling_res):
+                return {
+                    "version": "linear",
+                    "checks": checks,
+                    "note": "Balancer Linear pool",
+                }
+
     return {"version": "unknown", "checks": checks}
 
 
@@ -384,6 +440,10 @@ def iter_exchange_evm_addresses(
                     exch = e.get("биржа") or e.get("exchange") or ""
                     addr = (e.get("контракт") or e.get("contract") or "").strip()
                     if exch.lower() != exchange:
+                        continue
+                    # Для Balancer допускаем составные идентификаторы вида addr1-addr2-...
+                    if exchange == "balancer" and "-" in addr:
+                        yield chain, asset, pair, addr, url
                         continue
                     # Пропускаем non-EVM адреса, но отмечаем возможные v4 poolId (64 hex)
                     if not (ADDRESS20_RE.match(addr) or HEX32_RE.match(addr)):
@@ -486,6 +546,22 @@ def main(argv: Optional[List[str]] = None) -> int:
                 **info,
             })
             _log(f"{processed}/{total} skipped_no_rpc {chain} {pair} {addr}")
+            continue
+        if exchange == "balancer" and "-" in addr:
+            info = {
+                "version": "balancer_pool_id",
+                "checks": {},
+                "note": "Balancer multi-address pool identifier; requires manual mapping",
+            }
+            results.append({
+                "chain": chain,
+                "asset": asset,
+                "pair": pair,
+                "address": addr,
+                "url": url,
+                **info,
+            })
+            _log(f"{processed}/{total} balancer_pool_id {chain} {pair} {addr}")
             continue
         # Если адрес выглядит как 32-байтный идентификатор (poolId), отметим как потенциальный v4
         if HEX32_RE.match(addr):
