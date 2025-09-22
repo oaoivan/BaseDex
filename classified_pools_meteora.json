@@ -1,0 +1,231 @@
+{
+  "updated_at": 1758553044,
+  "total_scanned": 38,
+  "items": [
+    {
+      "chain": "solana",
+      "asset": "DOT",
+      "pair": "DOT/USDC",
+      "address": "71rJhor7DpDcpSVrdbUnYMui1gJP4YFpLYp3fxHL7XnL",
+      "url": "https://dexscreener.com/solana/71rjhor7dpdcpsvrdbunymui1gjp4yfplyp3fxhl7xnl",
+      "version": "dlmm",
+      "checks": {
+        "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo"
+      },
+      "note": "Meteora DLMM (concentrated bins)"
+    },
+    {
+      "chain": "solana",
+      "asset": "SKL",
+      "pair": "SKL/USDC",
+      "address": "bQs37tWbbwHxpdRJSRsjuZ1Dq36iMwbi6Sr1x4WBQAV",
+      "url": "https://dexscreener.com/solana/bqs37twbbwhxpdrjsrsjuz1dq36imwbi6sr1x4wbqav",
+      "version": "dlmm",
+      "checks": {
+        "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo"
+      },
+      "note": "Meteora DLMM (concentrated bins)"
+    },
+    {
+      "chain": "solana",
+      "asset": "CYBER",
+      "pair": "CYBER/USDC",
+      "address": "BtVAiWzs9p8gXy6Hz8oYK1G4SvMuVbkhf8uscvKpjuw",
+      "url": "https://dexscreener.com/solana/btvaiwzs9p8gxy6hz8oyk1g4svmuvbkhf8uscvkpjuw",
+      "version": "dynamic",
+      "checks": {
+        "owner": "Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB"
+      },
+      "note": "Meteora Dynamic pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "DYM",
+      "pair": "WETH/WBTC",
+      "address": "dymirdzok5ww63hglwlrykfkgmkknghzqts98gpvq1bx",
+      "url": "https://dexscreener.com/solana/dymirdzok5ww63hglwlrykfkgmkknghzqts98gpvq1bx",
+      "version": "error",
+      "error": "{'code': -32602, 'message': 'Invalid param: Invalid'}"
+    },
+    {
+      "chain": "solana",
+      "asset": "TNSR",
+      "pair": "TNSR/USDC",
+      "address": "7LqL8hDYVYBgoif19fSozZurxm3ve129tfkftz6WdFkR",
+      "url": "https://dexscreener.com/solana/7lql8hdyvybgoif19fsozzurxm3ve129tfkftz6wdfkr",
+      "version": "dlmm",
+      "checks": {
+        "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo"
+      },
+      "note": "Meteora DLMM (concentrated bins)"
+    },
+    {
+      "chain": "solana",
+      "asset": "SWELL",
+      "pair": "SWELL/USDC",
+      "address": "H8bMU4XjAtsd362DtGPncApivvJqaw9ZxEt4cvg687MY",
+      "url": "https://dexscreener.com/solana/h8bmu4xjatsd362dtgpncapivvjqaw9zxet4cvg687my",
+      "version": "dlmm",
+      "checks": {
+        "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo"
+      },
+      "note": "Meteora DLMM (concentrated bins)"
+    },
+    {
+      "chain": "solana",
+      "asset": "TRUMP",
+      "pair": "TRUMP/USDC",
+      "address": "9d9mb8kooFfaD3SctgZtkxQypkshx6ezhbKio89ixyy2",
+      "url": "https://dexscreener.com/solana/9d9mb8kooffad3sctgztkxqypkshx6ezhbkio89ixyy2",
+      "version": "dlmm",
+      "checks": {
+        "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo"
+      },
+      "note": "Meteora DLMM (concentrated bins)"
+    },
+    {
+      "chain": "solana",
+      "asset": "RED",
+      "pair": "RED/SOL",
+      "address": "9qkxzWMSNAYx5rK7CoPR4PeTZs8wS449VSbdDKaNGV9K",
+      "url": "https://dexscreener.com/solana/9qkxzwmsnayx5rk7copr4petzs8ws449vsbddkangv9k",
+      "version": "dynamic",
+      "checks": {
+        "owner": "cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG"
+      },
+      "note": "Meteora Dynamic pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "FHE",
+      "pair": "FHE/USDC",
+      "address": "F2JXXgyKpKMN7rGFomWfRC68z5BNYxiqZ6ZQdHSx1H4X",
+      "url": "https://dexscreener.com/solana/f2jxxgykpkmn7rgfomwfrc68z5bnyxiqz6zqdhsx1h4x",
+      "version": "dlmm",
+      "checks": {
+        "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo"
+      },
+      "note": "Meteora DLMM (concentrated bins)"
+    },
+    {
+      "chain": "solana",
+      "asset": "SOON",
+      "pair": "SOON/SOL",
+      "address": "3LxstoarWCh6iC2NbQG4eXwvrNuSpr8kH7YyFmFu5tKZ",
+      "url": "https://dexscreener.com/solana/3lxstoarwch6ic2nbqg4exwvrnuspr8kh7yyfmfu5tkz",
+      "version": "dynamic",
+      "checks": {
+        "owner": "Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB"
+      },
+      "note": "Meteora Dynamic pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "HOME",
+      "pair": "HOME/USDC",
+      "address": "GRkGpkFd4Vw4xUCSquvvfr3o9MaE2L6ncVAetfuWejQR",
+      "url": "https://dexscreener.com/solana/grkgpkfd4vw4xucsquvvfr3o9mae2l6ncvaetfuwejqr",
+      "version": "dlmm",
+      "checks": {
+        "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo"
+      },
+      "note": "Meteora DLMM (concentrated bins)"
+    },
+    {
+      "chain": "solana",
+      "asset": "CUDIS",
+      "pair": "CUDIS/SOL",
+      "address": "GDXbrGyFbUpNeiEHVeFq6i6qzQNTxpHF8akV9M3pLffr",
+      "url": "https://dexscreener.com/solana/gdxbrgyfbupneiehvefq6i6qzqntxphf8akv9m3plffr",
+      "version": "dynamic",
+      "checks": {
+        "owner": "cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG"
+      },
+      "note": "Meteora Dynamic pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "AUDIO",
+      "pair": "AUDIO/SOL",
+      "address": "BKBYDRrJr6R6yHH9b9Vrwny6S6rL883aX38NukimSSTs",
+      "url": "https://dexscreener.com/solana/bkbydrrjr6r6yhh9b9vrwny6s6rl883ax38nukimssts",
+      "version": "dynamic",
+      "checks": {
+        "owner": "cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG"
+      },
+      "note": "Meteora Dynamic pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "DBR",
+      "pair": "DBR/USDC",
+      "address": "E5H5BXLranyJFHEzvR3R2j6kGDQ3Fnx8sPKSsgYqyya8",
+      "url": "https://dexscreener.com/solana/e5h5bxlranyjfhezvr3r2j6kgdq3fnx8spkssgyqyya8",
+      "version": "dynamic",
+      "checks": {
+        "owner": "Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB"
+      },
+      "note": "Meteora Dynamic pool"
+    },
+    {
+      "chain": "solana",
+      "asset": "ZBCN",
+      "pair": "ZBCN/USDC",
+      "address": "5VXPSSnSxa2bP9HPdHXt9pCXVyfwXwRN8HRE2pyoN88M",
+      "url": "https://dexscreener.com/solana/5vxpssnsxa2bp9hpdhxt9pcxvyfwxwrn8hre2pyon88m",
+      "version": "dlmm",
+      "checks": {
+        "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo"
+      },
+      "note": "Meteora DLMM (concentrated bins)"
+    },
+    {
+      "chain": "solana",
+      "asset": "YZY",
+      "pair": "YZY/USDC",
+      "address": "DQ9weJhfiU4iL5LUoeshDrm5KxDHCMiSbnnKJz7buMcf",
+      "url": "https://dexscreener.com/solana/dq9wejhfiu4il5luoeshdrm5kxdhcmisbnnkjz7bumcf",
+      "version": "dlmm",
+      "checks": {
+        "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo"
+      },
+      "note": "Meteora DLMM (concentrated bins)"
+    },
+    {
+      "chain": "solana",
+      "asset": "BTT",
+      "pair": "BTT/USDC",
+      "address": "HeprLb9U3Dj9bkgbi35ThCoJEwga9LVsGpqPJ426B7JN",
+      "url": "https://dexscreener.com/solana/heprlb9u3dj9bkgbi35thcojewga9lvsgpqpj426b7jn",
+      "version": "dlmm",
+      "checks": {
+        "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo"
+      },
+      "note": "Meteora DLMM (concentrated bins)"
+    },
+    {
+      "chain": "solana",
+      "asset": "CLOUD",
+      "pair": "CLOUD/USDC",
+      "address": "F1KKNyUCsQcZLRjwQ4abX6Ri8gDAQ46nHwSHFKA5sFQv",
+      "url": "https://dexscreener.com/solana/f1kknyucsqczlrjwq4abx6ri8gdaq46nhwshfka5sfqv",
+      "version": "dlmm",
+      "checks": {
+        "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo"
+      },
+      "note": "Meteora DLMM (concentrated bins)"
+    },
+    {
+      "chain": "solana",
+      "asset": "WAI",
+      "pair": "WAI/USDC",
+      "address": "92YYZ2yTMC36WqowU4s4GiYirua2sLDKBQpNkPRDi3Yi",
+      "url": "https://dexscreener.com/solana/92yyz2ytmc36wqowu4s4giyirua2sldkbqpnkprdi3yi",
+      "version": "dlmm",
+      "checks": {
+        "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo"
+      },
+      "note": "Meteora DLMM (concentrated bins)"
+    }
+  ]
+}

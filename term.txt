@@ -26832,3 +26832,1013 @@ source .venv/bin/activate && python scripts/classify_pools.py | sed -n
 2025-09-22 17:05:30 | 73/74 [clmm] RyhF4cksVZY7vcqJpoytHcxcGNKRp27PEGhSnEPpbGv
 2025-09-22 17:05:30 | 74/74 [clmm] G39wywquKbHK8F2wZZZFX3fcsyG91VCCbbr6WEVp5axy
 2025-09-22 17:05:30 | Saved -> classified_pools_raydium.json (74 items) elapsed=29.2s
+2025-09-22 17:21:02 | total candidates: 40; exchange=sushiswap; rate_delay=0.5s
+2025-09-22 17:21:02 | classify start polygon 0x74d23f21f780ca26b47db16b0504f2e3832b9321 via RPC
+2025-09-22 17:21:02 | rpc eth_getCode[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x74d23f21f780ca26b47db16b0504f2e3832b9321
+2025-09-22 17:21:03 | rpc eth_getCode[polygon] <- len=18160
+2025-09-22 17:21:03 | getCode ok: polygon 0x74d23f21f780ca26b47db16b0504f2e3832b9321 len=18160 0x60806040...
+2025-09-22 17:21:03 | call slot0 polygon 0x74d23f21f780ca26b47db16b0504f2e3832b9321
+2025-09-22 17:21:03 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x74d23f21f780ca26b47db16b0504f2e3832b9321 data=0x3850c7bd...
+2025-09-22 17:21:04 | rpc eth_call[polygon] error: execution reverted
+2025-09-22 17:21:04 | rpc eth_call[polygon] retry in 0.50s (attempt 1/4)
+2025-09-22 17:21:04 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x74d23f21f780ca26b47db16b0504f2e3832b9321 data=0x3850c7bd...
+2025-09-22 17:21:05 | rpc eth_call[polygon] error: execution reverted
+2025-09-22 17:21:05 | rpc eth_call[polygon] retry in 1.00s (attempt 2/4)
+2025-09-22 17:21:06 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x74d23f21f780ca26b47db16b0504f2e3832b9321 data=0x3850c7bd...
+2025-09-22 17:21:06 | rpc eth_call[polygon] error: execution reverted
+2025-09-22 17:21:06 | rpc eth_call[polygon] retry in 1.50s (attempt 3/4)
+2025-09-22 17:21:07 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x74d23f21f780ca26b47db16b0504f2e3832b9321 data=0x3850c7bd...
+2025-09-22 17:21:08 | rpc eth_call[polygon] error: execution reverted
+2025-09-22 17:21:08 | rpc eth_call[polygon] retry in 2.00s (attempt 4/4)
+2025-09-22 17:21:10 | slot0 error: polygon 0x74d23f21f780ca26b47db16b0504f2e3832b9321 -> execution reverted
+2025-09-22 17:21:10 | call getReserves polygon 0x74d23f21f780ca26b47db16b0504f2e3832b9321
+2025-09-22 17:21:10 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x74d23f21f780ca26b47db16b0504f2e3832b9321 data=0x0902f1ac...
+2025-09-22 17:21:10 | rpc eth_call[polygon] <- len=194
+2025-09-22 17:21:11 | getReserves ok: polygon 0x74d23f21f780ca26b47db16b0504f2e3832b9321 len=194
+2025-09-22 17:21:11 | 1/40 [classic] polygon LINK/WETH 0x74d23f21f780ca26b47db16b0504f2e3832b9321 | avg=8.32s ETA~324.3s
+2025-09-22 17:21:11 | classify start ethereum 0x31503dcb60119A812feE820bb7042752019F2355 via RPC
+2025-09-22 17:21:11 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x31503dcb60119A812feE820bb7042752019F2355
+2025-09-22 17:21:11 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:21:12 | getCode ok: ethereum 0x31503dcb60119A812feE820bb7042752019F2355 len=18160 0x60806040...
+2025-09-22 17:21:12 | call slot0 ethereum 0x31503dcb60119A812feE820bb7042752019F2355
+2025-09-22 17:21:12 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x31503dcb60119A812feE820bb7042752019F2355 data=0x3850c7bd...
+2025-09-22 17:21:22 | total candidates: 40; exchange=sushiswap; rate_delay=0.5s
+2025-09-22 17:21:22 | classify start polygon 0x74d23f21f780ca26b47db16b0504f2e3832b9321 via RPC
+2025-09-22 17:21:22 | rpc eth_getCode[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x74d23f21f780ca26b47db16b0504f2e3832b9321
+2025-09-22 17:21:22 | rpc eth_getCode[polygon] <- len=18160
+2025-09-22 17:21:23 | getCode ok: polygon 0x74d23f21f780ca26b47db16b0504f2e3832b9321 len=18160 0x60806040...
+2025-09-22 17:21:23 | call slot0 polygon 0x74d23f21f780ca26b47db16b0504f2e3832b9321
+2025-09-22 17:21:23 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x74d23f21f780ca26b47db16b0504f2e3832b9321 data=0x3850c7bd...
+2025-09-22 17:21:23 | rpc eth_call[polygon] error: execution reverted
+2025-09-22 17:21:23 | rpc eth_call[polygon] retry in 0.50s (attempt 1/4)
+2025-09-22 17:21:23 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x74d23f21f780ca26b47db16b0504f2e3832b9321 data=0x3850c7bd...
+2025-09-22 17:21:24 | rpc eth_call[polygon] error: execution reverted
+2025-09-22 17:21:24 | rpc eth_call[polygon] retry in 1.00s (attempt 2/4)
+2025-09-22 17:21:25 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x74d23f21f780ca26b47db16b0504f2e3832b9321 data=0x3850c7bd...
+2025-09-22 17:21:25 | rpc eth_call[polygon] error: execution reverted
+2025-09-22 17:21:25 | rpc eth_call[polygon] retry in 1.50s (attempt 3/4)
+2025-09-22 17:21:27 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x74d23f21f780ca26b47db16b0504f2e3832b9321 data=0x3850c7bd...
+2025-09-22 17:21:27 | rpc eth_call[polygon] error: execution reverted
+2025-09-22 17:21:27 | rpc eth_call[polygon] retry in 2.00s (attempt 4/4)
+2025-09-22 17:21:29 | slot0 error: polygon 0x74d23f21f780ca26b47db16b0504f2e3832b9321 -> execution reverted
+2025-09-22 17:21:29 | call getReserves polygon 0x74d23f21f780ca26b47db16b0504f2e3832b9321
+2025-09-22 17:21:29 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x74d23f21f780ca26b47db16b0504f2e3832b9321 data=0x0902f1ac...
+2025-09-22 17:21:29 | rpc eth_call[polygon] <- len=194
+2025-09-22 17:21:30 | getReserves ok: polygon 0x74d23f21f780ca26b47db16b0504f2e3832b9321 len=194
+2025-09-22 17:21:30 | 1/40 [classic] polygon LINK/WETH 0x74d23f21f780ca26b47db16b0504f2e3832b9321 | avg=8.05s ETA~313.8s
+2025-09-22 17:21:30 | classify start ethereum 0x31503dcb60119A812feE820bb7042752019F2355 via RPC
+2025-09-22 17:21:30 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x31503dcb60119A812feE820bb7042752019F2355
+2025-09-22 17:21:30 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:21:31 | getCode ok: ethereum 0x31503dcb60119A812feE820bb7042752019F2355 len=18160 0x60806040...
+2025-09-22 17:21:31 | call slot0 ethereum 0x31503dcb60119A812feE820bb7042752019F2355
+2025-09-22 17:21:31 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x31503dcb60119A812feE820bb7042752019F2355 data=0x3850c7bd...
+2025-09-22 17:21:31 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:21:31 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:21:32 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x31503dcb60119A812feE820bb7042752019F2355 data=0x3850c7bd...
+2025-09-22 17:21:32 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:21:32 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:21:33 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x31503dcb60119A812feE820bb7042752019F2355 data=0x3850c7bd...
+2025-09-22 17:21:34 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:21:34 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:21:35 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x31503dcb60119A812feE820bb7042752019F2355 data=0x3850c7bd...
+2025-09-22 17:21:36 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:21:36 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:21:38 | slot0 error: ethereum 0x31503dcb60119A812feE820bb7042752019F2355 -> execution reverted
+2025-09-22 17:21:38 | call getReserves ethereum 0x31503dcb60119A812feE820bb7042752019F2355
+2025-09-22 17:21:38 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x31503dcb60119A812feE820bb7042752019F2355 data=0x0902f1ac...
+2025-09-22 17:21:38 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:21:39 | getReserves ok: ethereum 0x31503dcb60119A812feE820bb7042752019F2355 len=194
+2025-09-22 17:21:39 | 2/40 [classic] ethereum COMP/WETH 0x31503dcb60119A812feE820bb7042752019F2355 | avg=8.44s ETA~320.7s
+2025-09-22 17:21:39 | classify start ethereum 0x31503dcb60119a812fee820bb7042752019f2355 via RPC
+2025-09-22 17:21:39 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x31503dcb60119a812fee820bb7042752019f2355
+2025-09-22 17:21:39 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:21:39 | getCode ok: ethereum 0x31503dcb60119a812fee820bb7042752019f2355 len=18160 0x60806040...
+2025-09-22 17:21:39 | call slot0 ethereum 0x31503dcb60119a812fee820bb7042752019f2355
+2025-09-22 17:21:39 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x31503dcb60119a812fee820bb7042752019f2355 data=0x3850c7bd...
+2025-09-22 17:21:40 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:21:40 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:21:40 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x31503dcb60119a812fee820bb7042752019f2355 data=0x3850c7bd...
+2025-09-22 17:21:41 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:21:41 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:21:42 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x31503dcb60119a812fee820bb7042752019f2355 data=0x3850c7bd...
+2025-09-22 17:21:43 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:21:43 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:21:44 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x31503dcb60119a812fee820bb7042752019f2355 data=0x3850c7bd...
+2025-09-22 17:21:45 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:21:45 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:21:47 | slot0 error: ethereum 0x31503dcb60119a812fee820bb7042752019f2355 -> execution reverted
+2025-09-22 17:21:47 | call getReserves ethereum 0x31503dcb60119a812fee820bb7042752019f2355
+2025-09-22 17:21:47 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x31503dcb60119a812fee820bb7042752019f2355 data=0x0902f1ac...
+2025-09-22 17:21:47 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:21:48 | getReserves ok: ethereum 0x31503dcb60119a812fee820bb7042752019f2355 len=194
+2025-09-22 17:21:48 | 3/40 [classic] ethereum COMP/WETH 0x31503dcb60119a812fee820bb7042752019f2355 | avg=8.67s ETA~321.0s
+2025-09-22 17:21:48 | classify start ethereum 0xA75F7c2F025f470355515482BdE9EFA8153536A8 via RPC
+2025-09-22 17:21:48 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0xA75F7c2F025f470355515482BdE9EFA8153536A8
+2025-09-22 17:21:48 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:21:49 | getCode ok: ethereum 0xA75F7c2F025f470355515482BdE9EFA8153536A8 len=18160 0x60806040...
+2025-09-22 17:21:49 | call slot0 ethereum 0xA75F7c2F025f470355515482BdE9EFA8153536A8
+2025-09-22 17:21:49 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xA75F7c2F025f470355515482BdE9EFA8153536A8 data=0x3850c7bd...
+2025-09-22 17:21:49 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:21:49 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:21:50 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xA75F7c2F025f470355515482BdE9EFA8153536A8 data=0x3850c7bd...
+2025-09-22 17:21:51 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:21:51 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:21:52 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xA75F7c2F025f470355515482BdE9EFA8153536A8 data=0x3850c7bd...
+2025-09-22 17:21:52 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:21:52 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:21:54 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xA75F7c2F025f470355515482BdE9EFA8153536A8 data=0x3850c7bd...
+2025-09-22 17:21:55 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:21:55 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:21:57 | slot0 error: ethereum 0xA75F7c2F025f470355515482BdE9EFA8153536A8 -> execution reverted
+2025-09-22 17:21:57 | call getReserves ethereum 0xA75F7c2F025f470355515482BdE9EFA8153536A8
+2025-09-22 17:21:57 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xA75F7c2F025f470355515482BdE9EFA8153536A8 data=0x0902f1ac...
+2025-09-22 17:21:58 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:21:58 | getReserves ok: ethereum 0xA75F7c2F025f470355515482BdE9EFA8153536A8 len=194
+2025-09-22 17:21:58 | 4/40 [classic] ethereum BAND/WETH 0xA75F7c2F025f470355515482BdE9EFA8153536A8 | avg=9.12s ETA~328.4s
+2025-09-22 17:21:58 | classify start ethereum 0xa75f7c2f025f470355515482bde9efa8153536a8 via RPC
+2025-09-22 17:21:58 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0xa75f7c2f025f470355515482bde9efa8153536a8
+2025-09-22 17:21:59 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:21:59 | getCode ok: ethereum 0xa75f7c2f025f470355515482bde9efa8153536a8 len=18160 0x60806040...
+2025-09-22 17:21:59 | call slot0 ethereum 0xa75f7c2f025f470355515482bde9efa8153536a8
+2025-09-22 17:21:59 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xa75f7c2f025f470355515482bde9efa8153536a8 data=0x3850c7bd...
+2025-09-22 17:22:00 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:00 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:22:00 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xa75f7c2f025f470355515482bde9efa8153536a8 data=0x3850c7bd...
+2025-09-22 17:22:01 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:01 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:22:02 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xa75f7c2f025f470355515482bde9efa8153536a8 data=0x3850c7bd...
+2025-09-22 17:22:02 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:02 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:22:03 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xa75f7c2f025f470355515482bde9efa8153536a8 data=0x3850c7bd...
+2025-09-22 17:22:04 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:04 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:22:06 | slot0 error: ethereum 0xa75f7c2f025f470355515482bde9efa8153536a8 -> execution reverted
+2025-09-22 17:22:06 | call getReserves ethereum 0xa75f7c2f025f470355515482bde9efa8153536a8
+2025-09-22 17:22:06 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xa75f7c2f025f470355515482bde9efa8153536a8 data=0x0902f1ac...
+2025-09-22 17:22:06 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:22:07 | getReserves ok: ethereum 0xa75f7c2f025f470355515482bde9efa8153536a8 len=194
+2025-09-22 17:22:07 | 5/40 [classic] ethereum BAND/WETH 0xa75f7c2f025f470355515482bde9efa8153536a8 | avg=9.04s ETA~316.5s
+2025-09-22 17:22:07 | classify start ethereum 0xba13afecda9beb75de5c56bbaf696b880a5a50dd via RPC
+2025-09-22 17:22:07 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0xba13afecda9beb75de5c56bbaf696b880a5a50dd
+2025-09-22 17:22:07 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:22:08 | getCode ok: ethereum 0xba13afecda9beb75de5c56bbaf696b880a5a50dd len=18160 0x60806040...
+2025-09-22 17:22:08 | call slot0 ethereum 0xba13afecda9beb75de5c56bbaf696b880a5a50dd
+2025-09-22 17:22:08 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xba13afecda9beb75de5c56bbaf696b880a5a50dd data=0x3850c7bd...
+2025-09-22 17:22:08 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:08 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:22:09 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xba13afecda9beb75de5c56bbaf696b880a5a50dd data=0x3850c7bd...
+2025-09-22 17:22:09 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:09 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:22:10 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xba13afecda9beb75de5c56bbaf696b880a5a50dd data=0x3850c7bd...
+2025-09-22 17:22:11 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:11 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:22:12 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xba13afecda9beb75de5c56bbaf696b880a5a50dd data=0x3850c7bd...
+2025-09-22 17:22:13 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:13 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:22:15 | slot0 error: ethereum 0xba13afecda9beb75de5c56bbaf696b880a5a50dd -> execution reverted
+2025-09-22 17:22:15 | call getReserves ethereum 0xba13afecda9beb75de5c56bbaf696b880a5a50dd
+2025-09-22 17:22:15 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xba13afecda9beb75de5c56bbaf696b880a5a50dd data=0x0902f1ac...
+2025-09-22 17:22:15 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:22:16 | getReserves ok: ethereum 0xba13afecda9beb75de5c56bbaf696b880a5a50dd len=194
+2025-09-22 17:22:16 | 6/40 [classic] ethereum MKR/WETH 0xba13afecda9beb75de5c56bbaf696b880a5a50dd | avg=9.04s ETA~307.3s
+2025-09-22 17:22:16 | classify start ethereum 0x088ee5007c98a9677165d78dd2109ae4a3d04d0c via RPC
+2025-09-22 17:22:16 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x088ee5007c98a9677165d78dd2109ae4a3d04d0c
+2025-09-22 17:22:16 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:22:17 | getCode ok: ethereum 0x088ee5007c98a9677165d78dd2109ae4a3d04d0c len=18160 0x60806040...
+2025-09-22 17:22:17 | call slot0 ethereum 0x088ee5007c98a9677165d78dd2109ae4a3d04d0c
+2025-09-22 17:22:17 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x088ee5007c98a9677165d78dd2109ae4a3d04d0c data=0x3850c7bd...
+2025-09-22 17:22:17 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:17 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:22:18 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x088ee5007c98a9677165d78dd2109ae4a3d04d0c data=0x3850c7bd...
+2025-09-22 17:22:18 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:18 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:22:19 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x088ee5007c98a9677165d78dd2109ae4a3d04d0c data=0x3850c7bd...
+2025-09-22 17:22:20 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:20 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:22:21 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x088ee5007c98a9677165d78dd2109ae4a3d04d0c data=0x3850c7bd...
+2025-09-22 17:22:22 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:22 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:22:24 | slot0 error: ethereum 0x088ee5007c98a9677165d78dd2109ae4a3d04d0c -> execution reverted
+2025-09-22 17:22:24 | call getReserves ethereum 0x088ee5007c98a9677165d78dd2109ae4a3d04d0c
+2025-09-22 17:22:24 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x088ee5007c98a9677165d78dd2109ae4a3d04d0c data=0x0902f1ac...
+2025-09-22 17:22:24 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:22:25 | getReserves ok: ethereum 0x088ee5007c98a9677165d78dd2109ae4a3d04d0c len=194
+2025-09-22 17:22:25 | 7/40 [classic] ethereum YFI/WETH 0x088ee5007c98a9677165d78dd2109ae4a3d04d0c | avg=9.04s ETA~298.3s
+2025-09-22 17:22:25 | classify start ethereum 0x795065dCc9f64b5614C407a6EFDC400DA6221FB0 via RPC
+2025-09-22 17:22:25 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x795065dCc9f64b5614C407a6EFDC400DA6221FB0
+2025-09-22 17:22:25 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:22:26 | getCode ok: ethereum 0x795065dCc9f64b5614C407a6EFDC400DA6221FB0 len=18160 0x60806040...
+2025-09-22 17:22:26 | call slot0 ethereum 0x795065dCc9f64b5614C407a6EFDC400DA6221FB0
+2025-09-22 17:22:26 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x795065dCc9f64b5614C407a6EFDC400DA6221FB0 data=0x3850c7bd...
+2025-09-22 17:22:26 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:26 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:22:27 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x795065dCc9f64b5614C407a6EFDC400DA6221FB0 data=0x3850c7bd...
+2025-09-22 17:22:28 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:28 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:22:29 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x795065dCc9f64b5614C407a6EFDC400DA6221FB0 data=0x3850c7bd...
+2025-09-22 17:22:30 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:30 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:22:31 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x795065dCc9f64b5614C407a6EFDC400DA6221FB0 data=0x3850c7bd...
+2025-09-22 17:22:32 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:32 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:22:34 | slot0 error: ethereum 0x795065dCc9f64b5614C407a6EFDC400DA6221FB0 -> execution reverted
+2025-09-22 17:22:34 | call getReserves ethereum 0x795065dCc9f64b5614C407a6EFDC400DA6221FB0
+2025-09-22 17:22:34 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x795065dCc9f64b5614C407a6EFDC400DA6221FB0 data=0x0902f1ac...
+2025-09-22 17:22:34 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:22:35 | getReserves ok: ethereum 0x795065dCc9f64b5614C407a6EFDC400DA6221FB0 len=194
+2025-09-22 17:22:35 | 8/40 [classic] ethereum SUSHI/WETH 0x795065dCc9f64b5614C407a6EFDC400DA6221FB0 | avg=9.13s ETA~292.3s
+2025-09-22 17:22:35 | classify start ethereum 0x795065dcc9f64b5614c407a6efdc400da6221fb0 via RPC
+2025-09-22 17:22:35 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x795065dcc9f64b5614c407a6efdc400da6221fb0
+2025-09-22 17:22:35 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:22:36 | getCode ok: ethereum 0x795065dcc9f64b5614c407a6efdc400da6221fb0 len=18160 0x60806040...
+2025-09-22 17:22:36 | call slot0 ethereum 0x795065dcc9f64b5614c407a6efdc400da6221fb0
+2025-09-22 17:22:36 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x795065dcc9f64b5614c407a6efdc400da6221fb0 data=0x3850c7bd...
+2025-09-22 17:22:36 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:36 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:22:37 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x795065dcc9f64b5614c407a6efdc400da6221fb0 data=0x3850c7bd...
+2025-09-22 17:22:37 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:37 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:22:38 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x795065dcc9f64b5614c407a6efdc400da6221fb0 data=0x3850c7bd...
+2025-09-22 17:22:39 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:39 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:22:40 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x795065dcc9f64b5614c407a6efdc400da6221fb0 data=0x3850c7bd...
+2025-09-22 17:22:41 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:22:41 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:22:43 | slot0 error: ethereum 0x795065dcc9f64b5614c407a6efdc400da6221fb0 -> execution reverted
+2025-09-22 17:22:43 | call getReserves ethereum 0x795065dcc9f64b5614c407a6efdc400da6221fb0
+2025-09-22 17:22:43 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x795065dcc9f64b5614c407a6efdc400da6221fb0 data=0x0902f1ac...
+2025-09-22 17:22:43 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:22:44 | getReserves ok: ethereum 0x795065dcc9f64b5614c407a6efdc400da6221fb0 len=194
+2025-09-22 17:22:44 | 9/40 [classic] ethereum SUSHI/WETH 0x795065dcc9f64b5614c407a6efdc400da6221fb0 | avg=9.12s ETA~282.7s
+2025-09-22 17:22:44 | classify start arbitrum 0x3221022e37029923aCe4235D812273C5A42C322d via RPC
+2025-09-22 17:22:44 | rpc eth_getCode[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x3221022e37029923aCe4235D812273C5A42C322d
+2025-09-22 17:22:44 | rpc eth_getCode[arbitrum] <- len=18160
+2025-09-22 17:22:45 | getCode ok: arbitrum 0x3221022e37029923aCe4235D812273C5A42C322d len=18160 0x60806040...
+2025-09-22 17:22:45 | call slot0 arbitrum 0x3221022e37029923aCe4235D812273C5A42C322d
+2025-09-22 17:22:45 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x3221022e37029923aCe4235D812273C5A42C322d data=0x3850c7bd...
+2025-09-22 17:22:45 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:22:45 | rpc eth_call[arbitrum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:22:46 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x3221022e37029923aCe4235D812273C5A42C322d data=0x3850c7bd...
+2025-09-22 17:22:46 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:22:46 | rpc eth_call[arbitrum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:22:47 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x3221022e37029923aCe4235D812273C5A42C322d data=0x3850c7bd...
+2025-09-22 17:22:47 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:22:47 | rpc eth_call[arbitrum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:22:49 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x3221022e37029923aCe4235D812273C5A42C322d data=0x3850c7bd...
+2025-09-22 17:22:49 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:22:49 | rpc eth_call[arbitrum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:22:51 | slot0 error: arbitrum 0x3221022e37029923aCe4235D812273C5A42C322d -> execution reverted
+2025-09-22 17:22:51 | call getReserves arbitrum 0x3221022e37029923aCe4235D812273C5A42C322d
+2025-09-22 17:22:51 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x3221022e37029923aCe4235D812273C5A42C322d data=0x0902f1ac...
+2025-09-22 17:22:52 | rpc eth_call[arbitrum] <- len=194
+2025-09-22 17:22:52 | getReserves ok: arbitrum 0x3221022e37029923aCe4235D812273C5A42C322d len=194
+2025-09-22 17:22:52 | 10/40 [classic] arbitrum SUSHI/WETH 0x3221022e37029923aCe4235D812273C5A42C322d | avg=9.04s ETA~271.1s
+2025-09-22 17:22:52 | classify start arbitrum 0x3221022e37029923ace4235d812273c5a42c322d via RPC
+2025-09-22 17:22:52 | rpc eth_getCode[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x3221022e37029923ace4235d812273c5a42c322d
+2025-09-22 17:22:52 | rpc eth_getCode[arbitrum] <- len=18160
+2025-09-22 17:22:53 | getCode ok: arbitrum 0x3221022e37029923ace4235d812273c5a42c322d len=18160 0x60806040...
+2025-09-22 17:22:53 | call slot0 arbitrum 0x3221022e37029923ace4235d812273c5a42c322d
+2025-09-22 17:22:53 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x3221022e37029923ace4235d812273c5a42c322d data=0x3850c7bd...
+2025-09-22 17:22:53 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:22:53 | rpc eth_call[arbitrum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:22:54 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x3221022e37029923ace4235d812273c5a42c322d data=0x3850c7bd...
+2025-09-22 17:22:54 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:22:54 | rpc eth_call[arbitrum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:22:55 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x3221022e37029923ace4235d812273c5a42c322d data=0x3850c7bd...
+2025-09-22 17:22:56 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:22:56 | rpc eth_call[arbitrum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:22:57 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x3221022e37029923ace4235d812273c5a42c322d data=0x3850c7bd...
+2025-09-22 17:22:57 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:22:57 | rpc eth_call[arbitrum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:22:59 | slot0 error: arbitrum 0x3221022e37029923ace4235d812273c5a42c322d -> execution reverted
+2025-09-22 17:22:59 | call getReserves arbitrum 0x3221022e37029923ace4235d812273c5a42c322d
+2025-09-22 17:22:59 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x3221022e37029923ace4235d812273c5a42c322d data=0x0902f1ac...
+2025-09-22 17:23:00 | rpc eth_call[arbitrum] <- len=194
+2025-09-22 17:23:00 | getReserves ok: arbitrum 0x3221022e37029923ace4235d812273c5a42c322d len=194
+2025-09-22 17:23:00 | 11/40 [classic] arbitrum SUSHI/WETH 0x3221022e37029923ace4235d812273c5a42c322d | avg=8.96s ETA~259.9s
+2025-09-22 17:23:00 | classify start polygon 0x2813d43463c374a680f235c428fb1d7f08de0b69 via RPC
+2025-09-22 17:23:00 | rpc eth_getCode[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x2813d43463c374a680f235c428fb1d7f08de0b69
+2025-09-22 17:23:01 | rpc eth_getCode[polygon] <- len=18160
+2025-09-22 17:23:01 | getCode ok: polygon 0x2813d43463c374a680f235c428fb1d7f08de0b69 len=18160 0x60806040...
+2025-09-22 17:23:01 | call slot0 polygon 0x2813d43463c374a680f235c428fb1d7f08de0b69
+2025-09-22 17:23:01 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x2813d43463c374a680f235c428fb1d7f08de0b69 data=0x3850c7bd...
+2025-09-22 17:23:02 | rpc eth_call[polygon] error: execution reverted
+2025-09-22 17:23:02 | rpc eth_call[polygon] retry in 0.50s (attempt 1/4)
+2025-09-22 17:23:02 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x2813d43463c374a680f235c428fb1d7f08de0b69 data=0x3850c7bd...
+2025-09-22 17:23:02 | rpc eth_call[polygon] error: execution reverted
+2025-09-22 17:23:02 | rpc eth_call[polygon] retry in 1.00s (attempt 2/4)
+2025-09-22 17:23:03 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x2813d43463c374a680f235c428fb1d7f08de0b69 data=0x3850c7bd...
+2025-09-22 17:23:04 | rpc eth_call[polygon] error: execution reverted
+2025-09-22 17:23:04 | rpc eth_call[polygon] retry in 1.50s (attempt 3/4)
+2025-09-22 17:23:05 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x2813d43463c374a680f235c428fb1d7f08de0b69 data=0x3850c7bd...
+2025-09-22 17:23:06 | rpc eth_call[polygon] error: execution reverted
+2025-09-22 17:23:06 | rpc eth_call[polygon] retry in 2.00s (attempt 4/4)
+2025-09-22 17:23:08 | slot0 error: polygon 0x2813d43463c374a680f235c428fb1d7f08de0b69 -> execution reverted
+2025-09-22 17:23:08 | call getReserves polygon 0x2813d43463c374a680f235c428fb1d7f08de0b69
+2025-09-22 17:23:08 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x2813d43463c374a680f235c428fb1d7f08de0b69 data=0x0902f1ac...
+2025-09-22 17:23:08 | rpc eth_call[polygon] <- len=194
+2025-09-22 17:23:08 | getReserves ok: polygon 0x2813d43463c374a680f235c428fb1d7f08de0b69 len=194
+2025-09-22 17:23:08 | 12/40 [classic] polygon AAVE/WETH 0x2813d43463c374a680f235c428fb1d7f08de0b69 | avg=8.90s ETA~249.2s
+2025-09-22 17:23:08 | classify start ethereum 0xf55C33D94150d93c2cfb833bcCA30bE388b14964 via RPC
+2025-09-22 17:23:08 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0xf55C33D94150d93c2cfb833bcCA30bE388b14964
+2025-09-22 17:23:09 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:23:09 | getCode ok: ethereum 0xf55C33D94150d93c2cfb833bcCA30bE388b14964 len=18160 0x60806040...
+2025-09-22 17:23:09 | call slot0 ethereum 0xf55C33D94150d93c2cfb833bcCA30bE388b14964
+2025-09-22 17:23:09 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xf55C33D94150d93c2cfb833bcCA30bE388b14964 data=0x3850c7bd...
+2025-09-22 17:23:10 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:10 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:23:11 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xf55C33D94150d93c2cfb833bcCA30bE388b14964 data=0x3850c7bd...
+2025-09-22 17:23:11 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:11 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:23:12 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xf55C33D94150d93c2cfb833bcCA30bE388b14964 data=0x3850c7bd...
+2025-09-22 17:23:13 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:13 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:23:14 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xf55C33D94150d93c2cfb833bcCA30bE388b14964 data=0x3850c7bd...
+2025-09-22 17:23:15 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:15 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:23:17 | slot0 error: ethereum 0xf55C33D94150d93c2cfb833bcCA30bE388b14964 -> execution reverted
+2025-09-22 17:23:17 | call getReserves ethereum 0xf55C33D94150d93c2cfb833bcCA30bE388b14964
+2025-09-22 17:23:17 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xf55C33D94150d93c2cfb833bcCA30bE388b14964 data=0x0902f1ac...
+2025-09-22 17:23:17 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:23:18 | getReserves ok: ethereum 0xf55C33D94150d93c2cfb833bcCA30bE388b14964 len=194
+2025-09-22 17:23:18 | 13/40 [classic] ethereum ALPHA/WETH 0xf55C33D94150d93c2cfb833bcCA30bE388b14964 | avg=8.95s ETA~241.5s
+2025-09-22 17:23:18 | classify start ethereum 0xf55c33d94150d93c2cfb833bcca30be388b14964 via RPC
+2025-09-22 17:23:18 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0xf55c33d94150d93c2cfb833bcca30be388b14964
+2025-09-22 17:23:19 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:23:19 | getCode ok: ethereum 0xf55c33d94150d93c2cfb833bcca30be388b14964 len=18160 0x60806040...
+2025-09-22 17:23:19 | call slot0 ethereum 0xf55c33d94150d93c2cfb833bcca30be388b14964
+2025-09-22 17:23:19 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xf55c33d94150d93c2cfb833bcca30be388b14964 data=0x3850c7bd...
+2025-09-22 17:23:20 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:20 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:23:20 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xf55c33d94150d93c2cfb833bcca30be388b14964 data=0x3850c7bd...
+2025-09-22 17:23:21 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:21 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:23:22 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xf55c33d94150d93c2cfb833bcca30be388b14964 data=0x3850c7bd...
+2025-09-22 17:23:22 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:22 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:23:24 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xf55c33d94150d93c2cfb833bcca30be388b14964 data=0x3850c7bd...
+2025-09-22 17:23:24 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:24 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:23:26 | slot0 error: ethereum 0xf55c33d94150d93c2cfb833bcca30be388b14964 -> execution reverted
+2025-09-22 17:23:26 | call getReserves ethereum 0xf55c33d94150d93c2cfb833bcca30be388b14964
+2025-09-22 17:23:26 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xf55c33d94150d93c2cfb833bcca30be388b14964 data=0x0902f1ac...
+2025-09-22 17:23:28 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:23:28 | getReserves ok: ethereum 0xf55c33d94150d93c2cfb833bcca30be388b14964 len=194
+2025-09-22 17:23:28 | 14/40 [classic] ethereum ALPHA/WETH 0xf55c33d94150d93c2cfb833bcca30be388b14964 | avg=9.02s ETA~234.6s
+2025-09-22 17:23:28 | classify start ethereum 0x557B08a0CAb46BfE22471B65522757ea92a9e7A5 via RPC
+2025-09-22 17:23:28 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x557B08a0CAb46BfE22471B65522757ea92a9e7A5
+2025-09-22 17:23:29 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:23:29 | getCode ok: ethereum 0x557B08a0CAb46BfE22471B65522757ea92a9e7A5 len=18160 0x60806040...
+2025-09-22 17:23:29 | call slot0 ethereum 0x557B08a0CAb46BfE22471B65522757ea92a9e7A5
+2025-09-22 17:23:29 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x557B08a0CAb46BfE22471B65522757ea92a9e7A5 data=0x3850c7bd...
+2025-09-22 17:23:29 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:29 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:23:30 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x557B08a0CAb46BfE22471B65522757ea92a9e7A5 data=0x3850c7bd...
+2025-09-22 17:23:31 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:31 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:23:32 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x557B08a0CAb46BfE22471B65522757ea92a9e7A5 data=0x3850c7bd...
+2025-09-22 17:23:32 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:32 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:23:34 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x557B08a0CAb46BfE22471B65522757ea92a9e7A5 data=0x3850c7bd...
+2025-09-22 17:23:35 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:35 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:23:37 | slot0 error: ethereum 0x557B08a0CAb46BfE22471B65522757ea92a9e7A5 -> execution reverted
+2025-09-22 17:23:37 | call getReserves ethereum 0x557B08a0CAb46BfE22471B65522757ea92a9e7A5
+2025-09-22 17:23:37 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x557B08a0CAb46BfE22471B65522757ea92a9e7A5 data=0x0902f1ac...
+2025-09-22 17:23:38 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:23:38 | getReserves ok: ethereum 0x557B08a0CAb46BfE22471B65522757ea92a9e7A5 len=194
+2025-09-22 17:23:38 | 15/40 [classic] ethereum C98/WETH 0x557B08a0CAb46BfE22471B65522757ea92a9e7A5 | avg=9.11s ETA~227.9s
+2025-09-22 17:23:38 | classify start ethereum 0x557b08a0cab46bfe22471b65522757ea92a9e7a5 via RPC
+2025-09-22 17:23:38 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x557b08a0cab46bfe22471b65522757ea92a9e7a5
+2025-09-22 17:23:39 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:23:39 | getCode ok: ethereum 0x557b08a0cab46bfe22471b65522757ea92a9e7a5 len=18160 0x60806040...
+2025-09-22 17:23:39 | call slot0 ethereum 0x557b08a0cab46bfe22471b65522757ea92a9e7a5
+2025-09-22 17:23:39 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x557b08a0cab46bfe22471b65522757ea92a9e7a5 data=0x3850c7bd...
+2025-09-22 17:23:40 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:40 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:23:40 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x557b08a0cab46bfe22471b65522757ea92a9e7a5 data=0x3850c7bd...
+2025-09-22 17:23:41 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:41 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:23:42 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x557b08a0cab46bfe22471b65522757ea92a9e7a5 data=0x3850c7bd...
+2025-09-22 17:23:42 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:42 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:23:44 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x557b08a0cab46bfe22471b65522757ea92a9e7a5 data=0x3850c7bd...
+2025-09-22 17:23:44 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:44 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:23:46 | slot0 error: ethereum 0x557b08a0cab46bfe22471b65522757ea92a9e7a5 -> execution reverted
+2025-09-22 17:23:46 | call getReserves ethereum 0x557b08a0cab46bfe22471b65522757ea92a9e7a5
+2025-09-22 17:23:46 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x557b08a0cab46bfe22471b65522757ea92a9e7a5 data=0x0902f1ac...
+2025-09-22 17:23:46 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:23:47 | getReserves ok: ethereum 0x557b08a0cab46bfe22471b65522757ea92a9e7a5 len=194
+2025-09-22 17:23:47 | 16/40 [classic] ethereum C98/WETH 0x557b08a0cab46bfe22471b65522757ea92a9e7a5 | avg=9.08s ETA~217.8s
+2025-09-22 17:23:47 | classify start ethereum 0xa1181481beb2dc5de0daf2c85392d81c704bf75d via RPC
+2025-09-22 17:23:47 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0xa1181481beb2dc5de0daf2c85392d81c704bf75d
+2025-09-22 17:23:47 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:23:48 | getCode ok: ethereum 0xa1181481beb2dc5de0daf2c85392d81c704bf75d len=18160 0x60806040...
+2025-09-22 17:23:48 | call slot0 ethereum 0xa1181481beb2dc5de0daf2c85392d81c704bf75d
+2025-09-22 17:23:48 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xa1181481beb2dc5de0daf2c85392d81c704bf75d data=0x3850c7bd...
+2025-09-22 17:23:48 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:48 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:23:49 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xa1181481beb2dc5de0daf2c85392d81c704bf75d data=0x3850c7bd...
+2025-09-22 17:23:49 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:49 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:23:50 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xa1181481beb2dc5de0daf2c85392d81c704bf75d data=0x3850c7bd...
+2025-09-22 17:23:53 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:53 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:23:55 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xa1181481beb2dc5de0daf2c85392d81c704bf75d data=0x3850c7bd...
+2025-09-22 17:23:55 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:23:55 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:23:57 | slot0 error: ethereum 0xa1181481beb2dc5de0daf2c85392d81c704bf75d -> execution reverted
+2025-09-22 17:23:57 | call getReserves ethereum 0xa1181481beb2dc5de0daf2c85392d81c704bf75d
+2025-09-22 17:23:57 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xa1181481beb2dc5de0daf2c85392d81c704bf75d data=0x0902f1ac...
+2025-09-22 17:23:58 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:23:58 | getReserves ok: ethereum 0xa1181481beb2dc5de0daf2c85392d81c704bf75d len=194
+2025-09-22 17:23:58 | 17/40 [classic] ethereum ENS/WETH 0xa1181481beb2dc5de0daf2c85392d81c704bf75d | avg=9.22s ETA~212.0s
+2025-09-22 17:23:58 | classify start ethereum 0x18cd890f4e23422dc4aa8c2d6e0bd3f3bd8873d8 via RPC
+2025-09-22 17:23:58 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x18cd890f4e23422dc4aa8c2d6e0bd3f3bd8873d8
+2025-09-22 17:24:00 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:24:01 | getCode ok: ethereum 0x18cd890f4e23422dc4aa8c2d6e0bd3f3bd8873d8 len=18160 0x60806040...
+2025-09-22 17:24:01 | call slot0 ethereum 0x18cd890f4e23422dc4aa8c2d6e0bd3f3bd8873d8
+2025-09-22 17:24:01 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x18cd890f4e23422dc4aa8c2d6e0bd3f3bd8873d8 data=0x3850c7bd...
+2025-09-22 17:24:01 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:24:01 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:24:02 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x18cd890f4e23422dc4aa8c2d6e0bd3f3bd8873d8 data=0x3850c7bd...
+2025-09-22 17:24:02 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:24:02 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:24:03 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x18cd890f4e23422dc4aa8c2d6e0bd3f3bd8873d8 data=0x3850c7bd...
+2025-09-22 17:24:04 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:24:04 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:24:05 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x18cd890f4e23422dc4aa8c2d6e0bd3f3bd8873d8 data=0x3850c7bd...
+2025-09-22 17:24:06 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:24:06 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:24:08 | slot0 error: ethereum 0x18cd890f4e23422dc4aa8c2d6e0bd3f3bd8873d8 -> execution reverted
+2025-09-22 17:24:08 | call getReserves ethereum 0x18cd890f4e23422dc4aa8c2d6e0bd3f3bd8873d8
+2025-09-22 17:24:08 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x18cd890f4e23422dc4aa8c2d6e0bd3f3bd8873d8 data=0x0902f1ac...
+2025-09-22 17:24:08 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:24:09 | getReserves ok: ethereum 0x18cd890f4e23422dc4aa8c2d6e0bd3f3bd8873d8 len=194
+2025-09-22 17:24:09 | 18/40 [classic] ethereum IMX/WETH 0x18cd890f4e23422dc4aa8c2d6e0bd3f3bd8873d8 | avg=9.29s ETA~204.3s
+2025-09-22 17:24:09 | classify start ethereum 0xfb3cd0b8a5371fe93ef92e3988d30df7931e2820 via RPC
+2025-09-22 17:24:09 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0xfb3cd0b8a5371fe93ef92e3988d30df7931e2820
+2025-09-22 17:24:09 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:24:10 | getCode ok: ethereum 0xfb3cd0b8a5371fe93ef92e3988d30df7931e2820 len=18160 0x60806040...
+2025-09-22 17:24:10 | call slot0 ethereum 0xfb3cd0b8a5371fe93ef92e3988d30df7931e2820
+2025-09-22 17:24:10 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xfb3cd0b8a5371fe93ef92e3988d30df7931e2820 data=0x3850c7bd...
+2025-09-22 17:24:10 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:24:10 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:24:11 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xfb3cd0b8a5371fe93ef92e3988d30df7931e2820 data=0x3850c7bd...
+2025-09-22 17:24:11 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:24:11 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:24:12 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xfb3cd0b8a5371fe93ef92e3988d30df7931e2820 data=0x3850c7bd...
+2025-09-22 17:24:13 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:24:13 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:24:15 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xfb3cd0b8a5371fe93ef92e3988d30df7931e2820 data=0x3850c7bd...
+2025-09-22 17:24:15 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:24:15 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:24:17 | slot0 error: ethereum 0xfb3cd0b8a5371fe93ef92e3988d30df7931e2820 -> execution reverted
+2025-09-22 17:24:17 | call getReserves ethereum 0xfb3cd0b8a5371fe93ef92e3988d30df7931e2820
+2025-09-22 17:24:17 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xfb3cd0b8a5371fe93ef92e3988d30df7931e2820 data=0x0902f1ac...
+2025-09-22 17:24:18 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:24:18 | getReserves ok: ethereum 0xfb3cd0b8a5371fe93ef92e3988d30df7931e2820 len=194
+2025-09-22 17:24:18 | 19/40 [classic] ethereum INJ/WETH 0xfb3cd0b8a5371fe93ef92e3988d30df7931e2820 | avg=9.28s ETA~195.0s
+2025-09-22 17:24:18 | classify start polygon 0xA34Ec05DA1E4287FA351c74469189345990a3F0C via RPC
+2025-09-22 17:24:18 | rpc eth_getCode[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0xA34Ec05DA1E4287FA351c74469189345990a3F0C
+2025-09-22 17:24:18 | rpc eth_getCode[polygon] <- len=18160
+2025-09-22 17:24:19 | getCode ok: polygon 0xA34Ec05DA1E4287FA351c74469189345990a3F0C len=18160 0x60806040...
+2025-09-22 17:24:19 | call slot0 polygon 0xA34Ec05DA1E4287FA351c74469189345990a3F0C
+2025-09-22 17:24:19 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xA34Ec05DA1E4287FA351c74469189345990a3F0C data=0x3850c7bd...
+2025-09-22 17:24:19 | rpc eth_call[polygon] error: execution reverted
+2025-09-22 17:24:19 | rpc eth_call[polygon] retry in 0.50s (attempt 1/4)
+2025-09-22 17:24:20 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xA34Ec05DA1E4287FA351c74469189345990a3F0C data=0x3850c7bd...
+2025-09-22 17:24:21 | rpc eth_call[polygon] error: execution reverted
+2025-09-22 17:24:21 | rpc eth_call[polygon] retry in 1.00s (attempt 2/4)
+2025-09-22 17:24:22 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xA34Ec05DA1E4287FA351c74469189345990a3F0C data=0x3850c7bd...
+2025-09-22 17:24:23 | rpc eth_call[polygon] error: execution reverted
+2025-09-22 17:24:23 | rpc eth_call[polygon] retry in 1.50s (attempt 3/4)
+2025-09-22 17:24:24 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xA34Ec05DA1E4287FA351c74469189345990a3F0C data=0x3850c7bd...
+2025-09-22 17:24:24 | rpc eth_call[polygon] error: execution reverted
+2025-09-22 17:24:24 | rpc eth_call[polygon] retry in 2.00s (attempt 4/4)
+2025-09-22 17:24:26 | slot0 error: polygon 0xA34Ec05DA1E4287FA351c74469189345990a3F0C -> execution reverted
+2025-09-22 17:24:26 | call getReserves polygon 0xA34Ec05DA1E4287FA351c74469189345990a3F0C
+2025-09-22 17:24:26 | rpc eth_call[polygon] -> https://polygon-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xA34Ec05DA1E4287FA351c74469189345990a3F0C data=0x0902f1ac...
+2025-09-22 17:24:27 | rpc eth_call[polygon] <- len=194
+2025-09-22 17:24:27 | getReserves ok: polygon 0xA34Ec05DA1E4287FA351c74469189345990a3F0C len=194
+2025-09-22 17:24:27 | 20/40 [classic] polygon STG/USDC 0xA34Ec05DA1E4287FA351c74469189345990a3F0C | avg=9.28s ETA~185.6s
+2025-09-22 17:24:27 | classify start ethereum 0xb5De0C3753b6E1B4dBA616Db82767F17513E6d4E via RPC
+2025-09-22 17:24:27 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0xb5De0C3753b6E1B4dBA616Db82767F17513E6d4E
+2025-09-22 17:24:28 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:24:28 | getCode ok: ethereum 0xb5De0C3753b6E1B4dBA616Db82767F17513E6d4E len=18160 0x60806040...
+2025-09-22 17:24:28 | call slot0 ethereum 0xb5De0C3753b6E1B4dBA616Db82767F17513E6d4E
+2025-09-22 17:24:28 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xb5De0C3753b6E1B4dBA616Db82767F17513E6d4E data=0x3850c7bd...
+2025-09-22 17:24:29 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:24:29 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:24:29 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xb5De0C3753b6E1B4dBA616Db82767F17513E6d4E data=0x3850c7bd...
+2025-09-22 17:24:30 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:24:30 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:24:31 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xb5De0C3753b6E1B4dBA616Db82767F17513E6d4E data=0x3850c7bd...
+2025-09-22 17:24:31 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:24:31 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:24:33 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xb5De0C3753b6E1B4dBA616Db82767F17513E6d4E data=0x3850c7bd...
+2025-09-22 17:24:33 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:24:33 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:24:35 | slot0 error: ethereum 0xb5De0C3753b6E1B4dBA616Db82767F17513E6d4E -> execution reverted
+2025-09-22 17:24:35 | call getReserves ethereum 0xb5De0C3753b6E1B4dBA616Db82767F17513E6d4E
+2025-09-22 17:24:35 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xb5De0C3753b6E1B4dBA616Db82767F17513E6d4E data=0x0902f1ac...
+2025-09-22 17:24:36 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:24:36 | getReserves ok: ethereum 0xb5De0C3753b6E1B4dBA616Db82767F17513E6d4E len=194
+2025-09-22 17:24:36 | 21/40 [classic] ethereum SPELL/WETH 0xb5De0C3753b6E1B4dBA616Db82767F17513E6d4E | avg=9.26s ETA~175.9s
+2025-09-22 17:24:36 | classify start ethereum 0xb5de0c3753b6e1b4dba616db82767f17513e6d4e via RPC
+2025-09-22 17:24:36 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0xb5de0c3753b6e1b4dba616db82767f17513e6d4e
+2025-09-22 17:24:37 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:24:37 | getCode ok: ethereum 0xb5de0c3753b6e1b4dba616db82767f17513e6d4e len=18160 0x60806040...
+2025-09-22 17:24:37 | call slot0 ethereum 0xb5de0c3753b6e1b4dba616db82767f17513e6d4e
+2025-09-22 17:24:37 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xb5de0c3753b6e1b4dba616db82767f17513e6d4e data=0x3850c7bd...
+2025-09-22 17:24:38 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:24:38 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:24:38 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xb5de0c3753b6e1b4dba616db82767f17513e6d4e data=0x3850c7bd...
+2025-09-22 17:24:39 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:24:39 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:24:40 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xb5de0c3753b6e1b4dba616db82767f17513e6d4e data=0x3850c7bd...
+2025-09-22 17:24:41 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:24:41 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:24:43 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xb5de0c3753b6e1b4dba616db82767f17513e6d4e data=0x3850c7bd...
+2025-09-22 17:24:43 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:24:43 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:24:45 | slot0 error: ethereum 0xb5de0c3753b6e1b4dba616db82767f17513e6d4e -> execution reverted
+2025-09-22 17:24:45 | call getReserves ethereum 0xb5de0c3753b6e1b4dba616db82767f17513e6d4e
+2025-09-22 17:24:45 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xb5de0c3753b6e1b4dba616db82767f17513e6d4e data=0x0902f1ac...
+2025-09-22 17:24:46 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:24:46 | getReserves ok: ethereum 0xb5de0c3753b6e1b4dba616db82767f17513e6d4e len=194
+2025-09-22 17:24:46 | 22/40 [classic] ethereum SPELL/WETH 0xb5de0c3753b6e1b4dba616db82767f17513e6d4e | avg=9.29s ETA~167.2s
+2025-09-22 17:24:46 | classify start arbitrum 0x8f93Eaae544e8f5EB077A1e09C1554067d9e2CA8 via RPC
+2025-09-22 17:24:46 | rpc eth_getCode[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x8f93Eaae544e8f5EB077A1e09C1554067d9e2CA8
+2025-09-22 17:24:46 | rpc eth_getCode[arbitrum] <- len=18160
+2025-09-22 17:24:47 | getCode ok: arbitrum 0x8f93Eaae544e8f5EB077A1e09C1554067d9e2CA8 len=18160 0x60806040...
+2025-09-22 17:24:47 | call slot0 arbitrum 0x8f93Eaae544e8f5EB077A1e09C1554067d9e2CA8
+2025-09-22 17:24:47 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x8f93Eaae544e8f5EB077A1e09C1554067d9e2CA8 data=0x3850c7bd...
+2025-09-22 17:24:48 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:24:48 | rpc eth_call[arbitrum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:24:48 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x8f93Eaae544e8f5EB077A1e09C1554067d9e2CA8 data=0x3850c7bd...
+2025-09-22 17:24:49 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:24:49 | rpc eth_call[arbitrum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:24:50 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x8f93Eaae544e8f5EB077A1e09C1554067d9e2CA8 data=0x3850c7bd...
+2025-09-22 17:24:50 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:24:50 | rpc eth_call[arbitrum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:24:51 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x8f93Eaae544e8f5EB077A1e09C1554067d9e2CA8 data=0x3850c7bd...
+2025-09-22 17:24:52 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:24:52 | rpc eth_call[arbitrum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:24:54 | slot0 error: arbitrum 0x8f93Eaae544e8f5EB077A1e09C1554067d9e2CA8 -> execution reverted
+2025-09-22 17:24:54 | call getReserves arbitrum 0x8f93Eaae544e8f5EB077A1e09C1554067d9e2CA8
+2025-09-22 17:24:54 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x8f93Eaae544e8f5EB077A1e09C1554067d9e2CA8 data=0x0902f1ac...
+2025-09-22 17:24:54 | rpc eth_call[arbitrum] <- len=194
+2025-09-22 17:24:55 | getReserves ok: arbitrum 0x8f93Eaae544e8f5EB077A1e09C1554067d9e2CA8 len=194
+2025-09-22 17:24:55 | 23/40 [classic] arbitrum SPELL/WETH 0x8f93Eaae544e8f5EB077A1e09C1554067d9e2CA8 | avg=9.26s ETA~157.4s
+2025-09-22 17:24:55 | classify start arbitrum 0x8f93eaae544e8f5eb077a1e09c1554067d9e2ca8 via RPC
+2025-09-22 17:24:55 | rpc eth_getCode[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x8f93eaae544e8f5eb077a1e09c1554067d9e2ca8
+2025-09-22 17:24:55 | rpc eth_getCode[arbitrum] <- len=18160
+2025-09-22 17:24:55 | getCode ok: arbitrum 0x8f93eaae544e8f5eb077a1e09c1554067d9e2ca8 len=18160 0x60806040...
+2025-09-22 17:24:55 | call slot0 arbitrum 0x8f93eaae544e8f5eb077a1e09c1554067d9e2ca8
+2025-09-22 17:24:55 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x8f93eaae544e8f5eb077a1e09c1554067d9e2ca8 data=0x3850c7bd...
+2025-09-22 17:24:56 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:24:56 | rpc eth_call[arbitrum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:24:56 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x8f93eaae544e8f5eb077a1e09c1554067d9e2ca8 data=0x3850c7bd...
+2025-09-22 17:24:57 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:24:57 | rpc eth_call[arbitrum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:24:58 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x8f93eaae544e8f5eb077a1e09c1554067d9e2ca8 data=0x3850c7bd...
+2025-09-22 17:24:58 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:24:58 | rpc eth_call[arbitrum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:24:59 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x8f93eaae544e8f5eb077a1e09c1554067d9e2ca8 data=0x3850c7bd...
+2025-09-22 17:25:00 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:25:00 | rpc eth_call[arbitrum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:25:02 | slot0 error: arbitrum 0x8f93eaae544e8f5eb077a1e09c1554067d9e2ca8 -> execution reverted
+2025-09-22 17:25:02 | call getReserves arbitrum 0x8f93eaae544e8f5eb077a1e09c1554067d9e2ca8
+2025-09-22 17:25:02 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x8f93eaae544e8f5eb077a1e09c1554067d9e2ca8 data=0x0902f1ac...
+2025-09-22 17:25:02 | rpc eth_call[arbitrum] <- len=194
+2025-09-22 17:25:03 | getReserves ok: arbitrum 0x8f93eaae544e8f5eb077a1e09c1554067d9e2ca8 len=194
+2025-09-22 17:25:03 | 24/40 [classic] arbitrum SPELL/WETH 0x8f93eaae544e8f5eb077a1e09c1554067d9e2ca8 | avg=9.21s ETA~147.3s
+2025-09-22 17:25:03 | classify start arbitrum 0xb7e50106a5bd3cf21af210a755f9c8740890a8c9 via RPC
+2025-09-22 17:25:03 | rpc eth_getCode[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0xb7e50106a5bd3cf21af210a755f9c8740890a8c9
+2025-09-22 17:25:03 | rpc eth_getCode[arbitrum] <- len=18160
+2025-09-22 17:25:03 | getCode ok: arbitrum 0xb7e50106a5bd3cf21af210a755f9c8740890a8c9 len=18160 0x60806040...
+2025-09-22 17:25:03 | call slot0 arbitrum 0xb7e50106a5bd3cf21af210a755f9c8740890a8c9
+2025-09-22 17:25:03 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xb7e50106a5bd3cf21af210a755f9c8740890a8c9 data=0x3850c7bd...
+2025-09-22 17:25:04 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:25:04 | rpc eth_call[arbitrum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:25:04 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xb7e50106a5bd3cf21af210a755f9c8740890a8c9 data=0x3850c7bd...
+2025-09-22 17:25:05 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:25:05 | rpc eth_call[arbitrum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:25:06 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xb7e50106a5bd3cf21af210a755f9c8740890a8c9 data=0x3850c7bd...
+2025-09-22 17:25:06 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:25:06 | rpc eth_call[arbitrum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:25:08 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xb7e50106a5bd3cf21af210a755f9c8740890a8c9 data=0x3850c7bd...
+2025-09-22 17:25:08 | rpc eth_call[arbitrum] error: execution reverted
+2025-09-22 17:25:08 | rpc eth_call[arbitrum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:25:10 | slot0 error: arbitrum 0xb7e50106a5bd3cf21af210a755f9c8740890a8c9 -> execution reverted
+2025-09-22 17:25:10 | call getReserves arbitrum 0xb7e50106a5bd3cf21af210a755f9c8740890a8c9
+2025-09-22 17:25:10 | rpc eth_call[arbitrum] -> https://arb-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xb7e50106a5bd3cf21af210a755f9c8740890a8c9 data=0x0902f1ac...
+2025-09-22 17:25:10 | rpc eth_call[arbitrum] <- len=194
+2025-09-22 17:25:11 | getReserves ok: arbitrum 0xb7e50106a5bd3cf21af210a755f9c8740890a8c9 len=194
+2025-09-22 17:25:11 | 25/40 [classic] arbitrum MAGIC/WETH 0xb7e50106a5bd3cf21af210a755f9c8740890a8c9 | avg=9.17s ETA~137.6s
+2025-09-22 17:25:11 | classify start ethereum 0x001b6450083E531A5a7Bf310BD2c1Af4247E23D4 via RPC
+2025-09-22 17:25:11 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x001b6450083E531A5a7Bf310BD2c1Af4247E23D4
+2025-09-22 17:25:11 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:25:12 | getCode ok: ethereum 0x001b6450083E531A5a7Bf310BD2c1Af4247E23D4 len=18160 0x60806040...
+2025-09-22 17:25:12 | call slot0 ethereum 0x001b6450083E531A5a7Bf310BD2c1Af4247E23D4
+2025-09-22 17:25:12 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x001b6450083E531A5a7Bf310BD2c1Af4247E23D4 data=0x3850c7bd...
+2025-09-22 17:25:13 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:13 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:25:13 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x001b6450083E531A5a7Bf310BD2c1Af4247E23D4 data=0x3850c7bd...
+2025-09-22 17:25:14 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:14 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:25:15 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x001b6450083E531A5a7Bf310BD2c1Af4247E23D4 data=0x3850c7bd...
+2025-09-22 17:25:15 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:15 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:25:17 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x001b6450083E531A5a7Bf310BD2c1Af4247E23D4 data=0x3850c7bd...
+2025-09-22 17:25:17 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:17 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:25:19 | slot0 error: ethereum 0x001b6450083E531A5a7Bf310BD2c1Af4247E23D4 -> execution reverted
+2025-09-22 17:25:19 | call getReserves ethereum 0x001b6450083E531A5a7Bf310BD2c1Af4247E23D4
+2025-09-22 17:25:19 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x001b6450083E531A5a7Bf310BD2c1Af4247E23D4 data=0x0902f1ac...
+2025-09-22 17:25:20 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:25:20 | getReserves ok: ethereum 0x001b6450083E531A5a7Bf310BD2c1Af4247E23D4 len=194
+2025-09-22 17:25:20 | 26/40 [classic] ethereum UMA/WETH 0x001b6450083E531A5a7Bf310BD2c1Af4247E23D4 | avg=9.18s ETA~128.5s
+2025-09-22 17:25:20 | classify start ethereum 0x001b6450083e531a5a7bf310bd2c1af4247e23d4 via RPC
+2025-09-22 17:25:20 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x001b6450083e531a5a7bf310bd2c1af4247e23d4
+2025-09-22 17:25:21 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:25:21 | getCode ok: ethereum 0x001b6450083e531a5a7bf310bd2c1af4247e23d4 len=18160 0x60806040...
+2025-09-22 17:25:21 | call slot0 ethereum 0x001b6450083e531a5a7bf310bd2c1af4247e23d4
+2025-09-22 17:25:21 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x001b6450083e531a5a7bf310bd2c1af4247e23d4 data=0x3850c7bd...
+2025-09-22 17:25:22 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:22 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:25:22 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x001b6450083e531a5a7bf310bd2c1af4247e23d4 data=0x3850c7bd...
+2025-09-22 17:25:23 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:23 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:25:24 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x001b6450083e531a5a7bf310bd2c1af4247e23d4 data=0x3850c7bd...
+2025-09-22 17:25:24 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:24 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:25:26 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x001b6450083e531a5a7bf310bd2c1af4247e23d4 data=0x3850c7bd...
+2025-09-22 17:25:26 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:26 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:25:28 | slot0 error: ethereum 0x001b6450083e531a5a7bf310bd2c1af4247e23d4 -> execution reverted
+2025-09-22 17:25:28 | call getReserves ethereum 0x001b6450083e531a5a7bf310bd2c1af4247e23d4
+2025-09-22 17:25:28 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x001b6450083e531a5a7bf310bd2c1af4247e23d4 data=0x0902f1ac...
+2025-09-22 17:25:29 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:25:29 | getReserves ok: ethereum 0x001b6450083e531a5a7bf310bd2c1af4247e23d4 len=194
+2025-09-22 17:25:29 | 27/40 [classic] ethereum UMA/WETH 0x001b6450083e531a5a7bf310bd2c1af4247e23d4 | avg=9.17s ETA~119.2s
+2025-09-22 17:25:29 | classify start ethereum 0x37922c69b08babcceae735a31235c81f1d1e8e43 via RPC
+2025-09-22 17:25:29 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x37922c69b08babcceae735a31235c81f1d1e8e43
+2025-09-22 17:25:30 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:25:30 | getCode ok: ethereum 0x37922c69b08babcceae735a31235c81f1d1e8e43 len=18160 0x60806040...
+2025-09-22 17:25:30 | call slot0 ethereum 0x37922c69b08babcceae735a31235c81f1d1e8e43
+2025-09-22 17:25:30 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x37922c69b08babcceae735a31235c81f1d1e8e43 data=0x3850c7bd...
+2025-09-22 17:25:32 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:32 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:25:32 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x37922c69b08babcceae735a31235c81f1d1e8e43 data=0x3850c7bd...
+2025-09-22 17:25:33 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:33 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:25:34 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x37922c69b08babcceae735a31235c81f1d1e8e43 data=0x3850c7bd...
+2025-09-22 17:25:34 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:34 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:25:36 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x37922c69b08babcceae735a31235c81f1d1e8e43 data=0x3850c7bd...
+2025-09-22 17:25:36 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:36 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:25:38 | slot0 error: ethereum 0x37922c69b08babcceae735a31235c81f1d1e8e43 -> execution reverted
+2025-09-22 17:25:38 | call getReserves ethereum 0x37922c69b08babcceae735a31235c81f1d1e8e43
+2025-09-22 17:25:38 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x37922c69b08babcceae735a31235c81f1d1e8e43 data=0x0902f1ac...
+2025-09-22 17:25:39 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:25:39 | getReserves ok: ethereum 0x37922c69b08babcceae735a31235c81f1d1e8e43 len=194
+2025-09-22 17:25:39 | 28/40 [classic] ethereum PENDLE/WETH 0x37922c69b08babcceae735a31235c81f1d1e8e43 | avg=9.20s ETA~110.4s
+2025-09-22 17:25:39 | classify start ethereum 0x99B42F2B49C395D2a77D973f6009aBb5d67dA343 via RPC
+2025-09-22 17:25:39 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x99B42F2B49C395D2a77D973f6009aBb5d67dA343
+2025-09-22 17:25:40 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:25:41 | getCode ok: ethereum 0x99B42F2B49C395D2a77D973f6009aBb5d67dA343 len=18160 0x60806040...
+2025-09-22 17:25:41 | call slot0 ethereum 0x99B42F2B49C395D2a77D973f6009aBb5d67dA343
+2025-09-22 17:25:41 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x99B42F2B49C395D2a77D973f6009aBb5d67dA343 data=0x3850c7bd...
+2025-09-22 17:25:42 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:42 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:25:42 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x99B42F2B49C395D2a77D973f6009aBb5d67dA343 data=0x3850c7bd...
+2025-09-22 17:25:43 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:43 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:25:44 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x99B42F2B49C395D2a77D973f6009aBb5d67dA343 data=0x3850c7bd...
+2025-09-22 17:25:45 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:45 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:25:46 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x99B42F2B49C395D2a77D973f6009aBb5d67dA343 data=0x3850c7bd...
+2025-09-22 17:25:47 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:47 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:25:49 | slot0 error: ethereum 0x99B42F2B49C395D2a77D973f6009aBb5d67dA343 -> execution reverted
+2025-09-22 17:25:49 | call getReserves ethereum 0x99B42F2B49C395D2a77D973f6009aBb5d67dA343
+2025-09-22 17:25:49 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x99B42F2B49C395D2a77D973f6009aBb5d67dA343 data=0x0902f1ac...
+2025-09-22 17:25:49 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:25:50 | getReserves ok: ethereum 0x99B42F2B49C395D2a77D973f6009aBb5d67dA343 len=194
+2025-09-22 17:25:50 | 29/40 [classic] ethereum YGG/WETH 0x99B42F2B49C395D2a77D973f6009aBb5d67dA343 | avg=9.24s ETA~101.6s
+2025-09-22 17:25:50 | classify start ethereum 0x99b42f2b49c395d2a77d973f6009abb5d67da343 via RPC
+2025-09-22 17:25:50 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x99b42f2b49c395d2a77d973f6009abb5d67da343
+2025-09-22 17:25:50 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:25:51 | getCode ok: ethereum 0x99b42f2b49c395d2a77d973f6009abb5d67da343 len=18160 0x60806040...
+2025-09-22 17:25:51 | call slot0 ethereum 0x99b42f2b49c395d2a77d973f6009abb5d67da343
+2025-09-22 17:25:51 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x99b42f2b49c395d2a77d973f6009abb5d67da343 data=0x3850c7bd...
+2025-09-22 17:25:51 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:51 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:25:52 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x99b42f2b49c395d2a77d973f6009abb5d67da343 data=0x3850c7bd...
+2025-09-22 17:25:52 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:52 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:25:53 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x99b42f2b49c395d2a77d973f6009abb5d67da343 data=0x3850c7bd...
+2025-09-22 17:25:54 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:54 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:25:55 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x99b42f2b49c395d2a77d973f6009abb5d67da343 data=0x3850c7bd...
+2025-09-22 17:25:56 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:25:56 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:25:58 | slot0 error: ethereum 0x99b42f2b49c395d2a77d973f6009abb5d67da343 -> execution reverted
+2025-09-22 17:25:58 | call getReserves ethereum 0x99b42f2b49c395d2a77d973f6009abb5d67da343
+2025-09-22 17:25:58 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x99b42f2b49c395d2a77d973f6009abb5d67da343 data=0x0902f1ac...
+2025-09-22 17:25:59 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:25:59 | getReserves ok: ethereum 0x99b42f2b49c395d2a77d973f6009abb5d67da343 len=194
+2025-09-22 17:25:59 | 30/40 [classic] ethereum YGG/WETH 0x99b42f2b49c395d2a77d973f6009abb5d67da343 | avg=9.25s ETA~92.5s
+2025-09-22 17:25:59 | classify start ethereum 0x110492b31c59716AC47337E616804E3E3AdC0b4a via RPC
+2025-09-22 17:25:59 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x110492b31c59716AC47337E616804E3E3AdC0b4a
+2025-09-22 17:26:00 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:26:01 | getCode ok: ethereum 0x110492b31c59716AC47337E616804E3E3AdC0b4a len=18160 0x60806040...
+2025-09-22 17:26:01 | call slot0 ethereum 0x110492b31c59716AC47337E616804E3E3AdC0b4a
+2025-09-22 17:26:01 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x110492b31c59716AC47337E616804E3E3AdC0b4a data=0x3850c7bd...
+2025-09-22 17:26:01 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:01 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:26:01 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x110492b31c59716AC47337E616804E3E3AdC0b4a data=0x3850c7bd...
+2025-09-22 17:26:02 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:02 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:26:03 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x110492b31c59716AC47337E616804E3E3AdC0b4a data=0x3850c7bd...
+2025-09-22 17:26:03 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:03 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:26:05 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x110492b31c59716AC47337E616804E3E3AdC0b4a data=0x3850c7bd...
+2025-09-22 17:26:06 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:06 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:26:08 | slot0 error: ethereum 0x110492b31c59716AC47337E616804E3E3AdC0b4a -> execution reverted
+2025-09-22 17:26:08 | call getReserves ethereum 0x110492b31c59716AC47337E616804E3E3AdC0b4a
+2025-09-22 17:26:08 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x110492b31c59716AC47337E616804E3E3AdC0b4a data=0x0902f1ac...
+2025-09-22 17:26:08 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:26:09 | getReserves ok: ethereum 0x110492b31c59716AC47337E616804E3E3AdC0b4a len=194
+2025-09-22 17:26:09 | 31/40 [classic] ethereum BADGER/WBTC 0x110492b31c59716AC47337E616804E3E3AdC0b4a | avg=9.26s ETA~83.3s
+2025-09-22 17:26:09 | classify start ethereum 0x110492b31c59716ac47337e616804e3e3adc0b4a via RPC
+2025-09-22 17:26:09 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x110492b31c59716ac47337e616804e3e3adc0b4a
+2025-09-22 17:26:09 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:26:10 | getCode ok: ethereum 0x110492b31c59716ac47337e616804e3e3adc0b4a len=18160 0x60806040...
+2025-09-22 17:26:10 | call slot0 ethereum 0x110492b31c59716ac47337e616804e3e3adc0b4a
+2025-09-22 17:26:10 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x110492b31c59716ac47337e616804e3e3adc0b4a data=0x3850c7bd...
+2025-09-22 17:26:10 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:10 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:26:11 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x110492b31c59716ac47337e616804e3e3adc0b4a data=0x3850c7bd...
+2025-09-22 17:26:12 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:12 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:26:13 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x110492b31c59716ac47337e616804e3e3adc0b4a data=0x3850c7bd...
+2025-09-22 17:26:13 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:13 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:26:15 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x110492b31c59716ac47337e616804e3e3adc0b4a data=0x3850c7bd...
+2025-09-22 17:26:16 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:16 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:26:18 | slot0 error: ethereum 0x110492b31c59716ac47337e616804e3e3adc0b4a -> execution reverted
+2025-09-22 17:26:18 | call getReserves ethereum 0x110492b31c59716ac47337e616804e3e3adc0b4a
+2025-09-22 17:26:18 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x110492b31c59716ac47337e616804e3e3adc0b4a data=0x0902f1ac...
+2025-09-22 17:26:18 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:26:19 | getReserves ok: ethereum 0x110492b31c59716ac47337e616804e3e3adc0b4a len=194
+2025-09-22 17:26:19 | 32/40 [classic] ethereum BADGER/WBTC 0x110492b31c59716ac47337e616804e3e3adc0b4a | avg=9.28s ETA~74.2s
+2025-09-22 17:26:19 | classify start ethereum 0x6a091a3406E0073C3CD6340122143009aDac0EDa via RPC
+2025-09-22 17:26:19 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x6a091a3406E0073C3CD6340122143009aDac0EDa
+2025-09-22 17:26:19 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:26:20 | getCode ok: ethereum 0x6a091a3406E0073C3CD6340122143009aDac0EDa len=18160 0x60806040...
+2025-09-22 17:26:20 | call slot0 ethereum 0x6a091a3406E0073C3CD6340122143009aDac0EDa
+2025-09-22 17:26:20 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x6a091a3406E0073C3CD6340122143009aDac0EDa data=0x3850c7bd...
+2025-09-22 17:26:21 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:21 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:26:21 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x6a091a3406E0073C3CD6340122143009aDac0EDa data=0x3850c7bd...
+2025-09-22 17:26:23 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:23 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:26:24 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x6a091a3406E0073C3CD6340122143009aDac0EDa data=0x3850c7bd...
+2025-09-22 17:26:24 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:24 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:26:26 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x6a091a3406E0073C3CD6340122143009aDac0EDa data=0x3850c7bd...
+2025-09-22 17:26:26 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:26 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:26:28 | slot0 error: ethereum 0x6a091a3406E0073C3CD6340122143009aDac0EDa -> execution reverted
+2025-09-22 17:26:28 | call getReserves ethereum 0x6a091a3406E0073C3CD6340122143009aDac0EDa
+2025-09-22 17:26:28 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x6a091a3406E0073C3CD6340122143009aDac0EDa data=0x0902f1ac...
+2025-09-22 17:26:29 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:26:29 | getReserves ok: ethereum 0x6a091a3406E0073C3CD6340122143009aDac0EDa len=194
+2025-09-22 17:26:29 | 33/40 [classic] ethereum ILV/WETH 0x6a091a3406E0073C3CD6340122143009aDac0EDa | avg=9.32s ETA~65.3s
+2025-09-22 17:26:29 | classify start ethereum 0x6a091a3406e0073c3cd6340122143009adac0eda via RPC
+2025-09-22 17:26:29 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x6a091a3406e0073c3cd6340122143009adac0eda
+2025-09-22 17:26:30 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:26:31 | getCode ok: ethereum 0x6a091a3406e0073c3cd6340122143009adac0eda len=18160 0x60806040...
+2025-09-22 17:26:31 | call slot0 ethereum 0x6a091a3406e0073c3cd6340122143009adac0eda
+2025-09-22 17:26:31 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x6a091a3406e0073c3cd6340122143009adac0eda data=0x3850c7bd...
+2025-09-22 17:26:31 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:31 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:26:31 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x6a091a3406e0073c3cd6340122143009adac0eda data=0x3850c7bd...
+2025-09-22 17:26:32 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:32 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:26:33 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x6a091a3406e0073c3cd6340122143009adac0eda data=0x3850c7bd...
+2025-09-22 17:26:34 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:34 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:26:35 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x6a091a3406e0073c3cd6340122143009adac0eda data=0x3850c7bd...
+2025-09-22 17:26:36 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:36 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:26:38 | slot0 error: ethereum 0x6a091a3406e0073c3cd6340122143009adac0eda -> execution reverted
+2025-09-22 17:26:38 | call getReserves ethereum 0x6a091a3406e0073c3cd6340122143009adac0eda
+2025-09-22 17:26:38 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x6a091a3406e0073c3cd6340122143009adac0eda data=0x0902f1ac...
+2025-09-22 17:26:39 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:26:40 | getReserves ok: ethereum 0x6a091a3406e0073c3cd6340122143009adac0eda len=194
+2025-09-22 17:26:40 | 34/40 [classic] ethereum ILV/WETH 0x6a091a3406e0073c3cd6340122143009adac0eda | avg=9.36s ETA~56.2s
+2025-09-22 17:26:40 | classify start ethereum 0x4A86C01d67965f8cB3d0AAA2c655705E64097C31 via RPC
+2025-09-22 17:26:40 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x4A86C01d67965f8cB3d0AAA2c655705E64097C31
+2025-09-22 17:26:40 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:26:41 | getCode ok: ethereum 0x4A86C01d67965f8cB3d0AAA2c655705E64097C31 len=18160 0x60806040...
+2025-09-22 17:26:41 | call slot0 ethereum 0x4A86C01d67965f8cB3d0AAA2c655705E64097C31
+2025-09-22 17:26:41 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x4A86C01d67965f8cB3d0AAA2c655705E64097C31 data=0x3850c7bd...
+2025-09-22 17:26:41 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:41 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:26:42 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x4A86C01d67965f8cB3d0AAA2c655705E64097C31 data=0x3850c7bd...
+2025-09-22 17:26:42 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:42 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:26:43 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x4A86C01d67965f8cB3d0AAA2c655705E64097C31 data=0x3850c7bd...
+2025-09-22 17:26:45 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:45 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:26:46 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x4A86C01d67965f8cB3d0AAA2c655705E64097C31 data=0x3850c7bd...
+2025-09-22 17:26:47 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:47 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:26:49 | slot0 error: ethereum 0x4A86C01d67965f8cB3d0AAA2c655705E64097C31 -> execution reverted
+2025-09-22 17:26:49 | call getReserves ethereum 0x4A86C01d67965f8cB3d0AAA2c655705E64097C31
+2025-09-22 17:26:49 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x4A86C01d67965f8cB3d0AAA2c655705E64097C31 data=0x0902f1ac...
+2025-09-22 17:26:49 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:26:50 | getReserves ok: ethereum 0x4A86C01d67965f8cB3d0AAA2c655705E64097C31 len=194
+2025-09-22 17:26:50 | 35/40 [classic] ethereum SYN/WETH 0x4A86C01d67965f8cB3d0AAA2c655705E64097C31 | avg=9.37s ETA~46.9s
+2025-09-22 17:26:50 | classify start ethereum 0x4a86c01d67965f8cb3d0aaa2c655705e64097c31 via RPC
+2025-09-22 17:26:50 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x4a86c01d67965f8cb3d0aaa2c655705e64097c31
+2025-09-22 17:26:50 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:26:51 | getCode ok: ethereum 0x4a86c01d67965f8cb3d0aaa2c655705e64097c31 len=18160 0x60806040...
+2025-09-22 17:26:51 | call slot0 ethereum 0x4a86c01d67965f8cb3d0aaa2c655705e64097c31
+2025-09-22 17:26:51 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x4a86c01d67965f8cb3d0aaa2c655705e64097c31 data=0x3850c7bd...
+2025-09-22 17:26:51 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:51 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:26:52 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x4a86c01d67965f8cb3d0aaa2c655705e64097c31 data=0x3850c7bd...
+2025-09-22 17:26:52 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:52 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:26:53 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x4a86c01d67965f8cb3d0aaa2c655705e64097c31 data=0x3850c7bd...
+2025-09-22 17:26:54 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:54 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:26:55 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x4a86c01d67965f8cb3d0aaa2c655705e64097c31 data=0x3850c7bd...
+2025-09-22 17:26:56 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:26:56 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:26:58 | slot0 error: ethereum 0x4a86c01d67965f8cb3d0aaa2c655705e64097c31 -> execution reverted
+2025-09-22 17:26:58 | call getReserves ethereum 0x4a86c01d67965f8cb3d0aaa2c655705e64097c31
+2025-09-22 17:26:58 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x4a86c01d67965f8cb3d0aaa2c655705e64097c31 data=0x0902f1ac...
+2025-09-22 17:26:58 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:26:59 | getReserves ok: ethereum 0x4a86c01d67965f8cb3d0aaa2c655705e64097c31 len=194
+2025-09-22 17:26:59 | 36/40 [classic] ethereum SYN/WETH 0x4a86c01d67965f8cb3d0aaa2c655705e64097c31 | avg=9.36s ETA~37.4s
+2025-09-22 17:26:59 | classify start ethereum 0xcb2286d9471cc185281c4f763d34a962ed212962 via RPC
+2025-09-22 17:26:59 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0xcb2286d9471cc185281c4f763d34a962ed212962
+2025-09-22 17:26:59 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:27:00 | getCode ok: ethereum 0xcb2286d9471cc185281c4f763d34a962ed212962 len=18160 0x60806040...
+2025-09-22 17:27:00 | call slot0 ethereum 0xcb2286d9471cc185281c4f763d34a962ed212962
+2025-09-22 17:27:00 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xcb2286d9471cc185281c4f763d34a962ed212962 data=0x3850c7bd...
+2025-09-22 17:27:00 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:27:00 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:27:01 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xcb2286d9471cc185281c4f763d34a962ed212962 data=0x3850c7bd...
+2025-09-22 17:27:01 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:27:01 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:27:02 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xcb2286d9471cc185281c4f763d34a962ed212962 data=0x3850c7bd...
+2025-09-22 17:27:03 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:27:03 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:27:04 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xcb2286d9471cc185281c4f763d34a962ed212962 data=0x3850c7bd...
+2025-09-22 17:27:05 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:27:05 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:27:07 | slot0 error: ethereum 0xcb2286d9471cc185281c4f763d34a962ed212962 -> execution reverted
+2025-09-22 17:27:07 | call getReserves ethereum 0xcb2286d9471cc185281c4f763d34a962ed212962
+2025-09-22 17:27:07 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0xcb2286d9471cc185281c4f763d34a962ed212962 data=0x0902f1ac...
+2025-09-22 17:27:08 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:27:08 | getReserves ok: ethereum 0xcb2286d9471cc185281c4f763d34a962ed212962 len=194
+2025-09-22 17:27:08 | 37/40 [classic] ethereum AMPL/WETH 0xcb2286d9471cc185281c4f763d34a962ed212962 | avg=9.36s ETA~28.1s
+2025-09-22 17:27:08 | classify start ethereum 0x05767d9ef41dc40689678ffca0608878fb3de906 via RPC
+2025-09-22 17:27:08 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x05767d9ef41dc40689678ffca0608878fb3de906
+2025-09-22 17:27:09 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:27:09 | getCode ok: ethereum 0x05767d9ef41dc40689678ffca0608878fb3de906 len=18160 0x60806040...
+2025-09-22 17:27:09 | call slot0 ethereum 0x05767d9ef41dc40689678ffca0608878fb3de906
+2025-09-22 17:27:09 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x05767d9ef41dc40689678ffca0608878fb3de906 data=0x3850c7bd...
+2025-09-22 17:27:10 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:27:10 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:27:10 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x05767d9ef41dc40689678ffca0608878fb3de906 data=0x3850c7bd...
+2025-09-22 17:27:11 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:27:11 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:27:12 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x05767d9ef41dc40689678ffca0608878fb3de906 data=0x3850c7bd...
+2025-09-22 17:27:12 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:27:12 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:27:14 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x05767d9ef41dc40689678ffca0608878fb3de906 data=0x3850c7bd...
+2025-09-22 17:27:14 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:27:14 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:27:16 | slot0 error: ethereum 0x05767d9ef41dc40689678ffca0608878fb3de906 -> execution reverted
+2025-09-22 17:27:16 | call getReserves ethereum 0x05767d9ef41dc40689678ffca0608878fb3de906
+2025-09-22 17:27:16 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x05767d9ef41dc40689678ffca0608878fb3de906 data=0x0902f1ac...
+2025-09-22 17:27:17 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:27:17 | getReserves ok: ethereum 0x05767d9ef41dc40689678ffca0608878fb3de906 len=194
+2025-09-22 17:27:17 | 38/40 [classic] ethereum CVX/WETH 0x05767d9ef41dc40689678ffca0608878fb3de906 | avg=9.36s ETA~18.7s
+2025-09-22 17:27:17 | classify start ethereum 0x15e86e6f65ef7ea1dbb72a5e51a07926fb1c82e3 via RPC
+2025-09-22 17:27:17 | rpc eth_getCode[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- address=0x15e86e6f65ef7ea1dbb72a5e51a07926fb1c82e3
+2025-09-22 17:27:18 | rpc eth_getCode[ethereum] <- len=18160
+2025-09-22 17:27:19 | getCode ok: ethereum 0x15e86e6f65ef7ea1dbb72a5e51a07926fb1c82e3 len=18160 0x60806040...
+2025-09-22 17:27:19 | call slot0 ethereum 0x15e86e6f65ef7ea1dbb72a5e51a07926fb1c82e3
+2025-09-22 17:27:19 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x15e86e6f65ef7ea1dbb72a5e51a07926fb1c82e3 data=0x3850c7bd...
+2025-09-22 17:27:19 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:27:19 | rpc eth_call[ethereum] retry in 0.50s (attempt 1/4)
+2025-09-22 17:27:20 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x15e86e6f65ef7ea1dbb72a5e51a07926fb1c82e3 data=0x3850c7bd...
+2025-09-22 17:27:20 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:27:20 | rpc eth_call[ethereum] retry in 1.00s (attempt 2/4)
+2025-09-22 17:27:21 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x15e86e6f65ef7ea1dbb72a5e51a07926fb1c82e3 data=0x3850c7bd...
+2025-09-22 17:27:22 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:27:22 | rpc eth_call[ethereum] retry in 1.50s (attempt 3/4)
+2025-09-22 17:27:23 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x15e86e6f65ef7ea1dbb72a5e51a07926fb1c82e3 data=0x3850c7bd...
+2025-09-22 17:27:24 | rpc eth_call[ethereum] error: execution reverted
+2025-09-22 17:27:24 | rpc eth_call[ethereum] retry in 2.00s (attempt 4/4)
+2025-09-22 17:27:26 | slot0 error: ethereum 0x15e86e6f65ef7ea1dbb72a5e51a07926fb1c82e3 -> execution reverted
+2025-09-22 17:27:26 | call getReserves ethereum 0x15e86e6f65ef7ea1dbb72a5e51a07926fb1c82e3
+2025-09-22 17:27:26 | rpc eth_call[ethereum] -> https://eth-mainnet.g.alchemy.com/v2/ebe6XDskLuIVCgDO1NlB- to=0x15e86e6f65ef7ea1dbb72a5e51a07926fb1c82e3 data=0x0902f1ac...
+2025-09-22 17:27:26 | rpc eth_call[ethereum] <- len=194
+2025-09-22 17:27:27 | getReserves ok: ethereum 0x15e86e6f65ef7ea1dbb72a5e51a07926fb1c82e3 len=194
+2025-09-22 17:27:27 | 39/40 [classic] ethereum AMP/WETH 0x15e86e6f65ef7ea1dbb72a5e51a07926fb1c82e3 | avg=9.36s ETA~9.4s
+2025-09-22 17:27:27 | 40/40 skipped_no_rpc boba BOBA/WETH 0x247442181b8baa03b3c7dc0d8e971bd4686db27c
+2025-09-22 17:27:27 | Saved -> /home/ivan/Work/MakingBase/Dex_find_exch/classified_pools_sushi.json (40 items)
+2025-09-22 17:53:50 | total meteora candidates: 19; rpc=https://api.mainnet-beta.solana.com
+2025-09-22 17:53:50 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=71rJhor7DpDcpSVrdbUnYMui1gJP4YFpLYp3fxHL7XnL
+2025-09-22 17:53:50 | 1/19 [unknown] 71rJhor7DpDcpSVrdbUnYMui1gJP4YFpLYp3fxHL7XnL
+2025-09-22 17:53:50 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=bQs37tWbbwHxpdRJSRsjuZ1Dq36iMwbi6Sr1x4WBQAV
+2025-09-22 17:53:51 | 2/19 [unknown] bQs37tWbbwHxpdRJSRsjuZ1Dq36iMwbi6Sr1x4WBQAV
+2025-09-22 17:53:51 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=BtVAiWzs9p8gXy6Hz8oYK1G4SvMuVbkhf8uscvKpjuw
+2025-09-22 17:53:51 | 3/19 [unknown] BtVAiWzs9p8gXy6Hz8oYK1G4SvMuVbkhf8uscvKpjuw
+2025-09-22 17:53:51 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=dymirdzok5ww63hglwlrykfkgmkknghzqts98gpvq1bx
+2025-09-22 17:53:51 | 4/19 error dymirdzok5ww63hglwlrykfkgmkknghzqts98gpvq1bx: {'code': -32602, 'message': 'Invalid param: Invalid'}
+2025-09-22 17:53:51 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=7LqL8hDYVYBgoif19fSozZurxm3ve129tfkftz6WdFkR
+2025-09-22 17:53:52 | 5/19 [unknown] 7LqL8hDYVYBgoif19fSozZurxm3ve129tfkftz6WdFkR
+2025-09-22 17:53:52 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=H8bMU4XjAtsd362DtGPncApivvJqaw9ZxEt4cvg687MY
+2025-09-22 17:53:52 | 6/19 [unknown] H8bMU4XjAtsd362DtGPncApivvJqaw9ZxEt4cvg687MY
+2025-09-22 17:53:52 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=9d9mb8kooFfaD3SctgZtkxQypkshx6ezhbKio89ixyy2
+2025-09-22 17:53:52 | 7/19 [unknown] 9d9mb8kooFfaD3SctgZtkxQypkshx6ezhbKio89ixyy2
+2025-09-22 17:53:52 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=9qkxzWMSNAYx5rK7CoPR4PeTZs8wS449VSbdDKaNGV9K
+2025-09-22 17:53:53 | 8/19 [unknown] 9qkxzWMSNAYx5rK7CoPR4PeTZs8wS449VSbdDKaNGV9K
+2025-09-22 17:53:53 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=F2JXXgyKpKMN7rGFomWfRC68z5BNYxiqZ6ZQdHSx1H4X
+2025-09-22 17:53:53 | 9/19 [unknown] F2JXXgyKpKMN7rGFomWfRC68z5BNYxiqZ6ZQdHSx1H4X
+2025-09-22 17:53:53 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=3LxstoarWCh6iC2NbQG4eXwvrNuSpr8kH7YyFmFu5tKZ
+2025-09-22 17:53:54 | 10/19 [unknown] 3LxstoarWCh6iC2NbQG4eXwvrNuSpr8kH7YyFmFu5tKZ
+2025-09-22 17:53:54 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=GRkGpkFd4Vw4xUCSquvvfr3o9MaE2L6ncVAetfuWejQR
+2025-09-22 17:53:54 | 11/19 [unknown] GRkGpkFd4Vw4xUCSquvvfr3o9MaE2L6ncVAetfuWejQR
+2025-09-22 17:53:54 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=GDXbrGyFbUpNeiEHVeFq6i6qzQNTxpHF8akV9M3pLffr
+2025-09-22 17:53:54 | 12/19 [unknown] GDXbrGyFbUpNeiEHVeFq6i6qzQNTxpHF8akV9M3pLffr
+2025-09-22 17:53:54 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=BKBYDRrJr6R6yHH9b9Vrwny6S6rL883aX38NukimSSTs
+2025-09-22 17:53:54 | 13/19 [unknown] BKBYDRrJr6R6yHH9b9Vrwny6S6rL883aX38NukimSSTs
+2025-09-22 17:53:54 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=E5H5BXLranyJFHEzvR3R2j6kGDQ3Fnx8sPKSsgYqyya8
+2025-09-22 17:53:55 | 14/19 [unknown] E5H5BXLranyJFHEzvR3R2j6kGDQ3Fnx8sPKSsgYqyya8
+2025-09-22 17:53:55 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=5VXPSSnSxa2bP9HPdHXt9pCXVyfwXwRN8HRE2pyoN88M
+2025-09-22 17:53:55 | 15/19 [unknown] 5VXPSSnSxa2bP9HPdHXt9pCXVyfwXwRN8HRE2pyoN88M
+2025-09-22 17:53:55 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=DQ9weJhfiU4iL5LUoeshDrm5KxDHCMiSbnnKJz7buMcf
+2025-09-22 17:53:55 | 16/19 [unknown] DQ9weJhfiU4iL5LUoeshDrm5KxDHCMiSbnnKJz7buMcf
+2025-09-22 17:53:55 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=HeprLb9U3Dj9bkgbi35ThCoJEwga9LVsGpqPJ426B7JN
+2025-09-22 17:53:56 | 17/19 [unknown] HeprLb9U3Dj9bkgbi35ThCoJEwga9LVsGpqPJ426B7JN
+2025-09-22 17:53:56 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=F1KKNyUCsQcZLRjwQ4abX6Ri8gDAQ46nHwSHFKA5sFQv
+2025-09-22 17:53:56 | 18/19 [unknown] F1KKNyUCsQcZLRjwQ4abX6Ri8gDAQ46nHwSHFKA5sFQv
+2025-09-22 17:53:56 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=92YYZ2yTMC36WqowU4s4GiYirua2sLDKBQpNkPRDi3Yi
+2025-09-22 17:53:56 | 19/19 [unknown] 92YYZ2yTMC36WqowU4s4GiYirua2sLDKBQpNkPRDi3Yi
+2025-09-22 17:53:56 | Saved -> classified_pools_meteora.json (19 items) elapsed=6.6s
+2025-09-22 17:57:16 | total meteora candidates: 19; rpc=https://api.mainnet-beta.solana.com
+2025-09-22 17:57:16 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=71rJhor7DpDcpSVrdbUnYMui1gJP4YFpLYp3fxHL7XnL
+2025-09-22 17:57:16 | 1/19 [dlmm] 71rJhor7DpDcpSVrdbUnYMui1gJP4YFpLYp3fxHL7XnL
+2025-09-22 17:57:16 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=bQs37tWbbwHxpdRJSRsjuZ1Dq36iMwbi6Sr1x4WBQAV
+2025-09-22 17:57:17 | 2/19 [dlmm] bQs37tWbbwHxpdRJSRsjuZ1Dq36iMwbi6Sr1x4WBQAV
+2025-09-22 17:57:17 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=BtVAiWzs9p8gXy6Hz8oYK1G4SvMuVbkhf8uscvKpjuw
+2025-09-22 17:57:17 | 3/19 [dynamic] BtVAiWzs9p8gXy6Hz8oYK1G4SvMuVbkhf8uscvKpjuw
+2025-09-22 17:57:17 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=dymirdzok5ww63hglwlrykfkgmkknghzqts98gpvq1bx
+2025-09-22 17:57:17 | 4/19 error dymirdzok5ww63hglwlrykfkgmkknghzqts98gpvq1bx: {'code': -32602, 'message': 'Invalid param: Invalid'}
+2025-09-22 17:57:17 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=7LqL8hDYVYBgoif19fSozZurxm3ve129tfkftz6WdFkR
+2025-09-22 17:57:17 | 5/19 [dlmm] 7LqL8hDYVYBgoif19fSozZurxm3ve129tfkftz6WdFkR
+2025-09-22 17:57:17 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=H8bMU4XjAtsd362DtGPncApivvJqaw9ZxEt4cvg687MY
+2025-09-22 17:57:18 | 6/19 [dlmm] H8bMU4XjAtsd362DtGPncApivvJqaw9ZxEt4cvg687MY
+2025-09-22 17:57:18 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=9d9mb8kooFfaD3SctgZtkxQypkshx6ezhbKio89ixyy2
+2025-09-22 17:57:18 | 7/19 [dlmm] 9d9mb8kooFfaD3SctgZtkxQypkshx6ezhbKio89ixyy2
+2025-09-22 17:57:18 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=9qkxzWMSNAYx5rK7CoPR4PeTZs8wS449VSbdDKaNGV9K
+2025-09-22 17:57:18 | 8/19 [dynamic] 9qkxzWMSNAYx5rK7CoPR4PeTZs8wS449VSbdDKaNGV9K
+2025-09-22 17:57:18 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=F2JXXgyKpKMN7rGFomWfRC68z5BNYxiqZ6ZQdHSx1H4X
+2025-09-22 17:57:19 | 9/19 [dlmm] F2JXXgyKpKMN7rGFomWfRC68z5BNYxiqZ6ZQdHSx1H4X
+2025-09-22 17:57:19 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=3LxstoarWCh6iC2NbQG4eXwvrNuSpr8kH7YyFmFu5tKZ
+2025-09-22 17:57:19 | 10/19 [dynamic] 3LxstoarWCh6iC2NbQG4eXwvrNuSpr8kH7YyFmFu5tKZ
+2025-09-22 17:57:19 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=GRkGpkFd4Vw4xUCSquvvfr3o9MaE2L6ncVAetfuWejQR
+2025-09-22 17:57:19 | 11/19 [dlmm] GRkGpkFd4Vw4xUCSquvvfr3o9MaE2L6ncVAetfuWejQR
+2025-09-22 17:57:19 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=GDXbrGyFbUpNeiEHVeFq6i6qzQNTxpHF8akV9M3pLffr
+2025-09-22 17:57:20 | 12/19 [dynamic] GDXbrGyFbUpNeiEHVeFq6i6qzQNTxpHF8akV9M3pLffr
+2025-09-22 17:57:20 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=BKBYDRrJr6R6yHH9b9Vrwny6S6rL883aX38NukimSSTs
+2025-09-22 17:57:20 | 13/19 [dynamic] BKBYDRrJr6R6yHH9b9Vrwny6S6rL883aX38NukimSSTs
+2025-09-22 17:57:20 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=E5H5BXLranyJFHEzvR3R2j6kGDQ3Fnx8sPKSsgYqyya8
+2025-09-22 17:57:20 | 14/19 [dynamic] E5H5BXLranyJFHEzvR3R2j6kGDQ3Fnx8sPKSsgYqyya8
+2025-09-22 17:57:20 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=5VXPSSnSxa2bP9HPdHXt9pCXVyfwXwRN8HRE2pyoN88M
+2025-09-22 17:57:21 | 15/19 [dlmm] 5VXPSSnSxa2bP9HPdHXt9pCXVyfwXwRN8HRE2pyoN88M
+2025-09-22 17:57:21 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=DQ9weJhfiU4iL5LUoeshDrm5KxDHCMiSbnnKJz7buMcf
+2025-09-22 17:57:21 | 16/19 [dlmm] DQ9weJhfiU4iL5LUoeshDrm5KxDHCMiSbnnKJz7buMcf
+2025-09-22 17:57:21 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=HeprLb9U3Dj9bkgbi35ThCoJEwga9LVsGpqPJ426B7JN
+2025-09-22 17:57:22 | 17/19 [dlmm] HeprLb9U3Dj9bkgbi35ThCoJEwga9LVsGpqPJ426B7JN
+2025-09-22 17:57:22 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=F1KKNyUCsQcZLRjwQ4abX6Ri8gDAQ46nHwSHFKA5sFQv
+2025-09-22 17:57:23 | 18/19 [dlmm] F1KKNyUCsQcZLRjwQ4abX6Ri8gDAQ46nHwSHFKA5sFQv
+2025-09-22 17:57:23 | rpc getAccountInfo -> https://api.mainnet-beta.solana.com address=92YYZ2yTMC36WqowU4s4GiYirua2sLDKBQpNkPRDi3Yi
+2025-09-22 17:57:24 | 19/19 [dlmm] 92YYZ2yTMC36WqowU4s4GiYirua2sLDKBQpNkPRDi3Yi
+2025-09-22 17:57:24 | Saved -> classified_pools_meteora.json (19 items) elapsed=8.0s

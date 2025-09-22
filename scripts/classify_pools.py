@@ -86,12 +86,14 @@ CHAINS: Dict[str, ChainCfg] = {
     # ниже сети, где Uniswap, как правило, не развёрнут; оставим на случай редких записей
     "avalanche": ChainCfg("avalanche", "https://api.snowtrace.io", "SNOWTRACE_API_KEY"),
     "bsc": ChainCfg("bsc", "https://api.bscscan.com", "BSCSCAN_API_KEY"),
+    "boba": ChainCfg("boba", "https://api.bobascan.com", "BOBASCAN_API_KEY"),
     "cronos": ChainCfg("cronos", "https://api.cronoscan.com", "CRONOSCAN_API_KEY"),
 }
 
 
 SLOT0_SELECTOR = "0x3850c7bd"  # slot0()
 GET_RESERVES_SELECTOR = "0x0902f1ac"  # getReserves()
+MASTER_DEPLOYER_SELECTOR = "0xee327147"  # masterDeployer()
 
 
 def load_json(path: str) -> dict:
@@ -277,7 +279,19 @@ def looks_like_v2_reserves(result_hex: Optional[str]) -> bool:
     return len(result_hex) >= 194
 
 
-def classify_pool(chain: str, address: str, api_key: str, cache: Cache) -> Dict[str, object]:
+def looks_like_address_slot(result_hex: Optional[str]) -> bool:
+    if not result_hex or not result_hex.startswith("0x"):
+        return False
+    return len(result_hex) >= 66
+
+
+def classify_pool(
+    chain: str,
+    address: str,
+    api_key: str,
+    cache: Cache,
+    exchange: str,
+) -> Dict[str, object]:
     cfg = CHAINS[chain]
     checks = {}
     is_public = api_key == "YourApiKeyToken"
@@ -315,7 +329,32 @@ def classify_pool(chain: str, address: str, api_key: str, cache: Cache) -> Dict[
         _log(f"getReserves ok: {chain} {address} len={rlen}")
     checks["getReserves"] = reserves_res if reserves_err is None else f"error: {reserves_err}"
     if looks_like_v2_reserves(reserves_res):
-        return {"version": "v2", "checks": checks}
+        version = "v2"
+        note: Optional[str] = None
+        if exchange == "sushiswap":
+            version = "classic"
+            note = "SushiSwap Classic AMM pool"
+        result = {"version": version, "checks": checks}
+        if note:
+            result["note"] = note
+        return result
+
+    if exchange == "sushiswap":
+        _log(f"call masterDeployer {chain} {address}")
+        master_res, master_err = rpc_call(chain, address, MASTER_DEPLOYER_SELECTOR, cache)
+        if master_err:
+            _log(f"masterDeployer error: {chain} {address} -> {master_err}")
+            checks["masterDeployer"] = f"error: {master_err}"
+        else:
+            mlen = len(master_res) if isinstance(master_res, str) else 0
+            _log(f"masterDeployer ok: {chain} {address} len={mlen}")
+            checks["masterDeployer"] = master_res
+            if looks_like_address_slot(master_res):
+                return {
+                    "version": "trident",
+                    "checks": checks,
+                    "note": "SushiSwap Trident pool",
+                }
 
     return {"version": "unknown", "checks": checks}
 
@@ -464,7 +503,7 @@ def main(argv: Optional[List[str]] = None) -> int:
 
         api_key = get_api_key(cfg)
         try:
-            info = classify_pool(chain, addr, api_key, cache)
+            info = classify_pool(chain, addr, api_key, cache, exchange)
             results.append({
                 "chain": chain,
                 "asset": asset,

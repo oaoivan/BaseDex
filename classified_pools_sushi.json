@@ -1,0 +1,354 @@
+{
+  "updated_at": 1758551247,
+  "total_scanned": 40,
+  "items": [
+    {
+      "chain": "polygon",
+      "asset": "LINK",
+      "pair": "LINK/WETH",
+      "address": "0x74d23f21f780ca26b47db16b0504f2e3832b9321",
+      "url": "https://dexscreener.com/polygon/0x74d23f21f780ca26b47db16b0504f2e3832b9321",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x000000000000000000000000000000000000000000000100627e21bca400838c0000000000000000000000000000000000000000000000014fdbc02aa91875550000000000000000000000000000000000000000000000000000000068d14d12"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "COMP",
+      "pair": "COMP/WETH",
+      "address": "0x31503dcb60119a812fee820bb7042752019f2355",
+      "url": "https://dexscreener.com/ethereum/0x31503dcb60119a812fee820bb7042752019f2355",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x000000000000000000000000000000000000000000000065e0ac17686af4fd5200000000000000000000000000000000000000000000000104ca05bfc719f1df0000000000000000000000000000000000000000000000000000000068d14e43"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BAND",
+      "pair": "BAND/WETH",
+      "address": "0xa75f7c2f025f470355515482bde9efa8153536a8",
+      "url": "https://dexscreener.com/ethereum/0xa75f7c2f025f470355515482bde9efa8153536a8",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x000000000000000000000000000000000000000000001df6b44f7eb8e25a1dc900000000000000000000000000000000000000000000000130721a86ab85221c0000000000000000000000000000000000000000000000000000000068d140b7"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "MKR",
+      "pair": "MKR/WETH",
+      "address": "0xba13afecda9beb75de5c56bbaf696b880a5a50dd",
+      "url": "https://dexscreener.com/ethereum/0xba13afecda9beb75de5c56bbaf696b880a5a50dd",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x00000000000000000000000000000000000000000000000815ce830095d9fb8f00000000000000000000000000000000000000000000000327cb321f196926aa0000000000000000000000000000000000000000000000000000000068d155db"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "YFI",
+      "pair": "YFI/WETH",
+      "address": "0x088ee5007c98a9677165d78dd2109ae4a3d04d0c",
+      "url": "https://dexscreener.com/ethereum/0x088ee5007c98a9677165d78dd2109ae4a3d04d0c",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x0000000000000000000000000000000000000000000000027ef4b84780384c3d00000000000000000000000000000000000000000000000308d53f65a19657300000000000000000000000000000000000000000000000000000000068d13b17"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SUSHI",
+      "pair": "SUSHI/WETH",
+      "address": "0x795065dcc9f64b5614c407a6efdc400da6221fb0",
+      "url": "https://dexscreener.com/ethereum/0x795065dcc9f64b5614c407a6efdc400da6221fb0",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x00000000000000000000000000000000000000000001e18e7c70517e9ba0834a000000000000000000000000000000000000000000000013f6e28c1a96a23c600000000000000000000000000000000000000000000000000000000068d1575b"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "SUSHI",
+      "pair": "SUSHI/WETH",
+      "address": "0x3221022e37029923ace4235d812273c5a42c322d",
+      "url": "https://dexscreener.com/arbitrum/0x3221022e37029923ace4235d812273c5a42c322d",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x000000000000000000000000000000000000000000000000a3b3c01f21931f75000000000000000000000000000000000000000000000f9187eae3637300c9f10000000000000000000000000000000000000000000000000000000068d129f6"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "polygon",
+      "asset": "AAVE",
+      "pair": "AAVE/WETH",
+      "address": "0x2813d43463c374a680f235c428fb1d7f08de0b69",
+      "url": "https://dexscreener.com/polygon/0x2813d43463c374a680f235c428fb1d7f08de0b69",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x000000000000000000000000000000000000000000000001d4ce973d87ef66b300000000000000000000000000000000000000000000001ca6d6536baceec62b0000000000000000000000000000000000000000000000000000000068d15b94"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ALPHA",
+      "pair": "ALPHA/WETH",
+      "address": "0xf55c33d94150d93c2cfb833bcca30be388b14964",
+      "url": "https://dexscreener.com/ethereum/0xf55c33d94150d93c2cfb833bcca30be388b14964",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x0000000000000000000000000000000000000000000480c33496e0b3bdf318930000000000000000000000000000000000000000000000010dba1888abec2ca70000000000000000000000000000000000000000000000000000000068d15a7f"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "C98",
+      "pair": "C98/WETH",
+      "address": "0x557b08a0cab46bfe22471b65522757ea92a9e7a5",
+      "url": "https://dexscreener.com/ethereum/0x557b08a0cab46bfe22471b65522757ea92a9e7a5",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x0000000000000000000000000000000000000000000137885de2c0b99edd6bdf000000000000000000000000000000000000000000000000e9355ba1848a72480000000000000000000000000000000000000000000000000000000068d156cb"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ENS",
+      "pair": "ENS/WETH",
+      "address": "0xa1181481beb2dc5de0daf2c85392d81c704bf75d",
+      "url": "https://dexscreener.com/ethereum/0xa1181481beb2dc5de0daf2c85392d81c704bf75d",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x000000000000000000000000000000000000000000000001e5fcdd39b2ff1dbf00000000000000000000000000000000000000000000017d061e934bd75afcdf0000000000000000000000000000000000000000000000000000000068d1574f"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "IMX",
+      "pair": "IMX/WETH",
+      "address": "0x18cd890f4e23422dc4aa8c2d6e0bd3f3bd8873d8",
+      "url": "https://dexscreener.com/ethereum/0x18cd890f4e23422dc4aa8c2d6e0bd3f3bd8873d8",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x000000000000000000000000000000000000000000000000cce039591ccda1d40000000000000000000000000000000000000000000012834940e5e2b9d3979d0000000000000000000000000000000000000000000000000000000068d159bf"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "INJ",
+      "pair": "INJ/WETH",
+      "address": "0xfb3cd0b8a5371fe93ef92e3988d30df7931e2820",
+      "url": "https://dexscreener.com/ethereum/0xfb3cd0b8a5371fe93ef92e3988d30df7931e2820",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x000000000000000000000000000000000000000000000003e33e49cfbfd75cab0000000000000000000000000000000000000000000005224790d65e3dc3bebd0000000000000000000000000000000000000000000000000000000068d1554b"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "polygon",
+      "asset": "STG",
+      "pair": "STG/USDC",
+      "address": "0xA34Ec05DA1E4287FA351c74469189345990a3F0C",
+      "url": "https://dexscreener.com/polygon/0xa34ec05da1e4287fa351c74469189345990a3f0c",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x0000000000000000000000000000000000000000000000000000006c7034a4c5000000000000000000000000000000000000000000026bea94bbee543689ed860000000000000000000000000000000000000000000000000000000068d15b5e"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SPELL",
+      "pair": "SPELL/WETH",
+      "address": "0xb5de0c3753b6e1b4dba616db82767f17513e6d4e",
+      "url": "https://dexscreener.com/ethereum/0xb5de0c3753b6e1b4dba616db82767f17513e6d4e",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x0000000000000000000000000000000000000000027a24a79784ee3ef85638360000000000000000000000000000000000000000000000048520d214e5cfff450000000000000000000000000000000000000000000000000000000068d13c73"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "SPELL",
+      "pair": "SPELL/WETH",
+      "address": "0x8f93eaae544e8f5eb077a1e09c1554067d9e2ca8",
+      "url": "https://dexscreener.com/arbitrum/0x8f93eaae544e8f5eb077a1e09c1554067d9e2ca8",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x0000000000000000000000000000000000000000012db22c948c43f385495a490000000000000000000000000000000000000000000000021fd98418085c0ca30000000000000000000000000000000000000000000000000000000068d1417a"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "arbitrum",
+      "asset": "MAGIC",
+      "pair": "MAGIC/WETH",
+      "address": "0xb7e50106a5bd3cf21af210a755f9c8740890a8c9",
+      "url": "https://dexscreener.com/arbitrum/0xb7e50106a5bd3cf21af210a755f9c8740890a8c9",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x00000000000000000000000000000000000000000001220127d5b123a2ff4d2a00000000000000000000000000000000000000000000000316fabd4fd4d535eb0000000000000000000000000000000000000000000000000000000068d15b7f"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "UMA",
+      "pair": "UMA/WETH",
+      "address": "0x001b6450083e531a5a7bf310bd2c1af4247e23d4",
+      "url": "https://dexscreener.com/ethereum/0x001b6450083e531a5a7bf310bd2c1af4247e23d4",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x000000000000000000000000000000000000000000000df51f021dc15f64d69c00000000000000000000000000000000000000000000000104d75052a04372fe0000000000000000000000000000000000000000000000000000000068d13c07"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "PENDLE",
+      "pair": "PENDLE/WETH",
+      "address": "0x37922c69b08babcceae735a31235c81f1d1e8e43",
+      "url": "https://dexscreener.com/ethereum/0x37922c69b08babcceae735a31235c81f1d1e8e43",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x0000000000000000000000000000000000000000000003535421f9acd280c867000000000000000000000000000000000000000000000000faa5d6cf27930abc0000000000000000000000000000000000000000000000000000000068d1547f"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "YGG",
+      "pair": "YGG/WETH",
+      "address": "0x99b42f2b49c395d2a77d973f6009abb5d67da343",
+      "url": "https://dexscreener.com/ethereum/0x99b42f2b49c395d2a77d973f6009abb5d67da343",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x000000000000000000000000000000000000000000011e17f76ffd083408db13000000000000000000000000000000000000000000000002c5c4a54eaabfa4890000000000000000000000000000000000000000000000000000000068d1421f"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "BADGER",
+      "pair": "BADGER/WBTC",
+      "address": "0x110492b31c59716ac47337e616804e3e3adc0b4a",
+      "url": "https://dexscreener.com/ethereum/0x110492b31c59716ac47337e616804e3e3adc0b4a",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x000000000000000000000000000000000000000000000000000000000db7fe28000000000000000000000000000000000000000000003b4ec8644392340610980000000000000000000000000000000000000000000000000000000068d15a37"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "ILV",
+      "pair": "ILV/WETH",
+      "address": "0x6a091a3406e0073c3cd6340122143009adac0eda",
+      "url": "https://dexscreener.com/ethereum/0x6a091a3406e0073c3cd6340122143009adac0eda",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x000000000000000000000000000000000000000000003bc319222970aae2226800000000000000000000000000000000000000000000002fbdd890b02a0b60540000000000000000000000000000000000000000000000000000000068d158c3"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "SYN",
+      "pair": "SYN/WETH",
+      "address": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+      "url": "https://dexscreener.com/ethereum/0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x000000000000000000000000000000000000000000010ec83981edd24cb81fa8000000000000000000000000000000000000000000000001e32db4885f6c22160000000000000000000000000000000000000000000000000000000068d15323"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "FORTH",
+      "pair": "AMPL/WETH",
+      "address": "0xcb2286d9471cc185281c4f763d34a962ed212962",
+      "url": "https://dexscreener.com/ethereum/0xcb2286d9471cc185281c4f763d34a962ed212962",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x00000000000000000000000000000000000000000000000153dad2de91776e4c00000000000000000000000000000000000000000000000000005190bec347140000000000000000000000000000000000000000000000000000000068d14bdf"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "CVX",
+      "pair": "CVX/WETH",
+      "address": "0x05767d9ef41dc40689678ffca0608878fb3de906",
+      "url": "https://dexscreener.com/ethereum/0x05767d9ef41dc40689678ffca0608878fb3de906",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x000000000000000000000000000000000000000000000ebf1d745d1bb265416b000000000000000000000000000000000000000000000003199e4440272d22190000000000000000000000000000000000000000000000000000000068d15b9f"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "ethereum",
+      "asset": "AMP",
+      "pair": "AMP/WETH",
+      "address": "0x15e86e6f65ef7ea1dbb72a5e51a07926fb1c82e3",
+      "url": "https://dexscreener.com/ethereum/0x15e86e6f65ef7ea1dbb72a5e51a07926fb1c82e3",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x0000000000000000000000000000000000000000000000015e0509395a7ec9910000000000000000000000000000000000000000001b91bfeed4b05738f900a30000000000000000000000000000000000000000000000000000000068d158ab"
+      },
+      "note": "SushiSwap Classic AMM pool"
+    },
+    {
+      "chain": "boba",
+      "asset": "BOBA",
+      "pair": "BOBA/WETH",
+      "address": "0x247442181b8baa03b3c7dc0d8e971bd4686db27c",
+      "url": "https://dexscreener.com/boba/0x247442181b8baa03b3c7dc0d8e971bd4686db27c",
+      "version": "skipped_no_rpc",
+      "checks": {},
+      "note": "no RPC URL for boba"
+    }
+  ]
+}
