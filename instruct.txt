@@ -1,0 +1,15 @@
+У каждого типа пула на Raydium есть своя собственная программа-владелец.
+Пошаговая инструкция:
+
+
+    Сделайте RPC-запрос getAccountInfo к ноде Solana 
+
+    В ответе посмотрите на поле owner. Сравните его с официальными адресами программ Raydium.
+
+Адреса программ для определения типа пула:
+
+    CLMM (аналог V3): CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7gr2jt6q_
+
+    AMM V4 / Hybrid (аналог V2): 675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8
+
+    CPMM (новый стандартный пул, аналог V2): CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C
