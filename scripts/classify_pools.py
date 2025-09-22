@@ -346,6 +346,14 @@ def classify_pool(
         elif exchange == "traderjoe":
             version = "classic"
             note = "Trader Joe Legacy AMM pool"
+        elif exchange == "thena":
+            code_len = len(code_hex) if isinstance(code_hex, str) else 0
+            if code_len and code_len <= 220:
+                version = "fusion_proxy"
+                note = "Thena Fusion pool proxy"
+            else:
+                version = "classic"
+                note = "Thena Classic (Solidly-style) pool"
         result = {"version": version, "checks": checks}
         if note:
             result["note"] = note
@@ -433,6 +441,23 @@ def classify_pool(
                     "checks": checks,
                     "note": "Trader Joe Liquidity Book pool",
                 }
+
+    if exchange == "thena":
+        code_len = len(code_hex) if isinstance(code_hex, str) else 0
+        if code_len:
+            if code_len <= 320:
+                version = "fusion_proxy"
+                note = "Thena Fusion pool proxy"
+            elif code_len <= 35000:
+                version = "classic"
+                note = "Thena Classic (Solidly-style) pool"
+            else:
+                version = "fusion"
+                note = "Thena Fusion pool"
+            result = {"version": version, "checks": checks}
+            if note:
+                result["note"] = note
+            return result
 
     return {"version": "unknown", "checks": checks}
 

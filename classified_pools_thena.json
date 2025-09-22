@@ -1,0 +1,136 @@
+{
+  "updated_at": 1758560354,
+  "total_scanned": 30,
+  "items": [
+    {
+      "chain": "bsc",
+      "asset": "THENA",
+      "pair": "slisBNB/WBNB",
+      "address": "0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4",
+      "url": "https://dexscreener.com/bsc/0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4",
+      "version": "fusion",
+      "checks": {
+        "slot0": "error: execution reverted: 0x",
+        "getReserves": "error: execution reverted: 0x"
+      },
+      "note": "Thena Fusion pool"
+    },
+    {
+      "chain": "bsc",
+      "asset": "THENA",
+      "pair": "THE/WBNB",
+      "address": "0x63db6ba9e512186c2faadacef342fb4a40dc577c",
+      "url": "https://dexscreener.com/bsc/0x63db6ba9e512186c2faadacef342fb4a40dc577c",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted: 0x",
+        "getReserves": "0x00000000000000000000000000000000000000000000000adda3d72b0dcfe5a6000000000000000000000000000000000000000000005890cc9ab0cc22e1f9ca0000000000000000000000000000000000000000000000000000000068d17da3"
+      },
+      "note": "Thena Classic (Solidly-style) pool"
+    },
+    {
+      "chain": "bsc",
+      "asset": "THENA",
+      "pair": "THE/WBNB",
+      "address": "0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8",
+      "url": "https://dexscreener.com/bsc/0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8",
+      "version": "fusion",
+      "checks": {
+        "slot0": "error: execution reverted: 0x",
+        "getReserves": "error: execution reverted: 0x"
+      },
+      "note": "Thena Fusion pool"
+    },
+    {
+      "chain": "bsc",
+      "asset": "THENA",
+      "pair": "FROG/WBNB",
+      "address": "0x1dd1ed02f735a81361c7167633ffc2ae4f888788",
+      "url": "https://dexscreener.com/bsc/0x1dd1ed02f735a81361c7167633ffc2ae4f888788",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted: 0x",
+        "getReserves": "0x00000000000000000000000000000000000000000048860230800baa4946210a000000000000000000000000000000000000000000000003e283a5fc6ba03bca0000000000000000000000000000000000000000000000000000000068d17e87"
+      },
+      "note": "Thena Classic (Solidly-style) pool"
+    },
+    {
+      "chain": "bsc",
+      "asset": "THENA",
+      "pair": "MONKY/WBNB",
+      "address": "0xc57061da1894ae58fb834f6db33e9a45cc4e7807",
+      "url": "https://dexscreener.com/bsc/0xc57061da1894ae58fb834f6db33e9a45cc4e7807",
+      "version": "fusion",
+      "checks": {
+        "slot0": "error: execution reverted: 0x",
+        "getReserves": "error: execution reverted: 0x"
+      },
+      "note": "Thena Fusion pool"
+    },
+    {
+      "chain": "bsc",
+      "asset": "THENA",
+      "pair": "SINGULARRY/WBNB",
+      "address": "0x356706a98c728084b1e40c4f351f5335daaf8e65",
+      "url": "https://dexscreener.com/bsc/0x356706a98c728084b1e40c4f351f5335daaf8e65",
+      "version": "fusion",
+      "checks": {
+        "slot0": "error: execution reverted: 0x",
+        "getReserves": "error: execution reverted: 0x"
+      },
+      "note": "Thena Fusion pool"
+    },
+    {
+      "chain": "bsc",
+      "asset": "THENA",
+      "pair": "BTCB/WBNB",
+      "address": "0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5",
+      "url": "https://dexscreener.com/bsc/0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5",
+      "version": "fusion",
+      "checks": {
+        "slot0": "error: execution reverted: 0x",
+        "getReserves": "error: execution reverted: 0x"
+      },
+      "note": "Thena Fusion pool"
+    },
+    {
+      "chain": "bsc",
+      "asset": "THENA",
+      "pair": "ETH/WBNB",
+      "address": "0x1123e75b71019962cd4d21b0f3018a6412edb63c",
+      "url": "https://dexscreener.com/bsc/0x1123e75b71019962cd4d21b0f3018a6412edb63c",
+      "version": "fusion",
+      "checks": {
+        "slot0": "error: execution reverted: 0x",
+        "getReserves": "error: execution reverted: 0x"
+      },
+      "note": "Thena Fusion pool"
+    },
+    {
+      "chain": "bsc",
+      "asset": "THENA",
+      "pair": "XCAD/WBNB",
+      "address": "0xc53fe45e0047965da638aa70e9b6be3d68e2f80f",
+      "url": "https://dexscreener.com/bsc/0xc53fe45e0047965da638aa70e9b6be3d68e2f80f",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted: 0x",
+        "getReserves": "0x000000000000000000000000000000000000000000050548fbe8fd3b4fc08093000000000000000000000000000000000000000000000008954b22684f05edc10000000000000000000000000000000000000000000000000000000068d17b8c"
+      },
+      "note": "Thena Classic (Solidly-style) pool"
+    },
+    {
+      "chain": "bsc",
+      "asset": "THENA",
+      "pair": "DEUS/WBNB",
+      "address": "0xc8da40f8a354530f04ce2dde98ebc2960a9ea449",
+      "url": "https://dexscreener.com/bsc/0xc8da40f8a354530f04ce2dde98ebc2960a9ea449",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted: 0x",
+        "getReserves": "0x0000000000000000000000000000000000000000000000058e62a95132f847cb000000000000000000000000000000000000000000000330df2303465dd3b2820000000000000000000000000000000000000000000000000000000068d14adb"
+      },
+      "note": "Thena Classic (Solidly-style) pool"
+    }
+  ]
+}

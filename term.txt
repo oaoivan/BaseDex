@@ -28977,3 +28977,453 @@ source .venv/bin/activate && python scripts/classify_pools.py | sed -n
 2025-09-22 19:22:47 | getReserves ok: avalanche 0x2774516897ac629ad3ed9dcac7e375dda78412b9 len=194
 2025-09-22 19:22:47 | 15/15 [classic] avalanche QI/WAVAX 0x2774516897ac629ad3ed9dcac7e375dda78412b9 | avg=0.00s ETA~0.0s
 2025-09-22 19:22:47 | Saved -> /home/ivan/Work/MakingBase/Dex_find_exch/classified_pools_traderjoe.json (15 items)
+2025-09-22 19:52:43 | total candidates: 15; exchange=thena; rate_delay=0.5s
+2025-09-22 19:52:43 | classify start bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 via RPC
+2025-09-22 19:52:43 | rpc eth_getCode[bsc] -> https://bsc-dataseed.binance.org address=0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4
+2025-09-22 19:52:44 | rpc eth_getCode[bsc] <- len=43622
+2025-09-22 19:52:44 | getCode ok: bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 len=43622 0x60806040...
+2025-09-22 19:52:44 | call slot0 bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4
+2025-09-22 19:52:44 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 data=0x3850c7bd...
+2025-09-22 19:52:45 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:52:45 | rpc eth_call[bsc] retry in 0.50s (attempt 1/4)
+2025-09-22 19:52:45 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 data=0x3850c7bd...
+2025-09-22 19:52:46 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:52:46 | rpc eth_call[bsc] retry in 1.00s (attempt 2/4)
+2025-09-22 19:52:47 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 data=0x3850c7bd...
+2025-09-22 19:52:47 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:52:47 | rpc eth_call[bsc] retry in 1.50s (attempt 3/4)
+2025-09-22 19:52:49 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 data=0x3850c7bd...
+2025-09-22 19:52:49 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:52:49 | rpc eth_call[bsc] retry in 2.00s (attempt 4/4)
+2025-09-22 19:52:51 | slot0 error: bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 -> execution reverted: 0x
+2025-09-22 19:52:51 | call getReserves bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4
+2025-09-22 19:52:51 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 data=0x0902f1ac...
+2025-09-22 19:52:52 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:52:52 | rpc eth_call[bsc] retry in 0.50s (attempt 1/4)
+2025-09-22 19:52:52 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 data=0x0902f1ac...
+2025-09-22 19:52:53 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:52:53 | rpc eth_call[bsc] retry in 1.00s (attempt 2/4)
+2025-09-22 19:52:54 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 data=0x0902f1ac...
+2025-09-22 19:52:55 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:52:55 | rpc eth_call[bsc] retry in 1.50s (attempt 3/4)
+2025-09-22 19:52:56 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 data=0x0902f1ac...
+2025-09-22 19:52:57 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:52:57 | rpc eth_call[bsc] retry in 2.00s (attempt 4/4)
+2025-09-22 19:52:59 | getReserves error: bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 -> execution reverted: 0x
+2025-09-22 19:52:59 | 1/15 [unknown] bsc slisBNB/WBNB 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 | avg=15.85s ETA~221.9s
+2025-09-22 19:52:59 | classify start bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c via RPC
+2025-09-22 19:52:59 | rpc eth_getCode[bsc] -> https://bsc-dataseed.binance.org address=0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c
+2025-09-22 19:53:00 | rpc eth_getCode[bsc] <- len=31114
+2025-09-22 19:53:00 | getCode ok: bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c len=31114 0x60806040...
+2025-09-22 19:53:00 | call slot0 bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c
+2025-09-22 19:53:00 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c data=0x3850c7bd...
+2025-09-22 19:53:01 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:01 | rpc eth_call[bsc] retry in 0.50s (attempt 1/4)
+2025-09-22 19:53:01 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c data=0x3850c7bd...
+2025-09-22 19:53:02 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:02 | rpc eth_call[bsc] retry in 1.00s (attempt 2/4)
+2025-09-22 19:53:03 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c data=0x3850c7bd...
+2025-09-22 19:53:03 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:03 | rpc eth_call[bsc] retry in 1.50s (attempt 3/4)
+2025-09-22 19:53:05 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c data=0x3850c7bd...
+2025-09-22 19:53:06 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:06 | rpc eth_call[bsc] retry in 2.00s (attempt 4/4)
+2025-09-22 19:53:08 | slot0 error: bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c -> execution reverted: 0x
+2025-09-22 19:53:08 | call getReserves bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c
+2025-09-22 19:53:08 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c data=0x0902f1ac...
+2025-09-22 19:53:08 | rpc eth_call[bsc] <- len=194
+2025-09-22 19:53:09 | getReserves ok: bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c len=194
+2025-09-22 19:53:09 | 2/15 [classic] bsc THE/WBNB 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c | avg=12.98s ETA~168.8s
+2025-09-22 19:53:09 | classify start bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 via RPC
+2025-09-22 19:53:09 | rpc eth_getCode[bsc] -> https://bsc-dataseed.binance.org address=0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8
+2025-09-22 19:53:10 | rpc eth_getCode[bsc] <- len=43622
+2025-09-22 19:53:10 | getCode ok: bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 len=43622 0x60806040...
+2025-09-22 19:53:10 | call slot0 bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8
+2025-09-22 19:53:10 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 data=0x3850c7bd...
+2025-09-22 19:53:11 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:11 | rpc eth_call[bsc] retry in 0.50s (attempt 1/4)
+2025-09-22 19:53:11 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 data=0x3850c7bd...
+2025-09-22 19:53:12 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:12 | rpc eth_call[bsc] retry in 1.00s (attempt 2/4)
+2025-09-22 19:53:13 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 data=0x3850c7bd...
+2025-09-22 19:53:13 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:13 | rpc eth_call[bsc] retry in 1.50s (attempt 3/4)
+2025-09-22 19:53:15 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 data=0x3850c7bd...
+2025-09-22 19:53:16 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:16 | rpc eth_call[bsc] retry in 2.00s (attempt 4/4)
+2025-09-22 19:53:18 | slot0 error: bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 -> execution reverted: 0x
+2025-09-22 19:53:18 | call getReserves bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8
+2025-09-22 19:53:18 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 data=0x0902f1ac...
+2025-09-22 19:53:18 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:18 | rpc eth_call[bsc] retry in 0.50s (attempt 1/4)
+2025-09-22 19:53:19 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 data=0x0902f1ac...
+2025-09-22 19:53:19 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:19 | rpc eth_call[bsc] retry in 1.00s (attempt 2/4)
+2025-09-22 19:53:20 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 data=0x0902f1ac...
+2025-09-22 19:53:21 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:21 | rpc eth_call[bsc] retry in 1.50s (attempt 3/4)
+2025-09-22 19:53:22 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 data=0x0902f1ac...
+2025-09-22 19:53:23 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:23 | rpc eth_call[bsc] retry in 2.00s (attempt 4/4)
+2025-09-22 19:53:25 | getReserves error: bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 -> execution reverted: 0x
+2025-09-22 19:53:25 | 3/15 [unknown] bsc THE/WBNB 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 | avg=14.06s ETA~168.8s
+2025-09-22 19:53:25 | classify start bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c via RPC
+2025-09-22 19:53:25 | rpc eth_getCode[bsc] -> https://bsc-dataseed.binance.org address=0x63db6ba9e512186c2faadacef342fb4a40dc577c
+2025-09-22 19:53:26 | rpc eth_getCode[bsc] <- len=31114
+2025-09-22 19:53:26 | getCode ok: bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c len=31114 0x60806040...
+2025-09-22 19:53:26 | call slot0 bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c
+2025-09-22 19:53:26 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x63db6ba9e512186c2faadacef342fb4a40dc577c data=0x3850c7bd...
+2025-09-22 19:53:28 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:28 | rpc eth_call[bsc] retry in 0.50s (attempt 1/4)
+2025-09-22 19:53:28 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x63db6ba9e512186c2faadacef342fb4a40dc577c data=0x3850c7bd...
+2025-09-22 19:53:29 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:29 | rpc eth_call[bsc] retry in 1.00s (attempt 2/4)
+2025-09-22 19:53:30 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x63db6ba9e512186c2faadacef342fb4a40dc577c data=0x3850c7bd...
+2025-09-22 19:53:30 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:30 | rpc eth_call[bsc] retry in 1.50s (attempt 3/4)
+2025-09-22 19:53:32 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x63db6ba9e512186c2faadacef342fb4a40dc577c data=0x3850c7bd...
+2025-09-22 19:53:33 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:33 | rpc eth_call[bsc] retry in 2.00s (attempt 4/4)
+2025-09-22 19:53:35 | slot0 error: bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c -> execution reverted: 0x
+2025-09-22 19:53:35 | call getReserves bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c
+2025-09-22 19:53:35 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x63db6ba9e512186c2faadacef342fb4a40dc577c data=0x0902f1ac...
+2025-09-22 19:53:35 | rpc eth_call[bsc] <- len=194
+2025-09-22 19:53:36 | getReserves ok: bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c len=194
+2025-09-22 19:53:36 | 4/15 [classic] bsc THE/WBNB 0x63db6ba9e512186c2faadacef342fb4a40dc577c | avg=13.22s ETA~145.4s
+2025-09-22 19:53:36 | classify start bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c via RPC
+2025-09-22 19:53:36 | getCode ok: bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c len=31114 0x60806040...
+2025-09-22 19:53:36 | call slot0 bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c
+2025-09-22 19:53:36 | slot0 error: bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c -> execution reverted: 0x
+2025-09-22 19:53:36 | call getReserves bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c
+2025-09-22 19:53:36 | getReserves ok: bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c len=194
+2025-09-22 19:53:36 | 5/15 [classic] bsc THE/WBNB 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c | avg=10.57s ETA~105.7s
+2025-09-22 19:53:36 | classify start bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 via RPC
+2025-09-22 19:53:36 | getCode ok: bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 len=43622 0x60806040...
+2025-09-22 19:53:36 | call slot0 bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8
+2025-09-22 19:53:36 | slot0 error: bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 -> execution reverted: 0x
+2025-09-22 19:53:36 | call getReserves bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8
+2025-09-22 19:53:36 | getReserves error: bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 -> execution reverted: 0x
+2025-09-22 19:53:36 | 6/15 [unknown] bsc THE/WBNB 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 | avg=8.81s ETA~79.3s
+2025-09-22 19:53:36 | classify start bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c via RPC
+2025-09-22 19:53:36 | getCode ok: bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c len=31114 0x60806040...
+2025-09-22 19:53:36 | call slot0 bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c
+2025-09-22 19:53:36 | slot0 error: bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c -> execution reverted: 0x
+2025-09-22 19:53:36 | call getReserves bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c
+2025-09-22 19:53:36 | getReserves ok: bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c len=194
+2025-09-22 19:53:36 | 7/15 [classic] bsc THE/WBNB 0x63db6ba9e512186c2faadacef342fb4a40dc577c | avg=7.55s ETA~60.4s
+2025-09-22 19:53:36 | classify start bsc 0x1dd1ed02f735a81361c7167633ffc2ae4f888788 via RPC
+2025-09-22 19:53:36 | rpc eth_getCode[bsc] -> https://bsc-dataseed.binance.org address=0x1dd1ed02f735a81361c7167633ffc2ae4f888788
+2025-09-22 19:53:37 | rpc eth_getCode[bsc] <- len=31114
+2025-09-22 19:53:37 | getCode ok: bsc 0x1dd1ed02f735a81361c7167633ffc2ae4f888788 len=31114 0x60806040...
+2025-09-22 19:53:37 | call slot0 bsc 0x1dd1ed02f735a81361c7167633ffc2ae4f888788
+2025-09-22 19:53:37 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x1dd1ed02f735a81361c7167633ffc2ae4f888788 data=0x3850c7bd...
+2025-09-22 19:53:38 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:38 | rpc eth_call[bsc] retry in 0.50s (attempt 1/4)
+2025-09-22 19:53:38 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x1dd1ed02f735a81361c7167633ffc2ae4f888788 data=0x3850c7bd...
+2025-09-22 19:53:39 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:39 | rpc eth_call[bsc] retry in 1.00s (attempt 2/4)
+2025-09-22 19:53:40 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x1dd1ed02f735a81361c7167633ffc2ae4f888788 data=0x3850c7bd...
+2025-09-22 19:53:40 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:40 | rpc eth_call[bsc] retry in 1.50s (attempt 3/4)
+2025-09-22 19:53:42 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x1dd1ed02f735a81361c7167633ffc2ae4f888788 data=0x3850c7bd...
+2025-09-22 19:53:42 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:42 | rpc eth_call[bsc] retry in 2.00s (attempt 4/4)
+2025-09-22 19:53:44 | slot0 error: bsc 0x1dd1ed02f735a81361c7167633ffc2ae4f888788 -> execution reverted: 0x
+2025-09-22 19:53:44 | call getReserves bsc 0x1dd1ed02f735a81361c7167633ffc2ae4f888788
+2025-09-22 19:53:44 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x1dd1ed02f735a81361c7167633ffc2ae4f888788 data=0x0902f1ac...
+2025-09-22 19:53:45 | rpc eth_call[bsc] <- len=194
+2025-09-22 19:53:46 | getReserves ok: bsc 0x1dd1ed02f735a81361c7167633ffc2ae4f888788 len=194
+2025-09-22 19:53:46 | 8/15 [classic] bsc FROG/WBNB 0x1dd1ed02f735a81361c7167633ffc2ae4f888788 | avg=7.84s ETA~54.9s
+2025-09-22 19:53:46 | classify start bsc 0xc57061da1894ae58fb834f6db33e9a45cc4e7807 via RPC
+2025-09-22 19:53:46 | rpc eth_getCode[bsc] -> https://bsc-dataseed.binance.org address=0xc57061da1894ae58fb834f6db33e9a45cc4e7807
+2025-09-22 19:53:46 | rpc eth_getCode[bsc] <- len=43622
+2025-09-22 19:53:47 | getCode ok: bsc 0xc57061da1894ae58fb834f6db33e9a45cc4e7807 len=43622 0x60806040...
+2025-09-22 19:53:47 | call slot0 bsc 0xc57061da1894ae58fb834f6db33e9a45cc4e7807
+2025-09-22 19:53:47 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xc57061da1894ae58fb834f6db33e9a45cc4e7807 data=0x3850c7bd...
+2025-09-22 19:53:47 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:47 | rpc eth_call[bsc] retry in 0.50s (attempt 1/4)
+2025-09-22 19:53:48 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xc57061da1894ae58fb834f6db33e9a45cc4e7807 data=0x3850c7bd...
+2025-09-22 19:53:49 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:49 | rpc eth_call[bsc] retry in 1.00s (attempt 2/4)
+2025-09-22 19:53:50 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xc57061da1894ae58fb834f6db33e9a45cc4e7807 data=0x3850c7bd...
+2025-09-22 19:53:50 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:50 | rpc eth_call[bsc] retry in 1.50s (attempt 3/4)
+2025-09-22 19:53:52 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xc57061da1894ae58fb834f6db33e9a45cc4e7807 data=0x3850c7bd...
+2025-09-22 19:53:52 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:52 | rpc eth_call[bsc] retry in 2.00s (attempt 4/4)
+2025-09-22 19:53:54 | slot0 error: bsc 0xc57061da1894ae58fb834f6db33e9a45cc4e7807 -> execution reverted: 0x
+2025-09-22 19:53:54 | call getReserves bsc 0xc57061da1894ae58fb834f6db33e9a45cc4e7807
+2025-09-22 19:53:54 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xc57061da1894ae58fb834f6db33e9a45cc4e7807 data=0x0902f1ac...
+2025-09-22 19:53:55 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:55 | rpc eth_call[bsc] retry in 0.50s (attempt 1/4)
+2025-09-22 19:53:55 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xc57061da1894ae58fb834f6db33e9a45cc4e7807 data=0x0902f1ac...
+2025-09-22 19:53:56 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:56 | rpc eth_call[bsc] retry in 1.00s (attempt 2/4)
+2025-09-22 19:53:57 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xc57061da1894ae58fb834f6db33e9a45cc4e7807 data=0x0902f1ac...
+2025-09-22 19:53:58 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:53:58 | rpc eth_call[bsc] retry in 1.50s (attempt 3/4)
+2025-09-22 19:53:59 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xc57061da1894ae58fb834f6db33e9a45cc4e7807 data=0x0902f1ac...
+2025-09-22 19:54:00 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:00 | rpc eth_call[bsc] retry in 2.00s (attempt 4/4)
+2025-09-22 19:54:02 | getReserves error: bsc 0xc57061da1894ae58fb834f6db33e9a45cc4e7807 -> execution reverted: 0x
+2025-09-22 19:54:02 | 9/15 [unknown] bsc MONKY/WBNB 0xc57061da1894ae58fb834f6db33e9a45cc4e7807 | avg=8.82s ETA~52.9s
+2025-09-22 19:54:02 | classify start bsc 0x356706a98c728084b1e40c4f351f5335daaf8e65 via RPC
+2025-09-22 19:54:02 | rpc eth_getCode[bsc] -> https://bsc-dataseed.binance.org address=0x356706a98c728084b1e40c4f351f5335daaf8e65
+2025-09-22 19:54:03 | rpc eth_getCode[bsc] <- len=43622
+2025-09-22 19:54:03 | getCode ok: bsc 0x356706a98c728084b1e40c4f351f5335daaf8e65 len=43622 0x60806040...
+2025-09-22 19:54:03 | call slot0 bsc 0x356706a98c728084b1e40c4f351f5335daaf8e65
+2025-09-22 19:54:03 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x356706a98c728084b1e40c4f351f5335daaf8e65 data=0x3850c7bd...
+2025-09-22 19:54:04 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:04 | rpc eth_call[bsc] retry in 0.50s (attempt 1/4)
+2025-09-22 19:54:05 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x356706a98c728084b1e40c4f351f5335daaf8e65 data=0x3850c7bd...
+2025-09-22 19:54:05 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:05 | rpc eth_call[bsc] retry in 1.00s (attempt 2/4)
+2025-09-22 19:54:06 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x356706a98c728084b1e40c4f351f5335daaf8e65 data=0x3850c7bd...
+2025-09-22 19:54:07 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:07 | rpc eth_call[bsc] retry in 1.50s (attempt 3/4)
+2025-09-22 19:54:08 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x356706a98c728084b1e40c4f351f5335daaf8e65 data=0x3850c7bd...
+2025-09-22 19:54:09 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:09 | rpc eth_call[bsc] retry in 2.00s (attempt 4/4)
+2025-09-22 19:54:11 | slot0 error: bsc 0x356706a98c728084b1e40c4f351f5335daaf8e65 -> execution reverted: 0x
+2025-09-22 19:54:11 | call getReserves bsc 0x356706a98c728084b1e40c4f351f5335daaf8e65
+2025-09-22 19:54:11 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x356706a98c728084b1e40c4f351f5335daaf8e65 data=0x0902f1ac...
+2025-09-22 19:54:12 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:12 | rpc eth_call[bsc] retry in 0.50s (attempt 1/4)
+2025-09-22 19:54:12 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x356706a98c728084b1e40c4f351f5335daaf8e65 data=0x0902f1ac...
+2025-09-22 19:54:13 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:13 | rpc eth_call[bsc] retry in 1.00s (attempt 2/4)
+2025-09-22 19:54:14 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x356706a98c728084b1e40c4f351f5335daaf8e65 data=0x0902f1ac...
+2025-09-22 19:54:15 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:15 | rpc eth_call[bsc] retry in 1.50s (attempt 3/4)
+2025-09-22 19:54:16 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x356706a98c728084b1e40c4f351f5335daaf8e65 data=0x0902f1ac...
+2025-09-22 19:54:18 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:18 | rpc eth_call[bsc] retry in 2.00s (attempt 4/4)
+2025-09-22 19:54:20 | getReserves error: bsc 0x356706a98c728084b1e40c4f351f5335daaf8e65 -> execution reverted: 0x
+2025-09-22 19:54:20 | 10/15 [unknown] bsc SINGULARRY/WBNB 0x356706a98c728084b1e40c4f351f5335daaf8e65 | avg=9.72s ETA~48.6s
+2025-09-22 19:54:20 | classify start bsc 0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5 via RPC
+2025-09-22 19:54:20 | rpc eth_getCode[bsc] -> https://bsc-dataseed.binance.org address=0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5
+2025-09-22 19:54:21 | rpc eth_getCode[bsc] <- len=43622
+2025-09-22 19:54:21 | getCode ok: bsc 0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5 len=43622 0x60806040...
+2025-09-22 19:54:21 | call slot0 bsc 0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5
+2025-09-22 19:54:21 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5 data=0x3850c7bd...
+2025-09-22 19:54:22 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:22 | rpc eth_call[bsc] retry in 0.50s (attempt 1/4)
+2025-09-22 19:54:22 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5 data=0x3850c7bd...
+2025-09-22 19:54:23 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:23 | rpc eth_call[bsc] retry in 1.00s (attempt 2/4)
+2025-09-22 19:54:24 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5 data=0x3850c7bd...
+2025-09-22 19:54:24 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:24 | rpc eth_call[bsc] retry in 1.50s (attempt 3/4)
+2025-09-22 19:54:26 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5 data=0x3850c7bd...
+2025-09-22 19:54:27 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:27 | rpc eth_call[bsc] retry in 2.00s (attempt 4/4)
+2025-09-22 19:54:29 | slot0 error: bsc 0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5 -> execution reverted: 0x
+2025-09-22 19:54:29 | call getReserves bsc 0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5
+2025-09-22 19:54:29 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5 data=0x0902f1ac...
+2025-09-22 19:54:29 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:29 | rpc eth_call[bsc] retry in 0.50s (attempt 1/4)
+2025-09-22 19:54:30 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5 data=0x0902f1ac...
+2025-09-22 19:54:30 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:30 | rpc eth_call[bsc] retry in 1.00s (attempt 2/4)
+2025-09-22 19:54:31 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5 data=0x0902f1ac...
+2025-09-22 19:54:32 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:32 | rpc eth_call[bsc] retry in 1.50s (attempt 3/4)
+2025-09-22 19:54:33 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5 data=0x0902f1ac...
+2025-09-22 19:54:34 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:34 | rpc eth_call[bsc] retry in 2.00s (attempt 4/4)
+2025-09-22 19:54:36 | getReserves error: bsc 0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5 -> execution reverted: 0x
+2025-09-22 19:54:36 | 11/15 [unknown] bsc BTCB/WBNB 0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5 | avg=10.27s ETA~41.1s
+2025-09-22 19:54:36 | classify start bsc 0x1123e75b71019962cd4d21b0f3018a6412edb63c via RPC
+2025-09-22 19:54:36 | rpc eth_getCode[bsc] -> https://bsc-dataseed.binance.org address=0x1123e75b71019962cd4d21b0f3018a6412edb63c
+2025-09-22 19:54:38 | rpc eth_getCode[bsc] <- len=43622
+2025-09-22 19:54:39 | getCode ok: bsc 0x1123e75b71019962cd4d21b0f3018a6412edb63c len=43622 0x60806040...
+2025-09-22 19:54:39 | call slot0 bsc 0x1123e75b71019962cd4d21b0f3018a6412edb63c
+2025-09-22 19:54:39 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x1123e75b71019962cd4d21b0f3018a6412edb63c data=0x3850c7bd...
+2025-09-22 19:54:39 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:39 | rpc eth_call[bsc] retry in 0.50s (attempt 1/4)
+2025-09-22 19:54:40 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x1123e75b71019962cd4d21b0f3018a6412edb63c data=0x3850c7bd...
+2025-09-22 19:54:40 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:40 | rpc eth_call[bsc] retry in 1.00s (attempt 2/4)
+2025-09-22 19:54:41 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x1123e75b71019962cd4d21b0f3018a6412edb63c data=0x3850c7bd...
+2025-09-22 19:54:42 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:42 | rpc eth_call[bsc] retry in 1.50s (attempt 3/4)
+2025-09-22 19:54:43 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x1123e75b71019962cd4d21b0f3018a6412edb63c data=0x3850c7bd...
+2025-09-22 19:54:44 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:44 | rpc eth_call[bsc] retry in 2.00s (attempt 4/4)
+2025-09-22 19:54:46 | slot0 error: bsc 0x1123e75b71019962cd4d21b0f3018a6412edb63c -> execution reverted: 0x
+2025-09-22 19:54:46 | call getReserves bsc 0x1123e75b71019962cd4d21b0f3018a6412edb63c
+2025-09-22 19:54:46 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x1123e75b71019962cd4d21b0f3018a6412edb63c data=0x0902f1ac...
+2025-09-22 19:54:52 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:52 | rpc eth_call[bsc] retry in 0.50s (attempt 1/4)
+2025-09-22 19:54:52 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x1123e75b71019962cd4d21b0f3018a6412edb63c data=0x0902f1ac...
+2025-09-22 19:54:53 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:53 | rpc eth_call[bsc] retry in 1.00s (attempt 2/4)
+2025-09-22 19:54:54 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x1123e75b71019962cd4d21b0f3018a6412edb63c data=0x0902f1ac...
+2025-09-22 19:54:54 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:54 | rpc eth_call[bsc] retry in 1.50s (attempt 3/4)
+2025-09-22 19:54:56 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0x1123e75b71019962cd4d21b0f3018a6412edb63c data=0x0902f1ac...
+2025-09-22 19:54:56 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:54:56 | rpc eth_call[bsc] retry in 2.00s (attempt 4/4)
+2025-09-22 19:54:58 | getReserves error: bsc 0x1123e75b71019962cd4d21b0f3018a6412edb63c -> execution reverted: 0x
+2025-09-22 19:54:58 | 12/15 [unknown] bsc ETH/WBNB 0x1123e75b71019962cd4d21b0f3018a6412edb63c | avg=11.30s ETA~33.9s
+2025-09-22 19:54:58 | classify start bsc 0xc53fe45e0047965da638aa70e9b6be3d68e2f80f via RPC
+2025-09-22 19:54:58 | rpc eth_getCode[bsc] -> https://bsc-dataseed.binance.org address=0xc53fe45e0047965da638aa70e9b6be3d68e2f80f
+2025-09-22 19:54:59 | rpc eth_getCode[bsc] <- len=31114
+2025-09-22 19:54:59 | getCode ok: bsc 0xc53fe45e0047965da638aa70e9b6be3d68e2f80f len=31114 0x60806040...
+2025-09-22 19:54:59 | call slot0 bsc 0xc53fe45e0047965da638aa70e9b6be3d68e2f80f
+2025-09-22 19:54:59 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xc53fe45e0047965da638aa70e9b6be3d68e2f80f data=0x3850c7bd...
+2025-09-22 19:55:00 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:55:00 | rpc eth_call[bsc] retry in 0.50s (attempt 1/4)
+2025-09-22 19:55:01 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xc53fe45e0047965da638aa70e9b6be3d68e2f80f data=0x3850c7bd...
+2025-09-22 19:55:01 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:55:01 | rpc eth_call[bsc] retry in 1.00s (attempt 2/4)
+2025-09-22 19:55:02 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xc53fe45e0047965da638aa70e9b6be3d68e2f80f data=0x3850c7bd...
+2025-09-22 19:55:03 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:55:03 | rpc eth_call[bsc] retry in 1.50s (attempt 3/4)
+2025-09-22 19:55:04 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xc53fe45e0047965da638aa70e9b6be3d68e2f80f data=0x3850c7bd...
+2025-09-22 19:55:05 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:55:05 | rpc eth_call[bsc] retry in 2.00s (attempt 4/4)
+2025-09-22 19:55:07 | slot0 error: bsc 0xc53fe45e0047965da638aa70e9b6be3d68e2f80f -> execution reverted: 0x
+2025-09-22 19:55:07 | call getReserves bsc 0xc53fe45e0047965da638aa70e9b6be3d68e2f80f
+2025-09-22 19:55:07 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xc53fe45e0047965da638aa70e9b6be3d68e2f80f data=0x0902f1ac...
+2025-09-22 19:55:08 | rpc eth_call[bsc] <- len=194
+2025-09-22 19:55:08 | getReserves ok: bsc 0xc53fe45e0047965da638aa70e9b6be3d68e2f80f len=194
+2025-09-22 19:55:08 | 13/15 [classic] bsc XCAD/WBNB 0xc53fe45e0047965da638aa70e9b6be3d68e2f80f | avg=11.18s ETA~22.4s
+2025-09-22 19:55:08 | classify start bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 via RPC
+2025-09-22 19:55:08 | getCode ok: bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 len=43622 0x60806040...
+2025-09-22 19:55:08 | call slot0 bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4
+2025-09-22 19:55:08 | slot0 error: bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 -> execution reverted: 0x
+2025-09-22 19:55:08 | call getReserves bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4
+2025-09-22 19:55:08 | getReserves error: bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 -> execution reverted: 0x
+2025-09-22 19:55:08 | 14/15 [unknown] bsc slisBNB/WBNB 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 | avg=10.38s ETA~10.4s
+2025-09-22 19:55:08 | classify start bsc 0xc8da40f8a354530f04ce2dde98ebc2960a9ea449 via RPC
+2025-09-22 19:55:08 | rpc eth_getCode[bsc] -> https://bsc-dataseed.binance.org address=0xc8da40f8a354530f04ce2dde98ebc2960a9ea449
+2025-09-22 19:55:09 | rpc eth_getCode[bsc] <- len=31114
+2025-09-22 19:55:09 | getCode ok: bsc 0xc8da40f8a354530f04ce2dde98ebc2960a9ea449 len=31114 0x60806040...
+2025-09-22 19:55:09 | call slot0 bsc 0xc8da40f8a354530f04ce2dde98ebc2960a9ea449
+2025-09-22 19:55:09 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xc8da40f8a354530f04ce2dde98ebc2960a9ea449 data=0x3850c7bd...
+2025-09-22 19:55:10 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:55:10 | rpc eth_call[bsc] retry in 0.50s (attempt 1/4)
+2025-09-22 19:55:10 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xc8da40f8a354530f04ce2dde98ebc2960a9ea449 data=0x3850c7bd...
+2025-09-22 19:55:11 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:55:11 | rpc eth_call[bsc] retry in 1.00s (attempt 2/4)
+2025-09-22 19:55:12 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xc8da40f8a354530f04ce2dde98ebc2960a9ea449 data=0x3850c7bd...
+2025-09-22 19:55:12 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:55:12 | rpc eth_call[bsc] retry in 1.50s (attempt 3/4)
+2025-09-22 19:55:14 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xc8da40f8a354530f04ce2dde98ebc2960a9ea449 data=0x3850c7bd...
+2025-09-22 19:55:14 | rpc eth_call[bsc] error: execution reverted: 0x
+2025-09-22 19:55:14 | rpc eth_call[bsc] retry in 2.00s (attempt 4/4)
+2025-09-22 19:55:16 | slot0 error: bsc 0xc8da40f8a354530f04ce2dde98ebc2960a9ea449 -> execution reverted: 0x
+2025-09-22 19:55:16 | call getReserves bsc 0xc8da40f8a354530f04ce2dde98ebc2960a9ea449
+2025-09-22 19:55:16 | rpc eth_call[bsc] -> https://bsc-dataseed.binance.org to=0xc8da40f8a354530f04ce2dde98ebc2960a9ea449 data=0x0902f1ac...
+2025-09-22 19:55:17 | rpc eth_call[bsc] <- len=194
+2025-09-22 19:55:17 | getReserves ok: bsc 0xc8da40f8a354530f04ce2dde98ebc2960a9ea449 len=194
+2025-09-22 19:55:17 | 15/15 [classic] bsc DEUS/WBNB 0xc8da40f8a354530f04ce2dde98ebc2960a9ea449 | avg=10.30s ETA~0.0s
+2025-09-22 19:55:18 | Saved -> /home/ivan/Work/MakingBase/Dex_find_exch/classified_pools_thena.json (15 items)
+2025-09-22 19:59:14 | total candidates: 15; exchange=thena; rate_delay=0.5s
+2025-09-22 19:59:14 | classify start bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 via RPC
+2025-09-22 19:59:14 | getCode ok: bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 len=43622 0x60806040...
+2025-09-22 19:59:14 | call slot0 bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4
+2025-09-22 19:59:14 | slot0 error: bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 -> execution reverted: 0x
+2025-09-22 19:59:14 | call getReserves bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4
+2025-09-22 19:59:14 | getReserves error: bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 -> execution reverted: 0x
+2025-09-22 19:59:14 | 1/15 [fusion] bsc slisBNB/WBNB 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 | avg=0.00s ETA~0.0s
+2025-09-22 19:59:14 | classify start bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c via RPC
+2025-09-22 19:59:14 | getCode ok: bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c len=31114 0x60806040...
+2025-09-22 19:59:14 | call slot0 bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c
+2025-09-22 19:59:14 | slot0 error: bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c -> execution reverted: 0x
+2025-09-22 19:59:14 | call getReserves bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c
+2025-09-22 19:59:14 | getReserves ok: bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c len=194
+2025-09-22 19:59:14 | 2/15 [classic] bsc THE/WBNB 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c | avg=0.00s ETA~0.0s
+2025-09-22 19:59:14 | classify start bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 via RPC
+2025-09-22 19:59:14 | getCode ok: bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 len=43622 0x60806040...
+2025-09-22 19:59:14 | call slot0 bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8
+2025-09-22 19:59:14 | slot0 error: bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 -> execution reverted: 0x
+2025-09-22 19:59:14 | call getReserves bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8
+2025-09-22 19:59:14 | getReserves error: bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 -> execution reverted: 0x
+2025-09-22 19:59:14 | 3/15 [fusion] bsc THE/WBNB 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 | avg=0.00s ETA~0.0s
+2025-09-22 19:59:14 | classify start bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c via RPC
+2025-09-22 19:59:14 | getCode ok: bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c len=31114 0x60806040...
+2025-09-22 19:59:14 | call slot0 bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c
+2025-09-22 19:59:14 | slot0 error: bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c -> execution reverted: 0x
+2025-09-22 19:59:14 | call getReserves bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c
+2025-09-22 19:59:14 | getReserves ok: bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c len=194
+2025-09-22 19:59:14 | 4/15 [classic] bsc THE/WBNB 0x63db6ba9e512186c2faadacef342fb4a40dc577c | avg=0.00s ETA~0.0s
+2025-09-22 19:59:14 | classify start bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c via RPC
+2025-09-22 19:59:14 | getCode ok: bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c len=31114 0x60806040...
+2025-09-22 19:59:14 | call slot0 bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c
+2025-09-22 19:59:14 | slot0 error: bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c -> execution reverted: 0x
+2025-09-22 19:59:14 | call getReserves bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c
+2025-09-22 19:59:14 | getReserves ok: bsc 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c len=194
+2025-09-22 19:59:14 | 5/15 [classic] bsc THE/WBNB 0x63Db6ba9E512186C2FAaDaCEF342FB4A40dc577c | avg=0.00s ETA~0.0s
+2025-09-22 19:59:14 | classify start bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 via RPC
+2025-09-22 19:59:14 | getCode ok: bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 len=43622 0x60806040...
+2025-09-22 19:59:14 | call slot0 bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8
+2025-09-22 19:59:14 | slot0 error: bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 -> execution reverted: 0x
+2025-09-22 19:59:14 | call getReserves bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8
+2025-09-22 19:59:14 | getReserves error: bsc 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 -> execution reverted: 0x
+2025-09-22 19:59:14 | 6/15 [fusion] bsc THE/WBNB 0x51bd5e6d3da9064d59bcaa5a76776560ab42ceb8 | avg=0.00s ETA~0.0s
+2025-09-22 19:59:14 | classify start bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c via RPC
+2025-09-22 19:59:14 | getCode ok: bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c len=31114 0x60806040...
+2025-09-22 19:59:14 | call slot0 bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c
+2025-09-22 19:59:14 | slot0 error: bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c -> execution reverted: 0x
+2025-09-22 19:59:14 | call getReserves bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c
+2025-09-22 19:59:14 | getReserves ok: bsc 0x63db6ba9e512186c2faadacef342fb4a40dc577c len=194
+2025-09-22 19:59:14 | 7/15 [classic] bsc THE/WBNB 0x63db6ba9e512186c2faadacef342fb4a40dc577c | avg=0.00s ETA~0.0s
+2025-09-22 19:59:14 | classify start bsc 0x1dd1ed02f735a81361c7167633ffc2ae4f888788 via RPC
+2025-09-22 19:59:14 | getCode ok: bsc 0x1dd1ed02f735a81361c7167633ffc2ae4f888788 len=31114 0x60806040...
+2025-09-22 19:59:14 | call slot0 bsc 0x1dd1ed02f735a81361c7167633ffc2ae4f888788
+2025-09-22 19:59:14 | slot0 error: bsc 0x1dd1ed02f735a81361c7167633ffc2ae4f888788 -> execution reverted: 0x
+2025-09-22 19:59:14 | call getReserves bsc 0x1dd1ed02f735a81361c7167633ffc2ae4f888788
+2025-09-22 19:59:14 | getReserves ok: bsc 0x1dd1ed02f735a81361c7167633ffc2ae4f888788 len=194
+2025-09-22 19:59:14 | 8/15 [classic] bsc FROG/WBNB 0x1dd1ed02f735a81361c7167633ffc2ae4f888788 | avg=0.00s ETA~0.0s
+2025-09-22 19:59:14 | classify start bsc 0xc57061da1894ae58fb834f6db33e9a45cc4e7807 via RPC
+2025-09-22 19:59:14 | getCode ok: bsc 0xc57061da1894ae58fb834f6db33e9a45cc4e7807 len=43622 0x60806040...
+2025-09-22 19:59:14 | call slot0 bsc 0xc57061da1894ae58fb834f6db33e9a45cc4e7807
+2025-09-22 19:59:14 | slot0 error: bsc 0xc57061da1894ae58fb834f6db33e9a45cc4e7807 -> execution reverted: 0x
+2025-09-22 19:59:14 | call getReserves bsc 0xc57061da1894ae58fb834f6db33e9a45cc4e7807
+2025-09-22 19:59:14 | getReserves error: bsc 0xc57061da1894ae58fb834f6db33e9a45cc4e7807 -> execution reverted: 0x
+2025-09-22 19:59:14 | 9/15 [fusion] bsc MONKY/WBNB 0xc57061da1894ae58fb834f6db33e9a45cc4e7807 | avg=0.00s ETA~0.0s
+2025-09-22 19:59:14 | classify start bsc 0x356706a98c728084b1e40c4f351f5335daaf8e65 via RPC
+2025-09-22 19:59:14 | getCode ok: bsc 0x356706a98c728084b1e40c4f351f5335daaf8e65 len=43622 0x60806040...
+2025-09-22 19:59:14 | call slot0 bsc 0x356706a98c728084b1e40c4f351f5335daaf8e65
+2025-09-22 19:59:14 | slot0 error: bsc 0x356706a98c728084b1e40c4f351f5335daaf8e65 -> execution reverted: 0x
+2025-09-22 19:59:14 | call getReserves bsc 0x356706a98c728084b1e40c4f351f5335daaf8e65
+2025-09-22 19:59:14 | getReserves error: bsc 0x356706a98c728084b1e40c4f351f5335daaf8e65 -> execution reverted: 0x
+2025-09-22 19:59:14 | 10/15 [fusion] bsc SINGULARRY/WBNB 0x356706a98c728084b1e40c4f351f5335daaf8e65 | avg=0.00s ETA~0.0s
+2025-09-22 19:59:14 | classify start bsc 0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5 via RPC
+2025-09-22 19:59:14 | getCode ok: bsc 0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5 len=43622 0x60806040...
+2025-09-22 19:59:14 | call slot0 bsc 0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5
+2025-09-22 19:59:14 | slot0 error: bsc 0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5 -> execution reverted: 0x
+2025-09-22 19:59:14 | call getReserves bsc 0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5
+2025-09-22 19:59:14 | getReserves error: bsc 0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5 -> execution reverted: 0x
+2025-09-22 19:59:14 | 11/15 [fusion] bsc BTCB/WBNB 0x6b67112aa7b45e8cdc0a93b8d66a6a36e68ae8e5 | avg=0.00s ETA~0.0s
+2025-09-22 19:59:14 | classify start bsc 0x1123e75b71019962cd4d21b0f3018a6412edb63c via RPC
+2025-09-22 19:59:14 | getCode ok: bsc 0x1123e75b71019962cd4d21b0f3018a6412edb63c len=43622 0x60806040...
+2025-09-22 19:59:14 | call slot0 bsc 0x1123e75b71019962cd4d21b0f3018a6412edb63c
+2025-09-22 19:59:14 | slot0 error: bsc 0x1123e75b71019962cd4d21b0f3018a6412edb63c -> execution reverted: 0x
+2025-09-22 19:59:14 | call getReserves bsc 0x1123e75b71019962cd4d21b0f3018a6412edb63c
+2025-09-22 19:59:14 | getReserves error: bsc 0x1123e75b71019962cd4d21b0f3018a6412edb63c -> execution reverted: 0x
+2025-09-22 19:59:14 | 12/15 [fusion] bsc ETH/WBNB 0x1123e75b71019962cd4d21b0f3018a6412edb63c | avg=0.00s ETA~0.0s
+2025-09-22 19:59:14 | classify start bsc 0xc53fe45e0047965da638aa70e9b6be3d68e2f80f via RPC
+2025-09-22 19:59:14 | getCode ok: bsc 0xc53fe45e0047965da638aa70e9b6be3d68e2f80f len=31114 0x60806040...
+2025-09-22 19:59:14 | call slot0 bsc 0xc53fe45e0047965da638aa70e9b6be3d68e2f80f
+2025-09-22 19:59:14 | slot0 error: bsc 0xc53fe45e0047965da638aa70e9b6be3d68e2f80f -> execution reverted: 0x
+2025-09-22 19:59:14 | call getReserves bsc 0xc53fe45e0047965da638aa70e9b6be3d68e2f80f
+2025-09-22 19:59:14 | getReserves ok: bsc 0xc53fe45e0047965da638aa70e9b6be3d68e2f80f len=194
+2025-09-22 19:59:14 | 13/15 [classic] bsc XCAD/WBNB 0xc53fe45e0047965da638aa70e9b6be3d68e2f80f | avg=0.00s ETA~0.0s
+2025-09-22 19:59:14 | classify start bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 via RPC
+2025-09-22 19:59:14 | getCode ok: bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 len=43622 0x60806040...
+2025-09-22 19:59:14 | call slot0 bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4
+2025-09-22 19:59:14 | slot0 error: bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 -> execution reverted: 0x
+2025-09-22 19:59:14 | call getReserves bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4
+2025-09-22 19:59:14 | getReserves error: bsc 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 -> execution reverted: 0x
+2025-09-22 19:59:14 | 14/15 [fusion] bsc slisBNB/WBNB 0xa07bbf09b48e8d219774ac9b92622f5260a9c9f4 | avg=0.00s ETA~0.0s
+2025-09-22 19:59:14 | classify start bsc 0xc8da40f8a354530f04ce2dde98ebc2960a9ea449 via RPC
+2025-09-22 19:59:14 | getCode ok: bsc 0xc8da40f8a354530f04ce2dde98ebc2960a9ea449 len=31114 0x60806040...
+2025-09-22 19:59:14 | call slot0 bsc 0xc8da40f8a354530f04ce2dde98ebc2960a9ea449
+2025-09-22 19:59:14 | slot0 error: bsc 0xc8da40f8a354530f04ce2dde98ebc2960a9ea449 -> execution reverted: 0x
+2025-09-22 19:59:14 | call getReserves bsc 0xc8da40f8a354530f04ce2dde98ebc2960a9ea449
+2025-09-22 19:59:14 | getReserves ok: bsc 0xc8da40f8a354530f04ce2dde98ebc2960a9ea449 len=194
+2025-09-22 19:59:14 | 15/15 [classic] bsc DEUS/WBNB 0xc8da40f8a354530f04ce2dde98ebc2960a9ea449 | avg=0.00s ETA~0.0s
+2025-09-22 19:59:15 | Saved -> /home/ivan/Work/MakingBase/Dex_find_exch/classified_pools_thena.json (15 items)
