@@ -1,0 +1,136 @@
+{
+  "updated_at": 1758558167,
+  "total_scanned": 30,
+  "items": [
+    {
+      "chain": "avalanche",
+      "asset": "SOL",
+      "pair": "SOL/WAVAX",
+      "address": "0x640963da1d9d07cb86e89df670dd29b54e1f1d3e",
+      "url": "https://dexscreener.com/avalanche/0x640963da1d9d07cb86e89df670dd29b54e1f1d3e",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x000000000000000000000000000000000000000000000149907236aa38b5766f0000000000000000000000000000000000000000000000ab31d935d5dc9efc49"
+      },
+      "note": "Trader Joe Legacy AMM pool"
+    },
+    {
+      "chain": "avalanche",
+      "asset": "SOL",
+      "pair": "SOL/WAVAX",
+      "address": "0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7",
+      "url": "https://dexscreener.com/avalanche/0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x00000000000000000000000000000000000000000000009e35323b8a10ebb65b000000000000000000000000000000000000000000000449e17ac60539c90e110000000000000000000000000000000000000000000000000000000068d176f6"
+      },
+      "note": "Trader Joe Legacy AMM pool"
+    },
+    {
+      "chain": "avalanche",
+      "asset": "STG",
+      "pair": "STG/USDC",
+      "address": "0x330f77BdA60D8daB14d2bb4F6248251443722009",
+      "url": "https://dexscreener.com/avalanche/0x330f77bda60d8dab14d2bb4f6248251443722009",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x00000000000000000000000000000000000000000002ba4a3419b24353eebcf30000000000000000000000000000000000000000000000000000007d68c874e20000000000000000000000000000000000000000000000000000000068d176ef"
+      },
+      "note": "Trader Joe Legacy AMM pool"
+    },
+    {
+      "chain": "avalanche",
+      "asset": "GMX",
+      "pair": "GMX/WAVAX",
+      "address": "0x0c91a070f862666bbcce281346be45766d874d98",
+      "url": "https://dexscreener.com/avalanche/0x0c91a070f862666bbcce281346be45766d874d98",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x0000000000000000000000000000000000000000000011b5a28fb873a7820dbc0000000000000000000000000000000000000000000007fee878ae14728190f50000000000000000000000000000000000000000000000000000000068d174d5"
+      },
+      "note": "Trader Joe Legacy AMM pool"
+    },
+    {
+      "chain": "avalanche",
+      "asset": "JOE",
+      "pair": "JOE/WAVAX",
+      "address": "0x454e67025631c065d3cfad6d71e6892f74487a15",
+      "url": "https://dexscreener.com/avalanche/0x454e67025631c065d3cfad6d71e6892f74487a15",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x00000000000000000000000000000000000000000004821f0114f957ac7b4d170000000000000000000000000000000000000000000005f5f91df5a33cb0bc880000000000000000000000000000000000000000000000000000000068d17763"
+      },
+      "note": "Trader Joe Legacy AMM pool"
+    },
+    {
+      "chain": "avalanche",
+      "asset": "JOE",
+      "pair": "JOE/WAVAX",
+      "address": "0x9f8973fb86b35c307324ec31fd81cf565e2f4a63",
+      "url": "https://dexscreener.com/avalanche/0x9f8973fb86b35c307324ec31fd81cf565e2f4a63",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x0000000000000000000000000000000000000000000141e0f985bb74fefd4a44000000000000000000000000000000000000000000000005a6e5c737af33f024"
+      },
+      "note": "Trader Joe Legacy AMM pool"
+    },
+    {
+      "chain": "avalanche",
+      "asset": "GUN",
+      "pair": "GUN/WAVAX",
+      "address": "0xbd26e663281fb35d4757219eb180f02e8a065c09",
+      "url": "https://dexscreener.com/avalanche/0xbd26e663281fb35d4757219eb180f02e8a065c09",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x0000000000000000000000000000000000000000000d42cc2ef1540692afe3ce0000000000000000000000000000000000000000000001c224cb588811f25b02"
+      },
+      "note": "Trader Joe Legacy AMM pool"
+    },
+    {
+      "chain": "avalanche",
+      "asset": "NXPC",
+      "pair": "NXPC/WAVAX",
+      "address": "0x933befd6941f135e137bb370bc6c4d39d3e88f03",
+      "url": "https://dexscreener.com/avalanche/0x933befd6941f135e137bb370bc6c4d39d3e88f03",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x00000000000000000000000000000000000000000000662876759082db14941e0000000000000000000000000000000000000000000001f9620684523d1c29be0000000000000000000000000000000000000000000000000000000068d17767"
+      },
+      "note": "Trader Joe Legacy AMM pool"
+    },
+    {
+      "chain": "avalanche",
+      "asset": "BEAM",
+      "pair": "BEAM/WAVAX",
+      "address": "0xc5fb2c654c9b627aedf6a593949cbb335edbb568",
+      "url": "https://dexscreener.com/avalanche/0xc5fb2c654c9b627aedf6a593949cbb335edbb568",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x00000000000000000000000000000000000000000012e248127e79a615a7af7f00000000000000000000000000000000000000000000011b445ff83bef512eb40000000000000000000000000000000000000000000000000000000068d17747"
+      },
+      "note": "Trader Joe Legacy AMM pool"
+    },
+    {
+      "chain": "avalanche",
+      "asset": "QI",
+      "pair": "QI/WAVAX",
+      "address": "0x2774516897ac629ad3ed9dcac7e375dda78412b9",
+      "url": "https://dexscreener.com/avalanche/0x2774516897ac629ad3ed9dcac7e375dda78412b9",
+      "version": "classic",
+      "checks": {
+        "slot0": "error: execution reverted",
+        "getReserves": "0x00000000000000000000000000000000000000000034cf36f010afa482b886990000000000000000000000000000000000000000000003958467f43aa20a0cd00000000000000000000000000000000000000000000000000000000068d17769"
+      },
+      "note": "Trader Joe Legacy AMM pool"
+    }
+  ]
+}

@@ -28467,3 +28467,513 @@ source .venv/bin/activate && python scripts/classify_pools.py | sed -n
 2025-09-22 18:44:27 | getNormalizedWeights ok: ethereum 0xf4c0dd9b82da36c07605df83c8a416f11724d88b len=258
 2025-09-22 18:44:27 | 15/15 [weighted] ethereum GNO/WETH 0xf4c0dd9b82da36c07605df83c8a416f11724d88b | avg=0.00s ETA~0.0s
 2025-09-22 18:44:27 | Saved -> /home/ivan/Work/MakingBase/Dex_find_exch/classified_pools_balancer.json (15 items)
+2025-09-22 19:19:26 | total candidates: 15; exchange=traderjoe; rate_delay=0.5s
+2025-09-22 19:19:26 | classify start avalanche 0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e via RPC
+2025-09-22 19:19:26 | rpc eth_getCode[avalanche] -> https://api.avax.network/ext/bc/C/rpc address=0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e
+2025-09-22 19:19:26 | rpc eth_getCode[avalanche] <- len=196
+2025-09-22 19:19:27 | getCode ok: avalanche 0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e len=196 0x363d3d37...
+2025-09-22 19:19:27 | call slot0 avalanche 0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e
+2025-09-22 19:19:27 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e data=0x3850c7bd...
+2025-09-22 19:19:27 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:19:27 | rpc eth_call[avalanche] retry in 0.50s (attempt 1/4)
+2025-09-22 19:19:27 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e data=0x3850c7bd...
+2025-09-22 19:19:28 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:19:28 | rpc eth_call[avalanche] retry in 1.00s (attempt 2/4)
+2025-09-22 19:19:29 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e data=0x3850c7bd...
+2025-09-22 19:19:29 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:19:29 | rpc eth_call[avalanche] retry in 1.50s (attempt 3/4)
+2025-09-22 19:19:31 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e data=0x3850c7bd...
+2025-09-22 19:19:31 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:19:31 | rpc eth_call[avalanche] retry in 2.00s (attempt 4/4)
+2025-09-22 19:19:33 | slot0 error: avalanche 0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e -> execution reverted
+2025-09-22 19:19:33 | call getReserves avalanche 0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e
+2025-09-22 19:19:33 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e data=0x0902f1ac...
+2025-09-22 19:19:34 | rpc eth_call[avalanche] <- len=130
+2025-09-22 19:19:34 | getReserves ok: avalanche 0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e len=130
+2025-09-22 19:19:34 | call activeId avalanche 0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e
+2025-09-22 19:19:34 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e data=0x5e41bae2...
+2025-09-22 19:19:35 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:19:35 | rpc eth_call[avalanche] retry in 0.50s (attempt 1/4)
+2025-09-22 19:19:35 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e data=0x5e41bae2...
+2025-09-22 19:19:36 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:19:36 | rpc eth_call[avalanche] retry in 1.00s (attempt 2/4)
+2025-09-22 19:19:37 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e data=0x5e41bae2...
+2025-09-22 19:19:37 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:19:37 | rpc eth_call[avalanche] retry in 1.50s (attempt 3/4)
+2025-09-22 19:19:39 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e data=0x5e41bae2...
+2025-09-22 19:19:39 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:19:39 | rpc eth_call[avalanche] retry in 2.00s (attempt 4/4)
+2025-09-22 19:19:41 | activeId error: avalanche 0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e -> execution reverted
+2025-09-22 19:19:41 | 1/15 [unknown] avalanche SOL/WAVAX 0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e | avg=15.18s ETA~212.5s
+2025-09-22 19:19:41 | classify start avalanche 0x640963da1d9d07cb86e89df670dd29b54e1f1d3e via RPC
+2025-09-22 19:19:41 | rpc eth_getCode[avalanche] -> https://api.avax.network/ext/bc/C/rpc address=0x640963da1d9d07cb86e89df670dd29b54e1f1d3e
+2025-09-22 19:19:41 | rpc eth_getCode[avalanche] <- len=196
+2025-09-22 19:19:42 | getCode ok: avalanche 0x640963da1d9d07cb86e89df670dd29b54e1f1d3e len=196 0x363d3d37...
+2025-09-22 19:19:42 | call slot0 avalanche 0x640963da1d9d07cb86e89df670dd29b54e1f1d3e
+2025-09-22 19:19:42 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x640963da1d9d07cb86e89df670dd29b54e1f1d3e data=0x3850c7bd...
+2025-09-22 19:19:42 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:19:42 | rpc eth_call[avalanche] retry in 0.50s (attempt 1/4)
+2025-09-22 19:19:43 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x640963da1d9d07cb86e89df670dd29b54e1f1d3e data=0x3850c7bd...
+2025-09-22 19:19:43 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:19:43 | rpc eth_call[avalanche] retry in 1.00s (attempt 2/4)
+2025-09-22 19:19:44 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x640963da1d9d07cb86e89df670dd29b54e1f1d3e data=0x3850c7bd...
+2025-09-22 19:19:45 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:19:45 | rpc eth_call[avalanche] retry in 1.50s (attempt 3/4)
+2025-09-22 19:19:46 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x640963da1d9d07cb86e89df670dd29b54e1f1d3e data=0x3850c7bd...
+2025-09-22 19:19:46 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:19:46 | rpc eth_call[avalanche] retry in 2.00s (attempt 4/4)
+2025-09-22 19:19:48 | slot0 error: avalanche 0x640963da1d9d07cb86e89df670dd29b54e1f1d3e -> execution reverted
+2025-09-22 19:19:48 | call getReserves avalanche 0x640963da1d9d07cb86e89df670dd29b54e1f1d3e
+2025-09-22 19:19:48 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x640963da1d9d07cb86e89df670dd29b54e1f1d3e data=0x0902f1ac...
+2025-09-22 19:19:49 | rpc eth_call[avalanche] <- len=130
+2025-09-22 19:19:49 | getReserves ok: avalanche 0x640963da1d9d07cb86e89df670dd29b54e1f1d3e len=130
+2025-09-22 19:19:49 | call activeId avalanche 0x640963da1d9d07cb86e89df670dd29b54e1f1d3e
+2025-09-22 19:19:49 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x640963da1d9d07cb86e89df670dd29b54e1f1d3e data=0x5e41bae2...
+2025-09-22 19:19:50 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:19:50 | rpc eth_call[avalanche] retry in 0.50s (attempt 1/4)
+2025-09-22 19:19:50 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x640963da1d9d07cb86e89df670dd29b54e1f1d3e data=0x5e41bae2...
+2025-09-22 19:19:51 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:19:51 | rpc eth_call[avalanche] retry in 1.00s (attempt 2/4)
+2025-09-22 19:19:52 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x640963da1d9d07cb86e89df670dd29b54e1f1d3e data=0x5e41bae2...
+2025-09-22 19:19:52 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:19:52 | rpc eth_call[avalanche] retry in 1.50s (attempt 3/4)
+2025-09-22 19:19:54 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x640963da1d9d07cb86e89df670dd29b54e1f1d3e data=0x5e41bae2...
+2025-09-22 19:19:54 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:19:54 | rpc eth_call[avalanche] retry in 2.00s (attempt 4/4)
+2025-09-22 19:19:56 | activeId error: avalanche 0x640963da1d9d07cb86e89df670dd29b54e1f1d3e -> execution reverted
+2025-09-22 19:19:56 | 2/15 [unknown] avalanche SOL/WAVAX 0x640963da1d9d07cb86e89df670dd29b54e1f1d3e | avg=15.34s ETA~199.4s
+2025-09-22 19:19:56 | classify start avalanche 0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7 via RPC
+2025-09-22 19:19:56 | rpc eth_getCode[avalanche] -> https://api.avax.network/ext/bc/C/rpc address=0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7
+2025-09-22 19:19:57 | rpc eth_getCode[avalanche] <- len=17892
+2025-09-22 19:19:58 | getCode ok: avalanche 0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7 len=17892 0x60806040...
+2025-09-22 19:19:58 | call slot0 avalanche 0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7
+2025-09-22 19:19:58 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7 data=0x3850c7bd...
+2025-09-22 19:19:58 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:19:58 | rpc eth_call[avalanche] retry in 0.50s (attempt 1/4)
+2025-09-22 19:19:59 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7 data=0x3850c7bd...
+2025-09-22 19:19:59 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:19:59 | rpc eth_call[avalanche] retry in 1.00s (attempt 2/4)
+2025-09-22 19:20:00 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7 data=0x3850c7bd...
+2025-09-22 19:20:01 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:01 | rpc eth_call[avalanche] retry in 1.50s (attempt 3/4)
+2025-09-22 19:20:02 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7 data=0x3850c7bd...
+2025-09-22 19:20:03 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:03 | rpc eth_call[avalanche] retry in 2.00s (attempt 4/4)
+2025-09-22 19:20:05 | slot0 error: avalanche 0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7 -> execution reverted
+2025-09-22 19:20:05 | call getReserves avalanche 0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7
+2025-09-22 19:20:05 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7 data=0x0902f1ac...
+2025-09-22 19:20:05 | rpc eth_call[avalanche] <- len=194
+2025-09-22 19:20:06 | getReserves ok: avalanche 0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7 len=194
+2025-09-22 19:20:06 | 3/15 [classic] avalanche SOL/WAVAX 0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7 | avg=13.29s ETA~159.5s
+2025-09-22 19:20:06 | classify start avalanche 0x330f77BdA60D8daB14d2bb4F6248251443722009 via RPC
+2025-09-22 19:20:06 | rpc eth_getCode[avalanche] -> https://api.avax.network/ext/bc/C/rpc address=0x330f77BdA60D8daB14d2bb4F6248251443722009
+2025-09-22 19:20:06 | rpc eth_getCode[avalanche] <- len=17892
+2025-09-22 19:20:07 | getCode ok: avalanche 0x330f77BdA60D8daB14d2bb4F6248251443722009 len=17892 0x60806040...
+2025-09-22 19:20:07 | call slot0 avalanche 0x330f77BdA60D8daB14d2bb4F6248251443722009
+2025-09-22 19:20:07 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x330f77BdA60D8daB14d2bb4F6248251443722009 data=0x3850c7bd...
+2025-09-22 19:20:07 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:07 | rpc eth_call[avalanche] retry in 0.50s (attempt 1/4)
+2025-09-22 19:20:08 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x330f77BdA60D8daB14d2bb4F6248251443722009 data=0x3850c7bd...
+2025-09-22 19:20:08 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:08 | rpc eth_call[avalanche] retry in 1.00s (attempt 2/4)
+2025-09-22 19:20:09 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x330f77BdA60D8daB14d2bb4F6248251443722009 data=0x3850c7bd...
+2025-09-22 19:20:09 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:09 | rpc eth_call[avalanche] retry in 1.50s (attempt 3/4)
+2025-09-22 19:20:11 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x330f77BdA60D8daB14d2bb4F6248251443722009 data=0x3850c7bd...
+2025-09-22 19:20:11 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:11 | rpc eth_call[avalanche] retry in 2.00s (attempt 4/4)
+2025-09-22 19:20:13 | slot0 error: avalanche 0x330f77BdA60D8daB14d2bb4F6248251443722009 -> execution reverted
+2025-09-22 19:20:13 | call getReserves avalanche 0x330f77BdA60D8daB14d2bb4F6248251443722009
+2025-09-22 19:20:13 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x330f77BdA60D8daB14d2bb4F6248251443722009 data=0x0902f1ac...
+2025-09-22 19:20:14 | rpc eth_call[avalanche] <- len=194
+2025-09-22 19:20:14 | getReserves ok: avalanche 0x330f77BdA60D8daB14d2bb4F6248251443722009 len=194
+2025-09-22 19:20:14 | 4/15 [classic] avalanche STG/USDC 0x330f77BdA60D8daB14d2bb4F6248251443722009 | avg=12.11s ETA~133.3s
+2025-09-22 19:20:14 | classify start avalanche 0x0c91a070f862666bBcce281346BE45766d874D98 via RPC
+2025-09-22 19:20:14 | rpc eth_getCode[avalanche] -> https://api.avax.network/ext/bc/C/rpc address=0x0c91a070f862666bBcce281346BE45766d874D98
+2025-09-22 19:20:15 | rpc eth_getCode[avalanche] <- len=17892
+2025-09-22 19:20:15 | getCode ok: avalanche 0x0c91a070f862666bBcce281346BE45766d874D98 len=17892 0x60806040...
+2025-09-22 19:20:15 | call slot0 avalanche 0x0c91a070f862666bBcce281346BE45766d874D98
+2025-09-22 19:20:15 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x0c91a070f862666bBcce281346BE45766d874D98 data=0x3850c7bd...
+2025-09-22 19:20:16 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:16 | rpc eth_call[avalanche] retry in 0.50s (attempt 1/4)
+2025-09-22 19:20:16 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x0c91a070f862666bBcce281346BE45766d874D98 data=0x3850c7bd...
+2025-09-22 19:20:17 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:17 | rpc eth_call[avalanche] retry in 1.00s (attempt 2/4)
+2025-09-22 19:20:18 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x0c91a070f862666bBcce281346BE45766d874D98 data=0x3850c7bd...
+2025-09-22 19:20:18 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:18 | rpc eth_call[avalanche] retry in 1.50s (attempt 3/4)
+2025-09-22 19:20:20 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x0c91a070f862666bBcce281346BE45766d874D98 data=0x3850c7bd...
+2025-09-22 19:20:21 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:21 | rpc eth_call[avalanche] retry in 2.00s (attempt 4/4)
+2025-09-22 19:20:23 | slot0 error: avalanche 0x0c91a070f862666bBcce281346BE45766d874D98 -> execution reverted
+2025-09-22 19:20:23 | call getReserves avalanche 0x0c91a070f862666bBcce281346BE45766d874D98
+2025-09-22 19:20:23 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x0c91a070f862666bBcce281346BE45766d874D98 data=0x0902f1ac...
+2025-09-22 19:20:23 | rpc eth_call[avalanche] <- len=194
+2025-09-22 19:20:24 | getReserves ok: avalanche 0x0c91a070f862666bBcce281346BE45766d874D98 len=194
+2025-09-22 19:20:24 | 5/15 [classic] avalanche GMX/WAVAX 0x0c91a070f862666bBcce281346BE45766d874D98 | avg=11.59s ETA~115.9s
+2025-09-22 19:20:24 | classify start avalanche 0x0c91a070f862666bbcce281346be45766d874d98 via RPC
+2025-09-22 19:20:24 | rpc eth_getCode[avalanche] -> https://api.avax.network/ext/bc/C/rpc address=0x0c91a070f862666bbcce281346be45766d874d98
+2025-09-22 19:20:24 | rpc eth_getCode[avalanche] <- len=17892
+2025-09-22 19:20:25 | getCode ok: avalanche 0x0c91a070f862666bbcce281346be45766d874d98 len=17892 0x60806040...
+2025-09-22 19:20:25 | call slot0 avalanche 0x0c91a070f862666bbcce281346be45766d874d98
+2025-09-22 19:20:25 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x0c91a070f862666bbcce281346be45766d874d98 data=0x3850c7bd...
+2025-09-22 19:20:25 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:25 | rpc eth_call[avalanche] retry in 0.50s (attempt 1/4)
+2025-09-22 19:20:26 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x0c91a070f862666bbcce281346be45766d874d98 data=0x3850c7bd...
+2025-09-22 19:20:26 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:26 | rpc eth_call[avalanche] retry in 1.00s (attempt 2/4)
+2025-09-22 19:20:27 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x0c91a070f862666bbcce281346be45766d874d98 data=0x3850c7bd...
+2025-09-22 19:20:28 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:28 | rpc eth_call[avalanche] retry in 1.50s (attempt 3/4)
+2025-09-22 19:20:29 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x0c91a070f862666bbcce281346be45766d874d98 data=0x3850c7bd...
+2025-09-22 19:20:30 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:30 | rpc eth_call[avalanche] retry in 2.00s (attempt 4/4)
+2025-09-22 19:20:32 | slot0 error: avalanche 0x0c91a070f862666bbcce281346be45766d874d98 -> execution reverted
+2025-09-22 19:20:32 | call getReserves avalanche 0x0c91a070f862666bbcce281346be45766d874d98
+2025-09-22 19:20:32 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x0c91a070f862666bbcce281346be45766d874d98 data=0x0902f1ac...
+2025-09-22 19:20:33 | rpc eth_call[avalanche] <- len=194
+2025-09-22 19:20:34 | getReserves ok: avalanche 0x0c91a070f862666bbcce281346be45766d874d98 len=194
+2025-09-22 19:20:34 | 6/15 [classic] avalanche GMX/WAVAX 0x0c91a070f862666bbcce281346be45766d874d98 | avg=11.30s ETA~101.7s
+2025-09-22 19:20:34 | classify start avalanche 0x454E67025631C065d3cFAD6d71E6892f74487a15 via RPC
+2025-09-22 19:20:34 | rpc eth_getCode[avalanche] -> https://api.avax.network/ext/bc/C/rpc address=0x454E67025631C065d3cFAD6d71E6892f74487a15
+2025-09-22 19:20:34 | rpc eth_getCode[avalanche] <- len=17892
+2025-09-22 19:20:34 | getCode ok: avalanche 0x454E67025631C065d3cFAD6d71E6892f74487a15 len=17892 0x60806040...
+2025-09-22 19:20:34 | call slot0 avalanche 0x454E67025631C065d3cFAD6d71E6892f74487a15
+2025-09-22 19:20:34 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x454E67025631C065d3cFAD6d71E6892f74487a15 data=0x3850c7bd...
+2025-09-22 19:20:35 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:35 | rpc eth_call[avalanche] retry in 0.50s (attempt 1/4)
+2025-09-22 19:20:35 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x454E67025631C065d3cFAD6d71E6892f74487a15 data=0x3850c7bd...
+2025-09-22 19:20:38 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:38 | rpc eth_call[avalanche] retry in 1.00s (attempt 2/4)
+2025-09-22 19:20:39 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x454E67025631C065d3cFAD6d71E6892f74487a15 data=0x3850c7bd...
+2025-09-22 19:20:40 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:40 | rpc eth_call[avalanche] retry in 1.50s (attempt 3/4)
+2025-09-22 19:20:41 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x454E67025631C065d3cFAD6d71E6892f74487a15 data=0x3850c7bd...
+2025-09-22 19:20:42 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:42 | rpc eth_call[avalanche] retry in 2.00s (attempt 4/4)
+2025-09-22 19:20:44 | slot0 error: avalanche 0x454E67025631C065d3cFAD6d71E6892f74487a15 -> execution reverted
+2025-09-22 19:20:44 | call getReserves avalanche 0x454E67025631C065d3cFAD6d71E6892f74487a15
+2025-09-22 19:20:44 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x454E67025631C065d3cFAD6d71E6892f74487a15 data=0x0902f1ac...
+2025-09-22 19:20:44 | rpc eth_call[avalanche] <- len=194
+2025-09-22 19:20:45 | getReserves ok: avalanche 0x454E67025631C065d3cFAD6d71E6892f74487a15 len=194
+2025-09-22 19:20:45 | 7/15 [classic] avalanche JOE/WAVAX 0x454E67025631C065d3cFAD6d71E6892f74487a15 | avg=11.29s ETA~90.3s
+2025-09-22 19:20:45 | classify start avalanche 0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 via RPC
+2025-09-22 19:20:45 | rpc eth_getCode[avalanche] -> https://api.avax.network/ext/bc/C/rpc address=0x9f8973fb86b35c307324ec31fd81cf565e2f4a63
+2025-09-22 19:20:45 | rpc eth_getCode[avalanche] <- len=196
+2025-09-22 19:20:46 | getCode ok: avalanche 0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 len=196 0x363d3d37...
+2025-09-22 19:20:46 | call slot0 avalanche 0x9f8973fb86b35c307324ec31fd81cf565e2f4a63
+2025-09-22 19:20:46 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 data=0x3850c7bd...
+2025-09-22 19:20:46 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:46 | rpc eth_call[avalanche] retry in 0.50s (attempt 1/4)
+2025-09-22 19:20:47 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 data=0x3850c7bd...
+2025-09-22 19:20:47 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:47 | rpc eth_call[avalanche] retry in 1.00s (attempt 2/4)
+2025-09-22 19:20:48 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 data=0x3850c7bd...
+2025-09-22 19:20:48 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:48 | rpc eth_call[avalanche] retry in 1.50s (attempt 3/4)
+2025-09-22 19:20:50 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 data=0x3850c7bd...
+2025-09-22 19:20:50 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:50 | rpc eth_call[avalanche] retry in 2.00s (attempt 4/4)
+2025-09-22 19:20:52 | slot0 error: avalanche 0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 -> execution reverted
+2025-09-22 19:20:52 | call getReserves avalanche 0x9f8973fb86b35c307324ec31fd81cf565e2f4a63
+2025-09-22 19:20:52 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 data=0x0902f1ac...
+2025-09-22 19:20:53 | rpc eth_call[avalanche] <- len=130
+2025-09-22 19:20:53 | getReserves ok: avalanche 0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 len=130
+2025-09-22 19:20:53 | call activeId avalanche 0x9f8973fb86b35c307324ec31fd81cf565e2f4a63
+2025-09-22 19:20:53 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 data=0x5e41bae2...
+2025-09-22 19:20:54 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:54 | rpc eth_call[avalanche] retry in 0.50s (attempt 1/4)
+2025-09-22 19:20:54 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 data=0x5e41bae2...
+2025-09-22 19:20:55 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:55 | rpc eth_call[avalanche] retry in 1.00s (attempt 2/4)
+2025-09-22 19:20:56 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 data=0x5e41bae2...
+2025-09-22 19:20:56 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:56 | rpc eth_call[avalanche] retry in 1.50s (attempt 3/4)
+2025-09-22 19:20:57 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 data=0x5e41bae2...
+2025-09-22 19:20:58 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:20:58 | rpc eth_call[avalanche] retry in 2.00s (attempt 4/4)
+2025-09-22 19:21:00 | activeId error: avalanche 0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 -> execution reverted
+2025-09-22 19:21:00 | 8/15 [unknown] avalanche JOE/WAVAX 0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 | avg=11.77s ETA~82.4s
+2025-09-22 19:21:00 | classify start avalanche 0x454e67025631c065d3cfad6d71e6892f74487a15 via RPC
+2025-09-22 19:21:00 | rpc eth_getCode[avalanche] -> https://api.avax.network/ext/bc/C/rpc address=0x454e67025631c065d3cfad6d71e6892f74487a15
+2025-09-22 19:21:00 | rpc eth_getCode[avalanche] <- len=17892
+2025-09-22 19:21:01 | getCode ok: avalanche 0x454e67025631c065d3cfad6d71e6892f74487a15 len=17892 0x60806040...
+2025-09-22 19:21:01 | call slot0 avalanche 0x454e67025631c065d3cfad6d71e6892f74487a15
+2025-09-22 19:21:01 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x454e67025631c065d3cfad6d71e6892f74487a15 data=0x3850c7bd...
+2025-09-22 19:21:01 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:01 | rpc eth_call[avalanche] retry in 0.50s (attempt 1/4)
+2025-09-22 19:21:02 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x454e67025631c065d3cfad6d71e6892f74487a15 data=0x3850c7bd...
+2025-09-22 19:21:02 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:02 | rpc eth_call[avalanche] retry in 1.00s (attempt 2/4)
+2025-09-22 19:21:03 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x454e67025631c065d3cfad6d71e6892f74487a15 data=0x3850c7bd...
+2025-09-22 19:21:03 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:03 | rpc eth_call[avalanche] retry in 1.50s (attempt 3/4)
+2025-09-22 19:21:05 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x454e67025631c065d3cfad6d71e6892f74487a15 data=0x3850c7bd...
+2025-09-22 19:21:05 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:05 | rpc eth_call[avalanche] retry in 2.00s (attempt 4/4)
+2025-09-22 19:21:07 | slot0 error: avalanche 0x454e67025631c065d3cfad6d71e6892f74487a15 -> execution reverted
+2025-09-22 19:21:07 | call getReserves avalanche 0x454e67025631c065d3cfad6d71e6892f74487a15
+2025-09-22 19:21:07 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x454e67025631c065d3cfad6d71e6892f74487a15 data=0x0902f1ac...
+2025-09-22 19:21:08 | rpc eth_call[avalanche] <- len=194
+2025-09-22 19:21:08 | getReserves ok: avalanche 0x454e67025631c065d3cfad6d71e6892f74487a15 len=194
+2025-09-22 19:21:08 | 9/15 [classic] avalanche JOE/WAVAX 0x454e67025631c065d3cfad6d71e6892f74487a15 | avg=11.40s ETA~68.4s
+2025-09-22 19:21:08 | classify start avalanche 0xbd26e663281fb35d4757219eb180f02e8a065c09 via RPC
+2025-09-22 19:21:08 | rpc eth_getCode[avalanche] -> https://api.avax.network/ext/bc/C/rpc address=0xbd26e663281fb35d4757219eb180f02e8a065c09
+2025-09-22 19:21:09 | rpc eth_getCode[avalanche] <- len=196
+2025-09-22 19:21:09 | getCode ok: avalanche 0xbd26e663281fb35d4757219eb180f02e8a065c09 len=196 0x363d3d37...
+2025-09-22 19:21:09 | call slot0 avalanche 0xbd26e663281fb35d4757219eb180f02e8a065c09
+2025-09-22 19:21:09 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0xbd26e663281fb35d4757219eb180f02e8a065c09 data=0x3850c7bd...
+2025-09-22 19:21:10 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:10 | rpc eth_call[avalanche] retry in 0.50s (attempt 1/4)
+2025-09-22 19:21:10 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0xbd26e663281fb35d4757219eb180f02e8a065c09 data=0x3850c7bd...
+2025-09-22 19:21:11 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:11 | rpc eth_call[avalanche] retry in 1.00s (attempt 2/4)
+2025-09-22 19:21:12 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0xbd26e663281fb35d4757219eb180f02e8a065c09 data=0x3850c7bd...
+2025-09-22 19:21:12 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:12 | rpc eth_call[avalanche] retry in 1.50s (attempt 3/4)
+2025-09-22 19:21:14 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0xbd26e663281fb35d4757219eb180f02e8a065c09 data=0x3850c7bd...
+2025-09-22 19:21:14 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:14 | rpc eth_call[avalanche] retry in 2.00s (attempt 4/4)
+2025-09-22 19:21:16 | slot0 error: avalanche 0xbd26e663281fb35d4757219eb180f02e8a065c09 -> execution reverted
+2025-09-22 19:21:16 | call getReserves avalanche 0xbd26e663281fb35d4757219eb180f02e8a065c09
+2025-09-22 19:21:16 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0xbd26e663281fb35d4757219eb180f02e8a065c09 data=0x0902f1ac...
+2025-09-22 19:21:16 | rpc eth_call[avalanche] <- len=130
+2025-09-22 19:21:17 | getReserves ok: avalanche 0xbd26e663281fb35d4757219eb180f02e8a065c09 len=130
+2025-09-22 19:21:17 | call activeId avalanche 0xbd26e663281fb35d4757219eb180f02e8a065c09
+2025-09-22 19:21:17 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0xbd26e663281fb35d4757219eb180f02e8a065c09 data=0x5e41bae2...
+2025-09-22 19:21:17 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:17 | rpc eth_call[avalanche] retry in 0.50s (attempt 1/4)
+2025-09-22 19:21:18 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0xbd26e663281fb35d4757219eb180f02e8a065c09 data=0x5e41bae2...
+2025-09-22 19:21:18 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:18 | rpc eth_call[avalanche] retry in 1.00s (attempt 2/4)
+2025-09-22 19:21:19 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0xbd26e663281fb35d4757219eb180f02e8a065c09 data=0x5e41bae2...
+2025-09-22 19:21:20 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:20 | rpc eth_call[avalanche] retry in 1.50s (attempt 3/4)
+2025-09-22 19:21:21 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0xbd26e663281fb35d4757219eb180f02e8a065c09 data=0x5e41bae2...
+2025-09-22 19:21:21 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:21 | rpc eth_call[avalanche] retry in 2.00s (attempt 4/4)
+2025-09-22 19:21:23 | activeId error: avalanche 0xbd26e663281fb35d4757219eb180f02e8a065c09 -> execution reverted
+2025-09-22 19:21:24 | 10/15 [unknown] avalanche GUN/WAVAX 0xbd26e663281fb35d4757219eb180f02e8a065c09 | avg=11.78s ETA~58.9s
+2025-09-22 19:21:24 | classify start avalanche 0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03 via RPC
+2025-09-22 19:21:24 | rpc eth_getCode[avalanche] -> https://api.avax.network/ext/bc/C/rpc address=0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03
+2025-09-22 19:21:24 | rpc eth_getCode[avalanche] <- len=17892
+2025-09-22 19:21:24 | getCode ok: avalanche 0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03 len=17892 0x60806040...
+2025-09-22 19:21:24 | call slot0 avalanche 0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03
+2025-09-22 19:21:24 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03 data=0x3850c7bd...
+2025-09-22 19:21:25 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:25 | rpc eth_call[avalanche] retry in 0.50s (attempt 1/4)
+2025-09-22 19:21:25 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03 data=0x3850c7bd...
+2025-09-22 19:21:26 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:26 | rpc eth_call[avalanche] retry in 1.00s (attempt 2/4)
+2025-09-22 19:21:27 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03 data=0x3850c7bd...
+2025-09-22 19:21:27 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:27 | rpc eth_call[avalanche] retry in 1.50s (attempt 3/4)
+2025-09-22 19:21:29 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03 data=0x3850c7bd...
+2025-09-22 19:21:29 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:29 | rpc eth_call[avalanche] retry in 2.00s (attempt 4/4)
+2025-09-22 19:21:31 | slot0 error: avalanche 0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03 -> execution reverted
+2025-09-22 19:21:31 | call getReserves avalanche 0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03
+2025-09-22 19:21:31 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03 data=0x0902f1ac...
+2025-09-22 19:21:31 | rpc eth_call[avalanche] <- len=194
+2025-09-22 19:21:32 | getReserves ok: avalanche 0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03 len=194
+2025-09-22 19:21:32 | 11/15 [classic] avalanche NXPC/WAVAX 0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03 | avg=11.47s ETA~45.9s
+2025-09-22 19:21:32 | classify start avalanche 0x933befd6941f135e137bb370bc6c4d39d3e88f03 via RPC
+2025-09-22 19:21:32 | rpc eth_getCode[avalanche] -> https://api.avax.network/ext/bc/C/rpc address=0x933befd6941f135e137bb370bc6c4d39d3e88f03
+2025-09-22 19:21:32 | rpc eth_getCode[avalanche] <- len=17892
+2025-09-22 19:21:33 | getCode ok: avalanche 0x933befd6941f135e137bb370bc6c4d39d3e88f03 len=17892 0x60806040...
+2025-09-22 19:21:33 | call slot0 avalanche 0x933befd6941f135e137bb370bc6c4d39d3e88f03
+2025-09-22 19:21:33 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x933befd6941f135e137bb370bc6c4d39d3e88f03 data=0x3850c7bd...
+2025-09-22 19:21:34 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:34 | rpc eth_call[avalanche] retry in 0.50s (attempt 1/4)
+2025-09-22 19:21:35 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x933befd6941f135e137bb370bc6c4d39d3e88f03 data=0x3850c7bd...
+2025-09-22 19:21:35 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:35 | rpc eth_call[avalanche] retry in 1.00s (attempt 2/4)
+2025-09-22 19:21:36 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x933befd6941f135e137bb370bc6c4d39d3e88f03 data=0x3850c7bd...
+2025-09-22 19:21:38 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:38 | rpc eth_call[avalanche] retry in 1.50s (attempt 3/4)
+2025-09-22 19:21:39 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x933befd6941f135e137bb370bc6c4d39d3e88f03 data=0x3850c7bd...
+2025-09-22 19:21:39 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:39 | rpc eth_call[avalanche] retry in 2.00s (attempt 4/4)
+2025-09-22 19:21:41 | slot0 error: avalanche 0x933befd6941f135e137bb370bc6c4d39d3e88f03 -> execution reverted
+2025-09-22 19:21:41 | call getReserves avalanche 0x933befd6941f135e137bb370bc6c4d39d3e88f03
+2025-09-22 19:21:41 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x933befd6941f135e137bb370bc6c4d39d3e88f03 data=0x0902f1ac...
+2025-09-22 19:21:42 | rpc eth_call[avalanche] <- len=194
+2025-09-22 19:21:43 | getReserves ok: avalanche 0x933befd6941f135e137bb370bc6c4d39d3e88f03 len=194
+2025-09-22 19:21:43 | 12/15 [classic] avalanche NXPC/WAVAX 0x933befd6941f135e137bb370bc6c4d39d3e88f03 | avg=11.40s ETA~34.2s
+2025-09-22 19:21:43 | classify start avalanche 0xc5fb2c654c9b627aedf6a593949cbb335edbb568 via RPC
+2025-09-22 19:21:43 | rpc eth_getCode[avalanche] -> https://api.avax.network/ext/bc/C/rpc address=0xc5fb2c654c9b627aedf6a593949cbb335edbb568
+2025-09-22 19:21:43 | rpc eth_getCode[avalanche] <- len=17892
+2025-09-22 19:21:43 | getCode ok: avalanche 0xc5fb2c654c9b627aedf6a593949cbb335edbb568 len=17892 0x60806040...
+2025-09-22 19:21:43 | call slot0 avalanche 0xc5fb2c654c9b627aedf6a593949cbb335edbb568
+2025-09-22 19:21:43 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0xc5fb2c654c9b627aedf6a593949cbb335edbb568 data=0x3850c7bd...
+2025-09-22 19:21:44 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:44 | rpc eth_call[avalanche] retry in 0.50s (attempt 1/4)
+2025-09-22 19:21:45 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0xc5fb2c654c9b627aedf6a593949cbb335edbb568 data=0x3850c7bd...
+2025-09-22 19:21:45 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:45 | rpc eth_call[avalanche] retry in 1.00s (attempt 2/4)
+2025-09-22 19:21:46 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0xc5fb2c654c9b627aedf6a593949cbb335edbb568 data=0x3850c7bd...
+2025-09-22 19:21:46 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:46 | rpc eth_call[avalanche] retry in 1.50s (attempt 3/4)
+2025-09-22 19:21:48 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0xc5fb2c654c9b627aedf6a593949cbb335edbb568 data=0x3850c7bd...
+2025-09-22 19:21:48 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:48 | rpc eth_call[avalanche] retry in 2.00s (attempt 4/4)
+2025-09-22 19:21:50 | slot0 error: avalanche 0xc5fb2c654c9b627aedf6a593949cbb335edbb568 -> execution reverted
+2025-09-22 19:21:50 | call getReserves avalanche 0xc5fb2c654c9b627aedf6a593949cbb335edbb568
+2025-09-22 19:21:50 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0xc5fb2c654c9b627aedf6a593949cbb335edbb568 data=0x0902f1ac...
+2025-09-22 19:21:51 | rpc eth_call[avalanche] <- len=194
+2025-09-22 19:21:51 | getReserves ok: avalanche 0xc5fb2c654c9b627aedf6a593949cbb335edbb568 len=194
+2025-09-22 19:21:51 | 13/15 [classic] avalanche BEAM/WAVAX 0xc5fb2c654c9b627aedf6a593949cbb335edbb568 | avg=11.19s ETA~22.4s
+2025-09-22 19:21:51 | classify start avalanche 0x2774516897AC629aD3ED9dCac7e375Dda78412b9 via RPC
+2025-09-22 19:21:51 | rpc eth_getCode[avalanche] -> https://api.avax.network/ext/bc/C/rpc address=0x2774516897AC629aD3ED9dCac7e375Dda78412b9
+2025-09-22 19:21:52 | rpc eth_getCode[avalanche] <- len=17892
+2025-09-22 19:21:52 | getCode ok: avalanche 0x2774516897AC629aD3ED9dCac7e375Dda78412b9 len=17892 0x60806040...
+2025-09-22 19:21:52 | call slot0 avalanche 0x2774516897AC629aD3ED9dCac7e375Dda78412b9
+2025-09-22 19:21:52 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x2774516897AC629aD3ED9dCac7e375Dda78412b9 data=0x3850c7bd...
+2025-09-22 19:21:53 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:53 | rpc eth_call[avalanche] retry in 0.50s (attempt 1/4)
+2025-09-22 19:21:53 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x2774516897AC629aD3ED9dCac7e375Dda78412b9 data=0x3850c7bd...
+2025-09-22 19:21:54 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:54 | rpc eth_call[avalanche] retry in 1.00s (attempt 2/4)
+2025-09-22 19:21:55 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x2774516897AC629aD3ED9dCac7e375Dda78412b9 data=0x3850c7bd...
+2025-09-22 19:21:55 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:55 | rpc eth_call[avalanche] retry in 1.50s (attempt 3/4)
+2025-09-22 19:21:57 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x2774516897AC629aD3ED9dCac7e375Dda78412b9 data=0x3850c7bd...
+2025-09-22 19:21:57 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:21:57 | rpc eth_call[avalanche] retry in 2.00s (attempt 4/4)
+2025-09-22 19:21:59 | slot0 error: avalanche 0x2774516897AC629aD3ED9dCac7e375Dda78412b9 -> execution reverted
+2025-09-22 19:21:59 | call getReserves avalanche 0x2774516897AC629aD3ED9dCac7e375Dda78412b9
+2025-09-22 19:21:59 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x2774516897AC629aD3ED9dCac7e375Dda78412b9 data=0x0902f1ac...
+2025-09-22 19:22:00 | rpc eth_call[avalanche] <- len=194
+2025-09-22 19:22:00 | getReserves ok: avalanche 0x2774516897AC629aD3ED9dCac7e375Dda78412b9 len=194
+2025-09-22 19:22:00 | 14/15 [classic] avalanche QI/WAVAX 0x2774516897AC629aD3ED9dCac7e375Dda78412b9 | avg=11.05s ETA~11.0s
+2025-09-22 19:22:00 | classify start avalanche 0x2774516897ac629ad3ed9dcac7e375dda78412b9 via RPC
+2025-09-22 19:22:00 | rpc eth_getCode[avalanche] -> https://api.avax.network/ext/bc/C/rpc address=0x2774516897ac629ad3ed9dcac7e375dda78412b9
+2025-09-22 19:22:01 | rpc eth_getCode[avalanche] <- len=17892
+2025-09-22 19:22:01 | getCode ok: avalanche 0x2774516897ac629ad3ed9dcac7e375dda78412b9 len=17892 0x60806040...
+2025-09-22 19:22:01 | call slot0 avalanche 0x2774516897ac629ad3ed9dcac7e375dda78412b9
+2025-09-22 19:22:01 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x2774516897ac629ad3ed9dcac7e375dda78412b9 data=0x3850c7bd...
+2025-09-22 19:22:02 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:22:02 | rpc eth_call[avalanche] retry in 0.50s (attempt 1/4)
+2025-09-22 19:22:02 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x2774516897ac629ad3ed9dcac7e375dda78412b9 data=0x3850c7bd...
+2025-09-22 19:22:02 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:22:02 | rpc eth_call[avalanche] retry in 1.00s (attempt 2/4)
+2025-09-22 19:22:03 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x2774516897ac629ad3ed9dcac7e375dda78412b9 data=0x3850c7bd...
+2025-09-22 19:22:04 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:22:04 | rpc eth_call[avalanche] retry in 1.50s (attempt 3/4)
+2025-09-22 19:22:05 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x2774516897ac629ad3ed9dcac7e375dda78412b9 data=0x3850c7bd...
+2025-09-22 19:22:06 | rpc eth_call[avalanche] error: execution reverted
+2025-09-22 19:22:06 | rpc eth_call[avalanche] retry in 2.00s (attempt 4/4)
+2025-09-22 19:22:08 | slot0 error: avalanche 0x2774516897ac629ad3ed9dcac7e375dda78412b9 -> execution reverted
+2025-09-22 19:22:08 | call getReserves avalanche 0x2774516897ac629ad3ed9dcac7e375dda78412b9
+2025-09-22 19:22:08 | rpc eth_call[avalanche] -> https://api.avax.network/ext/bc/C/rpc to=0x2774516897ac629ad3ed9dcac7e375dda78412b9 data=0x0902f1ac...
+2025-09-22 19:22:08 | rpc eth_call[avalanche] <- len=194
+2025-09-22 19:22:09 | getReserves ok: avalanche 0x2774516897ac629ad3ed9dcac7e375dda78412b9 len=194
+2025-09-22 19:22:09 | 15/15 [classic] avalanche QI/WAVAX 0x2774516897ac629ad3ed9dcac7e375dda78412b9 | avg=10.87s ETA~0.0s
+2025-09-22 19:22:09 | Saved -> /home/ivan/Work/MakingBase/Dex_find_exch/classified_pools_traderjoe.json (15 items)
+2025-09-22 19:22:47 | total candidates: 15; exchange=traderjoe; rate_delay=0.5s
+2025-09-22 19:22:47 | classify start avalanche 0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e via RPC
+2025-09-22 19:22:47 | getCode ok: avalanche 0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e len=196 0x363d3d37...
+2025-09-22 19:22:47 | call slot0 avalanche 0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e
+2025-09-22 19:22:47 | slot0 error: avalanche 0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e -> execution reverted
+2025-09-22 19:22:47 | call getReserves avalanche 0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e
+2025-09-22 19:22:47 | getReserves ok: avalanche 0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e len=130
+2025-09-22 19:22:47 | 1/15 [classic] avalanche SOL/WAVAX 0x640963da1d9D07Cb86e89dF670dD29b54e1F1d3e | avg=0.00s ETA~0.0s
+2025-09-22 19:22:47 | classify start avalanche 0x640963da1d9d07cb86e89df670dd29b54e1f1d3e via RPC
+2025-09-22 19:22:47 | getCode ok: avalanche 0x640963da1d9d07cb86e89df670dd29b54e1f1d3e len=196 0x363d3d37...
+2025-09-22 19:22:47 | call slot0 avalanche 0x640963da1d9d07cb86e89df670dd29b54e1f1d3e
+2025-09-22 19:22:47 | slot0 error: avalanche 0x640963da1d9d07cb86e89df670dd29b54e1f1d3e -> execution reverted
+2025-09-22 19:22:47 | call getReserves avalanche 0x640963da1d9d07cb86e89df670dd29b54e1f1d3e
+2025-09-22 19:22:47 | getReserves ok: avalanche 0x640963da1d9d07cb86e89df670dd29b54e1f1d3e len=130
+2025-09-22 19:22:47 | 2/15 [classic] avalanche SOL/WAVAX 0x640963da1d9d07cb86e89df670dd29b54e1f1d3e | avg=0.00s ETA~0.0s
+2025-09-22 19:22:47 | classify start avalanche 0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7 via RPC
+2025-09-22 19:22:47 | getCode ok: avalanche 0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7 len=17892 0x60806040...
+2025-09-22 19:22:47 | call slot0 avalanche 0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7
+2025-09-22 19:22:47 | slot0 error: avalanche 0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7 -> execution reverted
+2025-09-22 19:22:47 | call getReserves avalanche 0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7
+2025-09-22 19:22:47 | getReserves ok: avalanche 0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7 len=194
+2025-09-22 19:22:47 | 3/15 [classic] avalanche SOL/WAVAX 0x1e99e3a1eb5fdf26893028c21ad9e5ee868d01d7 | avg=0.00s ETA~0.0s
+2025-09-22 19:22:47 | classify start avalanche 0x330f77BdA60D8daB14d2bb4F6248251443722009 via RPC
+2025-09-22 19:22:47 | getCode ok: avalanche 0x330f77BdA60D8daB14d2bb4F6248251443722009 len=17892 0x60806040...
+2025-09-22 19:22:47 | call slot0 avalanche 0x330f77BdA60D8daB14d2bb4F6248251443722009
+2025-09-22 19:22:47 | slot0 error: avalanche 0x330f77BdA60D8daB14d2bb4F6248251443722009 -> execution reverted
+2025-09-22 19:22:47 | call getReserves avalanche 0x330f77BdA60D8daB14d2bb4F6248251443722009
+2025-09-22 19:22:47 | getReserves ok: avalanche 0x330f77BdA60D8daB14d2bb4F6248251443722009 len=194
+2025-09-22 19:22:47 | 4/15 [classic] avalanche STG/USDC 0x330f77BdA60D8daB14d2bb4F6248251443722009 | avg=0.00s ETA~0.0s
+2025-09-22 19:22:47 | classify start avalanche 0x0c91a070f862666bBcce281346BE45766d874D98 via RPC
+2025-09-22 19:22:47 | getCode ok: avalanche 0x0c91a070f862666bBcce281346BE45766d874D98 len=17892 0x60806040...
+2025-09-22 19:22:47 | call slot0 avalanche 0x0c91a070f862666bBcce281346BE45766d874D98
+2025-09-22 19:22:47 | slot0 error: avalanche 0x0c91a070f862666bBcce281346BE45766d874D98 -> execution reverted
+2025-09-22 19:22:47 | call getReserves avalanche 0x0c91a070f862666bBcce281346BE45766d874D98
+2025-09-22 19:22:47 | getReserves ok: avalanche 0x0c91a070f862666bBcce281346BE45766d874D98 len=194
+2025-09-22 19:22:47 | 5/15 [classic] avalanche GMX/WAVAX 0x0c91a070f862666bBcce281346BE45766d874D98 | avg=0.00s ETA~0.0s
+2025-09-22 19:22:47 | classify start avalanche 0x0c91a070f862666bbcce281346be45766d874d98 via RPC
+2025-09-22 19:22:47 | getCode ok: avalanche 0x0c91a070f862666bbcce281346be45766d874d98 len=17892 0x60806040...
+2025-09-22 19:22:47 | call slot0 avalanche 0x0c91a070f862666bbcce281346be45766d874d98
+2025-09-22 19:22:47 | slot0 error: avalanche 0x0c91a070f862666bbcce281346be45766d874d98 -> execution reverted
+2025-09-22 19:22:47 | call getReserves avalanche 0x0c91a070f862666bbcce281346be45766d874d98
+2025-09-22 19:22:47 | getReserves ok: avalanche 0x0c91a070f862666bbcce281346be45766d874d98 len=194
+2025-09-22 19:22:47 | 6/15 [classic] avalanche GMX/WAVAX 0x0c91a070f862666bbcce281346be45766d874d98 | avg=0.00s ETA~0.0s
+2025-09-22 19:22:47 | classify start avalanche 0x454E67025631C065d3cFAD6d71E6892f74487a15 via RPC
+2025-09-22 19:22:47 | getCode ok: avalanche 0x454E67025631C065d3cFAD6d71E6892f74487a15 len=17892 0x60806040...
+2025-09-22 19:22:47 | call slot0 avalanche 0x454E67025631C065d3cFAD6d71E6892f74487a15
+2025-09-22 19:22:47 | slot0 error: avalanche 0x454E67025631C065d3cFAD6d71E6892f74487a15 -> execution reverted
+2025-09-22 19:22:47 | call getReserves avalanche 0x454E67025631C065d3cFAD6d71E6892f74487a15
+2025-09-22 19:22:47 | getReserves ok: avalanche 0x454E67025631C065d3cFAD6d71E6892f74487a15 len=194
+2025-09-22 19:22:47 | 7/15 [classic] avalanche JOE/WAVAX 0x454E67025631C065d3cFAD6d71E6892f74487a15 | avg=0.00s ETA~0.0s
+2025-09-22 19:22:47 | classify start avalanche 0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 via RPC
+2025-09-22 19:22:47 | getCode ok: avalanche 0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 len=196 0x363d3d37...
+2025-09-22 19:22:47 | call slot0 avalanche 0x9f8973fb86b35c307324ec31fd81cf565e2f4a63
+2025-09-22 19:22:47 | slot0 error: avalanche 0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 -> execution reverted
+2025-09-22 19:22:47 | call getReserves avalanche 0x9f8973fb86b35c307324ec31fd81cf565e2f4a63
+2025-09-22 19:22:47 | getReserves ok: avalanche 0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 len=130
+2025-09-22 19:22:47 | 8/15 [classic] avalanche JOE/WAVAX 0x9f8973fb86b35c307324ec31fd81cf565e2f4a63 | avg=0.00s ETA~0.0s
+2025-09-22 19:22:47 | classify start avalanche 0x454e67025631c065d3cfad6d71e6892f74487a15 via RPC
+2025-09-22 19:22:47 | getCode ok: avalanche 0x454e67025631c065d3cfad6d71e6892f74487a15 len=17892 0x60806040...
+2025-09-22 19:22:47 | call slot0 avalanche 0x454e67025631c065d3cfad6d71e6892f74487a15
+2025-09-22 19:22:47 | slot0 error: avalanche 0x454e67025631c065d3cfad6d71e6892f74487a15 -> execution reverted
+2025-09-22 19:22:47 | call getReserves avalanche 0x454e67025631c065d3cfad6d71e6892f74487a15
+2025-09-22 19:22:47 | getReserves ok: avalanche 0x454e67025631c065d3cfad6d71e6892f74487a15 len=194
+2025-09-22 19:22:47 | 9/15 [classic] avalanche JOE/WAVAX 0x454e67025631c065d3cfad6d71e6892f74487a15 | avg=0.00s ETA~0.0s
+2025-09-22 19:22:47 | classify start avalanche 0xbd26e663281fb35d4757219eb180f02e8a065c09 via RPC
+2025-09-22 19:22:47 | getCode ok: avalanche 0xbd26e663281fb35d4757219eb180f02e8a065c09 len=196 0x363d3d37...
+2025-09-22 19:22:47 | call slot0 avalanche 0xbd26e663281fb35d4757219eb180f02e8a065c09
+2025-09-22 19:22:47 | slot0 error: avalanche 0xbd26e663281fb35d4757219eb180f02e8a065c09 -> execution reverted
+2025-09-22 19:22:47 | call getReserves avalanche 0xbd26e663281fb35d4757219eb180f02e8a065c09
+2025-09-22 19:22:47 | getReserves ok: avalanche 0xbd26e663281fb35d4757219eb180f02e8a065c09 len=130
+2025-09-22 19:22:47 | 10/15 [classic] avalanche GUN/WAVAX 0xbd26e663281fb35d4757219eb180f02e8a065c09 | avg=0.00s ETA~0.0s
+2025-09-22 19:22:47 | classify start avalanche 0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03 via RPC
+2025-09-22 19:22:47 | getCode ok: avalanche 0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03 len=17892 0x60806040...
+2025-09-22 19:22:47 | call slot0 avalanche 0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03
+2025-09-22 19:22:47 | slot0 error: avalanche 0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03 -> execution reverted
+2025-09-22 19:22:47 | call getReserves avalanche 0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03
+2025-09-22 19:22:47 | getReserves ok: avalanche 0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03 len=194
+2025-09-22 19:22:47 | 11/15 [classic] avalanche NXPC/WAVAX 0x933bEFD6941F135e137Bb370bC6C4d39D3E88F03 | avg=0.00s ETA~0.0s
+2025-09-22 19:22:47 | classify start avalanche 0x933befd6941f135e137bb370bc6c4d39d3e88f03 via RPC
+2025-09-22 19:22:47 | getCode ok: avalanche 0x933befd6941f135e137bb370bc6c4d39d3e88f03 len=17892 0x60806040...
+2025-09-22 19:22:47 | call slot0 avalanche 0x933befd6941f135e137bb370bc6c4d39d3e88f03
+2025-09-22 19:22:47 | slot0 error: avalanche 0x933befd6941f135e137bb370bc6c4d39d3e88f03 -> execution reverted
+2025-09-22 19:22:47 | call getReserves avalanche 0x933befd6941f135e137bb370bc6c4d39d3e88f03
+2025-09-22 19:22:47 | getReserves ok: avalanche 0x933befd6941f135e137bb370bc6c4d39d3e88f03 len=194
+2025-09-22 19:22:47 | 12/15 [classic] avalanche NXPC/WAVAX 0x933befd6941f135e137bb370bc6c4d39d3e88f03 | avg=0.00s ETA~0.0s
+2025-09-22 19:22:47 | classify start avalanche 0xc5fb2c654c9b627aedf6a593949cbb335edbb568 via RPC
+2025-09-22 19:22:47 | getCode ok: avalanche 0xc5fb2c654c9b627aedf6a593949cbb335edbb568 len=17892 0x60806040...
+2025-09-22 19:22:47 | call slot0 avalanche 0xc5fb2c654c9b627aedf6a593949cbb335edbb568
+2025-09-22 19:22:47 | slot0 error: avalanche 0xc5fb2c654c9b627aedf6a593949cbb335edbb568 -> execution reverted
+2025-09-22 19:22:47 | call getReserves avalanche 0xc5fb2c654c9b627aedf6a593949cbb335edbb568
+2025-09-22 19:22:47 | getReserves ok: avalanche 0xc5fb2c654c9b627aedf6a593949cbb335edbb568 len=194
+2025-09-22 19:22:47 | 13/15 [classic] avalanche BEAM/WAVAX 0xc5fb2c654c9b627aedf6a593949cbb335edbb568 | avg=0.00s ETA~0.0s
+2025-09-22 19:22:47 | classify start avalanche 0x2774516897AC629aD3ED9dCac7e375Dda78412b9 via RPC
+2025-09-22 19:22:47 | getCode ok: avalanche 0x2774516897AC629aD3ED9dCac7e375Dda78412b9 len=17892 0x60806040...
+2025-09-22 19:22:47 | call slot0 avalanche 0x2774516897AC629aD3ED9dCac7e375Dda78412b9
+2025-09-22 19:22:47 | slot0 error: avalanche 0x2774516897AC629aD3ED9dCac7e375Dda78412b9 -> execution reverted
+2025-09-22 19:22:47 | call getReserves avalanche 0x2774516897AC629aD3ED9dCac7e375Dda78412b9
+2025-09-22 19:22:47 | getReserves ok: avalanche 0x2774516897AC629aD3ED9dCac7e375Dda78412b9 len=194
+2025-09-22 19:22:47 | 14/15 [classic] avalanche QI/WAVAX 0x2774516897AC629aD3ED9dCac7e375Dda78412b9 | avg=0.00s ETA~0.0s
+2025-09-22 19:22:47 | classify start avalanche 0x2774516897ac629ad3ed9dcac7e375dda78412b9 via RPC
+2025-09-22 19:22:47 | getCode ok: avalanche 0x2774516897ac629ad3ed9dcac7e375dda78412b9 len=17892 0x60806040...
+2025-09-22 19:22:47 | call slot0 avalanche 0x2774516897ac629ad3ed9dcac7e375dda78412b9
+2025-09-22 19:22:47 | slot0 error: avalanche 0x2774516897ac629ad3ed9dcac7e375dda78412b9 -> execution reverted
+2025-09-22 19:22:47 | call getReserves avalanche 0x2774516897ac629ad3ed9dcac7e375dda78412b9
+2025-09-22 19:22:47 | getReserves ok: avalanche 0x2774516897ac629ad3ed9dcac7e375dda78412b9 len=194
+2025-09-22 19:22:47 | 15/15 [classic] avalanche QI/WAVAX 0x2774516897ac629ad3ed9dcac7e375dda78412b9 | avg=0.00s ETA~0.0s
+2025-09-22 19:22:47 | Saved -> /home/ivan/Work/MakingBase/Dex_find_exch/classified_pools_traderjoe.json (15 items)

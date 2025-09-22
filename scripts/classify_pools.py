@@ -97,6 +97,7 @@ MASTER_DEPLOYER_SELECTOR = "0xee327147"  # masterDeployer()
 BALANCER_WEIGHTS_SELECTOR = "0xf89f27ed"  # getNormalizedWeights()
 BALANCER_AMP_SELECTOR = "0x6daccffa"  # getAmplificationParameter()
 BALANCER_SCALING_SELECTOR = "0x1dd746ea"  # getScalingFactors()
+JOE_ACTIVE_ID_SELECTOR = "0x5e41bae2"  # activeId()
 
 
 def load_json(path: str) -> dict:
@@ -278,8 +279,9 @@ def looks_like_v3_slot0(result_hex: Optional[str]) -> bool:
 def looks_like_v2_reserves(result_hex: Optional[str]) -> bool:
     if not result_hex or not result_hex.startswith("0x"):
         return False
-    # Ожидаем 3 слова по 32 байта => 96 байт => 192 hex + '0x' = 194
-    return len(result_hex) >= 194
+    # Обычно 3 слова по 32 байта => 96 байт => 192 hex + '0x' = 194, но некоторые AMM (напр., Trader Joe)
+    # возвращают только два слова. Принимаем всё, что длиннее двух слов.
+    return len(result_hex) >= 130
 
 
 def looks_like_address_slot(result_hex: Optional[str]) -> bool:
@@ -341,6 +343,9 @@ def classify_pool(
         if exchange == "sushiswap":
             version = "classic"
             note = "SushiSwap Classic AMM pool"
+        elif exchange == "traderjoe":
+            version = "classic"
+            note = "Trader Joe Legacy AMM pool"
         result = {"version": version, "checks": checks}
         if note:
             result["note"] = note
@@ -410,6 +415,23 @@ def classify_pool(
                     "version": "linear",
                     "checks": checks,
                     "note": "Balancer Linear pool",
+                }
+
+    if exchange == "traderjoe":
+        _log(f"call activeId {chain} {address}")
+        active_res, active_err = rpc_call(chain, address, JOE_ACTIVE_ID_SELECTOR, cache)
+        if active_err:
+            _log(f"activeId error: {chain} {address} -> {active_err}")
+            checks["activeId"] = f"error: {active_err}"
+        else:
+            alen = len(active_res) if isinstance(active_res, str) else 0
+            _log(f"activeId ok: {chain} {address} len={alen}")
+            checks["activeId"] = active_res
+            if has_payload(active_res):
+                return {
+                    "version": "lb",
+                    "checks": checks,
+                    "note": "Trader Joe Liquidity Book pool",
                 }
 
     return {"version": "unknown", "checks": checks}
