@@ -2,19 +2,23 @@
 # -*- coding: utf-8 -*-
 
 """
-Классификация пулов Uniswap (V2/V3/unknown) по доступности методов через Etherscan-подобные API.
+Классификация пулов DEX (V2/V3/unknown) по доступности методов через RPC.
 
 Логика:
 - slot0() -> V3
 - getReserves() -> V2
-- иначе -> unknown (V4 по адресу пула определить нельзя; см. README)
+- иначе -> unknown (например, V4 по адресу пула определить нельзя; см. README)
 
-Читает адреса из pools_result.json, фильтрует EVM + биржа == 'uniswap' + валидные 0x-адреса.
-Результат: classified_pools.json
+По умолчанию обрабатывает Uniswap, но через аргумент --exchange можно указать другую биржу
+(например, PancakeSwap). Читает адреса из pools_result.json, фильтрует EVM + целевая биржа +
+валидные 0x-адреса.
+
+Результат: файл с классификацией (по умолчанию classified_pools.json).
 """
 
 from __future__ import annotations
 
+import argparse
 import json
 import os
 import re
@@ -316,9 +320,15 @@ def classify_pool(chain: str, address: str, api_key: str, cache: Cache) -> Dict[
     return {"version": "unknown", "checks": checks}
 
 
-def iter_uniswap_evm_addresses(pools_json: dict, skip_chains: Optional[set] = None, include_chains: Optional[set] = None):
+def iter_exchange_evm_addresses(
+    pools_json: dict,
+    exchange: str,
+    skip_chains: Optional[set] = None,
+    include_chains: Optional[set] = None,
+):
     skip_chains = skip_chains or set()
     include_chains = include_chains or set()
+    exchange = exchange.lower()
     for asset, chains in pools_json.items():
         if not isinstance(chains, dict):
             continue
@@ -334,7 +344,7 @@ def iter_uniswap_evm_addresses(pools_json: dict, skip_chains: Optional[set] = No
                 try:
                     exch = e.get("биржа") or e.get("exchange") or ""
                     addr = (e.get("контракт") or e.get("contract") or "").strip()
-                    if exch.lower() != "uniswap":
+                    if exch.lower() != exchange:
                         continue
                     # Пропускаем non-EVM адреса, но отмечаем возможные v4 poolId (64 hex)
                     if not (ADDRESS20_RE.match(addr) or HEX32_RE.match(addr)):
@@ -346,7 +356,41 @@ def iter_uniswap_evm_addresses(pools_json: dict, skip_chains: Optional[set] = No
                     continue
 
 
-def main() -> int:
+def parse_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Классификация пулов DEX по интерфейсу (V2/V3).",
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+    )
+    parser.add_argument(
+        "--exchange",
+        default=os.getenv("TARGET_EXCHANGE", "uniswap"),
+        help="Название биржи в pools_result.json (регистронезависимо)",
+    )
+    parser.add_argument(
+        "--pools",
+        default=POOLS_FILE,
+        help="Путь до pools_result.json",
+    )
+    parser.add_argument(
+        "--out",
+        default=OUT_FILE,
+        help="Файл для сохранения результатов",
+    )
+    return parser.parse_args(argv)
+
+
+def resolve_path(path: str) -> str:
+    if os.path.isabs(path):
+        return path
+    return os.path.join(ROOT_DIR, path)
+
+
+def main(argv: Optional[List[str]] = None) -> int:
+    args = parse_args(argv)
+    exchange = (args.exchange or "").strip().lower()
+    if not exchange:
+        raise ValueError("exchange must be non-empty")
+
     # Открываем файл логов
     global _log_fh
     try:
@@ -354,7 +398,9 @@ def main() -> int:
     except Exception:
         _log_fh = None
 
-    pools = load_json(POOLS_FILE)
+    pools_path = resolve_path(args.pools)
+    out_path = resolve_path(args.out)
+    pools = load_json(pools_path)
     cache = Cache(CACHE_FILE)
     results: List[dict] = []
 
@@ -363,11 +409,28 @@ def main() -> int:
     include_set: Optional[set] = None
     if only:
         include_set = {c.strip().lower() for c in only.split(",") if c.strip()}
-    items = list(iter_uniswap_evm_addresses(pools, skip_chains={"ethereum"} if not include_set else set(), include_chains=include_set))
+    default_skip = set()
+    if not include_set and exchange == "uniswap":
+        default_skip = {"ethereum"}
+    items = list(
+        iter_exchange_evm_addresses(
+            pools,
+            exchange=exchange,
+            skip_chains=default_skip,
+            include_chains=include_set,
+        )
+    )
     total = len(items)
-    _log(f"total candidates: {total}; rate_delay={RATE_DELAY}s")
+    _log(f"total candidates: {total}; exchange={exchange}; rate_delay={RATE_DELAY}s")
     start_ts = time.time()
     processed = 0
+
+    pool_id_version = "v4_pool_id" if exchange == "uniswap" else "hex_64_id"
+    pool_id_note = (
+        "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"
+        if exchange == "uniswap"
+        else "64-hex identifier (non-address); требуется ручная проверка"
+    )
     for chain, asset, pair, addr, url in items:
         processed += 1
         cfg = CHAINS[chain]
@@ -387,7 +450,7 @@ def main() -> int:
             continue
         # Если адрес выглядит как 32-байтный идентификатор (poolId), отметим как потенциальный v4
         if HEX32_RE.match(addr):
-            info = {"version": "v4_pool_id", "checks": {}, "note": "64-hex pool identifier; для v4 проверка идёт по PoolManager, а не по адресу пула"}
+            info = {"version": pool_id_version, "checks": {}, "note": pool_id_note}
             results.append({
                 "chain": chain,
                 "asset": asset,
@@ -396,7 +459,7 @@ def main() -> int:
                 "url": url,
                 **info,
             })
-            _log(f"{processed}/{total} v4_pool_id {chain} {pair} {addr}")
+            _log(f"{processed}/{total} {pool_id_version} {chain} {pair} {addr}")
             continue
 
         api_key = get_api_key(cfg)
@@ -430,9 +493,9 @@ def main() -> int:
     # Слияние с существующим файлом (сохранить результаты Ethereum) c дедупликацией по (chain,address)
     combined_map: Dict[str, dict] = {}
     prev_total = 0
-    if os.path.exists(OUT_FILE):
+    if os.path.exists(out_path):
         try:
-            prev = load_json(OUT_FILE)
+            prev = load_json(out_path)
             prev_items = prev.get("items") or []
             if isinstance(prev_items, list):
                 for it in prev_items:
@@ -448,9 +511,9 @@ def main() -> int:
         combined_map[key] = it
 
     out = {"updated_at": int(time.time()), "total_scanned": prev_total + total, "items": list(combined_map.values())}
-    save_json(OUT_FILE, out)
+    save_json(out_path, out)
     cache.flush()
-    _log(f"Saved -> {OUT_FILE} ({len(results)} items)")
+    _log(f"Saved -> {out_path} ({len(results)} items)")
     try:
         if _log_fh is not None:
             _log_fh.close()
